@@ -1,0 +1,19 @@
+{
+  "accentColor": "#83a2d2",
+  "interfaceFontFamily": "lexend",
+  "textFontFamily": "lexend",
+  "enabledCssSnippets": [
+    "tableStyles",
+    "Easy multi-column notes (1)",
+    "CSS.Banners",
+    "Easy multi-column notes (2)",
+    "Indent headings",
+    "Theme"
+  ],
+  "cssTheme": "Minimal",
+  "monospaceFontFamily": "Paris2024-Variable",
+  "nativeMenus": false,
+  "baseFontSize": 15,
+  "baseFontSizeAction": true,
+  "showRibbon": true
+}

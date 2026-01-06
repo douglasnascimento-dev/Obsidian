@@ -1,0 +1,10 @@
+{
+  "findText": "svg",
+  "replaceText": "png",
+  "useRegEx": false,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": false,
+  "processTab": false,
+  "prefillFind": false
+}
