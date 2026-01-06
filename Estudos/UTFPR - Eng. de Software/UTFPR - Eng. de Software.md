@@ -10,6 +10,7 @@ Períodos:
   - "[[UTFPR - Eng. de Software - 2025.02 - 4º Período]]"
 Tipo: Inicial
 Coeficiente de Rendimento:
+Nota Final: "7.7"
 ---
 
 ![[Eng. de Software.png|banner]]

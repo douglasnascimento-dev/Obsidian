@@ -69,44 +69,35 @@ if (avaliacoes.length > 0) {
 ![[Banner 01 - 04.png]]
 ## Disciplinas | 2025.02
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+```dataviewjs
+// Obtém o caminho da pasta onde esta nota atual está localizada
+const currentFolder = dv.current().file.folder;
 
-    <a href="EC47D - Gerenciamento de Projeto de Software" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="Gerenciamento de Projeto de Software.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">Gerenciamento de Projeto de Software</div>
-    </a>
+// Busca todas as páginas dentro desta pasta específica
+const pages = dv.pages(`"${currentFolder}"`)
+    .filter(p => 
+        p.Tipo === "Disciplina" && 
+        p.file.name !== dv.current().file.name // Evita que a nota "Dashboard" liste a si mesma
+    );
 
-    <a href="EC48B - Programação Web Back-end" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="Programação Web Backend.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">Programação Web Back-end</div>
-    </a>
+let html = `<div class="subject-grid">`;
 
-    <a href="ES44A - Estrutura de Dados - 02" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="Estrutura de Dados - 02.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">Estrutura de Dados - 02</div>
-    </a>
+for (let page of pages) {
+    const title = page.file.name;
+    const link = page.file.path;
+    // Tenta usar o ícone da nota, ou um padrão caso não exista
+    const img = page.icone || "default.png"; 
 
-    <a href="ES44B - Programação Orientada a Objetos - 02" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="Programação Orientada a Objetos - 02.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">Programação Orientada a Objetos - 02</div>
-    </a>
+    html += `
+    <a href="${link}" class="internal-link subject-card">
+        <img src="${app.vault.adapter.getResourcePath(img)}">
+        <div class="subject-title">${title}</div>
+    </a>`;
+}
 
-    <a href="ES44D - Interação Homem Computador" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="Interação Homem Computador.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">Interação Homem Computador</div>
-    </a>
-
-    <a href="ES44F - Segurança da Informação" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="Segurança da Informação.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">Segurança da Informação</div>
-    </a>
-    
-    <a href="ES46E - Estratégias de Inovação" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="Estratégias da Inovação.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">Estratégias de Inovação</div>
-    </a>
-
-</div>
+html += `</div>`;
+dv.el("div", html);
+```
 
 --- 
 ## **Grade Horária** | 2025.02
