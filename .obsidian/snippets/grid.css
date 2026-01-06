@@ -1,20 +1,29 @@
 /* Grade de Disciplinas */
 .subject-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
+    /* Padrão Mobile: Força no máximo 2 colunas */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+/* Visão para PC: Ativada em telas maiores que 768px */
+@media (min-width: 768px) {
+    .subject-grid {
+        /* PC: 3 ou 4 colunas dependendo da largura do Vault */
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 20px;
+    }
 }
 
 .subject-card {
     text-align: center;
     text-decoration: none !important;
     color: inherit !important;
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.subject-card:hover {
-    transform: scale(1.05);
+    cursor: pointer !important;
+    /* Hover removido para evitar instabilidade visual */
 }
 
 .subject-card img {
@@ -22,10 +31,18 @@
     border-radius: 10px;
     object-fit: cover;
     aspect-ratio: 16/9;
+    /* Adiciona uma transição suave apenas na opacidade, se quiser um feedback sutil */
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+
+.subject-card img:hover {
+    opacity: 0.8;
 }
 
 .subject-card .subject-title {
     margin-top: 5px;
     font-weight: 500;
+    font-size: 0.9em;
     cursor: pointer;
 }
