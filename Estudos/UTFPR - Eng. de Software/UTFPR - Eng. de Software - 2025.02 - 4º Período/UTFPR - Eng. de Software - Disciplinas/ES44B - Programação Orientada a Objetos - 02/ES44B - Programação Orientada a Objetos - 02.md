@@ -16,8 +16,8 @@ Avaliações:
 
 
 ![[Programação Orientada a Objetos - 02.png|banner]]
-> [!banner-icon] :LiBookMarked: ES44B 
-# :LiClipboard: **Atividades** | Programação Orientada a Objetos - 02 
+
+## **Atividades** | Programação Orientada a Objetos - 02 
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
@@ -91,7 +91,11 @@ if (sortedPagesArray.length === 0) {
 
 ```
 
-## :LiCalendarCheck2: **Registros de Aulas** | Programação Orientada a Objetos - 02 
+--- 
+
+![[Banner 01 - 04.png]]
+
+## **Registros de Aulas** | Programação Orientada a Objetos - 02 
 
 | Aula                                                                                                                                                                         |                                                                           Atividade                                                                            | Falta | Data de Realização |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---: | :----------------: |
@@ -186,6 +190,9 @@ dv.table(
 let presenciaPercentual = totalAulas > 0 ? ((totalAulas - faltas) / totalAulas) * 100 : 0;
 dv.paragraph(`Porcentagem de Presença: **${presenciaPercentual.toFixed(2)}%**`);
 ```
+---
+
+![[Banner 02 - 04.png]]
 
 ## **Anotações** | Programação Orientada a Objetos - 02
 
@@ -226,6 +233,10 @@ if (sortedPagesArray.length === 0) {
     );
 }
 ```
+
+---
+
+![[Banner 01 - 04.png]]
 
 ## **Avaliações** | Programação Orientada a Objetos - 02
 

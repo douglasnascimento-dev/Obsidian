@@ -14,7 +14,6 @@ Avaliações:
 ---
 
 ![[Interação Homem Computador.png|banner]]
-> [!banner-icon] :LiBookMarked: ES44D 
 ## **Atividades** | Interação Homem Computador
 
 ```dataviewjs
@@ -89,6 +88,9 @@ if (sortedPagesArray.length === 0) {
 
 ```
 
+--- 
+
+![[Banner 01 - 04.png]]
 ## **Registros de Aulas** | Interação Homem Computador
 
 | Aula                                                                                                                           |                                                      Atividade                                                      | Falta | Data de Realização |
@@ -111,7 +113,6 @@ if (sortedPagesArray.length === 0) {
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     04.12.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     11.12.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     18.12.2025     |
-
 ### **Rastreamento de Presença** | Interação Homem Computador
 
 ```dataviewjs
@@ -165,6 +166,9 @@ dv.table(
 let presenciaPercentual = totalAulas > 0 ? ((totalAulas - faltas) / totalAulas) * 100 : 0;
 dv.paragraph(`Porcentagem de Presença: **${presenciaPercentual.toFixed(2)}%**`);
 ```
+---
+
+![[Banner 02 - 04.png]]
 
 ## **Anotações** | Interação Homem Computador
 
@@ -206,6 +210,9 @@ if (sortedPagesArray.length === 0) {
 }
 ```
 
+---
+
+![[Banner 01 - 04.png]]
 ## **Avaliações** | Interação Homem Computador
 
 ```dataviewjs

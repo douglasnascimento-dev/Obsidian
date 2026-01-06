@@ -16,7 +16,7 @@ Avaliações:
 
 ![[Estrutura de Dados - 02.png|banner]]
 
-# :LiClipboard: **Atividades** | Estrutura de Dados - 02 
+## **Atividades** | Estrutura de Dados - 02 
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
@@ -89,7 +89,12 @@ if (sortedPagesArray.length === 0) {
 }
 
 ```
-## :LiCalendarCheck2: **Registros de Aulas** | Estrutura de Dados - 02 
+
+---
+
+![[Banner 01 - 04.png]]
+
+##  **Registros de Aulas** | Estrutura de Dados - 02 
 
 | Aula                                                                                                                                           |                                          Atividade                                           | Falta | Data de Realização |
 | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------: | :---: | :----------------: |
@@ -130,8 +135,7 @@ if (sortedPagesArray.length === 0) {
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                                        |                                              X                                               |   X   |     15.12.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                                        |                                              X                                               |   X   |     16.12.2025     |
 
-
-### :LiCalendarRange: Rastreamento de Presença | Estrutura de Dados - 02
+### **Rastreamento de Presença** | Estrutura de Dados - 02
 
 ```dataviewjs
 let editor = app.workspace.getLeaf().view.editor;
@@ -217,8 +221,11 @@ let presenciaPercentual = totalAulas > 0 ? ((totalAulas - faltas) / totalAulas) 
 
 dv.paragraph(`Porcentagem de Presença: ${presenciaPercentual.toFixed(2)}%`);
 ```
+--- 
 
-# :LiNotebook: **Anotações** | Estrutura de Dados - 02
+![[Banner 02 - 04.png]]
+
+## **Anotações** | Estrutura de Dados - 02
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
@@ -253,7 +260,11 @@ if (sortedPagesArray.length === 0) {
 
 ```
 
-# :LiPieChart: **Avaliações** | Estrutura de Dados - 02
+---
+
+![[Banner 01 - 04.png]]
+
+## **Avaliações** | Estrutura de Dados - 02
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual

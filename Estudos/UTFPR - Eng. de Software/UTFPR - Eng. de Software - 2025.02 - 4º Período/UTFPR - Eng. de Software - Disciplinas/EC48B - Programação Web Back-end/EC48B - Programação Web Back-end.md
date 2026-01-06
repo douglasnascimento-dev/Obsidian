@@ -15,8 +15,8 @@ Avaliações:
 
 
 ![[Programação Web Back-end.png|banner]]
-> [!banner-icon] :LiBookMarked: EC48B
-# :LiClipboard: **Atividades** | Programação Web Back-end 
+
+##  **Atividades** | Programação Web Back-end 
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
@@ -89,8 +89,11 @@ if (sortedPagesArray.length === 0) {
 }
 
 ```
+---
 
-## :LiCalendarCheck2: **Registros de Aulas** | Programação Web Back-end 
+![[Banner 01 - 04.png]]
+
+##  **Registros de Aulas** | Programação Web Back-end 
 
 | Aula                             | Atividade |    Data de Realização     |
 | :------------------------------- | :-------: | :-----------------------: |
@@ -106,13 +109,15 @@ if (sortedPagesArray.length === 0) {
 | Express.JS, MongoDB e Parâmetros |     X     |      EaD - Semana 10      |
 | Dados Persistentes               |     X     |      EaD - Semana 11      |
 | Implementação da Projeto 02      |     X     | EaD - Semana 12 - 13 - 14 |
-
-
-### :LiCalendarRange: Rastreamento de Presença | Programação Web Back-end
+###  **Rastreamento de Presença** | Programação Web Back-end
 
 :LiCheckCheck: Disciplina em regime **EaD**, sem necessidade de presença.
 
-# :LiNotebook: **Anotações** | Programação Web Back-end
+--- 
+
+![[Banner 02 - 04.png]]
+
+## **Anotações** | Programação Web Back-end
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
@@ -147,7 +152,11 @@ if (sortedPagesArray.length === 0) {
 
 ```
 
-# :LiPieChart: **Avaliações** | Programação Web Back-end
+---
+
+![[Banner 02 - 04.png]]
+
+## **Avaliações** | Programação Web Back-end
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual

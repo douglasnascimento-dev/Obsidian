@@ -15,8 +15,8 @@ Banner: Gerenciamento de Projeto de Software
 
 
 ![[Gerenciamento de Projeto de Software.png|banner]]
-> [!banner-icon] :LiBookMarked: EC47D
-# :LiClipboard: **Atividades** | Gerenciamento de Projeto de Software 
+
+##  **Atividades** | Gerenciamento de Projeto de Software 
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
@@ -89,8 +89,11 @@ if (sortedPagesArray.length === 0) {
 }
 
 ```
+---
 
-## :LiCalendarCheck2: **Registros de Aulas** | Gerenciamento de Projeto de Software 
+![[Banner 01 - 04.png]]
+
+## **Registros de Aulas** | Gerenciamento de Projeto de Software 
 
 | Aula                                  | Atividade | Data de Realização |
 | :------------------------------------ | :-------: | :----------------: |
@@ -107,12 +110,15 @@ if (sortedPagesArray.length === 0) {
 | Gerenciamento de Riscos               |     X     |  EaD - Semana 11   |
 | Diagrama de Ishikawa                  |     X     |  EaD - Semana 12   |
 | Entregas Finais                       |     X     |  EaD - Semana 13   |
-
-### :LiCalendarRange: Rastreamento de Presença | Gerenciamento de Projeto de Software
+###  Rastreamento de Presença | Gerenciamento de Projeto de Software
 
 :LiCheckCheck: Disciplina em regime **EaD**, sem necessidade de presença.
 
-# :LiNotebook: **Anotações** | Gerenciamento de Projeto de Software
+--- 
+
+![[Banner 02 - 04.png]]
+
+## **Anotações** | Gerenciamento de Projeto de Software
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
