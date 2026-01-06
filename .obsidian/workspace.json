@@ -116,6 +116,60 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "75d2e82d742f61d3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para UTFPR - Eng. de Software - 2025.02 - 4º Período"
+            }
+          },
+          {
+            "id": "cc0669d56b1a46cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1b899793d4bfbcce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de UTFPR - Eng. de Software - 2025.02 - 4º Período"
+            }
+          },
+          {
+            "id": "fe3b866837b94b92",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 1
@@ -143,10 +197,10 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/EC47D - Gerenciamento de Projeto de Software.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/Avaliações/EC47D - Médias das Atvs..md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
     "Estudos/Estudos.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/Avaliações/EC47D - Médias das Atvs..md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
     "Novo(a) Documento de Texto.txt",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas/ES41F - Inglês Instrumental/ES41F - Inglês Instrumental.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas/ES41E - Comunicação Oral e Escrita/ES41E - Comunicação Oral e Escrita.md",

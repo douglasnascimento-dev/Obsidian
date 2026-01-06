@@ -67,17 +67,18 @@ if (avaliacoes.length > 0) {
 
 --- 
 ![[Banner 01 - 04.png]]
-## Disciplinas | 2025.02
+## Disciplinas | 2025.02 
+
+
 
 ```dataviewjs
-// Obtém o caminho da pasta onde esta nota atual está localizada
-const currentFolder = dv.current().file.folder;
+// Busca na pasta atual e em todas as subpastas
+const currentPath = dv.current().file.folder;
 
-// Busca todas as páginas dentro desta pasta específica
-const pages = dv.pages(`"${currentFolder}"`)
+const pages = dv.pages(`"${currentPath}"`)
     .filter(p => 
         p.Tipo === "Disciplina" && 
-        p.file.name !== dv.current().file.name // Evita que a nota "Dashboard" liste a si mesma
+        p.file.name !== dv.current().file.name
     );
 
 let html = `<div class="subject-grid">`;
@@ -85,12 +86,16 @@ let html = `<div class="subject-grid">`;
 for (let page of pages) {
     const title = page.file.name;
     const link = page.file.path;
-    // Tenta usar o ícone da nota, ou um padrão caso não exista
-    const img = page.Banner || "default.png"; 
+    
+    // Pega o banner do YAML. Se não existir, tenta o 'icone' ou usa um padrão.
+    let rawBanner = page.Banner || page.icone || "default.png";
+    
+    // Limpa colchetes caso você use [[imagem.png]]
+    let cleanBanner = String(rawBanner).replace(/[\[\]]/g, "");
 
     html += `
     <a href="${link}" class="internal-link subject-card">
-        <img src="${title}">
+        <img src="Imagens/${rawBanner}">
         <div class="subject-title">${title}</div>
     </a>`;
 }
