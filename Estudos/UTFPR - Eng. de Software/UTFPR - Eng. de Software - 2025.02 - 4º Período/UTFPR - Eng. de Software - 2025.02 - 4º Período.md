@@ -86,11 +86,11 @@ for (let page of pages) {
     const title = page.file.name;
     const link = page.file.path;
     // Tenta usar o ícone da nota, ou um padrão caso não exista
-    const img = page.icone || "default.png"; 
+    const img = page.Banner || "default.png"; 
 
     html += `
     <a href="${link}" class="internal-link subject-card">
-        <img src="${app.vault.adapter.getResourcePath(img)}">
+        <img src="${title}">
         <div class="subject-title">${title}</div>
     </a>`;
 }
