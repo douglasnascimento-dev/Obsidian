@@ -15,7 +15,7 @@ Avaliações:
 ---
 
 ![[Estrutura de Dados - 02.png|banner]]
-> [!banner-icon] :LiBookMarked: ES44A 
+
 # :LiClipboard: **Atividades** | Estrutura de Dados - 02 
 
 ```dataviewjs
@@ -132,8 +132,6 @@ if (sortedPagesArray.length === 0) {
 
 
 ### :LiCalendarRange: Rastreamento de Presença | Estrutura de Dados - 02
-
-> 72 aulas previstas
 
 ```dataviewjs
 let editor = app.workspace.getLeaf().view.editor;

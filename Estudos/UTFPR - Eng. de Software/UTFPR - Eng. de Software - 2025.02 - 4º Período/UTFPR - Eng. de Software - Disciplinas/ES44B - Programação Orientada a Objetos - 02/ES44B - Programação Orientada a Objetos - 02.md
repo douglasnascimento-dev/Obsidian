@@ -14,7 +14,8 @@ Avaliações:
   - "[[ES44B - Média das Atividades]]"
 ---
 
-![[POO - 02.png|banner]]
+
+![[Programação Orientada a Objetos - 02.png|banner]]
 > [!banner-icon] :LiBookMarked: ES44B 
 # :LiClipboard: **Atividades** | Programação Orientada a Objetos - 02 
 

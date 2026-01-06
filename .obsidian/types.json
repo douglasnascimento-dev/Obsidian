@@ -5,7 +5,7 @@
     "tags": "tags",
     "Início": "date",
     "Status": "checkbox",
-    "Nota Final": "number",
+    "Nota Final": "text",
     "Quantidade de Aulas Previstas": "number",
     "Tipo": "text",
     "Fim": "date",

@@ -16,8 +16,8 @@ Avaliações:
 ---
 
 ![[Segurança da Informação.png|banner]]
-> [!banner-icon] :LiBookMarked: ES44F 
-# :LiClipboard: **Atividades** | Segurança da Informação
+
+##  **Atividades** | Segurança da Informação
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
@@ -90,7 +90,11 @@ if (sortedPagesArray.length === 0) {
 }
 
 ```
-## :LiCalendarCheck2: **Registros de Aulas** | Segurança da Informação
+
+--- 
+![[Banner 01 - 04.png]]
+
+##  **Registros de Aulas** | Segurança da Informação
 
 | Aula                                                                                                       |                  Atividade                   | Data de Realização |
 | :--------------------------------------------------------------------------------------------------------- | :------------------------------------------: | :----------------: |
@@ -130,22 +134,22 @@ if (sortedPagesArray.length === 0) {
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                    |                      X                       |     09.12.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                    |                      X                       |     15.12.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                    |                      X                       |     16.12.2025     |
+###  **Rastreamento de Presença** | Segurança da Informação
 
+  :LiCircleX: **Não há necessidade de Presença**
 
-### :LiCalendarRange: Rastreamento de Presença | Segurança da Informação
+--- 
 
-> 72 aulas previstas - Sem necessidade de Presença
-
-
-# :LiNotebook: **Anotações** | Segurança da Informação
+![[Banner 02 - 04.png]]
+## **Anotações** | Segurança da Informação
 
 ```dataviewjs
-// Obtenha o nome do arquivo atual
-let nomeArquivoAtual = dv.current().file.name;
+// 1. Obtém o caminho da pasta onde esta nota atual está (a pasta da disciplina)
+// 2. Adiciona o sufixo "/Anotações" para apontar para a subpasta correta
+let pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
 
-// Obtenha todas as notas dentro do diretório especificado
-let pages = dv.pages()
-    .where(p => p.file.path.includes('Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44F - Segurança da Informação/Anotações'));
+// Busca as notas diretamente dentro da pasta de Anotações
+let pages = dv.pages(pathAnotacoes);
 
 // Ordene as notas pelo nome do arquivo
 let sortedPages = pages.sort(p => p.file.name);
@@ -153,26 +157,33 @@ let sortedPagesArray = Array.from(sortedPages);
 
 // Se não houver atividades, exibir a mensagem e encerrar o código
 if (sortedPagesArray.length === 0) {
-    dv.paragraph(":LiCheckCheck: Durante a realização dessa disciplina não houve 'Anotações'.");
+      dv.span(":LiCircleX: **Não há anotações registradas nesta disciplina.**");
 } else {
-    // Data atual
-    let dataAtual = new Date();
-    // Criar a tabela de dados com os ajustes visuais
+    let cont = 1;
+    
+    // Criar a tabela de dados com contador automático
     let tabelaDados = sortedPagesArray.map(p => {
+        // Formata o número da aula com zero à esquerda (ex: Aula 01, Aula 02...)
+        let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
+        cont++; 
+        
         return [
-            `**${p.file.link}**`, // Nome do arquivo em vez do link
+            aulaLabel,
+            p.file.link,
         ];
     });
+
     // Exibir a tabela
     dv.table(
-        ["Anotações"], 
+        ["Aula", "Anotações"], 
         tabelaDados
     );
 }
-
 ```
 
-# :LiPieChart: **Avaliações** | Segurança da Informação
+---
+![[Banner 01 - 04.png]]
+## **Avaliações** | Segurança da Informação
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual

@@ -15,7 +15,7 @@ Avaliações:
 
 ![[Interação Homem Computador.png|banner]]
 > [!banner-icon] :LiBookMarked: ES44D 
-# :LiClipboard: **Atividades** | Interação Homem Computador
+## **Atividades** | Interação Homem Computador
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
@@ -89,7 +89,7 @@ if (sortedPagesArray.length === 0) {
 
 ```
 
-## :LiCalendarCheck2: **Registros de Aulas** | Interação Homem Computador
+## **Registros de Aulas** | Interação Homem Computador
 
 | Aula                                                                                                                           |                                                      Atividade                                                      | Falta | Data de Realização |
 | :----------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: | :---: | :----------------: |
@@ -103,7 +103,7 @@ if (sortedPagesArray.length === 0) {
 | [[ES44D - Aula 07 - 02.10.2025 - Princípios de Design e Prototipação\|Princípios de Design e Prototipação]] em IHC             |                                     [[ES44D - 06 - Prototipação\|Prototipação]]                                     |   X   |     02.10.2025     |
 | [[ES44D - Aula 08 - 09.10.2025 - Acessibilidade Digital\|Acessibilidade Digital]] em IHC                                       |                                                          X                                                          |   X   |     09.10.2025     |
 | Atv. Prática com Tecnologias Assistivas                                                                                        |                                                          X                                                          |   X   |     16.10.2025     |
-| Processo de [[ES44D - Aula 08 - 23.10.2025 - Avaliação em IHC\| Avaliação em IHC]]                                             |                              [[ES44D - 07 - Teste com o usuário\|Teste com o usuário]]                              |  Sim  |     23.10.2025     |
+| Processo de [[ES44D - Aula 09 - 23.10.2025 - Avaliação em IHC\| Avaliação em IHC]]                                             |                              [[ES44D - 07 - Teste com o usuário\|Teste com o usuário]]                              |  Sim  |     23.10.2025     |
 | :LiXCircle: Sem necessidade de Presença - **SECOMP**                                                                           |                                                          X                                                          |   X   |     30.10.2025     |
 | Interfaces Avançadas em IHC                                                                                                    |                                                          X                                                          |   X   |     06.11.2025     |
 | Aplicação da [[ES44D - Avaliação\|Avaliação]]                                                                                  |                                                          X                                                          |   X   |     13.11.2025     |
@@ -112,8 +112,7 @@ if (sortedPagesArray.length === 0) {
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     11.12.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     18.12.2025     |
 
-
-### :LiCalendarRange: Rastreamento de Presença | Interação Homem Computador
+### **Rastreamento de Presença** | Interação Homem Computador
 
 ```dataviewjs
 let editor = app.workspace.getLeaf().view.editor;
@@ -167,15 +166,15 @@ let presenciaPercentual = totalAulas > 0 ? ((totalAulas - faltas) / totalAulas) 
 dv.paragraph(`Porcentagem de Presença: **${presenciaPercentual.toFixed(2)}%**`);
 ```
 
-# :LiNotebook: **Anotações** | Interação Homem Computador
+## **Anotações** | Interação Homem Computador
 
 ```dataviewjs
-// Obtenha o nome do arquivo atual
-let nomeArquivoAtual = dv.current().file.name;
+// 1. Obtém o caminho da pasta onde esta nota atual está (a pasta da disciplina)
+// 2. Adiciona o sufixo "/Anotações" para apontar para a subpasta correta
+let pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
 
-// Obtenha todas as notas dentro do diretório especificado
-let pages = dv.pages()
-    .where(p => p.file.path.includes('Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44D - Interação Homem Computador/Anotações'));
+// Busca as notas diretamente dentro da pasta de Anotações
+let pages = dv.pages(pathAnotacoes);
 
 // Ordene as notas pelo nome do arquivo
 let sortedPages = pages.sort(p => p.file.name);
@@ -183,26 +182,31 @@ let sortedPagesArray = Array.from(sortedPages);
 
 // Se não houver atividades, exibir a mensagem e encerrar o código
 if (sortedPagesArray.length === 0) {
-    dv.paragraph(":LiCheckCheck: Durante a realização dessa disciplina não houve 'Anotações'.");
+      dv.span(":LiCircleX: **Não há anotações registradas nesta disciplina.**");
 } else {
-    // Data atual
-    let dataAtual = new Date();
-    // Criar a tabela de dados com os ajustes visuais
+    let cont = 1;
+    
+    // Criar a tabela de dados com contador automático
     let tabelaDados = sortedPagesArray.map(p => {
+        // Formata o número da aula com zero à esquerda (ex: Aula 01, Aula 02...)
+        let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
+        cont++; 
+        
         return [
-            `**${p.file.link}**`, // Nome do arquivo em vez do link
+            aulaLabel,
+            p.file.link,
         ];
     });
+
     // Exibir a tabela
     dv.table(
-        ["Anotações"], 
+        ["Aula", "Anotações"], 
         tabelaDados
     );
 }
-
 ```
 
-# :LiPieChart: **Avaliações** | Interação Homem Computador
+## **Avaliações** | Interação Homem Computador
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual
