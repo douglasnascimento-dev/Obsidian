@@ -6,7 +6,7 @@ cssclasses:
   - "[[UTFPR - Eng. de Software]]"
   - "[[Cursos]]"
 ---
-
+# 
 ![[Estudos.png|banner]]
 
 # **Atividades Pendentes** | Estudos

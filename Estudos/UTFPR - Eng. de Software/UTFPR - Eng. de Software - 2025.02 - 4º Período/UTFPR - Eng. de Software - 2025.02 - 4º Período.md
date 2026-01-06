@@ -69,7 +69,7 @@ if (avaliacoes.length > 0) {
 ![[Banner 01 - 04.png]]
 ## Disciplinas | 2025.02
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
 
     <a href="EC47D - Gerenciamento de Projeto de Software" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
         <img src="Gerenciamento de Projeto de Software.png" style="width: 100%; border-radius: 10px; object-fit: cover;">

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Estudos.md",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estudos"
+              "title": "UTFPR - Eng. de Software - 2025.02 - 4º Período"
             }
           }
         ]
@@ -108,68 +108,6 @@
             }
           },
           {
-            "id": "438f45200b3c78a5",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/2024.02 - 2º Período/2024.02 - 2º Período.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Links de saída para 2024.02 - 2º Período"
-            }
-          },
-          {
-            "id": "887b31dca8ca6d8b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "4146dfafa13dfcfa",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Estudos/Estudos.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Sumário de Estudos"
-            }
-          },
-          {
-            "id": "c35acc63541b1341",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
-            }
-          },
-          {
-            "id": "83a29ed987bb75d0",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          },
-          {
             "id": "d3ca989cd46177a4",
             "type": "leaf",
             "state": {
@@ -180,12 +118,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,19 +139,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "d3ca989cd46177a4",
   "lastOpenFiles": [
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
+    "Estudos/Estudos.md",
     "Novo(a) Documento de Texto.txt",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas/ES41F - Inglês Instrumental/ES41F - Inglês Instrumental.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas/ES41E - Comunicação Oral e Escrita/ES41E - Comunicação Oral e Escrita.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/ES46E - Estratégias de Inovação.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44D - Interação Homem Computador/ES44D - Interação Homem Computador.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/Avaliações/ES46E - Lista de Exercícios.md",
     "ES46E - Estratégias da Inovação.md",
     "Imagens/Banner 03 - 04.png",
-    "Estudos/Estudos.md",
     "Imagens/Banner 02 - 04.png",
     "Imagens/Banner 01 - 04.png",
     "Estudos/Cursos/Cursos.md",
@@ -249,7 +186,6 @@
     "Estudos/UNECT",
     "Sem título 3.base",
     "Sem título 2.base",
-    "Projetos",
     "Sem título.canvas",
     "UTFPR - Eng. de Software/Sem título.canvas"
   ]
