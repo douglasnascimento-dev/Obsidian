@@ -122,7 +122,7 @@ if (sortedPagesArray.length === 0) {
 | :LiXCircle: Sem necessidade de Presença - **Multithreading**<br>                                                                                                             |                                                                               X                                                                                |   X   |     07.11.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Multithreading**<br>                                                                                                             |                                                                               X                                                                                |  Sim  |     13.11.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Apresentação do [[ES44B - Projeto\|Projeto]]**                                                                                   |                                                                               X                                                                                |   X   |     14.11.2025     |
-| Apresentação do [[ES44B - Projeto\|Projeto]]                                                                                                                                 |                                                                  [[ES44B - Projeto\|Projeto]]                                                                  |   X   |     27.11.2025     |
+| Apresentação do **[[ES44B - Projeto\|Projeto]]**                                                                                                                             |                                                                  [[ES44B - Projeto\|Projeto]]                                                                  |   X   |     27.11.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Apresentação do [[ES44B - Projeto\|Projeto]]**                                                                                   |                                                                               X                                                                                |   X   |     28.11.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                                                                      |                                                                               X                                                                                |   X   |     04.12.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                                                                      |                                                                               X                                                                                |   X   |     05.12.2025     |
@@ -131,7 +131,7 @@ if (sortedPagesArray.length === 0) {
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                                                                      |                                                                               X                                                                                |   X   |     18.12.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                                                                      |                                                                               X                                                                                |   X   |     19.12.2025     |
 
-### :LiCalendarRange: Rastreamento de Presença | Programação Orientada a Objetos - 02
+### **Rastreamento de Presença** | Programação Orientada a Objetos - 02
 
 ```dataviewjs
 let editor = app.workspace.getLeaf().view.editor;
@@ -186,15 +186,15 @@ let presenciaPercentual = totalAulas > 0 ? ((totalAulas - faltas) / totalAulas) 
 dv.paragraph(`Porcentagem de Presença: **${presenciaPercentual.toFixed(2)}%**`);
 ```
 
-# :LiNotebook: **Anotações** | Programação Orientada a Objetos - 02
+## **Anotações** | Programação Orientada a Objetos - 02
 
 ```dataviewjs
-// Obtenha o nome do arquivo atual
-let nomeArquivoAtual = dv.current().file.name;
+// 1. Obtém o caminho da pasta onde esta nota atual está (a pasta da disciplina)
+// 2. Adiciona o sufixo "/Anotações" para apontar para a subpasta correta
+let pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
 
-// Obtenha todas as notas dentro do diretório especificado
-let pages = dv.pages()
-    .where(p => p.file.path.includes('Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44B - Programação Orientada a Objetos - 02/Anotações'));
+// Busca as notas diretamente dentro da pasta de Anotações
+let pages = dv.pages(pathAnotacoes);
 
 // Ordene as notas pelo nome do arquivo
 let sortedPages = pages.sort(p => p.file.name);
@@ -202,26 +202,31 @@ let sortedPagesArray = Array.from(sortedPages);
 
 // Se não houver atividades, exibir a mensagem e encerrar o código
 if (sortedPagesArray.length === 0) {
-    dv.paragraph(":LiCheckCheck: Durante a realização dessa disciplina não houve 'Anotações'.");
+      dv.span(":LiCircleX: **Não há anotações registradas nesta disciplina.**");
 } else {
-    // Data atual
-    let dataAtual = new Date();
-    // Criar a tabela de dados com os ajustes visuais
+    let cont = 1;
+    
+    // Criar a tabela de dados com contador automático
     let tabelaDados = sortedPagesArray.map(p => {
+        // Formata o número da aula com zero à esquerda (ex: Aula 01, Aula 02...)
+        let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
+        cont++; 
+        
         return [
-            `**${p.file.link}**`, // Nome do arquivo em vez do link
+            aulaLabel,
+            p.file.link,
         ];
     });
+
     // Exibir a tabela
     dv.table(
-        ["Anotações"], 
+        ["Aula", "Anotações"], 
         tabelaDados
     );
 }
-
 ```
 
-# :LiPieChart: **Avaliações** | Programação Orientada a Objetos - 02
+## **Avaliações** | Programação Orientada a Objetos - 02
 
 ```dataviewjs
 // Obtenha o nome do arquivo atual

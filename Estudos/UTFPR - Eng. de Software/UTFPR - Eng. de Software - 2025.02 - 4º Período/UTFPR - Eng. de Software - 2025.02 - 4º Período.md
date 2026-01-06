@@ -68,8 +68,8 @@ if (avaliacoes.length > 0) {
 
 --- 
 ![[Banner 01 - 04.png]]
-## Disciplinas | 2025.02 
 
+## Disciplinas | 2025.02 
 
 ```dataviewjs
 
