@@ -17,6 +17,7 @@ Carga Horária: 420h
 Nota Final: "7.7"
 ---
 
+
 ![[04 Período.png|banner]]
 > [!banner-icon] 2025.02
 > 
@@ -70,9 +71,8 @@ if (avaliacoes.length > 0) {
 ## Disciplinas | 2025.02 
 
 
-
 ```dataviewjs
-// Busca na pasta atual e em todas as subpastas
+
 const currentPath = dv.current().file.folder;
 
 const pages = dv.pages(`"${currentPath}"`)
@@ -84,18 +84,17 @@ const pages = dv.pages(`"${currentPath}"`)
 let html = `<div class="subject-grid">`;
 
 for (let page of pages) {
-    const title = page.file.name;
+    const title = page.file.name; 
     const link = page.file.path;
+
+    const parts = title.split(" - ");
+    const subjectName = parts.length > 1 ? parts.slice(1).join(" - ") : title;
     
-    // Pega o banner do YAML. Se não existir, tenta o 'icone' ou usa um padrão.
-    let rawBanner = page.Banner || page.icone || "default.png";
-    
-    // Limpa colchetes caso você use [[imagem.png]]
-    let cleanBanner = String(rawBanner).replace(/[\[\]]/g, "");
+    const imagePath = `Imagens/${subjectName}.png`;
 
     html += `
     <a href="${link}" class="internal-link subject-card">
-        <img src="Imagens/${rawBanner}">
+        <img src="${app.vault.adapter.getResourcePath(imagePath)}">
         <div class="subject-title">${title}</div>
     </a>`;
 }

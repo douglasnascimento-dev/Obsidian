@@ -171,7 +171,7 @@ Number of Columns: 2
 Largest Column: standard
 ```
 
-![[Programação Web Frontend.png]]
+![[Programação Web Front-end.png]]
 
 --- column-break ---
 

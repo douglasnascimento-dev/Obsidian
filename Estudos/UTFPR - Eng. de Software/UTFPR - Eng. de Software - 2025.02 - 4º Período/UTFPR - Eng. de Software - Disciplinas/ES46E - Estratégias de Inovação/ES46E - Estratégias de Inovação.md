@@ -12,7 +12,7 @@ Avaliações:
 ---
 
 
-![[Estratégias da Inovação.png|banner]]
+![[Estratégias de Inovação.png|banner]]
 ## **Atividades** | Estratégias de Inovação
 
 ```dataviewjs

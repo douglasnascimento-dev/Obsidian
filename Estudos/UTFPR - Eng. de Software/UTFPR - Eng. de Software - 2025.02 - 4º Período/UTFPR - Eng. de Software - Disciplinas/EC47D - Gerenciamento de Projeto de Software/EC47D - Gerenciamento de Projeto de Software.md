@@ -10,7 +10,7 @@ Início: 2025-08-12
 Fim: ""
 Avaliações:
   - "[[EC47D - Gerenciamento de Projeto de Software]]"
-Banner: EC47D - Gerenciamento de Projeto de Software
+Banner: Gerenciamento de Projeto de Software
 ---
 
 

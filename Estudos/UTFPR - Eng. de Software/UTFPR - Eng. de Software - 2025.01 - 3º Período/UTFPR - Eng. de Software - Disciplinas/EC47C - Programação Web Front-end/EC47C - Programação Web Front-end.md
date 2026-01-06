@@ -13,7 +13,7 @@ Avaliações:
   - "[[EC47C - Projeto Final]]"
 ---
 
-![[Programação Web Frontend.png|banner]]
+![[Programação Web Front-end.png|banner]]
 > [!banner-icon] :LiBookMarked: EC47C
 # :LiClipboard: **Atividades** | Programação Web Front-end 
 

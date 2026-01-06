@@ -1,0 +1,31 @@
+/* Grade de Disciplinas */
+.subject-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.subject-card {
+    text-align: center;
+    text-decoration: none !important;
+    color: inherit !important;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.subject-card:hover {
+    transform: scale(1.05);
+}
+
+.subject-card img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.subject-card .subject-title {
+    margin-top: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
