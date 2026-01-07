@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Cursos/Cursos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cursos"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           },
           {
@@ -41,16 +37,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UTFPR - Eng. de Software"
+              "title": "UTFPR - Eng. de Software - 2025.02 - 4º Período"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para UTFPR - Eng. de Software"
+              "title": "Links inversos para JS & TS"
             }
           },
           {
@@ -182,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de UTFPR - Eng. de Software"
+              "title": "Sumário de JS & TS"
             }
           },
           {
@@ -223,12 +219,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80b41517b3333909",
+  "active": "5e47f7d686e7ff53",
   "lastOpenFiles": [
-    "Estudos/Cursos/Cursos.md",
-    "Estudos/Cursos/JS & TS/JS & TS.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
+    "Imagens/Banner 02 - Cursos.png",
+    "Imagens/Banner 01 - Cursos.png",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
+    "Estudos/Cursos/JS & TS/JS & TS.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC48B - Programação Web Back-end/EC48B - Programação Web Back-end.md",
+    "Estudos/Cursos/Cursos.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
     "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/ES46E - Estratégias de Inovação.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/10 - JavaScript - Node, NPM, Express e MongoDB/Atividades/JS & TS - AC. 10.01.01 - NPM Modules.md",
@@ -239,7 +239,6 @@
     "Estudos/Cursos/Git & GitHub/Conventional Commits.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/Avaliações/ES46E - Seminários.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/15 - React - Redux Saga/JS & TS - 15 - React - Redux Saga.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
     "Estudos/Estudos.md",
     "Sem título.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações",
@@ -248,14 +247,12 @@
     "Imagens/HTML & CSS.png",
     "Imagens/Java.png",
     "Imagens/JS & TS.png",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC48B - Programação Web Back-end/EC48B - Programação Web Back-end.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44A - Estrutura de Dados - 02/ES44A - Estrutura de Dados - 02.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44B - Programação Orientada a Objetos - 02/ES44B - Programação Orientada a Objetos - 02.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44D - Interação Homem Computador/ES44D - Interação Homem Computador.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44F - Segurança da Informação/ES44F - Segurança da Informação.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44D - Interação Homem Computador/Anotações/ES44D - Aula 09 - 23.10.2025 - Avaliação em IHC.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44B - Programação Orientada a Objetos - 02/Anotações/ES44B - Aula 01 - 15.08.2025 - Conceitos de OO e UML.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/Avaliações/EC47D - Médias das Atvs..md",
     "Novo(a) Documento de Texto.txt",
     "Imagens/Banner 03 - 04.png",
     "Imagens/Banner 02 - 04.png",
@@ -263,7 +260,6 @@
     "Imagens/Banner 02 - Eng..png",
     "Imagens/Banner 01 - Eng..png",
     "Imagens/Estratégias de Inovação.png",
-    "Imagens/Gerenciamento de Projeto de Software.png",
     "Sem título.base",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES4",
     "Sem título 1.base",
