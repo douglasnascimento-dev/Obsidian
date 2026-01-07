@@ -45,4 +45,18 @@ export const Post = () => {
 
 Assim como os Parâmetros as QueryStrings podem ser obtidas através da URL de acesso. A Formatação das QueryStrings é a de Perguntas e Respostas. 
 
-## 🌿
+## 🌿Usando QueryString no Componente
+
+```tsx
+import { useSearchParams } from 'react-router-dom'
+
+export const Post = () => {
+	const [ qs, setQs ] = useSearchParams ();
+	
+	return (
+		<h1> {`QS: ${qs.get('exemplo')}`} </h1>
+	)
+}
+```
+
+O Funcionamento das QueryStrings são similares aos dos Estados em React. Sendo disponibilizada duas variáveis para trabalhar a do Valor das QueryStrings e outra para definir o Valor delas. Sua utilização pode vir junto de um '.get' quando se procura uma única chave, uma vez que quando não há essa declaração, todos os valores são obtidos. 
