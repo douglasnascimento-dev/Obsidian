@@ -70,9 +70,9 @@ Atividades: []
 
 | Função             | Símbolo | \|  | Função                 | Símbolo |
 | :----------------- | :-----: | :-: | :--------------------- | :-----: |
-| Maior que          |    >    | \|  | ~~Igual~~              |   ==    |
+| Maior que          |    >    | \|  | Igual                  |   \==   |
 | Menor que          |    <    | \|  | Estritamente igual     |   ===   |
-| Maior ou igual que |   >=    | \|  | ~~Diferente~~          |   !=    |
+| Maior ou igual que |   >=    | \|  | Diferente              |   !=    |
 | Menor ou igual que |   <=    | \|  | Estritamente diferente |  !===   |
 
 Não é recomendável o uso dos comparadores simples de igualdade ( == ) e de diferença ( != ), pois não comparam o tipo da variável ou do valor, para esses usos devem ser utilizadas os comparados estritos de igualdade e de diferença 

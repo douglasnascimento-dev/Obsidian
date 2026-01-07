@@ -8,63 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.02 - Link vs A.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JS & TS - 16.02 - Link vs A"
-            }
-          },
-          {
-            "id": "0a901842352347d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.03 - Parâmetros.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JS & TS - 16.03 - Parâmetros"
-            }
-          },
-          {
-            "id": "fa786e74748dfeb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.04 - Redirecionando e 404.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JS & TS - 16.04 - Redirecionando e 404"
-            }
-          },
-          {
-            "id": "a6e18e0eb236d174",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.05 - Rotas Aninhadas.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "JS & TS - 16.05 - Rotas Aninhadas"
-            }
-          },
-          {
-            "id": "749abe7a9473cbc4",
+            "id": "f1738195defcb0d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,8 +21,7 @@
               "title": "JS & TS - 01 - Configurando o Ambiente"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,8 +184,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "749abe7a9473cbc4",
+  "active": "f1738195defcb0d2",
   "lastOpenFiles": [
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/JS & TS - 06 - JavaScript - Objetos e Prototypes.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Anotações/JS & TS - 06.01 - Objetos em JS.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente/JS & TS - 01 - Configurando o Ambiente.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Atividades/JS & TS - AC. 06.07.01 - Factory Functions + Prototypes e 'new Map' 1.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Atividades/JS & TS - AC. 06.07.01 - Factory Functions + Prototypes e 'new Map'.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/03 - JavaScript - Lógica de Programação/JS & TS - 03 - JavaScript - Lógica de Programação.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
     "Estudos/Cursos/JS & TS/JS & TS.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.06 - Enviando e Recebendo o Estado.md",
@@ -253,8 +202,6 @@
     "Estudos/Estudos.md",
     "Estudos/Cursos/Sem título.base",
     "Sem título.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/03 - JavaScript - Lógica de Programação/JS & TS - 03 - JavaScript - Lógica de Programação.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente/JS & TS - 01 - Configurando o Ambiente.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/04 - JavaScript - Funções/JS & TS - 04 - JavaScript - Funções.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico/Anotações/JS & TS - 02.05 - Objetos em JS.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico/Anotações/JS & TS - 02.04 - Funções em JS.md",
@@ -272,10 +219,6 @@
     "Imagens/Banner 01 - Cursos.png",
     "Estudos/Cursos/Cursos.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
-    "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/ES46E - Estratégias de Inovação.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/10 - JavaScript - Node, NPM, Express e MongoDB/Atividades/JS & TS - AC. 10.01.01 - NPM Modules.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/Atividades/ES46E - Entrega da Lista de Exercícios.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6",
     "Imagens/HTML & CSS.png",
