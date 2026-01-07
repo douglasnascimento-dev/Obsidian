@@ -8,9 +8,9 @@ cssclasses:
   - banner
   - banner-fade
   - customMargin
-  - yellowCab
-  - wideTable
   - wideFC
+  - wideTable
+  - yellowCab
 Fim: 2025-04-01
 Anotações:
   - "[[JS & TS - 10.01 - NPM Modules]]"

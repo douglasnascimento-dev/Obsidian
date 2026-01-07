@@ -8,9 +8,9 @@ cssclasses:
   - banner
   - banner-fade
   - customMargin
-  - yellowCab
-  - wideTable
   - wideFC
+  - wideTable
+  - yellowCab
 Fim: 2025-02-12
 Anotações:
   - "[[JS & TS - 07.01 - Classes em JS]]"

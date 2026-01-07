@@ -12,5 +12,6 @@
   "obsidian-columns",
   "obsidian-git",
   "table-editor-obsidian",
-  "metadata-menu"
+  "metadata-menu",
+  "obsidian-linter"
 ]

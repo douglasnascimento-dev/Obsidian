@@ -8,9 +8,9 @@ cssclasses:
   - banner
   - banner-fade
   - customMargin
-  - yellowCab
-  - wideTable
   - wideFC
+  - wideTable
+  - yellowCab
 Fim: 2024-08-25
 Anotações:
   - "[[JS & TS - 02.01 - Tipos de Dados Primitivos em JS]]"

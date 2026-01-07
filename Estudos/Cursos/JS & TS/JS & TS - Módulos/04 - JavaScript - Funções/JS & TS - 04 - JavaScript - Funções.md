@@ -8,9 +8,9 @@ cssclasses:
   - banner
   - banner-fade
   - customMargin
-  - yellowCab
-  - wideTable
   - wideFC
+  - wideTable
+  - yellowCab
 Fim: 2024-11-21
 Anotações:
   - "[[JS & TS - 04.01 - Parâmetros da Função]]"

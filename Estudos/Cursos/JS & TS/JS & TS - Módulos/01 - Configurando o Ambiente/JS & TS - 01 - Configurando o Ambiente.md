@@ -4,12 +4,12 @@ Conteúdo: "'Introdução' | 'Ferramentas' | 'Apresentação'"
 Status: true
 Início: 2024-07-15
 cssclasses:
-  - banner
-  - banner-fade
-  - customMargin
   - yellowCab
   - wideTable
   - wideFC
+  - customMargin
+  - banner-fade
+  - banner
 Fim: 2024-07-17
 Anotações:
 Atividades:
