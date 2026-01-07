@@ -10,7 +10,7 @@ Ministrado: Udemy | Luiz Otávio Miranda
 Início: 2024-07-13
 Fim: ""
 Status: false
-Anotações:
+Módulos:
   - "[[JS & TS - 01 - Configurando o Ambiente]]"
   - "[[JS & TS - 02 - JavaScript Básico]]"
   - "[[JS & TS - 03 - JavaScript - Lógica de Programação]]"
@@ -21,10 +21,10 @@ Anotações:
   - "[[JS & TS - 08 - JS Assíncrono]]"
   - "[[JS & TS - 09 - JS Toolings e Modules]]"
   - "[[JS & TS - 10 - Node, NPM, Express e MongoDB]]"
-  - "[[JS & TS - 11 - Projeto Agenda]]"
   - "[[JS & TS - 12 - Deploy da Aplicação]]"
-  - "[[JS & TS - 13 - API Rest]]"
   - "[[JS & TS - 14 - React - Básico]]"
+  - "[[JS & TS - 13 - API Rest]]"
+  - "[[JS & TS - 11 - Projeto Agenda]]"
   - "[[JS & TS - 15 - React - Redux Saga]]"
   - "[[JS & TS - 16 - React Router Dom v6]]"
 ---
@@ -81,24 +81,21 @@ if (avaliacoes.length > 0) {
 
 ## Módulos | `$= dv.current().file.name`
 ```dataviewjs
-
 const currentPath = dv.current().file.folder;
 const currentPage = dv.current().file.name;
-
 
 const pages = dv.pages(`"${currentPath}"`)
     .filter(p => 
         p.Tipo === "Módulo" && 
-        p.file.name !== dv.current().file.name
+        p.file.name !== currentPage
     );
 
+const pagesArray = Array.from(pages);
 let html = `<div class="subject-grid">`;
 
-for (let page of pages) {
+for (let page of pagesArray) {
     const title = page.file.name; 
     const link = page.file.path;
-
-    const parts = title.split(" - ");
     const imagePath = `Imagens/${currentPage}.png`;
 
     html += `
@@ -110,4 +107,12 @@ for (let page of pages) {
 
 html += `</div>`;
 dv.el("div", html);
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file && pagesArray.length > 0) {
+    const links = pagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        fm["Módulos"] = links;
+    });
+}
 ```

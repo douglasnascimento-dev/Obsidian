@@ -22,101 +22,90 @@ Atividades:
 ---
 
 ![[JS & TS.png|banner]]
-> [!banner-icon] 🌳
-## 💙**Atividades** | JS & TS - JS Assíncrono
+
+## **Atividades** |  `$= dv.current().file.name`
 
 ```dataviewjs
-// Obtenha o nome do arquivo atual
-let nomeArquivoAtual = dv.current().file.name;
+const pathAtividades = `"${dv.current().file.folder}/Atividades"`;
+const pages = dv.pages(pathAtividades).sort(p => p.file.name);
+const pagesArray = Array.from(pages);
 
-// Obtenha todas as notas dentro do diretório especificado
-let pages = dv.pages()
-    .where(p => p.file.path.includes('Estudos/Cursos/JS & TS/JS & TS - Módulos/08 - JavaScript Assíncrono/Atividades'));
+const dataAtual = new Date();
+const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
-// Ordene as notas pelo nome do arquivo
-let sortedPages = pages.sort(p => p.file.name);
-let sortedPagesArray = Array.from(sortedPages);
+if (pagesArray.length === 0) {
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+    return;
+}
 
-// Data atual
-let dataAtual = new Date();
-
-// Array com os nomes dos meses em português
-let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
-
-// Função para formatar a data para "DD de Mês de YYYY"
 function formatarData(data) {
     if (!data) return "";
-    let dia = data.getDate();
-    let mes = meses[data.getMonth()];
-    let ano = data.getFullYear();
-    return `${dia} de ${mes} de ${ano}`;
+    let d = new Date(data);
+    return `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
 }
 
-// Função para verificar se a data final está a menos de dois dias do prazo
-function verificarDataFinal(dataFinal) {
-    let diffMilissegundos = new Date(dataFinal) - dataAtual;
-    let diffDias = diffMilissegundos / (1000 * 60 * 60 * 24);
-    return diffDias < 2;
+function verificarUrgencia(dataFinal) {
+    if (!dataFinal) return false;
+    let diff = (new Date(dataFinal) - dataAtual) / (1000 * 60 * 60 * 24);
+    return diff < 2;
 }
 
-// Cores baseadas na paleta fornecida
-const corPendente = "rgb(54, 102, 129)";  // Azul principal
-const corConcluido = "rgb(91, 145, 177)"; // Azul mais claro
+const corPendente = "rgb(54, 102, 129)";
+const corConcluido = "rgb(91, 145, 177)";
+const corUrgente = "rgb(178, 50, 50)";
 
-// Criar a tabela de dados com os ajustes visuais
-let tabelaDados = sortedPagesArray.map(p => {
-    let dataInicio = p.Início ? new Date(p.Início) : null;
-    let dataFinal = p.Final ? new Date(p.Final) : null;
-
-    // Definir status e cor
+let tabelaDados = pagesArray.map(p => {
     let statusTexto = p.Status === true ? "Concluído" : "Pendente";
     let corStatus = p.Status === true ? corConcluido : corPendente;
 
-    if (dataFinal && verificarDataFinal(dataFinal) && statusTexto === "Pendente") {
-        corStatus = "rgb(178, 50, 50)"; // Vermelho escuro para urgência
+    if (statusTexto === "Pendente" && verificarUrgencia(p.Final)) {
+        corStatus = corUrgente;
     }
 
     return [
-        `**${p.file.link}** | ${p.Conteúdo ? p.Conteúdo : ""}`, // Nome do arquivo em vez do link
-        formatarData(dataInicio),
-        formatarData(dataFinal),
-        `<span style="color:${corStatus}; font-weight: bold;">${statusTexto}</span>`, // Aplicar cor e negrito
+        p.file.link,
+        formatarData(p.Início),
+        formatarData(p.Final),
+        `<span style="color:${corStatus}; font-weight: bold;">${statusTexto}</span>`
     ];
 });
 
-// Exibir a tabela
-dv.table(
-    ["Atividade", "Data de Início", "Data Final", "Status"], 
-    tabelaDados
-);
+dv.table(["Atividade", "Início", "Prazo Final", "Status"], tabelaDados);
 
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const links = pagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        fm["Atividades"] = links;
+    });
+}
 ```
 
-### 🔷**Registro de Aulas** | JS & TS - JS Assíncrono
+## **Anotações** |  `$= dv.current().file.name`
 
-| <p style="text-align: center">Título - Aula</p> | <p style="text-align: center">Status - Aula</p> | <p style="text-align: center">Último Minuto</p> |
-| :---------------------------------------------- | :---------------------------------------------: | :---------------------------------------------: |
-| 🔹108 - Promisses                               |                    Concluído                    |                    -- \| --                     |
-| 🔹109 - Métodos Úteis para Promisses            |                    Concluído                    |                    -- \| --                     |
-| 🔹110 - Async / Await                           |                    Concluído                    |                    -- \| --                     |
-| 🔹111 - XMLHTTPRequest (GET) + Promisses        |                    Concluído                    |                    -- \| --                     |
-| 🔹112 - FetchAPI (GET)                          |                    Concluído                    |                    -- \| --                     |
-| 🔹113 - FetchAPI e Axios \| JSON                |                    Concluído                    |                    -- \| --                     |
+```dataviewjs
+const pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
+const pages = dv.pages(pathAnotacoes).sort(p => p.file.name);
+const pagesArray = Array.from(pages);
 
-## 💙**Anotações** | JS & TS - JS Assíncrono
+if (pagesArray.length === 0) {
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+} else {
+    let cont = 1;
+    let tabelaDados = pagesArray.map(p => {
+        let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
+        cont++;
+        return [aulaLabel, p.file.link];
+    });
 
-### [[JS & TS - 08.01 - Promisses]]
+    dv.table(["Aula", "Anotação"], tabelaDados);
 
-Durante essas notas é apresentado o conceito de 'promisses', que são promessas que se faz ao motor do JS. Isso é que determinada parte do código, não será executado de forma síncrona, de forma que demora algum tempo para ser devolvido uma resposta
-
-### [[JS & TS - 08.02 - Async e Await]]
-
-Durante essas notas é introduzida o uso de 'async' e 'await' em códigos JS. Isso permite deixar o código mais limpo ao utilizar as 'promisses' 
-
-### [[JS & TS - 08.03 - XMLHTTPRequest]]
-
-Durante essas notas é apresentado o método 'XMLHTTPRequest' que permite fazer requisições de arquivos .xml, .txt, .html e/ou .json. A Utilização desse método é considerada ultrapassada
-
-### [[JS & TS - 08.04 - FetchAPI]]
-
-Durante essas notas é apresentada o método 'FetchAPI' que é considerada uma evolução do 'XMLHTTPRequest'. A Utilização desse método é mais comum e menor para a execução
+    const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+    if (file) {
+        const links = pagesArray.map(p => `[[${p.file.name}]]`);
+        await app.fileManager.processFrontMatter(file, fm => {
+            fm["Anotações"] = links;
+        });
+    }
+}
+```

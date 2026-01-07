@@ -27,7 +27,9 @@ const dataAtual = new Date();
 const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
 if (pagesArray.length === 0) {
-    dv.span(":LiBadgeX:: **Não há atividades registradas nesta disciplina.**");
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+    return;
+}
 
 function formatarData(data) {
     if (!data) return "";

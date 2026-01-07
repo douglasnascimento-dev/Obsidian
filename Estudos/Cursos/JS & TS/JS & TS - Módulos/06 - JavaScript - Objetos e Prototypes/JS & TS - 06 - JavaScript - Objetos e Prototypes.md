@@ -40,6 +40,11 @@ const pagesArray = Array.from(pages);
 const dataAtual = new Date();
 const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
+if (pagesArray.length === 0) {
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+    return;
+}
+
 function formatarData(data) {
     if (!data) return "";
     let d = new Date(data);
@@ -91,7 +96,7 @@ const pages = dv.pages(pathAnotacoes).sort(p => p.file.name);
 const pagesArray = Array.from(pages);
 
 if (pagesArray.length === 0) {
-    dv.span(":LiCircleX: **Não há anotações registradas nesta disciplina.**");
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
 } else {
     let cont = 1;
     let tabelaDados = pagesArray.map(p => {

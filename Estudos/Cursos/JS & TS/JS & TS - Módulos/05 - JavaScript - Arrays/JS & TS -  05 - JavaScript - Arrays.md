@@ -10,41 +10,98 @@ cssclasses:
   - wideTable
   - yellowCab
 Fim: 2024-12-02
+Anotações:
+  - "[[JS & TS - 05.01 - Tratamento de Arrays]]"
+  - "[[JS & TS - 05.02 - Método Slice]]"
+  - "[[JS & TS - 05.03 - Concatenação de Arrays]]"
+  - "[[JS & TS - 05.04 - Métodos 'Filter', 'Map' e 'Reduce']]"
 ---
 
 ![[JS & TS.png|banner]]
-> [!banner-icon] 🌳
-## 💙**Atividades** | JS & TS - Arrays
 
-🔹Durante a realização dessa disciplina não houve 'Atividades'
+## **Atividades** |  `$= dv.current().file.name`
 
-### 🔷**Registro de Aulas** | JS & TS - Arrays
+```dataviewjs
+const pathAtividades = `"${dv.current().file.folder}/Atividades"`;
+const pages = dv.pages(pathAtividades).sort(p => p.file.name);
+const pagesArray = Array.from(pages);
 
-| <p style="text-align: center">Título - Aula</p> | <p style="text-align: center">Status - Aula</p> | <p style="text-align: center">Último Minuto</p> |
-| :---------------------------------------------- | :---------------------------------------------: | :---------------------------------------------: |
-| 🔹81 - Revisão do básico em Arrays              |                    Concluído                    |                    -- \| --                     |
-| 🔹82 - Método Splice                            |                    Concluído                    |                    -- \| --                     |
-| 🔹83 - Concatenando Arrays                      |                    Concluído                    |                    -- \| --                     |
-| 🔹84 - Filter \| Filtrando o Array              |                    Concluído                    |                    -- \| --                     |
-| 🔹85 - Map \| Mapeando o Array                  |                    Concluído                    |                    -- \| --                     |
-| 🔹86 - Reduce \| Reduzindo o Array              |                    Concluído                    |                    -- \| --                     |
-| 🔹87 - Filter + Map + Reduce                    |                    Concluído                    |                    -- \| --                     |
-| 🔹88 - forEach                                  |                    Concluído                    |                    -- \| --                     |
+const dataAtual = new Date();
+const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
-## 💙**Anotações** | JS & TS - Arrays
+if (pagesArray.length === 0) {
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+    return;
+}
 
-### [[JS & TS - 05.01 - Tratamento de Arrays]]
+function formatarData(data) {
+    if (!data) return "";
+    let d = new Date(data);
+    return `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
+}
 
-Durante essas notas é reapresentado de forma detalhadas as principais funções básicas utilizadas nos tratamento de arrays, além de métodos de conversão array ↔ string
+function verificarUrgencia(dataFinal) {
+    if (!dataFinal) return false;
+    let diff = (new Date(dataFinal) - dataAtual) / (1000 * 60 * 60 * 24);
+    return diff < 2;
+}
 
-### [[JS & TS - 05.02 - Método Slice]]
+const corPendente = "rgb(54, 102, 129)";
+const corConcluido = "rgb(91, 145, 177)";
+const corUrgente = "rgb(178, 50, 50)";
 
-Durante essas notas é apresentado o método .slice em JS, sua utilização em casos de substituições de diversos métodos, além de funções adicionais que ele possui em detrimento de outros métodos.
+let tabelaDados = pagesArray.map(p => {
+    let statusTexto = p.Status === true ? "Concluído" : "Pendente";
+    let corStatus = p.Status === true ? corConcluido : corPendente;
 
-### [[JS & TS - 05.03 - Concatenação de Arrays]]
+    if (statusTexto === "Pendente" && verificarUrgencia(p.Final)) {
+        corStatus = corUrgente;
+    }
 
-Durante essas notas é explicado e exemplificado as formas de concatenação de um array, utilizando o método .concat e utilizando o spread operator (*Operador de Espalhamento*)
+    return [
+        p.file.link,
+        formatarData(p.Início),
+        formatarData(p.Final),
+        `<span style="color:${corStatus}; font-weight: bold;">${statusTexto}</span>`
+    ];
+});
 
-### [[JS & TS - 05.04 - Métodos 'Filter', 'Map' e 'Reduce']]
+dv.table(["Atividade", "Início", "Prazo Final", "Status"], tabelaDados);
 
-Durante essas notas é tratado a utilização dos métodos .filter, para filtrar o array, .map, para mapear o array, e .reduce, pra reduzir o array, além da função forEach
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const links = pagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        fm["Atividades"] = links;
+    });
+}
+```
+
+## **Anotações** |  `$= dv.current().file.name`
+
+```dataviewjs
+const pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
+const pages = dv.pages(pathAnotacoes).sort(p => p.file.name);
+const pagesArray = Array.from(pages);
+
+if (pagesArray.length === 0) {
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+} else {
+    let cont = 1;
+    let tabelaDados = pagesArray.map(p => {
+        let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
+        cont++;
+        return [aulaLabel, p.file.link];
+    });
+
+    dv.table(["Aula", "Anotação"], tabelaDados);
+
+    const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+    if (file) {
+        const links = pagesArray.map(p => `[[${p.file.name}]]`);
+        await app.fileManager.processFrontMatter(file, fm => {
+            fm["Anotações"] = links;
+        });
+    }
+}
+```

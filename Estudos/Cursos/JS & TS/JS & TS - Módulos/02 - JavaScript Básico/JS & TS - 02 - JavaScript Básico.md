@@ -16,77 +16,94 @@ Anotações:
   - "[[JS & TS - 02.03 - Arrays em JS]]"
   - "[[JS & TS - 02.04 - Funções em JS]]"
   - "[[JS & TS - 02.05 - Objetos em JS]]"
-Atividades: 
+Atividades:
 ---
 
 ![[JS & TS.png|banner]]
-> [!banner-icon] 🌳
-## 💙**Atividades** | JS & TS - JS Básico
 
-🔹Durante a realização dessa disciplina não houve 'Atividades'
+## **Atividades** |  `$= dv.current().file.name`
 
-## 🔹  **Aulas** | JS & TS - JS Básico
+```dataviewjs
+const pathAtividades = `"${dv.current().file.folder}/Atividades"`;
+const pages = dv.pages(pathAtividades).sort(p => p.file.name);
+const pagesArray = Array.from(pages);
 
-| Aula                                                        |  Status   | Último Minuto |
-| :---------------------------------------------------------- | :-------: | :-----------: |
-| 🔹07 - Função: 'console.log'                                | Concluído |   -- \| --    |
-| 🔹08 - Exercícios - ('console.log')                         | Concluído |   -- \| --    |
-| 🔹09 - Repositório do Curso no Github                       | Concluído |   -- \| --    |
-| 🔹10 - Me ajude a produzir conteúdo gratuito                | Concluído |   -- \| --    |
-| 🔹11 - Comentários de Código                                | Concluído |   -- \| --    |
-| 🔹12 - Navegador VS Node (HTML + JavaScript)                | Concluído |   -- \| --    |
-| 🔹13 - Variáveis com 'let'                                  | Concluído |   -- \| --    |
-| 🔹14 - Constantes com 'const'                               | Concluído |   -- \| --    |
-| 🔹15 - Correção                                             | Concluído |   -- \| --    |
-| 🔹16 - Exercícios - ('const' e 'let')                       | Concluído |   -- \| --    |
-| 🔹17 - Código do Exercício solucionado                      | Concluído |   -- \| --    |
-| 🔹18 - 'let' VS 'var' - Primeira diferença                  | Concluído |   -- \| --    |
-| 🔹19 - Tipos de Dados Primitivos                            | Concluído |   -- \| --    |
-| 🔹20 - Operadores Aritiméticos, de Atribuição e Incremento  | Concluído |   -- \| --    |
-| 🔹21 - 'alert', 'confirm' e 'prompt' no Navegador           | Concluído |   -- \| --    |
-| 🔹22 - Exercícios - Solução ('alert', 'confirm' e 'prompt') | Concluído |   -- \| --    |
-| 🔹23 - Exercícios - ('variáveis')                           | Concluído |   -- \| --    |
-| 🔹24 - Mais sobre 'strings'                                 | Concluído |    -- \|--    |
-| 🔹25 - Exercícios - ('strings')                             | Concluído |   -- \| --    |
-| 🔹26 - Mais sobre 'numbers'                                 | Concluído |   -- \| --    |
-| 🔹27 - Objeto 'Math'                                        | Concluído |   -- \| --    |
-| 🔹28 - Exercícios com 'number' e 'Math'                     | Concluído |   -- \| --    |
-| 🔹29 - 'Arrays' - (Básico)                                  | Concluído |   -- \| --    |
-| 🔹30 - 'const' com valores mutáveis                         | Concluído |   -- \| --    |
-| 🔹31 - Funções em JS: Uma introdução ao básico              | Concluído |   -- \| --    |
-| 🔹32 - 'Objetos' - (Básico)                                 | Concluído |   -- \| --    |
-| 🔹33 - Valores Primitivos e Valores por Referência          | Concluído |   -- \| --    |
-| 🔹34 - Exercícios - (Arrays, Objetos e Função)              | Concluído |   -- \| --    |
+const dataAtual = new Date();
+const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
-## 💙**Anotações** | JS & TS - JS Básico
+if (pagesArray.length === 0) {
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+    return;
+}
 
+function formatarData(data) {
+    if (!data) return "";
+    let d = new Date(data);
+    return `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
+}
 
-### [[JS & TS - 02.01 - Tipos de Dados Primitivos em JS]]
+function verificarUrgencia(dataFinal) {
+    if (!dataFinal) return false;
+    let diff = (new Date(dataFinal) - dataAtual) / (1000 * 60 * 60 * 24);
+    return diff < 2;
+}
 
-O JavaScript, assim como as principais linguagens de maquina, se utiliza de diversos tripagens para dados, durante esse curso foi apresentado os principais tipos de dados que estão presentes no JS.
+const corPendente = "rgb(54, 102, 129)";
+const corConcluido = "rgb(91, 145, 177)";
+const corUrgente = "rgb(178, 50, 50)";
 
-### [[JS & TS - 02.02 - 'numbers' em JS]]
+let tabelaDados = pagesArray.map(p => {
+    let statusTexto = p.Status === true ? "Concluído" : "Pendente";
+    let corStatus = p.Status === true ? corConcluido : corPendente;
 
-Essas notas vão abordar a utilização do tipo numérico em JS, desde de alteração do tipo, até o tratamento de números de ponto flutuante, e também a imprecisão em alguns casos.
+    if (statusTexto === "Pendente" && verificarUrgencia(p.Final)) {
+        corStatus = corUrgente;
+    }
 
-#### 🌱Objeto Math
+    return [
+        p.file.link,
+        formatarData(p.Início),
+        formatarData(p.Final),
+        `<span style="color:${corStatus}; font-weight: bold;">${statusTexto}</span>`
+    ];
+});
 
-O Objeto 'Math' traz consigo diversas propriedades matemáticas para serem utilizadas em JS, principalmente relacionadas a arredondamento, a documentação pode ser encontrada no [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+dv.table(["Atividade", "Início", "Prazo Final", "Status"], tabelaDados);
 
-### [[JS & TS - 02.03 - Arrays em JS]]
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const links = pagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        fm["Atividades"] = links;
+    });
+}
+```
 
-A Secção buscar abordar a inicialização do conteúdo de 'Arrays', a forma de utilização no código, e de que forma acontece a sua manipulação, além de apresentar sua características iniciais.
+## **Anotações** |  `$= dv.current().file.name`
 
-### [[JS & TS - 02.05 - Objetos em JS]]
+```dataviewjs
+const pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
+const pages = dv.pages(pathAnotacoes).sort(p => p.file.name);
+const pagesArray = Array.from(pages);
 
-Nestas notas, é apresentado o conceito de Objetos em JS, em prática como acontece sua utilização e declaração, além de exemplificar a conceito de métodos.
+if (pagesArray.length === 0) {
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+} else {
+    let cont = 1;
+    let tabelaDados = pagesArray.map(p => {
+        let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
+        cont++;
+        return [aulaLabel, p.file.link];
+    });
 
-#### 🌱Valores primitivos X Valores mutáveis
+    dv.table(["Aula", "Anotação"], tabelaDados);
 
-- Definição:
-	- **Valores Primitivos**: string, number, boolean, undefined e null;
-	- **Valores por Referencia**: function, array e object;
-	
- Os valores primitivos serão copiados quando houver uma atribuição. Então se 'a' = 'b', e após, 'a' for alterado, 'b' continuará com o valor inicial. Já nos valores primitivos, 'b' passaria a ter o mesmo valor de 'a' alterado, mesmo que 'b' não fosse alterado, já que o valor não é copiado, mas 'a' e 'b' passam a compartilhar o mesmo local na memória.
-
-
+    const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+    if (file) {
+        const links = pagesArray.map(p => `[[${p.file.name}]]`);
+        await app.fileManager.processFrontMatter(file, fm => {
+            fm["Anotações"] = links;
+        });
+    }
+}
+```

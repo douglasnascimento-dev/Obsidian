@@ -15,37 +15,91 @@ Anotações:
   - "[[JS & TS - 04.02 - Tipos de Funções]]"
 ---
 
-![[JS & TS.png]]
-> [!banner-icon] 🌳
-## 💙**Atividades** | JS - Funções
+![[JS & TS.png|banner]]
 
-🔹Durante a realização dessa disciplina não houve 'Atividades'
+## **Atividades** |  `$= dv.current().file.name`
 
-### 🔷**Registro de Aulas** | JS - Funções
+```dataviewjs
+const pathAtividades = `"${dv.current().file.folder}/Atividades"`;
+const pages = dv.pages(pathAtividades).sort(p => p.file.name);
+const pagesArray = Array.from(pages);
 
-| <p style="text-align: center">Título - Aula</p>                | <p style="text-align: center">Status - Aula</p> | <p style="text-align: center">Último Minuto</p> |
-| :------------------------------------------------------------- | :---------------------------------------------: | :---------------------------------------------: |
-| 🔹68 - As várias maneiras de declarar funções em JS            |                    Concluído                    |                    -- \| --                     |
-| 🔹69 - Parâmetros da função                                    |                    Concluído                    |                    -- \| --                     |
-| 🔹70 - Retorno da Função                                       |                    Concluído                    |                    -- \| --                     |
-| 🔹71 - Escopo Léxico                                           |                    Concluído                    |                    -- \| --                     |
-| 🔹72 - Closures                                                |                    Concluído                    |                    -- \| --                     |
-| 🔹73 - Funções de Callback                                     |                    Concluído                    |                    -- \| --                     |
-| 🔹74 - Funções Imediatas                                       |                    Concluído                    |                    -- \| --                     |
-| 🔹75 - Funções Fábricas                                        |                    Concluído                    |                    -- \| --                     |
-| 🔹76 - Praticando com Factory Faction - *Arq. \| 04.02.01*     |                    Concluído                    |                    -- \| --                     |
-| 🔹77 - Funções Construtoras                                    |                    Concluído                    |                    -- \| --                     |
-| 🔹78 - Calculadora com Função Construtora - *Arq. \| 04.02.02* |                    Concluído                    |                    -- \| --                     |
-| 🔹79 - Funções Recursivas                                      |                    Concluído                    |                    -- \| --                     |
-| 🔹80 - Funções Geradoras                                       |                    Concluído                    |                    -- \| --                     |
+const dataAtual = new Date();
+const meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
-## 💙**Anotações** | JS - Funções
+if (pagesArray.length === 0) {
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+    return;
+}
 
-### [[JS & TS - 04.01 - Parâmetros da Função]]
+function formatarData(data) {
+    if (!data) return "";
+    let d = new Date(data);
+    return `${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
+}
 
-Durante essas notas, é aprofundado o uso de parâmetros de funções em JS, as formas de envio de argumentos e o recebimento de parâmetros.
+function verificarUrgencia(dataFinal) {
+    if (!dataFinal) return false;
+    let diff = (new Date(dataFinal) - dataAtual) / (1000 * 60 * 60 * 24);
+    return diff < 2;
+}
 
-### [[JS & TS - 04.02 - Tipos de Funções]]
+const corPendente = "rgb(54, 102, 129)";
+const corConcluido = "rgb(91, 145, 177)";
+const corUrgente = "rgb(178, 50, 50)";
 
-Durante essas notas, é introduzido o conceito de funções de callback, que são utilizadas para validar outra função, de invocação imediata, que são utilizadas no momento de sua criação e as factory functions, que são funções que permitem a criação de objetos, que podem conter métodos, ou seja, funções em seu interior.
+let tabelaDados = pagesArray.map(p => {
+    let statusTexto = p.Status === true ? "Concluído" : "Pendente";
+    let corStatus = p.Status === true ? corConcluido : corPendente;
 
+    if (statusTexto === "Pendente" && verificarUrgencia(p.Final)) {
+        corStatus = corUrgente;
+    }
+
+    return [
+        p.file.link,
+        formatarData(p.Início),
+        formatarData(p.Final),
+        `<span style="color:${corStatus}; font-weight: bold;">${statusTexto}</span>`
+    ];
+});
+
+dv.table(["Atividade", "Início", "Prazo Final", "Status"], tabelaDados);
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const links = pagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        fm["Atividades"] = links;
+    });
+}
+```
+
+## **Anotações** |  `$= dv.current().file.name`
+
+```dataviewjs
+const pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
+const pages = dv.pages(pathAnotacoes).sort(p => p.file.name);
+const pagesArray = Array.from(pages);
+
+if (pagesArray.length === 0) {
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
+} else {
+    let cont = 1;
+    let tabelaDados = pagesArray.map(p => {
+        let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
+        cont++;
+        return [aulaLabel, p.file.link];
+    });
+
+    dv.table(["Aula", "Anotação"], tabelaDados);
+
+    const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+    if (file) {
+        const links = pagesArray.map(p => `[[${p.file.name}]]`);
+        await app.fileManager.processFrontMatter(file, fm => {
+            fm["Anotações"] = links;
+        });
+    }
+}
+```
