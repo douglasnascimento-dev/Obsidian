@@ -12,8 +12,10 @@ cssclasses:
 
 ![[JS & TS.png|banner]]
 > [!banner-icon] Módulo 16
-# 🌳Redirecionando o Usuário
+# 🌳Rotas Aninhadas
 
-```
-import 
+```tsx
+<Route path="/posts" element={<Posts />}> 
+	<Route path=":id" element={<Post />}> 
+</Route>
 ```
