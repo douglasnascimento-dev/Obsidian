@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "JS & TS - 16.02 - Link vs A"
             }
+          },
+          {
+            "id": "0a901842352347d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.03 - Parâmetros.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JS & TS - 16.03 - Parâmetros"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.02 - Link vs A.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.03 - Parâmetros.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JS & TS - 16.02 - Link vs A"
+              "title": "Sumário de JS & TS - 16.03 - Parâmetros"
             }
           },
           {
@@ -185,8 +200,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "0a901842352347d9",
   "lastOpenFiles": [
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.02 - Link vs A.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.03 - Parâmetros.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
     "Estudos/Cursos/JS & TS/JS & TS.md",
     "Estudos/Estudos.md",
@@ -217,7 +234,6 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/Atividades/ES46E - Entrega da Lista de Exercícios.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/EC47D - Gerenciamento de Projeto de Software.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.01 - Primeiras Rotas.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.02 - Link vs A.md",
     "Estudos/Cursos/Git & GitHub/Conventional Commits.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6",

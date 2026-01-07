@@ -27,4 +27,4 @@ cssclasses:
 <a href='/'> Home </a>
 ```
 
-Observe que embora as propriedades 'to' e 'href' tenham nomes distintos, cumprem a mesma função nos dois casos. 
+Observe que embora os parâmentros 'to' e 'href' tenham nomes distintos, cumprem a mesma função nos dois casos. 
