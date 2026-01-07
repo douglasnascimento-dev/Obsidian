@@ -10,7 +10,7 @@ cssclasses:
 ---
 
 ## 🌳O Uso do FetchAPI
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿FetchAPI
 
 O FetchAPI facilita a utilização de requisições quando comparado com o XMLHTTRequest, ele já devolve automaticamente uma promisse facilitando sua utilização, entretanto é necessário transforma sua resposta em texto.

@@ -29,7 +29,7 @@ Atividades:
   - "[[JS & TS - AC. 06.07.01 - Factory Functions + Prototypes e 'new Map']]"
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | JS & TS - Objetos e Prototypes
 

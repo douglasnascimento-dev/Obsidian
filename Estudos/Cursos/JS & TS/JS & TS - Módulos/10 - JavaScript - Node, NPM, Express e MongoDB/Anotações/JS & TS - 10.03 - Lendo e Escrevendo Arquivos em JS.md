@@ -10,7 +10,7 @@ cssclasses:
 ---
 
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Ler e escrever Arqvs.
 ## 🌳Utilizando o fyleSystem para Ler e Escrever Arquivos
 

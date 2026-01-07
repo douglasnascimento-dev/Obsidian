@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Concatenação
 ## 🌳Usando o metódo .concat
 --- start-multi-column: ID_tvvb

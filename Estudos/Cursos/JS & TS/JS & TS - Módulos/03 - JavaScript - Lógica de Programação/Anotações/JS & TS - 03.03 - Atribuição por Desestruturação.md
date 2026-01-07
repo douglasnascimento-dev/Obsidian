@@ -10,7 +10,7 @@ cssclasses:
 Atividades: []
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Desestruturação
 ## 🌳Atribuição por desestruturação em Arrays
 --- start-multi-column: ID_tvvb

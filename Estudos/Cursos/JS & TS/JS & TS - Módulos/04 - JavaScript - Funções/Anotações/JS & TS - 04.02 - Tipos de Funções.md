@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Funções
 ## 🌳Função de Callback
 --- start-multi-column: ID_tvvb

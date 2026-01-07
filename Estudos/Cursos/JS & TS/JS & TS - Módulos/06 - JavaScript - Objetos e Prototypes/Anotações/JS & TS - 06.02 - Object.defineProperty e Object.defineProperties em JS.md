@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Object.defineProperty
 ## 🌳Trabalhando com Object.defineProperty e Object.defineProperties em JavaScript
 

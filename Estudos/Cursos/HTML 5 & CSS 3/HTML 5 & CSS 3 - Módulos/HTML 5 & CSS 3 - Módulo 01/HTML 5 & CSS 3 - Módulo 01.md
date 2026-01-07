@@ -16,7 +16,7 @@ Anotações:
 Atividades:
 ---
 
-![[HTMLCSS.png|banner]]
+![[HTML & CSS.png|banner]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | Módulo 01
 

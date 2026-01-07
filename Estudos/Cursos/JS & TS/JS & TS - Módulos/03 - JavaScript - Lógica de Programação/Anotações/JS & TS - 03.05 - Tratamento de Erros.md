@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Tratamento de Erros
 ## 🌳Try, Catch, Throw
 --- start-multi-column: ID_tvvb

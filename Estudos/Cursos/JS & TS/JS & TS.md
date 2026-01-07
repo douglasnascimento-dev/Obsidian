@@ -29,7 +29,7 @@ Anotações:
   - "[[JS & TS - 16 - React Router Dom v6]]"
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] :LiServer: JavaScript & TypeScript
 # :LiClipboard:**Atividades Pendentes** | JS & TS
 

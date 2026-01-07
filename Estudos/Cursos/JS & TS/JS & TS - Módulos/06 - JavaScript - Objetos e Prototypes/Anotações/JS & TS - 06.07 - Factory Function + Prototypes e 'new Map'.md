@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Factory + Prototypes
 ## 🌳Prototypes em Factory Functions
 --- start-multi-column: ID_sn4s

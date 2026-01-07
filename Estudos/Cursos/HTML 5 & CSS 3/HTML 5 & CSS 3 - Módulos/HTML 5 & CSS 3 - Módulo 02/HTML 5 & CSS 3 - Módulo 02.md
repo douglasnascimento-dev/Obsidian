@@ -16,7 +16,7 @@ Anotações:
   - "[[02.01 - Pseudoelementos e Pseudoclasses]]"
 ---
 
-![[HTMLCSS.png|banner]]
+![[HTML & CSS.png|banner]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | Módulo 01
 

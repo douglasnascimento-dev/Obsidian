@@ -17,7 +17,7 @@ Anotações:
   - "[[JS & TS - 04.02 - Tipos de Funções]]"
 ---
 
-![[JSTS.png]]
+![[JS & TS.png]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | JS - Funções
 

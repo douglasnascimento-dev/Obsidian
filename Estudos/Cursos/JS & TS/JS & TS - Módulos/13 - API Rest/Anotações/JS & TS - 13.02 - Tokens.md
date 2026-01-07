@@ -15,7 +15,7 @@ cssclasses:
 
 Os tokens irão funcionar como a validação de um usuário. O Usuário utilizará em rotas que é necessário validação/identificação. O Token só pode ser obtido por um usuário com o email e senha correta.
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Tokens
 ### 🌿Controllers
 

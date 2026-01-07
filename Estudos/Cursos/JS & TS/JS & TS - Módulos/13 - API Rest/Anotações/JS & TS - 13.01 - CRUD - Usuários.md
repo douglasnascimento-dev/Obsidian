@@ -10,7 +10,7 @@ cssclasses:
 ---
 
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Chaves SSH
 ### 🌿Organização de Arquivos
 

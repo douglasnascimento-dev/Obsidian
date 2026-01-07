@@ -14,7 +14,7 @@ cssclasses:
 Fim: 2024-12-02
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | JS & TS - Arrays
 

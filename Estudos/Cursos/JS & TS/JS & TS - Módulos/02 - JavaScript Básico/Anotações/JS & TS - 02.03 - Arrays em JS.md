@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Arrays
 ## 🌳Arrays em JS
 --- start-multi-column: ID_tvvb

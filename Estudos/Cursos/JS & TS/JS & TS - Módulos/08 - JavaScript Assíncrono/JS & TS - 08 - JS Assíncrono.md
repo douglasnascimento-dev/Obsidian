@@ -23,7 +23,7 @@ Atividades:
   - "[[JS & TS - AC. 08.04.01 - FetchAPI]]"
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | JS & TS - JS Assíncrono
 

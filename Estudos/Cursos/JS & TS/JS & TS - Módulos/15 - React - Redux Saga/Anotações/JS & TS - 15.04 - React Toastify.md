@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] :LiNotebook: Router Dom v5
 
 > [!FAIL] Atenção | Versão desatualizada

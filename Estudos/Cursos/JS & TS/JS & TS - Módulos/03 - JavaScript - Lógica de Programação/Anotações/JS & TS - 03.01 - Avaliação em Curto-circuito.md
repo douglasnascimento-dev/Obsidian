@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Av. em Curto Circuito
 ## 🌳Valores falso em JS
 --- start-multi-column: ID_tvvb

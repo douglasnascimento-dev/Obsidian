@@ -9,6 +9,8 @@ Nota Final: "8.3"
 Início: 2025-08-14
 Fim: 2025-11-28
 Avaliações:
+  - "[[ES46E - Seminários]]"
+  - "[[ES46E - Lista de Exercícios]]"
 ---
 
 

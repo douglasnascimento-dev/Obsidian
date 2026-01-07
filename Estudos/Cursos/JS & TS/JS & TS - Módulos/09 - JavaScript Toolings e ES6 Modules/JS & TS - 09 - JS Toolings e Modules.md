@@ -18,7 +18,7 @@ Atividades:
   - "[[JS & TS - AC. 09.01.01 - ES6 Modules]]"
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | JS & TS - Toolings e Modules
 

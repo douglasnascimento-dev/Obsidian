@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] :LiNotebook: Criando um projeto com React
 
 # 🌳Criando um projeto com React

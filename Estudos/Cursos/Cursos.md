@@ -12,11 +12,16 @@ Tipo: Inicial
 ![[Cursos.png|banner]]
 > [!banner-icon] :LiBookMarked: Cursos
 
-# :LiSwatchBook: **Atividades Pendentes** | Cursos
+##  **Atividades Pendentes** | Cursos
 
 ```dataviewjs
-let avaliacoes = dv.pages('"Estudos/Cursos"')
-    .where(p => p.file.frontmatter.Tipo === "Atividade" && p.file.frontmatter.Status == false);
+const currentPath = dv.current().file.folder;
+
+const avaliacoes = dv.pages(`"${currentPath}"`)
+    .filter(p => 
+        p.Tipo === "Atividade" && 
+        p.file.frontmatter.Status == false
+    );
 
 if (avaliacoes.length > 0) {
     let tabelaDados = [];
@@ -52,43 +57,41 @@ if (avaliacoes.length > 0) {
 
     dv.table(["Atividade", "Disciplina", "Data Limite"], tabelaDados);
 } else {
-    dv.span(" :LiCheckCheck: *Não há atividades pendentes*");
+    dv.span(":LiCircleX: **Não há atividades pendentes**");
 }
 
-
 ```
 
-# :LiFolderOpen: **Cursos em Andamento** | Cursos
 
-### [[HTML 5 & CSS 3]]
---- start-multi-column: ID_jcx1
-```column-settings
-Number of Columns: 2
-Largest Column: standard
+## Cursos em Aberto | Cursos
+
+```dataviewjs
+const currentPath = dv.current().file.folder;
+
+const pages = dv.pages(`"${currentPath}"`)
+    .filter(p => 
+        p.Tipo === "Curso" && 
+        p.file.name !== dv.current().file.name
+    );
+
+let html = `<div class="subject-grid">`;
+
+for (let page of pages) {
+    const title = page.file.name; 
+    const link = page.file.path;
+
+    const parts = title.split(" - ");
+    const subjectName = parts.length > 1 ? parts.slice(1).join(" - ") : title;
+    
+    const imagePath = `Imagens/${subjectName}.png`;
+
+    html += `
+    <a href="${link}" class="internal-link subject-card">
+        <img src="${app.vault.adapter.getResourcePath(imagePath)}">
+        <div class="subject-title">${title}</div>
+    </a>`;
+}
+
+html += `</div>`;
+dv.el("div", html);
 ```
-
-![[HTMLCSS.png]]
-
---- column-break ---
-
-Curso de **HTML 5 & CSS 3**
-Ministrado por Gustavo Guanabara | Curso em Vídeo
-
---- end-multi-column
-### [[JS & TS]]
---- start-multi-column: ID_3hyo
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
-
-![[JSTS.png]]
-
---- column-break ---
-
-Curso de **JavaScript & TypeScript**
-Ministrado por Luiz Otávio | Udemy
-
---- end-multi-column
-
-

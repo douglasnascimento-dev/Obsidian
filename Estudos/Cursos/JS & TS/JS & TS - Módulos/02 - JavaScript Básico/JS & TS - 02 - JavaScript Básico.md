@@ -21,7 +21,7 @@ Anotações:
 Atividades: 
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | JS & TS - JS Básico
 

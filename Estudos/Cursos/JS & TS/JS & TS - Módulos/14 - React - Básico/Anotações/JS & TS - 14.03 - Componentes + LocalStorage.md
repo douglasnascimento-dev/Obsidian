@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] :LiNotebook: Componentes + LocalStorage
 
 # 🌳Adicionando e Carregando estado através do localStorage

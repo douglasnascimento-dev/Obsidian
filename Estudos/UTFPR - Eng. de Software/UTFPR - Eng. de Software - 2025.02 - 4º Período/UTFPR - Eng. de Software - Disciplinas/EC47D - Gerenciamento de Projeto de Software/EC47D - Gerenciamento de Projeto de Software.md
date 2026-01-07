@@ -9,13 +9,11 @@ Nota Final: "7.7"
 Início: 2025-08-12
 Fim: ""
 Avaliações:
-  - "[[EC47D - Gerenciamento de Projeto de Software]]"
+  - "[[EC47D - Médias das Atvs.]]"
 Banner: Gerenciamento de Projeto de Software
 ---
 
-
 ![[Gerenciamento de Projeto de Software.png|banner]]
-
 ##  **Atividades** | Gerenciamento de Projeto de Software 
 
 ```dataviewjs

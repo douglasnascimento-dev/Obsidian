@@ -29,7 +29,7 @@ Atividades:
   - "[[JS & TS - AC. 10.07.01 - MongoDB e '.ejs']]"
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | JS & TS - Node, NPM, Express e MongoDB
 

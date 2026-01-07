@@ -25,7 +25,7 @@ Atividades: []
 
 🔹Durante a realização dessa disciplina não houve 'Atividades'
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌳
 ### 🔷**Registro de Aulas** | JS & TS - Lógica de Programação
 

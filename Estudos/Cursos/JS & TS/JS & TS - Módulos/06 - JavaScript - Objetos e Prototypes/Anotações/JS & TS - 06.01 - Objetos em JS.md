@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Objetos
 ## 🌳**Objetos e Métodos**
 --- start-multi-column: ID_i78k

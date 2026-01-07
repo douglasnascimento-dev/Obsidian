@@ -14,7 +14,7 @@ cssclasses:
 Fim: 2025-05-31
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] :LiBookMarked: Módulo 13
 
 # :LiClipboard: **Atividades** | JS & TS - Deploy da Aplicação

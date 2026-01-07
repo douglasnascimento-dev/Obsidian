@@ -20,7 +20,7 @@ Atividades:
   - "[[JS & TS - AC. 07.02.01 - ATV. Herança e Métodos Estáticos]]"
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌳
 ## 💙**Atividades** | JS & TS - POO
 

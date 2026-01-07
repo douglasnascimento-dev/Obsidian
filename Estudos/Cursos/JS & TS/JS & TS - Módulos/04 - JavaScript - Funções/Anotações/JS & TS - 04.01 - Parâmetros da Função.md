@@ -9,7 +9,7 @@ cssclasses:
   - wideFC
 ---
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Parâmetros
 ## 🌳Argumentos sem Parâmetros
 --- start-multi-column: ID_tvvb

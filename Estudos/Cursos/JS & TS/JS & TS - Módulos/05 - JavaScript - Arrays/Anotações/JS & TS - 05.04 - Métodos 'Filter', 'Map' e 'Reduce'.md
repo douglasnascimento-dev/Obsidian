@@ -10,7 +10,7 @@ cssclasses:
 ---
 
 
-![[JSTS.png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Filter, Map e Reduce
 ## 🌳Filter( )
 --- start-multi-column: ID_tvvb
