@@ -76,7 +76,9 @@ if (avaliacoes.length > 0) {
 ```
 
 ---
-`` `$= "![[Banner 01 - " + dv.current().file.name + ".png|banner]]"` ``
+
+![[Banner 01 - JS & TS.png]]
+
 ## Módulos | `$= dv.current().file.name`
 ```dataviewjs
 
