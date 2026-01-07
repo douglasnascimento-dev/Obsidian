@@ -4,8 +4,8 @@ cssclasses:
   - banner-fade
 Início: 2024-03-04
 Cursos:
-  - "[[JS & TS]]"
   - "[[HTML & CSS]]"
+  - "[[JS & TS]]"
   - "[[Java]]"
 Tipo: Inicial
 ---
@@ -67,22 +67,21 @@ if (avaliacoes.length > 0) {
 
 ```dataviewjs
 const currentPath = dv.current().file.folder;
-
 const pages = dv.pages(`"${currentPath}"`)
     .filter(p => 
         p.Tipo === "Curso" && 
         p.file.name !== dv.current().file.name
     );
 
+const pagesArray = Array.from(pages);
 let html = `<div class="subject-grid">`;
 
-for (let page of pages) {
+for (let page of pagesArray) {
     const title = page.file.name; 
     const link = page.file.path;
 
     const parts = title.split(" - ");
     const subjectName = parts.length > 1 ? parts.slice(1).join(" - ") : title;
-    
     const imagePath = `Imagens/${subjectName}.png`;
 
     html += `
@@ -94,4 +93,12 @@ for (let page of pages) {
 
 html += `</div>`;
 dv.el("div", html);
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file && pagesArray.length > 0) {
+    const links = pagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        fm["Cursos"] = links;
+    });
+}
 ```

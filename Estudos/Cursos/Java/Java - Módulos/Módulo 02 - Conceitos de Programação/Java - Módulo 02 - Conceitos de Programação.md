@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresentado os primeiros conceitos de programação, além de também apresentar os primeiros conceitos da lógica para a programação
 Conteúdo: "'Conceitos de Programação' | 'Ferramentas' | 'Apresentação'"
 Status: true
 Início: 2025-03-10

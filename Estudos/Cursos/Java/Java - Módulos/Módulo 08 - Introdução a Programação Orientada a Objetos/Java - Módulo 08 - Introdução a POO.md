@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresentado os conceitos inicias de Programação Orientada a Objetos em Java, apresentando o conceito de Classes e Métodos
 Conteúdo: "'new Class' | 'Class' | 'Main'"
 Status: true
 Início: 2025-03-10

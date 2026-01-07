@@ -13,25 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Cursos/Cursos.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cursos"
+              "title": "JS & TS"
             }
           },
           {
             "id": "33e558c56edefb9a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTML & CSS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,13 +149,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Cursos/Cursos.md",
+                "file": "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Cursos"
+              "title": "Sumário de HTML & CSS"
             }
           },
           {
@@ -194,9 +199,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f1738195defcb0d2",
+  "active": "33e558c56edefb9a",
   "lastOpenFiles": [
+    "Estudos/Cursos/Java/Java.md",
     "Estudos/Cursos/JS & TS/JS & TS.md",
+    "Estudos/Cursos/Cursos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/15 - React - Redux Saga/JS & TS - 15 - React - Redux Saga.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/14 - React - Básico/JS & TS - 14 - React - Básico.md",
@@ -220,8 +227,6 @@
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Atividades/JS & TS - AC. 06.07.01 - Factory Functions + Prototypes e 'new Map' 1.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Atividades/JS & TS - AC. 06.07.01 - Factory Functions + Prototypes e 'new Map'.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.06 - Enviando e Recebendo o Estado.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.05 - Rotas Aninhadas.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.03 - Parâmetros.md",
     "Estudos/Cursos/Sem título.base",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico/Anotações",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico",

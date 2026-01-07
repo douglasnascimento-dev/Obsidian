@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresentado as Estruturas Condicionais, como a utilização de 'if', 'else if' e 'if'. Além de estruturas como o 'switch case'
 Conteúdo: "'Estrutura Condicional' | 'if' | 'else'"
 Status: true
 Início: 2025-03-10

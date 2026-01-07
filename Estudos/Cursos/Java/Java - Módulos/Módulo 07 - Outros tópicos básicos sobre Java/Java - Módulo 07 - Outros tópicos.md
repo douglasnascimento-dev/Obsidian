@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresentado alguns detalhes sobre diversos tópicos da Linguagem Java, como a forma que será trabalhadas as string no Java
 Conteúdo: "'String' | 'trim' | 'lowerCase'"
 Status: true
 Início: 2025-03-10

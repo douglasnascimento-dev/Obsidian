@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresentado as estruturas sequencial, como a leitura de dados, a exibição de dados e a manipulação de dados dentro da linguagem Java
 Conteúdo: "'Estrutura Sequencial' | 'SystemOutPrint' | 'Scanner'"
 Status: true
 Início: 2025-03-10

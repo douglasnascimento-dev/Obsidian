@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresentado os conceitos relacionados ao comportamento de memória. Além de estruturas como os Arrays, Listas e Matrizes
 Conteúdo: "'' | '' | ''"
 Status: true
 Início: 2025-07-16

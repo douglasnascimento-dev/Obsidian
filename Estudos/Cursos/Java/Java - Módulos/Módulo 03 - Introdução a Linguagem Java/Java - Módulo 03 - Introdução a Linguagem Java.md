@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresentado o conteúdo referente a iniciação na Linguagem Java, seu conceitos inicias e suas convenções
 Conteúdo: "'Introdução a Linguagem Java' | 'Java' | 'Convenção'"
 Status: true
 Início: 2025-03-10

@@ -14,32 +14,36 @@ Anotações:
   - "[[HTML 5 & CSS 3 - Módulo 02]]"
   - "[[HTML 5 & CSS 3 - Módulo 03]]"
 Status: false
+Módulos:
+  - "[[HTML 5 & CSS 3 - Módulo 01]]"
+  - "[[HTML 5 & CSS 3 - Módulo 02]]"
+  - "[[HTML 5 & CSS 3 - Módulo 03]]"
 ---
-
-
-> [!banner-icon] 🌵
 ![[HTML & CSS.png|banner]]
 
-##  💙**Atividades Pendentes** | HTML 8 & CSS 3
+## **Atividades Pendentes** | `$= dv.current().file.name`
 
 ```dataviewjs
-let avaliacoes = dv.pages('"Estudos/Cursos/HTML 5 & CSS 3/HTML 5 & CSS 3 - Módulos"')
+let pastaAtual = dv.current().file.folder;
+
+let avaliacoes = dv.pages(`"${pastaAtual}"`)
     .where(p => p.file.frontmatter.Tipo === "Atividade" && p.file.frontmatter.Status == false);
 
 if (avaliacoes.length > 0) {
     let tabelaDados = [];
     let dataAtual = new Date();
 
-    // Array com os nomes dos meses em português
     let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
     avaliacoes.forEach(avaliacao => {
+        // Verifica se existe data final, senão pula ou trata erro
+        if (!avaliacao.file.frontmatter.Final) return;
+
         let dataFinal = new Date(avaliacao.file.frontmatter.Final);
         let disciplina = avaliacao.file.frontmatter.Disciplina;
         let conteudo = avaliacao.file.frontmatter.Conteúdo;
         let diferencaDias = (dataFinal - dataAtual) / (1000 * 60 * 60 * 24);
 
-        // Formatar a data para "DD de Mês de YYYY"
         let dia = dataFinal.getDate();
         let mes = meses[dataFinal.getMonth()];
         let ano = dataFinal.getFullYear();
@@ -51,27 +55,55 @@ if (avaliacoes.length > 0) {
 
         tabelaDados.push([`${avaliacao.file.link} | ${conteudo}`, disciplina, dataFormatada, dataFinal]);
     });
-
-    // Ordena a tabela com base na data limite real (índice 3 do array)
+    
     tabelaDados.sort((a, b) => a[3] - b[3]);
 
-    // Remove a coluna extra de ordenação antes de exibir
     tabelaDados = tabelaDados.map(row => row.slice(0, 3));
 
     dv.table(["Atividade", "Disciplina", "Data Limite"], tabelaDados);
 } else {
-    dv.span("🔹*Não há atividades pendentes*");
+    dv.span(":LiCircleX: **Não há atividades pendentes**");
 }
-
-
 ```
 
-## 💙**Módulos** | HTML 5 & CSS 3
+---
 
-### [[HTML 5 & CSS 3 - Módulo 01]]
+![[Banner 01 - HTML & CSS.png]]
 
-Neste módulo será apresentado os conceitos iniciais de HTML 5 & CSS 3, além do surgimento da internet, e os requisitos mínimos para este cursos
+## Módulos | `$= dv.current().file.name`
+```dataviewjs
+const currentPath = dv.current().file.folder;
+const currentPage = dv.current().file.name;
 
-### [[HTML 5 & CSS 3 - Módulo 02]]
+const pages = dv.pages(`"${currentPath}"`)
+    .filter(p => 
+        p.Tipo === "Módulo" && 
+        p.file.name !== currentPage
+    );
 
-Durante esse módulo será apresentado um aprofundamento sobre design utilizando o CSS, como famílias e pesos de fontes, cores e layouts de sites
+const pagesArray = Array.from(pages);
+let html = `<div class="subject-grid">`;
+
+for (let page of pagesArray) {
+    const title = page.file.name; 
+    const link = page.file.path;
+    const imagePath = `Imagens/${currentPage}.png`;
+
+    html += `
+    <a href="${link}" class="internal-link subject-card">
+        <img src="${app.vault.adapter.getResourcePath(imagePath)}">
+        <div class="subject-title">${title}</div>
+    </a>`;
+}
+
+html += `</div>`;
+dv.el("div", html);
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file && pagesArray.length > 0) {
+    const links = pagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        fm["Módulos"] = links;
+    });
+}
+```

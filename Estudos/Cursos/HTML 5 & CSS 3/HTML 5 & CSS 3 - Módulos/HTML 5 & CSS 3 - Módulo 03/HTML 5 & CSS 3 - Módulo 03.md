@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Durante esse módulo será apresentado um aprofundamento sobre design utilizando o CSS, como fontes, cores e layouts de sites
 Conteúdo: "'Design' | 'Psicologia das Cores' | 'Fontes'"
 Status: true
 Início: 2024-08-24

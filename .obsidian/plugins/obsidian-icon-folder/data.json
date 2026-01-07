@@ -66,14 +66,6 @@
   "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas/ES41D - Fundamentos da Matemática": "LiTabs",
   "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas/ES41E - Comunicação Oral e Escrita": "LiTabs",
   "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas/ES41F - Inglês Instrumental": "LiTabs",
-  "Estudos/Cursos/Java/Java - Módulos": {
-    "iconName": "LiServer",
-    "iconColor": "#c2ad90"
-  },
-  "Estudos/Cursos/Java/Java.md": {
-    "iconName": "LiServer",
-    "iconColor": "#c1ad90"
-  },
   "Estudos/Cursos/JS & TS/JS & TS - Módulos": "LiServer",
   "Estudos/Cursos/JS & TS/JS & TS.md": "LiServer",
   "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente": "LiTabs",
@@ -642,5 +634,7 @@
   "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações": "LiBookMarked",
   "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md": "LiBookMarked",
   "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.01 - Primeiras Rotas.md": "LiNotebook",
-  "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md": "LiServer"
+  "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md": "LiServer",
+  "Estudos/Cursos/Java/Java - Módulos": "LiServer",
+  "Estudos/Cursos/Java/Java.md": "LiServer"
 }

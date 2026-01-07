@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresenta as Estruturas repetidas, como a estrutura 'for', 'while' e de estruturas menos utilizadas como 'do while'
 Conteúdo: "'Estruturas Repetitivas' | 'if' | 'else'"
 Status: true
 Início: 2025-03-10

@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresentado as funções construtoras, iniciadas para inicializar um tipo classe. Além da palavra reservada this + o conceito de Sobrecarga e Encapsulamento
 Conteúdo: "'new Class' | 'Class' | 'This'"
 Status: true
 Início: 2025-03-10

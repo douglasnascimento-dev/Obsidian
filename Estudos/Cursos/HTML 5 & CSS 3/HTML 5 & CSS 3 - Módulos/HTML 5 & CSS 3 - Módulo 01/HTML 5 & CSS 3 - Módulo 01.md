@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo será apresentado os conceitos iniciais de HTML 5 & CSS 3, além do surgimento da internet, e os requisitos mínimos para este cursos
 Conteúdo: "'Introdução' | 'Ferramentas' | 'Apresentação'"
 Status: true
 Início: 2024-08-01
