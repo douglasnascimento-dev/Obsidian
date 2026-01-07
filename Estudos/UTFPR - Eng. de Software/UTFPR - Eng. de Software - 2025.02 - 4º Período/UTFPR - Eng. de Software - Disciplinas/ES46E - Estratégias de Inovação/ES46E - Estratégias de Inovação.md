@@ -90,7 +90,7 @@ if (sortedPagesArray.length === 0) {
 | Tópicos em Inovação                                                     | [[ES46E - Entrega da Lista de Exercícios\|Entrega da Lista de Exercícios]] |  Sim  |     17.10.2025     |
 | Tópicos em Inovação                                                     |                                     X                                      |   X   |     24.10.2025     |
 | :LiXCircle: Sem necessidade de Presença - **SECOMP**                    |                                     X                                      |   X   |     31.10.2025     |
-| Apresentação dos Seminários                                             |                                     X                                      |  Sim  |     07.11.2025     |
+| Apresentação dos [[ES46E - Seminários\|Seminários]]                     |                                     X                                      |  Sim  |     07.11.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     14.11.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     28.11.2025     |
 | :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     05.12.2025     |

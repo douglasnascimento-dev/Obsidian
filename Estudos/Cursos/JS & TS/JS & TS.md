@@ -25,6 +25,8 @@ Anotações:
   - "[[JS & TS - 12 - Deploy da Aplicação]]"
   - "[[JS & TS - 13 - API Rest]]"
   - "[[JS & TS - 14 - React - Básico]]"
+  - "[[JS & TS - 15 - React - Redux Saga]]"
+  - "[[JS & TS - 16 - React Router Dom v6]]"
 ---
 
 ![[JSTS.png|banner]]

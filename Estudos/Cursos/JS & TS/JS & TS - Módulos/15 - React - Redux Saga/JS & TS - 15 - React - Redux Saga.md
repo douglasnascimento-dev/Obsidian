@@ -97,3 +97,21 @@ dv.table(
 ```
 # :LiBook: **Anotações** | React - Redux Saga
 
+[[JS & TS - 15.01 - Styled Components]]
+
+[[JS & TS - 15.02 - React Router Dom v5]]
+
+[[JS & TS - 15.03 - Rotas Personalizadas]]
+
+[[JS & TS - 15.04 - React Toastify]]
+
+[[JS & TS - 15.05 - Axios]]
+
+[[JS & TS - 15.06 - React Reducer]]
+
+[[JS & TS - 15.07 - Redux Saga]]
+
+[[JS & TS - 15.08 - Redux Persisit]]
+
+[[JS & TS - 15.09 - Estado em Componentes Funcionais]]
+

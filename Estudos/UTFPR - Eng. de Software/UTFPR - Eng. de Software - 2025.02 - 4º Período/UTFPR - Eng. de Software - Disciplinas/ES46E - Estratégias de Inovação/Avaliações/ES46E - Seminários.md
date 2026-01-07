@@ -1,7 +1,7 @@
 ---
 Tipo: Avaliação
 Referência:
-  - Lista de Exercícios
+  - Apresentação do Seminário
 Disciplina:
   - ES46E - Estratégias de Inovação
 Nota: "7.9"

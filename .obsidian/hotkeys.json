@@ -88,5 +88,13 @@
       ],
       "key": "E"
     }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
   ]
 }
