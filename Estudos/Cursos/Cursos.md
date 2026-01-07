@@ -5,7 +5,7 @@ cssclasses:
 Início: 2024-03-04
 Cursos:
   - "[[JS & TS]]"
-  - "[[HTML 5 & CSS 3]]"
+  - "[[HTML & CSS]]"
   - "[[Java]]"
 Tipo: Inicial
 ---

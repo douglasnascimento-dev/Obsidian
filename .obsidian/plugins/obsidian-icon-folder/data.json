@@ -178,7 +178,6 @@
   "Estudos/Cursos/JS & TS/JS & TS - Módulos/10 - JavaScript - Node, NPM, Express e MongoDB/Atividades/JS & TS - AC. 10.05.01 - Evoluindo no Express.md": "LiListTodo",
   "Estudos/Cursos/JS & TS/JS & TS - Módulos/10 - JavaScript - Node, NPM, Express e MongoDB/Atividades/JS & TS - AC. 10.07.01 - MongoDB e '.ejs'.md": "LiListTodo",
   "Estudos/Cursos/HTML 5 & CSS 3/HTML 5 & CSS 3 - Módulos": "LiServer",
-  "Estudos/Cursos/HTML 5 & CSS 3/HTML 5 & CSS 3.md": "LiServer",
   "Estudos/Cursos/HTML 5 & CSS 3/HTML 5 & CSS 3 - Módulos/HTML 5 & CSS 3 - Módulo 01": "LiTabs",
   "Estudos/Cursos/HTML 5 & CSS 3/HTML 5 & CSS 3 - Módulos/HTML 5 & CSS 3 - Módulo 02": "LiTabs",
   "Estudos/Cursos/HTML 5 & CSS 3/HTML 5 & CSS 3 - Módulos/HTML 5 & CSS 3 - Módulo 03": "LiTabs",
@@ -650,5 +649,6 @@
   "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6": "LiTabs",
   "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações": "LiBookMarked",
   "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md": "LiBookMarked",
-  "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.01 - Primeiras Rotas.md": "LiNotebook"
+  "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.01 - Primeiras Rotas.md": "LiNotebook",
+  "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md": "LiServer"
 }

@@ -19,6 +19,7 @@ Status: false
 
 > [!banner-icon] 🌵
 ![[HTML & CSS.png|banner]]
+
 ##  💙**Atividades Pendentes** | HTML 8 & CSS 3
 
 ```dataviewjs

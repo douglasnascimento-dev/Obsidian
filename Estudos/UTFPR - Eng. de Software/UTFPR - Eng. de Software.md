@@ -67,34 +67,31 @@ if (avaliacoes.length > 0) {
 ## **Períodos** | Eng. de Software
 
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+```dataviewjs
+const pages = dv.pages(`"${dv.current().file.folder}"`)
+    .filter(p => p.file.name.includes("º Período") && p.file.name !== dv.current().file.name);
 
-    <a href="UTFPR - Eng. de Software - 2024.01 - 1º Período" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="01 Período.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">1º Período</div>
-    </a>
+let html = `<div class="subject-grid">`;
 
-    <a href="UTFPR - Eng. de Software - 2024.02 - 2º Período" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="02 Período.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">2º Período</div>
-    </a>
+for (const page of pages.sort(p => p.file.name)) {
+    const match = page.file.name.match(/(\d+)º Período$/);
+    
+    if (match) {
+        const num = match[1].padStart(2, '0');
+        const bannerFile = `${num} Período.png`;
+        const label = `${match[1]}º Período`;
 
-    <a href="UTFPR - Eng. de Software - 2025.01 - 3º Período" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="03 Período.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">3º Período</div>
-    </a>
+        html += `
+        <a href="${page.file.path}" class="internal-link subject-card">
+            <img src="${app.vault.adapter.getResourcePath("Imagens/" + bannerFile)}">
+            <div class="subject-title">${label}</div>
+        </a>`;
+    }
+}
 
-    <a href="UTFPR - Eng. de Software - 2025.02 - 4º Período" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="04 Período.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">4º Período</div>
-    </a>
-
-    <a href="UTFPR - Eng. de Software - 2026.01 - 5º Período" class="internal-link" style="text-align: center; text-decoration: none; color: inherit;">
-        <img src="05 Período.png" style="width: 100%; border-radius: 10px; object-fit: cover;">
-        <div style="margin-top: 5px; font-weight: bold;">5º Período</div>
-    </a>
-
-</div>
+html += `</div>`;
+dv.el("div", html);
+```
 
 --- 
 
