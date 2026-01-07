@@ -11,42 +11,13 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
-            }
-          },
-          {
-            "id": "5e47f7d686e7ff53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente/JS & TS - 01 - Configurando o Ambiente.md",
-                "mode": "source",
-                "source": false
-              },
               "icon": "lucide-file",
-              "title": "JS & TS - 01 - Configurando o Ambiente"
-            }
-          },
-          {
-            "id": "80b41517b3333909",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC48B - Programação Web Back-end/EC48B - Programação Web Back-end.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EC48B - Programação Web Back-end"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,25 +86,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2aba7fc4d36303a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente/JS & TS - 01 - Configurando o Ambiente.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Links inversos para JS & TS - 01 - Configurando o Ambiente"
-            }
-          },
-          {
             "id": "d3ca989cd46177a4",
             "type": "leaf",
             "state": {
@@ -186,6 +138,25 @@
               "icon": "lucide-list",
               "title": "Sumário de JS & TS - 01 - Configurando o Ambiente"
             }
+          },
+          {
+            "id": "fa9a66ae4beb320e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente/JS & TS - 01 - Configurando o Ambiente.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para JS & TS - 01 - Configurando o Ambiente"
+            }
           }
         ]
       }
@@ -204,16 +175,15 @@
       "command-palette:Abrir paleta de comandos": false,
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
-      "obsidian-kanban:Criar um novo quadro": false,
       "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5e47f7d686e7ff53",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente/JS & TS - 01 - Configurando o Ambiente.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC48B - Programação Web Back-end/EC48B - Programação Web Back-end.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente/JS & TS - 01 - Configurando o Ambiente.md",
     "Estudos/Cursos/JS & TS/JS & TS.md",
     "Imagens/Banner 02 - JS & TS.png",
     "Imagens/Banner 01 - JS & TS.png",
