@@ -30,7 +30,7 @@ Anotações:
 ---
 ![[JS & TS.png|banner]]
 
-## **Atividades Pendentes** | 2025.02
+## **Atividades Pendentes** | `$= dv.current().file.name`
 
 ```dataviewjs
 let pastaAtual = dv.current().file.folder;
@@ -76,8 +76,8 @@ if (avaliacoes.length > 0) {
 ```
 
 ---
-
-
+`` `$= "![[Banner 01 - " + dv.current().file.name + ".png|banner]]"` ``
+## Módulos | `$= dv.current().file.name`
 ```dataviewjs
 
 const currentPath = dv.current().file.folder;
