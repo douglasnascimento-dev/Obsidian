@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Tabela
+    filters:
+      and:
+        - Tipo == "Módulo"
+    order:
+      - file.name
+      - Tipo
+      - Status
+      - Início
+      - Fim
+      - Descrição

@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Nesse módulo será apresentado o conceito de execução assíncrona pela machine do JS. Utilizando diversas ferramentas, desde das inicias as mais modernas, para a execução assíncrona do código
-Conteúdo: "'Promisses' | 'FetchAPI' | 'XMLHTTPRequest'"
 Status: true
 Início: 2025-02-25
 cssclasses:

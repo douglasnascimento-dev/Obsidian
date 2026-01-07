@@ -3,7 +3,6 @@ Tipo: Atividade
 Início: 2025-02-08
 Final: 2025-02-08
 Conclusão: 2025-02-10
-Conteúdo: " JS & TS - JS POO"
 Status: true
 Disciplina:
   - JS & TS

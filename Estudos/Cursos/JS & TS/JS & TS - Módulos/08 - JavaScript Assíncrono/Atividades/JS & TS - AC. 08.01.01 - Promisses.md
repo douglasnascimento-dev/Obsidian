@@ -3,7 +3,6 @@ Tipo: Atividade
 Início: 2025-02-26
 Final: 2025-02-26
 Conclusão: 2025-02-26
-Conteúdo: JS & TS - JS Assíncrono
 Status: true
 Disciplina:
   - JS & TS

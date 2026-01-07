@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo é apresentado diversos módulos NPM, como o Express para criação de servidores JS e MongoDB para a criação e integração de Banco de Dados
-Conteúdo: "'Express' | 'MongoDB' | 'FyleSystem'"
 Status: true
 Início: 2025-03-01
 cssclasses:

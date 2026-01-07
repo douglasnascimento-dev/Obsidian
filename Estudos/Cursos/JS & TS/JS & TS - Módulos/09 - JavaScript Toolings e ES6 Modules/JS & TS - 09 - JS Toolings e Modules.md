@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Nesse módulo será apresentado ferramentas que podem auxiliar a transposição do JS moderno para versões anteriores suportadas por navegadores mais antigos, também apresenta o conceito de módulos da vesão ES6
-Conteúdo: "'WebPack' | 'NPM' | 'ES6 Modules'"
 Status: true
 Início: 2025-03-01
 cssclasses:

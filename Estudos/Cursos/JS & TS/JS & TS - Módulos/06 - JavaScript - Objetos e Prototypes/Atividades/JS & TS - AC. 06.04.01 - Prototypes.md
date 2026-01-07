@@ -3,7 +3,6 @@ Tipo: Atividade
 Início: 2025-01-14
 Final: 2025-01-14
 Conclusão: 2025-01-14
-Conteúdo: Objetos e Prototypes
 Status: true
 Disciplina:
   - JS & TS - Módulo 06

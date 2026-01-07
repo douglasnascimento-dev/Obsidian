@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Nesse módulo será aprofundado o conceito de funções construtoras e funções fábrica, além de apresentar o conceito de prototype. Esse módulo pretende criar uma sólida base para o conteúdo de POO no módulo seguinte
-Conteúdo: "'Prototype' | 'Constructor Function' | 'Factory Function'"
 Status: true
 Início: 2024-12-02
 cssclasses:

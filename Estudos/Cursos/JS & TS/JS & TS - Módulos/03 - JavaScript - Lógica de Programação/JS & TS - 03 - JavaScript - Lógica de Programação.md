@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Durante o andamento desse módulo será apresentado funções e métodos para auxiliarem na utilização da lógica de programação em JS. De forma a permitir a realização de programas mais complexos e menos lineares
-Conteúdo: "'If' | 'DOM' | 'For'"
 Status: true
 Início: 2024-08-25
 cssclasses:

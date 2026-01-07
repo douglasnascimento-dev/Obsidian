@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Nesse módulo será aprofundado o estudo sobre arrays, seus métodos, como o .map(), .filter() e .reduce(), além da utilização combinada desse metódos e conversões
-Conteúdo: "'Arrays' | 'Filter' | 'Map' | 'Reduce'"
 Status: true
 Início: 2024-11-21
 cssclasses:

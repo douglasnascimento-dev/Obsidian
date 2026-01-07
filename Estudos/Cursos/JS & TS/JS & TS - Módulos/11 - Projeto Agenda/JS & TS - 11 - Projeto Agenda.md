@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo foi realizado o projeto agenda, utilizando métodos de CRUD em um banco de dados não relacional, o MongoDB e NodeJS
-Conteúdo: "'NodeJS' | 'MongoDB' | 'CRUD'"
 Status: true
 Início: 2025-03-01
 cssclasses:

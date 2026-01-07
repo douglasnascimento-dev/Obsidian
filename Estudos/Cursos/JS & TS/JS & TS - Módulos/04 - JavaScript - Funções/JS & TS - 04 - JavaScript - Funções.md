@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Durante esse módulo será aprofundado o conceito de função em JavaScript, os seus tipos e respectivos modos de uso e de declaração
-Conteúdo: "'Function' | 'Return' | 'Yield'"
 Status: true
 Início: 2024-09-25
 cssclasses:

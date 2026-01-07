@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Neste módulo é apresento os passos a passos para a inserção do projeto em um servidor real utilizando o Google Cloud Platform através de uma Máquina Virtual
-Conteúdo: "'Express' | 'MongoDB' | 'FyleSystem'"
 Status: true
 Início: 2025-05-24
 cssclasses:

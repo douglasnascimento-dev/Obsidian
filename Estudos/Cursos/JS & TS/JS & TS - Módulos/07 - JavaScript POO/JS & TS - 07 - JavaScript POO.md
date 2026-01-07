@@ -1,7 +1,5 @@
 ---
 Tipo: Módulo
-Descrição: Nesse módulo será apresentado o conceito de programação orientada a objetos em JS, utilizando como base o conhecimento adquirido durante o módulo de funções
-Conteúdo: "'Class' | 'Constructor' | 'Super'"
 Status: true
 Início: 2025-02-01
 cssclasses:

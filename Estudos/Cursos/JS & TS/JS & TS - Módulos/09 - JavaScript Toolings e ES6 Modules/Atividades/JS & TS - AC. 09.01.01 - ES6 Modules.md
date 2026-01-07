@@ -3,7 +3,6 @@ Tipo: Atividade
 Início: 2025-03-13
 Final: 2025-03-13
 Conclusão: 2025-03-15
-Conteúdo: JS & TS - JS Toolings e ES6 Modules
 Status: true
 Disciplina:
   - JS & TS

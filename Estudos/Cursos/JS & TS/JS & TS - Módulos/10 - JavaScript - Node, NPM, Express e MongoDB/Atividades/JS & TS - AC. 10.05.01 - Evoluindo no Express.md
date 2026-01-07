@@ -3,7 +3,6 @@ Tipo: Atividade
 Início: 2025-03-28
 Final: 2025-03-28
 Conclusão: 2025-03-29
-Conteúdo: " JS & TS - Node, Npm, Express e MongoDB"
 Status: true
 Disciplina:
   - JS & TS

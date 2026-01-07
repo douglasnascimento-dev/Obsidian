@@ -1,6 +1,5 @@
 ---
 Tipo: Módulo
-Conteúdo: "'Introdução' | 'Ferramentas' | 'Apresentação'"
 Status: true
 Início: 2024-07-15
 cssclasses:

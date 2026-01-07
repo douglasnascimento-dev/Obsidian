@@ -3,7 +3,6 @@ Tipo: Atividade
 Início: 2025-01-22
 Final: 2025-01-23
 Conclusão: 2025-01-23
-Conteúdo: JS & TS - Objetos em JS
 Status: true
 Disciplina:
   - JS & TS
