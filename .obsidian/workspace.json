@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.06 - Enviando e Recebendo o Estado.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente/JS & TS - 01 - Configurando o Ambiente.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS & TS - 16.06 - Enviando e Recebendo o Estado"
+              "title": "JS & TS - 01 - Configurando o Ambiente"
             }
           }
         ],
@@ -136,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
-    "collapsed": true
+    "width": 306.5
   },
   "right": {
     "id": "814f9252e172d41a",
@@ -192,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.06 - Enviando e Recebendo o Estado.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/01 - Configurando o Ambiente/JS & TS - 01 - Configurando o Ambiente.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JS & TS - 16.06 - Enviando e Recebendo o Estado"
+              "title": "Sumário de JS & TS - 01 - Configurando o Ambiente"
             }
           },
           {
@@ -244,13 +243,13 @@
   },
   "active": "749abe7a9473cbc4",
   "lastOpenFiles": [
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.05 - Rotas Aninhadas.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
+    "Estudos/Cursos/JS & TS/JS & TS.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.06 - Enviando e Recebendo o Estado.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.05 - Rotas Aninhadas.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.03 - Parâmetros.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.02 - Link vs A.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.04 - Redirecionando e 404.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
-    "Estudos/Cursos/JS & TS/JS & TS.md",
     "Estudos/Estudos.md",
     "Estudos/Cursos/Sem título.base",
     "Sem título.md",

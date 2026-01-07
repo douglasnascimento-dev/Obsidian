@@ -16,5 +16,26 @@ cssclasses:
 
 É possível utilizar Componentes do React Router Dom para Enviar e Receber o Estado. Utilizando o '<Link />' e o 'navigate()'
 
-## 🌿'navigate()'
+## 🌿Enviado com o 'navigate()'
 
+```tsx
+navigate("/", {
+	state: 'O Estado pode ser enviado aqui.'
+})
+```
+
+## 🌿Enviando com o '<Link />'
+
+```tsx
+<Link to="/" state={"O Estado também pode ser enviado aqui"};
+```
+
+## 🌿Recebendo o Estado
+
+```tsx
+import { useLocation } from 'react-router-dom';
+
+export const Home = () => {
+	const { state } = useLocation();
+}
+```
