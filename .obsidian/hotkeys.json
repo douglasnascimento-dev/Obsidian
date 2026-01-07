@@ -79,5 +79,14 @@
       ],
       "key": "C"
     }
+  ],
+  "templater-obsidian:insert-templater": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
   ]
 }

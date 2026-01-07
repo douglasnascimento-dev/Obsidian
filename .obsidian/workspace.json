@@ -31,9 +31,36 @@
     "type": "split",
     "children": [
       {
-        "id": "79a883c4dec855f8",
+        "id": "d02bd065ab952f0e",
         "type": "tabs",
         "children": [
+          {
+            "id": "abae0393842ad192",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "4f47f98e6a242449",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
           {
             "id": "ef8c1b1935a20e67",
             "type": "leaf",
@@ -46,39 +73,14 @@
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
             }
-          },
-          {
-            "id": "4f47f98e6a242449",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "svg",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Procurar"
-            }
-          },
-          {
-            "id": "abae0393842ad192",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Marcadores"
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 362.5,
+    "collapsed": true
   },
   "right": {
     "id": "814f9252e172d41a",
@@ -197,7 +199,9 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
+    "Estudos/Estudos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações/JS & TS - 16.01 -.md",
+    "Sem título.md",
     "Estudos/Cursos/JS & TS/JS & TS.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/15 - React - Redux Saga/Anotações/JS & TS - 15.09 - Estado em Componentes Funcionais.md",
@@ -206,7 +210,6 @@
     "Imagens/HTMLCSS.png",
     "Imagens/Java.png",
     "Imagens/JSTS.png",
-    "Estudos/Estudos.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/EC47D - Gerenciamento de Projeto de Software.md",
@@ -230,7 +233,6 @@
     "Estudos/Cursos/Cursos.md",
     "Estudos/Cursos/HTML 5 & CSS 3/HTML 5 & CSS 3.md",
     "Estudos/Cursos/HTML 5 & CSS 3/HTML 5 & CSS 3 - Módulos/HTML 5 & CSS 3 - Módulo 02/HTML 5 & CSS 3 - Módulo 02.md",
-    "Estudos/Cursos/HTML 5 & CSS 3/HTML 5 & CSS 3 - Módulos/HTML 5 & CSS 3 - Módulo 02/Anotações/02.01 - Pseudoelementos e Pseudoclasses.md",
     "Imagens/Banner 02 - Eng..png",
     "Imagens/Banner 01 - Eng..png",
     "Imagens/Estratégias de Inovação.png",
