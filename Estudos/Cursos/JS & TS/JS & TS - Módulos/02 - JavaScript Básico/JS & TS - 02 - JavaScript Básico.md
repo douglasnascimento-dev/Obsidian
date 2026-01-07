@@ -1,7 +1,6 @@
 ---
 Tipo: Módulo
 Descrição: Neste módulo será apresentando os conteúdos inicias do curso, focado nos primeiros passos em JS para iniciantes e apresentando as estruturas fundamentais da linguagem
-Conteúdo: "'Variáveis' | 'Arrays' | 'Objetos'"
 Status: true
 Início: 2024-07-17
 cssclasses:

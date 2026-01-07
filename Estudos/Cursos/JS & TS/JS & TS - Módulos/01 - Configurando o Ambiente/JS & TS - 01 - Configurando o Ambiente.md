@@ -1,6 +1,8 @@
 ---
-Anotações:
-Atividades:
+Tipo: Módulo
+Conteúdo: "'Introdução' | 'Ferramentas' | 'Apresentação'"
+Status: true
+Início: 2024-07-15
 cssclasses:
   - yellowCab
   - wideTable
@@ -9,9 +11,8 @@ cssclasses:
   - banner-fade
   - banner
 Fim: 2024-07-17
-Início: 2024-07-15
-Status: true
-Tipo: Módulo
+Anotações:
+Atividades:
 ---
 
 ![[JS & TS.png|banner]]
