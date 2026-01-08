@@ -5,7 +5,7 @@ cssclasses:
 Tipo: Disciplina
 Período: "2024.01"
 Ministrado: Adriane Carla Anastácio
-Nota Final: 9.8
+Nota Final: "9.8"
 Início: 2024-03-04
 Fim: 2025-07-01
 Avaliações:

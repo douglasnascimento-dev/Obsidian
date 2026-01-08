@@ -41,7 +41,7 @@
     },
     "remove-yaml-keys": {
       "enabled": true,
-      "yaml-keys-to-remove": "Descrição:\n\n"
+      "yaml-keys-to-remove": "Início: \nFim:\n"
     },
     "sort-yaml-array-values": {
       "enabled": false,
@@ -52,9 +52,9 @@
       "sort-order": "Ascending Alphabetical"
     },
     "yaml-key-sort": {
-      "enabled": true,
+      "enabled": false,
       "yaml-key-priority-sort-order": "Tipo Status Início Fim Atividades Anotações",
-      "priority-keys-at-start-of-yaml": true,
+      "priority-keys-at-start-of-yaml": false,
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {

@@ -14,7 +14,7 @@ Coeficiente de Rendimento: "0.0000"
 Carga Horária: 300h
 ---
 
-![[02 Período.png|banner]]
+![[01 Período.png|banner]]
 > [!banner-icon] `$= dv.current().file.name.split(" - ")[2]`
 ## **Atividades Pendentes** | `$= dv.current().file.name.split(" - ")[2]`
 
@@ -118,10 +118,10 @@ flexGrow=2
 ===
 |     | **Segunda** | **Terça** | **Quarta** | **Quinta** | **Sexta** |
 | --- | :-----: | :---: | :----: | :----: | :---: |
-| **N2**  |  ES42E | ES42E | ES42B | ES42G | ES42F |
-| **N3**  |  ES42E | ES42E | ES42B | ES42G | ES42F |
-| **N4**  |  ES42G | ES44F | ES42D | ES42B | ES42D |
-| **N5**  |  ES42G | ES44F | ES42D | ES42B | ES42D |
+| **N2**  |  ES41B | ES41A | ES41F | ES41E | ES41D |
+| **N3**  |  ES41B | ES41A | ES41F | ES41E | ES41D |
+| **N4**  |  ES41A | ES41E | ES41D | ES41D | ES41C |
+| **N5**  |  ES41A | ES41E | ES41D | ES41D | ES41C |
 ```
 
 ```col-md
