@@ -19,8 +19,8 @@ Módulos:
   - "[[HTML 5 & CSS 3 - Módulo 02]]"
   - "[[HTML 5 & CSS 3 - Módulo 03]]"
 ---
-![[HTML & CSS.png|banner]]
 
+![[HTML & CSS.png|banner]]
 ## **Atividades Pendentes** | `$= dv.current().file.name`
 
 ```dataviewjs
@@ -62,7 +62,7 @@ if (avaliacoes.length > 0) {
 
     dv.table(["Atividade", "Disciplina", "Data Limite"], tabelaDados);
 } else {
-    dv.span(":LiCircleX: **Não há atividades pendentes**");
+    dv.span(":LiBadgeX: **Não há atividades pendentes**");
 }
 ```
 

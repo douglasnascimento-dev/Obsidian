@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS.md",
+                "file": "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS & TS"
+              "title": "HTML & CSS"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "HTML & CSS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,14 +198,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "33e558c56edefb9a",
+  "active": "f1738195defcb0d2",
   "lastOpenFiles": [
+    "Estudos/Cursos/JS & TS/JS & TS.md",
+    "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md",
     "Imagens/Banner 02 - HTML & CSS.png",
     "Imagens/Banner 01 - HTML & CSS.png",
     "Imagens/Banner 02 - Java.png",
     "Imagens/Banner 01 - Java.png",
     "Estudos/Cursos/Java/Java.md",
-    "Estudos/Cursos/JS & TS/JS & TS.md",
     "Estudos/Cursos/Cursos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/15 - React - Redux Saga/JS & TS - 15 - React - Redux Saga.md",
@@ -241,7 +241,6 @@
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6",
     "Imagens/HTML & CSS.png",
     "Imagens/Java.png",
-    "Imagens/JS & TS.png",
     "Novo(a) Documento de Texto.txt",
     "Sem título.base",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES4",
