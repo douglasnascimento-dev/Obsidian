@@ -67,7 +67,7 @@ if (avaliacoes.length > 0) {
 ```
 
 --- 
-![[Banner 01 - 03.png]]
+![[Banner 01 - 04.png]]
 
 ## Disciplinas | 2025.02 
 
@@ -129,13 +129,13 @@ flexGrow=2
 ```
 
 ```col-md
-![[Banner 03 - 03.png]]
+![[Banner 03 - 04.png]]
 ```
 ````
 
 --- 
 
-![[Banner 02 - 03.png]]
+![[Banner 02 - 04.png]]
 
 ## **Coeficiente de Rendimento** | 2025.02
 ```dataviewjs
