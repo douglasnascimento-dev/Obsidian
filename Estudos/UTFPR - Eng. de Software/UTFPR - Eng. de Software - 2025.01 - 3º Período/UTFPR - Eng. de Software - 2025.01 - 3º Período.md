@@ -6,20 +6,20 @@ Tipo: Período
 Início: 2025-08-12
 Disciplinas:
   - "[[EC47C - Programação Web Front-end]]"
-  - "[[ES43A - Estrutura de Dados 01]]"
   - "[[EC47B - Redes de Computadores]]"
-  - "[[ES43B - Programação Orientada a Objetos 01]]"
   - "[[ES43C - Requisitos de Software]]"
   - "[[ES45C - Qualidade de Software]]"
   - "[[PBE - Probabilidade e Estatística]]"
-Coeficiente de Rendimento: "0.8807"
+  - "[[ES43A - Estrutura de Dados - 01]]"
+  - "[[ES43B - Programação Orientada a Objetos - 01]]"
+Coeficiente de Rendimento: "0.9412"
 Carga Horária: 420h
 Nota Final: "7.7"
 ---
 
 
-![[04 Período.png|banner]]
-> [!banner-icon] 2025.02
+![[03 Período.png|banner]]
+> [!banner-icon] 2025.01
 > 
 ## **Atividades Pendentes** | 2025.02
 
@@ -67,6 +67,7 @@ if (avaliacoes.length > 0) {
 ```
 
 --- 
+
 ![[Banner 01 - 03.png]]
 
 ## Disciplinas | 2025.02 
@@ -139,77 +140,63 @@ flexGrow=2
 
 ## **Coeficiente de Rendimento** | 2025.02
 ```dataviewjs
-let avaliacoes = dv.pages('"Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas"')
-    .where(p => p.file.frontmatter?.Tipo === "Avaliação");
+// Configuração automática do caminho
+const currentFolder = `"${dv.current().file.folder}"`;
+const pages = dv.pages(currentFolder);
 
-let disciplinasDados = dv.pages('"Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas"')
-    .where(p => p.file.frontmatter?.Tipo === "Disciplina");
+// Separação em memória
+const disciplinas = pages.filter(p => p.Tipo === "Disciplina").sort(p => p.file.name);
+const avaliacoes = pages.filter(p => p.Tipo === "Avaliação");
 
-let disciplinasParaExibir = {};
-let mediaFinalPorDisciplina = {};
-let cargaHorariaPorDisciplina = {};
 let mediaTotalPonderada = 0;
 let cargaHorariaTotal = 0;
 
-disciplinasDados.forEach(disciplina => {
-    let nome = disciplina.file.name;
-    let cargaHoraria = disciplina.file.frontmatter["Carga Horária"] || "0h";
+for (let disciplina of disciplinas) {
+    const nomeDisciplina = disciplina.file.name;
     
-    mediaFinalPorDisciplina[nome] = disciplina.file.frontmatter["Nota Final"] ?? "0.0";
-    cargaHorariaPorDisciplina[nome] = parseInt(cargaHoraria.replace("h", "")) || 0;
-});
+    // Tratamento de dados da Disciplina
+    const rawCH = disciplina["Carga Horária"] || "0h";
+    const ch = parseInt(String(rawCH).replace(/\D/g, "")) || 0; 
+    const notaFinal = parseFloat(disciplina["Nota Final"]) || 0;
 
-avaliacoes.forEach(avaliacao => {
-    let disciplina = avaliacao.file.frontmatter.Disciplina || "Sem disciplina";
-    let nota = avaliacao.file.frontmatter.Nota ?? "Sem nota";
-    let nomeAvaliacao = avaliacao.file.name;
+    // Filtra e converte imediatamente para Array nativo
+    const evalsDaMateria = avaliacoes
+        .filter(a => a.Disciplina && String(a.Disciplina).includes(nomeDisciplina))
+        .sort(a => a.file.name);
 
-    if (!disciplinasParaExibir[disciplina]) {
-        disciplinasParaExibir[disciplina] = [];
+    // CORREÇÃO AQUI: Convertendo para array nativo antes de manipular
+    const rows = Array.from(evalsDaMateria).map(a => [a.file.link, a.Nota ?? "-"]);
+    
+    // Agora o .push funciona porque 'rows' é um Array legítimo
+    rows.push(["**Média Final**", `**${notaFinal.toFixed(1)}**`]);
+
+    dv.header(3, nomeDisciplina);
+    if (rows.length > 1) { 
+        dv.table(["Avaliação", "Nota"], rows);
+    } else {
+        dv.paragraph("*Sem avaliações registradas.*");
     }
-    
-    disciplinasParaExibir[disciplina].push([avaliacao.file.link, nota, nomeAvaliacao]);
-});
 
-let disciplinasOrdenadas = Object.keys(disciplinasParaExibir).sort();
-
-for (let disciplina of disciplinasOrdenadas) {
-    disciplinasParaExibir[disciplina].sort((a, b) => a[2].localeCompare(b[2]));
-
-    let avaliacoesOrdenadas = disciplinasParaExibir[disciplina].map(a => [a[0], a[1]]);
-    
-    let mediaFinal = mediaFinalPorDisciplina[disciplina] || "0.0";
-    
-    avaliacoesOrdenadas.push([`**Média em ${disciplina}**`, `**${mediaFinal}**`]);
-    
-    dv.header(3, ` ${disciplina}`);
-    dv.table(["Avaliação", "Nota"], avaliacoesOrdenadas);
-
-    let mediaNumerica = parseFloat(mediaFinal);
-    if (!isNaN(mediaNumerica) && cargaHorariaPorDisciplina[disciplina] > 0) {
-        let ch = cargaHorariaPorDisciplina[disciplina];
-        mediaTotalPonderada += (mediaNumerica * ch);
+    if (ch > 0) {
+        mediaTotalPonderada += (notaFinal * ch);
         cargaHorariaTotal += ch;
     }
 }
 
-let rawCR = cargaHorariaTotal > 0 ? ((mediaTotalPonderada / cargaHorariaTotal) / 10) : 0;
+const rawCR = cargaHorariaTotal > 0 ? ((mediaTotalPonderada / cargaHorariaTotal) / 10) : 0;
+const crFormatado = rawCR.toFixed(4);
 
-let crExibicao = rawCR.toFixed(4); 
-let crSalvar = rawCR.toFixed(4);
-
-dv.paragraph(`### :LiChartBarBig: Coeficiente de Rendimento | Período (CRp): **${crExibicao}**`);
+dv.paragraph(`### :LiChartBarBig: Coeficiente de Rendimento | Período (CRp): **${crFormatado}**`);
 
 const file = app.vault.getAbstractFileByPath(dv.current().file.path);
-
 if (file) {
     setTimeout(() => {
         app.fileManager.processFrontMatter(file, fm => {
-            if (String(fm["Coeficiente de Rendimento"]) !== crSalvar) {
-                fm["Coeficiente de Rendimento"] = crSalvar;
-                console.log("CR atualizado para: " + crSalvar);
+            if (String(fm["Coeficiente de Rendimento"]) !== crFormatado) {
+                fm["Coeficiente de Rendimento"] = crFormatado;
+                console.log(`CR atualizado: ${crFormatado}`);
             }
         });
-    }, 500)
+    }, 500);
 }
 ```

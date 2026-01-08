@@ -7,8 +7,8 @@ Início: 2025-03-25
 Disciplinas:
   - "[[EC47B - Redes de Computadores]]"
   - "[[EC47C - Programação Web Front-end]]"
-  - "[[ES43A - Estrutura de Dados 01]]"
-  - "[[ES43B - Programação Orientada a Objetos 01]]"
+  - "[[ES43A - Estrutura de Dados - 01]]"
+  - "[[ES43B - Programação Orientada a Objetos - 01]]"
   - "[[ES43C - Requisitos de Software]]"
   - "[[ES45C - Qualidade de Software]]"
   - "[[PBE - Probabilidade e Estatística]]"
@@ -77,10 +77,10 @@ if (avaliacoes.length > 0) {
 | M5  |                                           |                                                       | [[PBE - Probabilidade e Estatística\|PBE]] |                                                       | [[PBE - Probabilidade e Estatística\|PBE]] |
 | M6  |                    ...                    |                          ...                          |                    ...                     |                          ...                          |                    ...                     |
 | N1  |                    ...                    |                          ...                          |                    ...                     |                          ...                          |                    ...                     |
-| N2  | [[ES43A - Estrutura de Dados 01\|ES43A]]  | [[ES43B - Programação Orientada a Objetos 01\|ES43B]] |                                            | [[ES43B - Programação Orientada a Objetos 01\|ES43B]] |  [[ES45C - Qualidade de Software\|ES45C]]  |
-| N3  | [[ES43A - Estrutura de Dados 01\|ES43A]]  | [[ES43B - Programação Orientada a Objetos 01\|ES43B]] |                                            | [[ES43B - Programação Orientada a Objetos 01\|ES43B]] |  [[ES45C - Qualidade de Software\|ES45C]]  |
-| N4  | [[ES43C - Requisitos de Software\|ES43C]] |       [[ES43A - Estrutura de Dados 01\|ES43A]]        |                                            |       [[ES45C - Qualidade de Software\|ES45C]]        | [[ES43C - Requisitos de Software\|ES43C]]  |
-| N5  | [[ES43C - Requisitos de Software\|ES43C]] |       [[ES43A - Estrutura de Dados 01\|ES43A]]        |                                            |       [[ES45C - Qualidade de Software\|ES45C]]        | [[ES43C - Requisitos de Software\|ES43C]]  |
+| N2  | [[ES43A - Estrutura de Dados - 01\|ES43A]]  | [[ES43B - Programação Orientada a Objetos - 01\|ES43B]] |                                            | [[ES43B - Programação Orientada a Objetos - 01\|ES43B]] |  [[ES45C - Qualidade de Software\|ES45C]]  |
+| N3  | [[ES43A - Estrutura de Dados - 01\|ES43A]]  | [[ES43B - Programação Orientada a Objetos - 01\|ES43B]] |                                            | [[ES43B - Programação Orientada a Objetos - 01\|ES43B]] |  [[ES45C - Qualidade de Software\|ES45C]]  |
+| N4  | [[ES43C - Requisitos de Software\|ES43C]] |       [[ES43A - Estrutura de Dados - 01\|ES43A]]        |                                            |       [[ES45C - Qualidade de Software\|ES45C]]        | [[ES43C - Requisitos de Software\|ES43C]]  |
+| N5  | [[ES43C - Requisitos de Software\|ES43C]] |       [[ES43A - Estrutura de Dados - 01\|ES43A]]        |                                            |       [[ES45C - Qualidade de Software\|ES45C]]        | [[ES43C - Requisitos de Software\|ES43C]]  |
 # :LiAreaChart: **Coeficiente de Rendimento** | 2025.01
 ```dataviewjs
 let avaliacoes = dv.pages('"Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas"')
@@ -178,7 +178,7 @@ Largest Column: standard
 Programação Web Front-end, aborda os conceitos básicos de programação web. Na disciplina, os estudantes aprendem a implementar páginas simples que utilizam linguagens de marcação com HTML e CSS, e páginas estruturadas com JavaScript.
 
 --- end-multi-column
-### [[ES43A - Estrutura de Dados 01]]
+### [[ES43A - Estrutura de Dados - 01]]
 --- start-multi-column: ID_n49d
 ```column-settings
 Number of Columns: 2
@@ -192,7 +192,7 @@ Largest Column: standard
 Estrutura de Dados, aborda os conceitos básicos de estrutura de dados. Na disciplina, os estudantes aprendem a implementar algoritmos que utilizam estruturas lineares, recursividade e árvores binárias.
 
 --- end-multi-column
-### [[ES43B - Programação Orientada a Objetos 01]]
+### [[ES43B - Programação Orientada a Objetos - 01]]
 --- start-multi-column: ID_mhlu
 ```column-settings
 Number of Columns: 2
