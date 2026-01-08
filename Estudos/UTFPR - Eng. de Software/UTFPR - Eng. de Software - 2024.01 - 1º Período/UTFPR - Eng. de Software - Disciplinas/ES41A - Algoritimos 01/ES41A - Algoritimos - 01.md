@@ -26,8 +26,9 @@ Atividades:
   - "[[ES41A - Lista de Ex. 23]]"
   - "[[ES41A - Lista de Ex. 24]]"
   - "[[ES41A - Lista de Ex. 25]]"
+Coeficiente de Rendimento: "0.0000"
 ---
-![[Algoritimos 01.png|banner]]
+![[Algoritimos - 01.png|banner]]
 > [!banner-icon] 🌳
 
 

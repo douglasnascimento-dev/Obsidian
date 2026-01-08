@@ -5,5 +5,5 @@ Peso: 1
 Referência:
   - Projeto Final em C
 Disciplina:
-  - ES42B - Algoritimos 02
+  - ES42B - Algoritimos - 02
 ---

@@ -5,40 +5,40 @@ cssclasses:
 Tipo: Período
 Início: 2024-03-04
 Disciplinas:
-  - "[[ES41A - Algoritimos 01]]"
+  - "[[ES41A - Algoritimos - 01]]"
   - "[[ES41B - Introdução a Eng. de Software]]"
-  - "[[ES41C - Organização de Computadores]]"
   - "[[ES41D - Fundamentos da Matemática]]"
-  - "[[ES41E - Comunicação Oral e Escrita]]"
+  - "[[ES41C - Organização de Computadores]]"
   - "[[ES41F - Inglês Instrumental]]"
-Coeficiente de Rendimento: 0.878
+Coeficiente de Rendimento: "0.0000"
 Carga Horária: 300h
 ---
 
-![[01 Período.png|banner]]
-> [!banner-icon] 🌵 UTFPR
-
-
-##  💙**Atividades Pendentes** | 2024.01
+![[02 Período.png|banner]]
+> [!banner-icon] `$= dv.current().file.name.split(" - ")[2]`
+## **Atividades Pendentes** | `$= dv.current().file.name.split(" - ")[2]`
 
 ```dataviewjs
-let avaliacoes = dv.pages('"Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas"')
+let pastaAtual = dv.current().file.folder;
+
+let avaliacoes = dv.pages(`"${pastaAtual}"`)
     .where(p => p.file.frontmatter.Tipo === "Atividade" && p.file.frontmatter.Status == false);
 
 if (avaliacoes.length > 0) {
     let tabelaDados = [];
     let dataAtual = new Date();
 
-    // Array com os nomes dos meses em português
     let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
     avaliacoes.forEach(avaliacao => {
+        // Verifica se existe data final, senão pula ou trata erro
+        if (!avaliacao.file.frontmatter.Final) return;
+
         let dataFinal = new Date(avaliacao.file.frontmatter.Final);
         let disciplina = avaliacao.file.frontmatter.Disciplina;
         let conteudo = avaliacao.file.frontmatter.Conteúdo;
         let diferencaDias = (dataFinal - dataAtual) / (1000 * 60 * 60 * 24);
 
-        // Formatar a data para "DD de Mês de YYYY"
         let dia = dataFinal.getDate();
         let mes = meses[dataFinal.getMonth()];
         let ano = dataFinal.getFullYear();
@@ -50,64 +50,148 @@ if (avaliacoes.length > 0) {
 
         tabelaDados.push([`${avaliacao.file.link} | ${conteudo}`, disciplina, dataFormatada, dataFinal]);
     });
-
-    // Ordena a tabela com base na data limite real (índice 3 do array)
+    
     tabelaDados.sort((a, b) => a[3] - b[3]);
 
-    // Remove a coluna extra de ordenação antes de exibir
     tabelaDados = tabelaDados.map(row => row.slice(0, 3));
 
     dv.table(["Atividade", "Disciplina", "Data Limite"], tabelaDados);
 } else {
-    dv.span("🔹*Durante esse momento não há 'Atividades Pendentes'*");
+    dv.span(":LiBadgeX: **Não há atividades pendentes**");
 }
-
-
 ```
+
+--- 
+
+![[Banner 01 - 01.png]]
+
+## **Disciplinas** | `$= dv.current().file.name.split(" - ")[2]`
 
 ```dataviewjs
-let avaliacoes = dv.pages('"Estudos/UTFPR - Eng. de Software/2024.01 - 1º Período"')
-    .where(p => p.file.frontmatter.Tipo === "Atividade" && p.file.frontmatter.Status === "Pendente");
+const currentPath = dv.current().file.folder;
 
-// Cria um objeto para armazenar as atividades agrupadas por disciplina
-let agrupadoPorDisciplina = {};
+// Busca as páginas do tipo Disciplina na pasta atual
+const pages = dv.pages(`"${currentPath}"`)
+    .filter(p => 
+        p.Tipo === "Disciplina" && 
+        p.file.name !== dv.current().file.name
+    );
 
-avaliacoes.forEach(avaliacao => {
-    let disciplina = avaliacao.file.frontmatter.Disciplina;
-    let dataFinal = avaliacao.file.frontmatter.Final;
-    let conteudo = avaliacao.file.frontmatter.Referência;
+const pagesArray = Array.from(pages);
+let html = `<div class="subject-grid">`;
 
-    // Se a disciplina ainda não existe no objeto, crie uma nova entrada
-    if (!agrupadoPorDisciplina[disciplina]) {
-        agrupadoPorDisciplina[disciplina] = [];
-    }
+for (let page of pagesArray) {
+    const title = page.file.name; 
+    const link = page.file.path;
 
-    // Adiciona a avaliação ao grupo correspondente
-    agrupadoPorDisciplina[disciplina].push([avaliacao.file.link, dataFinal, conteudo]);
-});
+    // Lógica da Capa: Nome da disciplina após o " - "
+    const parts = title.split(" - ");
+    const subjectName = parts.length > 1 ? parts.slice(1).join(" - ") : title;
+    const imagePath = `Imagens/${subjectName}.png`;
 
-// Itera sobre cada disciplina e cria uma tabela para cada uma
-for (let disciplina in agrupadoPorDisciplina) {
-    dv.header(3, disciplina);
-    dv.table(["Atividade", "Data Limite", "Conteúdo"], agrupadoPorDisciplina[disciplina]);
+    html += `
+    <a href="${link}" class="internal-link subject-card">
+        <img src="${app.vault.adapter.getResourcePath(imagePath)}">
+        <div class="subject-title">${title}</div>
+    </a>`;
 }
 
-// Adiciona a classe ao contêiner
-dv.container.className += ' theme';
+html += `</div>`;
+dv.el("div", html);
 
-```
-## 💙**Disciplinas** | 2024.01
-```page-gallery
-fields: [file.name]
-columns: 3
-filter: false
-count: false
-views:
-  - name: 
-    from: '("Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período")'
-    orientation: landscape
-    where: 'file.frontmatter.Tipo = "Disciplina"'
+// Automação: Vincula os links das disciplinas no YAML da nota atual
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file && pagesArray.length > 0) {
+    const links = pagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        fm["Disciplinas"] = links;
+    });
+}
 ```
 
+--- 
+## **Grade Horária** | `$= dv.current().file.name.split(" - ")[2]`
 
+````col
+```col-md 
+flexGrow=2
+===
+|     | **Segunda** | **Terça** | **Quarta** | **Quinta** | **Sexta** |
+| --- | :-----: | :---: | :----: | :----: | :---: |
+| **N2**  |  ES42E | ES42E | ES42B | ES42G | ES42F |
+| **N3**  |  ES42E | ES42E | ES42B | ES42G | ES42F |
+| **N4**  |  ES42G | ES44F | ES42D | ES42B | ES42D |
+| **N5**  |  ES42G | ES44F | ES42D | ES42B | ES42D |
+```
 
+```col-md
+![[Banner 03 - 01.png]]
+```
+````
+
+--- 
+
+![[Banner 02 - 01.png]]
+
+## **Coeficiente do Período** | `$= dv.current().file.name.split(" - ")[2]`
+```dataviewjs
+// Configuração automática do caminho
+const currentFolder = `"${dv.current().file.folder}"`;
+const pages = dv.pages(currentFolder);
+
+// Separação em memória
+const disciplinas = pages.filter(p => p.Tipo === "Disciplina").sort(p => p.file.name);
+const avaliacoes = pages.filter(p => p.Tipo === "Avaliação");
+
+let mediaTotalPonderada = 0;
+let cargaHorariaTotal = 0;
+
+for (let disciplina of disciplinas) {
+    const nomeDisciplina = disciplina.file.name;
+    
+    // Tratamento de dados da Disciplina
+    const rawCH = disciplina["Carga Horária"] || "0h";
+    const ch = parseInt(String(rawCH).replace(/\D/g, "")) || 0; 
+    const notaFinal = parseFloat(disciplina["Nota Final"]) || 0;
+
+    // Filtra e converte imediatamente para Array nativo
+    const evalsDaMateria = avaliacoes
+        .filter(a => a.Disciplina && String(a.Disciplina).includes(nomeDisciplina))
+        .sort(a => a.file.name);
+
+    // CORREÇÃO AQUI: Convertendo para array nativo antes de manipular
+    const rows = Array.from(evalsDaMateria).map(a => [a.file.link, a.Nota ?? "-"]);
+    
+    // Agora o .push funciona porque 'rows' é um Array legítimo
+    rows.push(["**Média Final**", `**${notaFinal.toFixed(1)}**`]);
+
+    dv.header(3, nomeDisciplina);
+    if (rows.length > 1) { 
+        dv.table(["Avaliação", "Nota"], rows);
+    } else {
+        dv.paragraph("*Sem avaliações registradas.*");
+    }
+
+    if (ch > 0) {
+        mediaTotalPonderada += (notaFinal * ch);
+        cargaHorariaTotal += ch;
+    }
+}
+
+const rawCR = cargaHorariaTotal > 0 ? ((mediaTotalPonderada / cargaHorariaTotal) / 10) : 0;
+const crFormatado = rawCR.toFixed(4);
+
+dv.paragraph(`### :LiChartBarBig: Coeficiente de Rendimento | Período (CRp): **${crFormatado}**`);
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    setTimeout(() => {
+        app.fileManager.processFrontMatter(file, fm => {
+            if (String(fm["Coeficiente de Rendimento"]) !== crFormatado) {
+                fm["Coeficiente de Rendimento"] = crFormatado;
+                console.log(`CR atualizado: ${crFormatado}`);
+            }
+        });
+    }, 500);
+}
+```

@@ -12,7 +12,7 @@ Tipo: Inicial
 Coeficiente de Rendimento: "0.9183"
 Nota Final: "7.7"
 Disciplinas:
-  - "[[ES41A - Algoritimos 01]]"
+  - "[[ES41A - Algoritimos - 01]]"
   - "[[ES41B - Introdução a Eng. de Software]]"
   - "[[ES41D - Fundamentos da Matemática]]"
   - "[[ES41C - Organização de Computadores]]"
@@ -32,7 +32,7 @@ Disciplinas:
   - "[[ES44F - Segurança da Informação]]"
   - "[[ES46E - Estratégias de Inovação]]"
   - "[[EC47E - Empreendedorismo]]"
-  - "[[ES42B - Algoritimos 02]]"
+  - "[[ES42B - Algoritimos - 02]]"
   - "[[ES42C - Processo de Produção de Software]]"
   - "[[ES42D - Sistemas Operacionais]]"
   - "[[ES42E - Banco de Dados]]"
