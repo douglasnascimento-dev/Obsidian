@@ -36,8 +36,9 @@ A Função '.test()' é mais simplificada e retorna apenas o valor booleano (fal
 
 O Objeto retornado de '.exec()' contém nos índices respectivamente:
 - **\[0]** | A Expressão pesquisada, se caso encontrada;
-- **\[1]** | O Index, ou seja, qual a posição do caractere onde a expressão foi encontrada
-- **\[**
+- **\[1]** | O Index, ou seja, qual a posição do caractere onde a expressão foi encontrada;
+- **\[2]** | O Input, ou seja, o texto enviado e analisado pela expressão; e
+- **\[3]** | Os Grupos.
 
 ## 🌿Flags
 
@@ -51,4 +52,18 @@ const regExp01 = /João/gi;
 - **g** | Global - Encontra todas as ocorrências, diferente do padrão em que se encontra apenas a primeira ocorrência.
 - **i** | Insensitive Case - Ativa o Padrão de Insensitive Case, ou seja, não considera a Caixa da Expressão.
 
-## 🌿
+## 🌿Grupos
+
+Os Grupos nas RegEx's indica que todos as RegExp's em formato de Grupo. Não necessariamente, esses valores precisam estar juntos um ao outro. Atuando como um Comparador semelhante a 'AND'.
+
+```js
+const regExp01 = /(futebol)(Brasil)/gi;
+```
+
+## 🌿Ou
+
+O Caractere '|' vai representar o Ou em RegEx. Ou seja, ele retornará verdadeiro, sempre que ao menos uma RegEx for encontrada. Semelhante ao comportamento 'OR'
+
+```js
+const regExp01 = /(futebol|vôlei|F1|basquete )(Brasil)/gi;
+```
