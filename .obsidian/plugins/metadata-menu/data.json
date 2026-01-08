@@ -4,7 +4,7 @@
     {
       "name": "Mapeamento Disciplinas",
       "id": "1",
-      "query": "p.Tipo === \"Disciplina\"",
+      "query": "dv.pages().filter(p => p.Tipo === \"Disciplina\")",
       "fileClassName": "Disciplina"
     }
   ],

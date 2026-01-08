@@ -13,7 +13,7 @@ fields:
       max: 10
     path: ""
     id: 9aW0tx
-  - name: "Início "
+  - name: Início
     type: Date
     options:
       dateShiftInterval: 1 day
@@ -63,7 +63,7 @@ fields:
     options: {}
     path: ""
     id: GwlMr7
-version: "2.40"
+version: "2.41"
 limit: 20
 mapWithTag: false
 icon: bookmark

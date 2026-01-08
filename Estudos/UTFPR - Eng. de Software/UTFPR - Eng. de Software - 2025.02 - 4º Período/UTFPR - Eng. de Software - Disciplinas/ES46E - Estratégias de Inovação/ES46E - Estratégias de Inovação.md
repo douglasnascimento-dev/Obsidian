@@ -1,10 +1,11 @@
 ---
+fileClass: Disciplina
 cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
 Ministrado: João Luiz Dallamuta Lopes
-Carga Horária: 30h
+Carga Horária: "30"
 Nota Final: "8.3"
 Início: 2025-08-14
 Fim: 2025-11-28
