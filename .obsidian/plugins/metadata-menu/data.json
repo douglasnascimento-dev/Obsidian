@@ -1,6 +1,13 @@
 {
   "presetFields": [],
-  "fileClassQueries": [],
+  "fileClassQueries": [
+    {
+      "name": "Mapeamento Disciplinas",
+      "id": "1",
+      "query": "p.Tipo === \"Disciplina\"",
+      "fileClassName": "Disciplina"
+    }
+  ],
   "displayFieldsInContextMenu": true,
   "globallyIgnoredFields": [],
   "classFilesPath": "System/FileClasses/",

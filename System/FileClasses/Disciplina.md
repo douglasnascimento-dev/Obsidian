@@ -17,7 +17,7 @@ fields:
     type: Date
     options:
       dateShiftInterval: 1 day
-      dateFormat: DD-MM-YYYY
+      dateFormat: YYYY-MM-DD
       defaultInsertAsLink: false
       linkPath: ""
     path: ""
@@ -26,7 +26,7 @@ fields:
     type: Date
     options:
       dateShiftInterval: 1 day
-      dateFormat: DD-MM-YYYY
+      dateFormat: YYYY-MM-DD
       defaultInsertAsLink: false
       linkPath: ""
     path: ""
@@ -48,10 +48,25 @@ fields:
       strikethrough: false
     path: ""
     id: QrGlbc
-version: "2.6"
+  - name: Avaliações
+    type: MultiFile
+    options: {}
+    path: ""
+    id: kAl3Vq
+  - name: Anotações
+    type: MultiFile
+    options: {}
+    path: ""
+    id: O6uWT9
+  - name: Atividades
+    type: MultiFile
+    options: {}
+    path: ""
+    id: GwlMr7
+version: "2.40"
 limit: 20
 mapWithTag: false
-icon: package
+icon: bookmark
 tagNames:
 filesPaths:
 bookmarksGroups:
@@ -60,10 +75,13 @@ extends:
 savedViews: []
 favoriteView:
 fieldsOrder:
-  - QrGlbc
-  - ywet93
-  - lBcDeX
-  - gT86Dy
-  - 9aW0tx
   - TWvAFK
+  - ywet93
+  - QrGlbc
+  - gT86Dy
+  - lBcDeX
+  - kAl3Vq
+  - O6uWT9
+  - GwlMr7
+  - 9aW0tx
 ---
