@@ -10,7 +10,7 @@ Disciplinas:
   - "[[ES44A - Estrutura de Dados - 02]]"
   - "[[ES44B - Programação Orientada a Objetos - 02]]"
   - "[[ES44D - Interação Homem Computador]]"
-  - "[[Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44F - Segurança da Informação/ES44F - Segurança da Informação]]"
+  - "[[ES44F - Segurança da Informação]]"
   - "[[ES46E - Estratégias de Inovação]]"
 Coeficiente de Rendimento: "0.8807"
 Carga Horária: 420h
@@ -72,24 +72,25 @@ if (avaliacoes.length > 0) {
 ## Disciplinas | 2025.02 
 
 ```dataviewjs
-
 const currentPath = dv.current().file.folder;
 
+// Busca as páginas do tipo Disciplina na pasta atual
 const pages = dv.pages(`"${currentPath}"`)
     .filter(p => 
         p.Tipo === "Disciplina" && 
         p.file.name !== dv.current().file.name
     );
 
+const pagesArray = Array.from(pages);
 let html = `<div class="subject-grid">`;
 
-for (let page of pages) {
+for (let page of pagesArray) {
     const title = page.file.name; 
     const link = page.file.path;
 
+    // Lógica da Capa: Nome da disciplina após o " - "
     const parts = title.split(" - ");
     const subjectName = parts.length > 1 ? parts.slice(1).join(" - ") : title;
-    
     const imagePath = `Imagens/${subjectName}.png`;
 
     html += `
@@ -101,6 +102,15 @@ for (let page of pages) {
 
 html += `</div>`;
 dv.el("div", html);
+
+// Automação: Vincula os links das disciplinas no YAML da nota atual
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file && pagesArray.length > 0) {
+    const links = pagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        fm["Disciplinas"] = links;
+    });
+}
 ```
 
 --- 

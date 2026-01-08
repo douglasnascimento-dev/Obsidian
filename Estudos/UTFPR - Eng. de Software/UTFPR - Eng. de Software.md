@@ -6,7 +6,7 @@ Início: 2024-03-04
 Períodos:
   - "[[UTFPR - Eng. de Software - 2024.01 - 1º Período]]"
   - "[[UTFPR - Eng. de Software - 2024.02 - 2º Período]]"
-  - "[[UTFPR - Eng. de Software - 2025.01 - 3º Período]]"
+  - "[[UTFPR - Eng. de Software - 2025.01 - 3º Período-]]"
   - "[[UTFPR - Eng. de Software - 2025.02 - 4º Período]]"
 Tipo: Inicial
 Coeficiente de Rendimento:
