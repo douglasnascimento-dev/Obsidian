@@ -75,5 +75,6 @@
   "minimal-style@@table-row-background-hover@@light": "#00000040",
   "minimal-style@@table-row-background-hover@@dark": "#00000040",
   "minimal-advanced@@mobile-toolbar-off": false,
-  "minimal-style@@window-title-off": true
+  "minimal-style@@window-title-off": true,
+  "minimal-style@@table-text-size": "0.9em"
 }
