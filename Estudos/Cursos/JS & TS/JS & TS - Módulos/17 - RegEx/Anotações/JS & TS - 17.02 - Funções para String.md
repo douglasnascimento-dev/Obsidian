@@ -43,4 +43,16 @@ const regExp01 = /(João|Joao)/gi;
 console.log(text.replace(regExp01, '---$1---')) 
 ```
 
-Nesse caso, diferentemente do caso anterior, o '.replace()' não irá substituir um valor, mas sim, mod
+Nesse caso, diferentemente do caso anterior, o '.replace()' não irá substituir um valor, mas sim, modificá-lo, no exemplo acima, "João" irá se tornar "---João---". Os grupos continuam a aumentar conforme o número de grupos na RegEx, sendo sempre enumerados de $1 > $2 > $3 > $n. 
+
+## 🌿Replace com Funções
+
+```js
+const regExp01 = /(João|Joao)/gi;
+
+console.log(text.replace(regExp01, function(input){
+  return input.toUpperCase()
+}))
+```
+
+Nesse caso, o '.replace()' irá executar uma Função em conjunto com a execução da Função. O Parâmetro pode ser nomeado de qualquer maneira. 
