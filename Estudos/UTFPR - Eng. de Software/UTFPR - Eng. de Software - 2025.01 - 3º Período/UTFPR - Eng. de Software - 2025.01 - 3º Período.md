@@ -3,7 +3,6 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Período
-Início: 2025-08-12
 Disciplinas:
   - "[[EC47C - Programação Web Front-end]]"
   - "[[EC47B - Redes de Computadores]]"
@@ -13,15 +12,14 @@ Disciplinas:
   - "[[ES43A - Estrutura de Dados - 01]]"
   - "[[ES43B - Programação Orientada a Objetos - 01]]"
 Coeficiente de Rendimento: "0.9412"
-Carga Horária: 420h
-Nota Final: "7.7"
+Carga Horária: 480h
 ---
 
 
 ![[03 Período.png|banner]]
-> [!banner-icon] 2025.01
-> 
-## **Atividades Pendentes** | 2025.02
+> [!banner-icon] `$= dv.current().file.name.split(" - ")[2]`
+
+## **Atividades Pendentes** | `$= dv.current().file.name.split(" - ")[2]`
 
 ```dataviewjs
 let pastaAtual = dv.current().file.folder;
@@ -70,7 +68,7 @@ if (avaliacoes.length > 0) {
 
 ![[Banner 01 - 03.png]]
 
-## Disciplinas | 2025.02 
+## **Disciplinas** | `$= dv.current().file.name.split(" - ")[2]`
 
 ```dataviewjs
 const currentPath = dv.current().file.folder;
@@ -115,7 +113,7 @@ if (file && pagesArray.length > 0) {
 ```
 
 --- 
-## **Grade Horária** | 2025.02
+## **Grade Horária** | `$= dv.current().file.name.split(" - ")[2]`
 
 ````col
 ```col-md 
@@ -123,6 +121,12 @@ flexGrow=2
 ===
 |     | **Segunda** | **Terça** | **Quarta** | **Quinta** | **Sexta** |
 | --- | :-----: | :---: | :----: | :----: | :---: |
+| **M1**  | | | | | |
+| **M2**  | | | | | |
+| **M3**  | | | | | |
+| **M4**  | | | | | |
+| **M5**  | | | | | |
+| **M6**  | | | | | |
 | **N2**  |  ES44F  | ES44A |        | ES44D  | ES44B |
 | **N3**  |  ES44F  | ES44A |        | ES44D  | ES44B |
 | **N4**  |  ES44A  | ES44F |        | ES44B  | ES46E |
@@ -138,7 +142,7 @@ flexGrow=2
 
 ![[Banner 02 - 03.png]]
 
-## **Coeficiente de Rendimento** | 2025.02
+## **Coeficiente do Período** | `$= dv.current().file.name.split(" - ")[2]`
 ```dataviewjs
 // Configuração automática do caminho
 const currentFolder = `"${dv.current().file.folder}"`;

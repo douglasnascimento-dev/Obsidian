@@ -3,7 +3,6 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Período
-Início: 2025-08-12
 Disciplinas:
   - "[[EC47D - Gerenciamento de Projeto de Software]]"
   - "[[EC48B - Programação Web Back-end]]"
@@ -14,14 +13,12 @@ Disciplinas:
   - "[[ES46E - Estratégias de Inovação]]"
 Coeficiente de Rendimento: "0.8807"
 Carga Horária: 420h
-Nota Final: "7.7"
 ---
 
-
 ![[04 Período.png|banner]]
-> [!banner-icon] 2025.02
-> 
-## **Atividades Pendentes** | 2025.02
+> [!banner-icon] `$= dv.current().file.name.split(" - ")[2]`
+
+## **Atividades Pendentes** | `$= dv.current().file.name.split(" - ")[2]`
 
 ```dataviewjs
 let pastaAtual = dv.current().file.folder;
@@ -67,9 +64,10 @@ if (avaliacoes.length > 0) {
 ```
 
 --- 
+
 ![[Banner 01 - 04.png]]
 
-## Disciplinas | 2025.02 
+## **Disciplinas** | `$= dv.current().file.name.split(" - ")[2]`
 
 ```dataviewjs
 const currentPath = dv.current().file.folder;
@@ -114,7 +112,7 @@ if (file && pagesArray.length > 0) {
 ```
 
 --- 
-## **Grade Horária** | 2025.02
+## **Grade Horária** | `$= dv.current().file.name.split(" - ")[2]`
 
 ````col
 ```col-md 
@@ -137,7 +135,7 @@ flexGrow=2
 
 ![[Banner 02 - 04.png]]
 
-## **Coeficiente de Rendimento** | 2025.02
+## **Coeficiente do Período** | `$= dv.current().file.name.split(" - ")[2]`
 ```dataviewjs
 // Configuração automática do caminho
 const currentFolder = `"${dv.current().file.folder}"`;

@@ -9,8 +9,35 @@ Períodos:
   - "[[UTFPR - Eng. de Software - 2025.01 - 3º Período-]]"
   - "[[UTFPR - Eng. de Software - 2025.02 - 4º Período]]"
 Tipo: Inicial
-Coeficiente de Rendimento:
+Coeficiente de Rendimento: "0.9183"
 Nota Final: "7.7"
+Disciplinas:
+  - "[[ES41A - Algoritimos 01]]"
+  - "[[ES41B - Introdução a Eng. de Software]]"
+  - "[[ES41D - Fundamentos da Matemática]]"
+  - "[[ES41C - Organização de Computadores]]"
+  - "[[ES41F - Inglês Instrumental]]"
+  - "[[EC47C - Programação Web Front-end]]"
+  - "[[EC47B - Redes de Computadores]]"
+  - "[[ES43C - Requisitos de Software]]"
+  - "[[ES45C - Qualidade de Software]]"
+  - "[[PBE - Probabilidade e Estatística]]"
+  - "[[ES43A - Estrutura de Dados - 01]]"
+  - "[[ES43B - Programação Orientada a Objetos - 01]]"
+  - "[[EC47D - Gerenciamento de Projeto de Software]]"
+  - "[[EC48B - Programação Web Back-end]]"
+  - "[[ES44A - Estrutura de Dados - 02]]"
+  - "[[ES44B - Programação Orientada a Objetos - 02]]"
+  - "[[ES44D - Interação Homem Computador]]"
+  - "[[ES44F - Segurança da Informação]]"
+  - "[[ES46E - Estratégias de Inovação]]"
+  - "[[EC47E - Empreendedorismo]]"
+  - "[[ES42B - Algoritimos 02]]"
+  - "[[ES42C - Processo de Produção de Software]]"
+  - "[[ES42D - Sistemas Operacionais]]"
+  - "[[ES42E - Banco de Dados]]"
+  - "[[ES42F - Fundamentos da Ética]]"
+  - "[[ES42G - Matemática Discreta]]"
 ---
 
 ![[Eng. de Software.png|banner]]

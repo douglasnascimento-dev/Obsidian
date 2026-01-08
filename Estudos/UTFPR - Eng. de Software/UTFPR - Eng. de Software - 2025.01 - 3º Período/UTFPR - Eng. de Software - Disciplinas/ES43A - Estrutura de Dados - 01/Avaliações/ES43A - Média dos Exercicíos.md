@@ -5,5 +5,5 @@ Peso: 1
 Referência:
   - Média dos Exercicíos
 Disciplina:
-  - ES43A - Estrutura de Dados 01
+  - ES43A - Estrutura de Dados - 01
 ---

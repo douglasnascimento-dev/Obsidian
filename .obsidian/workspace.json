@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Avaliações/ES43A - Avaliação 01.md",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ES43A - Avaliação 01"
+              "title": "UTFPR - Eng. de Software - 2025.01 - 3º Período"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período.md",
+                "file": "UTFPR - Eng. de Software - 2025.01 - 3º Período-.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UTFPR - Eng. de Software - 2025.01 - 3º Período"
+              "title": "UTFPR - Eng. de Software - 2025.01 - 3º Período-"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,13 +149,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Avaliações/ES43A - Avaliação 01.md",
+                "file": "UTFPR - Eng. de Software - 2025.01 - 3º Período-.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de ES43A - Avaliação 01"
+              "title": "Sumário de UTFPR - Eng. de Software - 2025.01 - 3º Período-"
             }
           },
           {
@@ -198,13 +199,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f1738195defcb0d2",
+  "active": "cd6c010134379033",
   "lastOpenFiles": [
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
+    "UTFPR - Eng. de Software - 2025.01 - 3º Período-.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/PBE - Probabilidade e Estatística/PBE - Probabilidade e Estatística.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Avaliações/ES43A - Média dos Exercicíos.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período-.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Avaliações/ES43A - Avaliação 01.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Avaliações/ES43A - Avaliação 02.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43B - Programação Orientada a Objetos - 01/Avaliações/ES43B - Projeto Pessoal - Entrega Parcial.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43B - Programação Orientada a Objetos - 01/Avaliações/ES43B - Projeto Pessoal - Entrega Final.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43B - Programação Orientada a Objetos - 01/Avaliações/ES43B - Média das Listas.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período.md",
     "Imagens/Banner 03 - 01.png",
     "Imagens/Banner 02 - 01.png",
     "Imagens/Banner 01 - 01.png",
@@ -214,11 +222,9 @@
     "Imagens/Banner 03 - 03.png",
     "Imagens/Banner 02 - 03.png",
     "Imagens/Banner 01 - 03.png",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período-.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período 1.md",
     "Estudos/Cursos/HTML 5 & CSS 3/HTML & CSS.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período 1 1.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - 2024.01 - 1º Período.md",
     "Estudos/Cursos/Sem título.base",
     "Estudos/Cursos/JS & TS/JS & TS.md",
@@ -232,11 +238,6 @@
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/12 - Deploy da Aplicação/JS & TS - 12 - Deploy da Aplicação.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/12 - Deploy da Aplicação/Anotações/JS & TS - 12.01 - Iniciando o servidor e chaves SSH.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/12 - Deploy da Aplicação/Anotações/JS & TS - 12.02 - Configurando o Git no Servidor.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/11 - Projeto Agenda/JS & TS - 11 - Projeto Agenda.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/10 - JavaScript - Node, NPM, Express e MongoDB/JS & TS - 10 - Node, NPM, Express e MongoDB.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/09 - JavaScript Toolings e ES6 Modules/JS & TS - 09 - JS Toolings e Modules.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/08 - JavaScript Assíncrono/JS & TS - 08 - JS Assíncrono.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/08 - JavaScript Assíncrono/Anotações/JS & TS - 08.01 - Promisses.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico/Anotações",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/Anotações",
