@@ -4,7 +4,7 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Willian Massami Watanabe e Monique Emidio De Oliveira
-Carga Horária: 60h
+Carga Horária: "60"
 Nota Final: "10.0"
 Início: 2025-08-12
 Fim: ""
