@@ -12,12 +12,16 @@ Avaliações:
   - "[[ES44F - Avaliação 02]]"
   - "[[ES44F - Média das Labóratorios]]"
   - "[[ES44F - Média dos Questionários]]"
-Nota Final: "8.6"
+Anotações:
+  - "[[ES44F - Aula 01 - 18.08.2025 - Pilares da Seg. da Informação]]"
+  - "[[ES44F - Aula 02 - 19.08.2025 - Criptografia Clássica]]"
+  - "[[ES44F - Aula 03 - 25.08.2025 - Algoritimos Simétricos e DES]]"
 Atividades:
   - "[[ES44F - Laboratório 01]]"
   - "[[ES44F - Laboratório 02]]"
   - "[[ES44F - Laboratório 03]]"
   - "[[ES44F - Laboratório 04]]"
+Nota Final: "8.6"
 ---
 
 ![[Segurança da Informação.png|banner]]
@@ -142,40 +146,36 @@ if (file) {
 ## **Anotações** | Segurança da Informação
 
 ```dataviewjs
-// 1. Obtém o caminho da pasta onde esta nota atual está (a pasta da disciplina)
-// 2. Adiciona o sufixo "/Anotações" para apontar para a subpasta correta
 let pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
-
-// Busca as notas diretamente dentro da pasta de Anotações
 let pages = dv.pages(pathAnotacoes);
-
-// Ordene as notas pelo nome do arquivo
 let sortedPages = pages.sort(p => p.file.name);
 let sortedPagesArray = Array.from(sortedPages);
 
-// Se não houver atividades, exibir a mensagem e encerrar o código
+// --- Lógica Visual (Tabela) ---
 if (sortedPagesArray.length === 0) {
-      dv.span(":LiCircleX: **Não há anotações registradas nesta disciplina.**");
+     dv.span(":LiBadgeX: **Não há anotações registradas nesta disciplina.**");
 } else {
     let cont = 1;
-    
-    // Criar a tabela de dados com contador automático
     let tabelaDados = sortedPagesArray.map(p => {
-        // Formata o número da aula com zero à esquerda (ex: Aula 01, Aula 02...)
         let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
         cont++; 
-        
-        return [
-            aulaLabel,
-            p.file.link,
-        ];
+        return [ aulaLabel, p.file.link ];
     });
 
-    // Exibir a tabela
-    dv.table(
-        ["Aula", "Anotações"], 
-        tabelaDados
-    );
+    dv.table(["Aula", "Anotações"], tabelaDados);
+}
+
+// --- Lógica de Persistência (YAML) ---
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAnotacoes = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    
+    await app.fileManager.processFrontMatter(file, fm => {
+        // Verifica mudança para evitar escrita desnecessária
+        if (JSON.stringify(fm["Anotações"]) !== JSON.stringify(linksAnotacoes)) {
+            fm["Anotações"] = linksAnotacoes;
+        }
+    });
 }
 ```
 

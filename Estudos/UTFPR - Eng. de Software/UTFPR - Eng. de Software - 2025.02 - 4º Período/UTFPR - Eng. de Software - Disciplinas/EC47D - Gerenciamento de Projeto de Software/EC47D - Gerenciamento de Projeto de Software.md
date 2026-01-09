@@ -9,13 +9,13 @@ Início: 2025-08-12
 Fim: 2025-12-12
 Avaliações:
   - "[[EC47D - Médias das Atvs.]]"
-Nota Final: "7.7"
+Anotações: []
 Atividades: []
-Anotações:
+Nota Final: "7.7"
 ---
 
 ![[Gerenciamento de Projeto de Software.png|banner]]
-##  ## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]`
+## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let pathAtividades = `"${dv.current().file.folder}/Atividades"`;

@@ -3,22 +3,19 @@ cssclasses:
   - banner
   - banner-fade
 Disciplinas:
-  - "[[EC47C - Programação Web Front-end]]"
   - "[[EC47B - Redes de Computadores]]"
+  - "[[EC47C - Programação Web Front-end]]"
+  - "[[ES43A - Estrutura de Dados - 01]]"
+  - "[[ES43B - Programação Orientada a Objetos - 01]]"
   - "[[ES43C - Requisitos de Software]]"
   - "[[ES45C - Qualidade de Software]]"
   - "[[PBE - Probabilidade e Estatística]]"
-  - "[[ES43A - Estrutura de Dados - 01]]"
-  - "[[ES43B - Programação Orientada a Objetos - 01]]"
 Coeficiente de Rendimento: "0.9412"
 Tipo: Período
 Carga Horária: 480h
 ---
-
-
 ![[03 Período.png|banner]]
 > [!banner-icon] `$= dv.current().file.name.split(" - ")[2]`
-
 ## **Atividades Pendentes** | `$= dv.current().file.name.split(" - ")[2]`
 
 ```dataviewjs

@@ -11,7 +11,9 @@ Avaliações:
   - "[[ES44A - Avaliação 01]]"
   - "[[ES44A - Avaliação 02]]"
   - "[[ES44A - Projeto Final]]"
-Nota Final: "7.8"
+Anotações:
+  - "[[ES44A - Aula 01 - 18.08.2025 - Selection Sort]]"
+  - "[[ES44A - Aula 02 - 25.08.2025 - Insertion Sort]]"
 Atividades:
   - "[[ES44A - Atv. Prática 01]]"
   - "[[ES44A - Atv. Prática 02]]"
@@ -24,9 +26,10 @@ Atividades:
   - "[[ES44A - Atv. Prática 09]]"
   - "[[ES44A - Atv. Prática 10]]"
   - "[[ES44A - Atv. Prática 11]]"
+Nota Final: "7.8"
 ---
 
-![[`$= (dv.current().file.name).split(' - ')[1]`.png|banner]]
+![[Estrutura de Dados - 02.png|banner]]
 
 ## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]` 
 
@@ -101,38 +104,38 @@ if (file) {
 
 ##  **Registros de Aulas** | `$= (dv.current().file.name).split(' - ')[1]` 
 
-| Aula                                                                                                                                           |                                          Atividade                                           | Falta | Data de Realização |
-| :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------: | :---: | :----------------: |
-| Apresentação da Ementa da Disciplina                                                                                                           |                                              X                                               |   X   |     12.08.2025     |
-| [[ES44A - Aula 01 - 18.08.2025 - Selection Sort\| Aula 01 - Selection Sort]]                                                                   |                                              X                                               |   X   |     18.08.2025     |
-| Realização da [[ES44A - Atv. Prática 01\| Atv. Prática 01]]                                                                                    |                        [[ES44A - Atv. Prática 01\| Atv. Prática 01]]                         |   X   |     19.08.2025     |
-| [[ES44A - Aula 02 - 25.08.2025 - Insertion Sort\| Aula 02 - Insertion Sort]]                                                                   |                                              X                                               |   X   |     25.08.2025     |
-| Realização da [[ES44A - Atv. Prática 02\| Atv. Prática 02]] e da [[ES44A - Atv. Prática 03\| Atv. Prática 03]]                                 | [[ES44A - Atv. Prática 02\|Atv. Prática 02]] e [[ES44A - Atv. Prática 03\| Atv. Prática 03]] |   X   |     26.08.2025     |
-| Realização da [[ES44A - Atv. Prática 04\| Atv. Prática 04]]                                                                                    |                        [[ES44A - Atv. Prática 04\| Atv. Prática 04]]                         |   X   |     01.09.2025     |
-| Realização da  [[ES44A - Atv. Prática 05\| Atv. Prática 05]]                                                                                   |                        [[ES44A - Atv. Prática 05\| Atv. Prática 05]]                         |   X   |     02.09.2025     |
-| Correção da  [[ES44A - Atv. Prática 05\| Atv. Prática 05]] e Aula 03 - Árvores                                                                 |                                              X                                               |   X   |     08.09.2025     |
-| Aula 04 - Árvore AVL - Criação de Árvores - Realização da [[ES44A - Atv. Prática 06]]                                                          |                                 [[ES44A - Atv. Prática 06]]                                  |  Sim  |     09.09.2025     |
-| Aula 05 - Árvore AVL - Código de Inclusão - Realização da [[ES44A - Atv. Prática 07\| Atv. Prática 07]]                                        |                        [[ES44A - Atv. Prática 07\| Atv. Prática 07]]                         |   X   |     15.09.2025     |
-| Aula 06 - Árvore AVL - Código de Exclusão - Realização da [[ES44A - Atv. Prática 08\| Atv. Prática 08]]                                        |                        [[ES44A - Atv. Prática 08\| Atv. Prática 08]]                         |   X   |     16.09.2025     |
-| Realização da [[ES44A - Atv. Prática 09\|Atv. Prática 09]]                                                                                     |                         [[ES44A - Atv. Prática 09\|Atv. Prática 09]]                         |  Sim  |     22.09.2025     |
-| *Sem necessidade de presença* - Feira de Profissões                                                                                            |                                              X                                               |   X   |     23.09.2025     |
-| :LiBadgeXSem necessidade de Presença - **Aula dedicada para retirar dúvidas sobre a realização da [[ES44A - Avaliação 01\| Avaliação 01]]** |                                              X                                               |   X   |     29.09.2025     |
-| Aplicação da [[ES44A - Avaliação 01\| Avaliação 01]]                                                                                           |                                              X                                               |   X   |     30.09.2025     |
-| Quiz sobre os conteúdos aplicados até o momento                                                                                                |                                              X                                               |   X   |     06.10.2025     |
-| Aula 07 - Árvore Rubro Negro - Introdução - Realização de Atv. em Sala - Árvore Rubro Negra                                                    |                                           Em Sala                                            |  Sim  |     07.10.2025     |
-| Realização da [[ES44A - Atv. Prática 10\|Atv. Prática 10]]                                                                                     |                         [[ES44A - Atv. Prática 10\|Atv. Prática 10]]                         |   X   |     13.10.2025     |
-| Realização da [[ES44A - Atv. Prática 11\|Atv. Prática 11]]                                                                                     |                         [[ES44A - Atv. Prática 11\|Atv. Prática 11]]                         |  Sim  |     14.10.2025     |
-| Correção do Gabarito da Atv.11                                                                                                                 |                                              X                                               |   X   |     20.10.2025     |
+| Aula                                                                                                                                          |                                          Atividade                                           | Falta | Data de Realização |
+| :-------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------: | :---: | :----------------: |
+| Apresentação da Ementa da Disciplina                                                                                                          |                                              X                                               |   X   |     12.08.2025     |
+| [[ES44A - Aula 01 - 18.08.2025 - Selection Sort\| Aula 01 - Selection Sort]]                                                                  |                                              X                                               |   X   |     18.08.2025     |
+| Realização da [[ES44A - Atv. Prática 01\| Atv. Prática 01]]                                                                                   |                        [[ES44A - Atv. Prática 01\| Atv. Prática 01]]                         |   X   |     19.08.2025     |
+| [[ES44A - Aula 02 - 25.08.2025 - Insertion Sort\| Aula 02 - Insertion Sort]]                                                                  |                                              X                                               |   X   |     25.08.2025     |
+| Realização da [[ES44A - Atv. Prática 02\| Atv. Prática 02]] e da [[ES44A - Atv. Prática 03\| Atv. Prática 03]]                                | [[ES44A - Atv. Prática 02\|Atv. Prática 02]] e [[ES44A - Atv. Prática 03\| Atv. Prática 03]] |   X   |     26.08.2025     |
+| Realização da [[ES44A - Atv. Prática 04\| Atv. Prática 04]]                                                                                   |                        [[ES44A - Atv. Prática 04\| Atv. Prática 04]]                         |   X   |     01.09.2025     |
+| Realização da  [[ES44A - Atv. Prática 05\| Atv. Prática 05]]                                                                                  |                        [[ES44A - Atv. Prática 05\| Atv. Prática 05]]                         |   X   |     02.09.2025     |
+| Correção da  [[ES44A - Atv. Prática 05\| Atv. Prática 05]] e Aula 03 - Árvores                                                                |                                              X                                               |   X   |     08.09.2025     |
+| Aula 04 - Árvore AVL - Criação de Árvores - Realização da [[ES44A - Atv. Prática 06]]                                                         |                                 [[ES44A - Atv. Prática 06]]                                  |  Sim  |     09.09.2025     |
+| Aula 05 - Árvore AVL - Código de Inclusão - Realização da [[ES44A - Atv. Prática 07\| Atv. Prática 07]]                                       |                        [[ES44A - Atv. Prática 07\| Atv. Prática 07]]                         |   X   |     15.09.2025     |
+| Aula 06 - Árvore AVL - Código de Exclusão - Realização da [[ES44A - Atv. Prática 08\| Atv. Prática 08]]                                       |                        [[ES44A - Atv. Prática 08\| Atv. Prática 08]]                         |   X   |     16.09.2025     |
+| Realização da [[ES44A - Atv. Prática 09\|Atv. Prática 09]]                                                                                    |                         [[ES44A - Atv. Prática 09\|Atv. Prática 09]]                         |  Sim  |     22.09.2025     |
+| *Sem necessidade de presença* - Feira de Profissões                                                                                           |                                              X                                               |   X   |     23.09.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Aula dedicada para retirar dúvidas sobre a realização da [[ES44A - Avaliação 01\| Avaliação 01]]** |                                              X                                               |   X   |     29.09.2025     |
+| Aplicação da [[ES44A - Avaliação 01\| Avaliação 01]]                                                                                          |                                              X                                               |   X   |     30.09.2025     |
+| Quiz sobre os conteúdos aplicados até o momento                                                                                               |                                              X                                               |   X   |     06.10.2025     |
+| Aula 07 - Árvore Rubro Negro - Introdução - Realização de Atv. em Sala - Árvore Rubro Negra                                                   |                                           Em Sala                                            |  Sim  |     07.10.2025     |
+| Realização da [[ES44A - Atv. Prática 10\|Atv. Prática 10]]                                                                                    |                         [[ES44A - Atv. Prática 10\|Atv. Prática 10]]                         |   X   |     13.10.2025     |
+| Realização da [[ES44A - Atv. Prática 11\|Atv. Prática 11]]                                                                                    |                         [[ES44A - Atv. Prática 11\|Atv. Prática 11]]                         |  Sim  |     14.10.2025     |
+| Correção do Gabarito da Atv.11                                                                                                                |                                              X                                               |   X   |     20.10.2025     |
 | :LiBadgeX: Sem necessidade de Presença - **SEI SIATE**                                                                                        |                                              X                                               |   X   |     21.10.2025     |
 | :LiBadgeX: Sem necessidade de Presença - **SECOMP**                                                                                           |                                              X                                               |   X   |     28.10.2025     |
-| Aula 08 - Árvore B                                                                                                                             |                                              X                                               |  Sim  |     03.11.2025     |
-| Realização de Atv. em Sala - Árvore B                                                                                                          |                                           Em sala                                            |   X   |     04.11.2025     |
-| Aula 09 - Grafos                                                                                                                               |                                              X                                               |   X   |     10.11.2025     |
-| Realização de Atv. em Sala - Grafos                                                                                                            |                                           Em sala                                            |   X   |     11.11.2025     |
-| Aula 10 - Implementação em Grafos                                                                                                              |                                              X                                               |   X   |     17.11.2025     |
-| Realização de Atv. em Sala - Grafos                                                                                                            |                                           Em sala                                            |   X   |     18.11.2025     |
+| Aula 08 - Árvore B                                                                                                                            |                                              X                                               |  Sim  |     03.11.2025     |
+| Realização de Atv. em Sala - Árvore B                                                                                                         |                                           Em sala                                            |   X   |     04.11.2025     |
+| Aula 09 - Grafos                                                                                                                              |                                              X                                               |   X   |     10.11.2025     |
+| Realização de Atv. em Sala - Grafos                                                                                                           |                                           Em sala                                            |   X   |     11.11.2025     |
+| Aula 10 - Implementação em Grafos                                                                                                             |                                              X                                               |   X   |     17.11.2025     |
+| Realização de Atv. em Sala - Grafos                                                                                                           |                                           Em sala                                            |   X   |     18.11.2025     |
 | :LiBadgeX: Sem necessidade de Presença - **Aula dedicada para retirar dúvidas sobre a realização da [[ES44A - Avaliação 02\| Avaliação 02]]** |                                              X                                               |   X   |     24.11.2025     |
-| Aplicação da [[ES44A - Avaliação 02\|Avaliação 02]]                                                                                            |                                              X                                               |   X   |     25.11.2025     |
+| Aplicação da [[ES44A - Avaliação 02\|Avaliação 02]]                                                                                           |                                              X                                               |   X   |     25.11.2025     |
 | :LiBadgeX: Sem necessidade de Presença - **Desenvolvimento do Projeto Final**                                                                 |                                              X                                               |   X   |     01.12.2025     |
 | :LiBadgeX: Sem necessidade de Presença - **Desenvolvimento do Projeto Final**                                                                 |                                              X                                               |   X   |     02.12.2025     |
 | :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina**                                                                        |                                              X                                               |   X   |     08.12.2025     |
@@ -230,43 +233,39 @@ dv.paragraph(`Porcentagem de Presença: ${presenciaPercentual.toFixed(2)}%`);
 
 ![[Banner 02 - 04.png]]
 
-## **Anotações** | `$= (dv.current().file.name).split(' - ')[1]`name).split(' - ')[1]`
+## **Anotações** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
-// 1. Obtém o caminho da pasta onde esta nota atual está (a pasta da disciplina)
-// 2. Adiciona o sufixo "/Anotações" para apontar para a subpasta correta
 let pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
-
-// Busca as notas diretamente dentro da pasta de Anotações
 let pages = dv.pages(pathAnotacoes);
-
-// Ordene as notas pelo nome do arquivo
 let sortedPages = pages.sort(p => p.file.name);
 let sortedPagesArray = Array.from(sortedPages);
 
-// Se não houver atividades, exibir a mensagem e encerrar o código
+// --- Lógica Visual (Tabela) ---
 if (sortedPagesArray.length === 0) {
-      dv.span(":LiCircleX: **Não há anotações registradas nesta disciplina.**");
+     dv.span(":LiBadgeX: **Não há anotações registradas nesta disciplina.**");
 } else {
     let cont = 1;
-    
-    // Criar a tabela de dados com contador automático
     let tabelaDados = sortedPagesArray.map(p => {
-        // Formata o número da aula com zero à esquerda (ex: Aula 01, Aula 02...)
         let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
         cont++; 
-        
-        return [
-            aulaLabel,
-            p.file.link,
-        ];
+        return [ aulaLabel, p.file.link ];
     });
 
-    // Exibir a tabela
-    dv.table(
-        ["Aula", "Anotações"], 
-        tabelaDados
-    );
+    dv.table(["Aula", "Anotações"], tabelaDados);
+}
+
+// --- Lógica de Persistência (YAML) ---
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAnotacoes = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    
+    await app.fileManager.processFrontMatter(file, fm => {
+        // Verifica mudança para evitar escrita desnecessária
+        if (JSON.stringify(fm["Anotações"]) !== JSON.stringify(linksAnotacoes)) {
+            fm["Anotações"] = linksAnotacoes;
+        }
+    });
 }
 ```
 

@@ -10,7 +10,16 @@ Fim: 2025-12-01
 Avaliações:
   - "[[ES44D - Avaliação]]"
   - "[[ES44D - Atividades]]"
-Nota Final: "9.6"
+Anotações:
+  - "[[ES44D - Aula 01 - 14.08.2025 - Apresentação a IHC]]"
+  - "[[ES44D - Aula 02 - 21.08.2025 - Conceitos em IHC]]"
+  - "[[ES44D - Aula 03 - 04.09.2025 - Processo de Design]]"
+  - "[[ES44D - Aula 04 - 11.09.2025 - Entendendo os Usuários]]"
+  - "[[ES44D - Aula 05 - 18.09.2025 - Abordagens Teóricas em IHC]]"
+  - "[[ES44D - Aula 06 - 25.09.2025 - Abordagens Teóricas em IHC - 02]]"
+  - "[[ES44D - Aula 07 - 02.10.2025 - Princípios de Design e Prototipação]]"
+  - "[[ES44D - Aula 08 - 09.10.2025 - Acessibilidade Digital]]"
+  - "[[ES44D - Aula 09 - 23.10.2025 - Avaliação em IHC]]"
 Atividades:
   - "[[ES44D - 01 - Avaliação Diagnóstica e Postagem no Fórum]]"
   - "[[ES44D - 02 - Qualidade em IHC]]"
@@ -19,6 +28,7 @@ Atividades:
   - "[[ES44D - 05 - Atividade CRAP]]"
   - "[[ES44D - 06 - Prototipação]]"
   - "[[ES44D - 07 - Teste com o usuário]]"
+Nota Final: "9.6"
 ---
 
 

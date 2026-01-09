@@ -10,9 +10,9 @@ Fim: 2025-12-12
 Avaliações:
   - "[[ES48B - Projeto Parcial]]"
   - "[[ES48B - Projeto Final]]"
-Nota Final: "10.0"
-Atividades: []
 Anotações: []
+Atividades: []
+Nota Final: "10.0"
 ---
 
 

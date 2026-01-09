@@ -10,10 +10,10 @@ Fim: 2025-11-28
 Avaliações:
   - "[[ES46E - Seminários]]"
   - "[[ES46E - Lista de Exercícios]]"
+Anotações: []
 Atividades:
   - "[[ES46E - Entrega da Lista de Exercícios]]"
 Nota Final: "8.3"
-Anotações: []
 ---
 
 
