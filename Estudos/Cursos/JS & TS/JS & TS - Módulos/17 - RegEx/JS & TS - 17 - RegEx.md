@@ -11,12 +11,9 @@ cssclasses:
   - yellowCab
 Fim: 2025-05-31
 Anotações:
-  - "[[JS & TS - 16.01 - Primeiras Rotas]]"
-  - "[[JS & TS - 16.02 - Link vs A]]"
-  - "[[JS & TS - 16.03 - Parâmetros]]"
-  - "[[JS & TS - 16.04 - Redirecionando e 404]]"
-  - "[[JS & TS - 16.05 - Rotas Aninhadas]]"
-  - "[[JS & TS - 16.06 - Enviando e Recebendo o Estado]]"
+  - "[[JS & TS - 17.01 - Iniciando com RegEx]]"
+  - "[[JS & TS - 17.02 - Funções para String]]"
+  - "[[JS & TS - 17.03 - Quantificadores]]"
 ---
 
 ![[JS & TS.png|banner]]

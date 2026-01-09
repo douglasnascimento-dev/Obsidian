@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Estudos.md",
-                "mode": "preview",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estudos"
+              "title": "JS & TS - 17.03 - Quantificadores"
             }
           }
         ]
@@ -135,13 +135,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Estudos.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Estudos"
+              "title": "Sumário de JS & TS - 17.03 - Quantificadores"
             }
           },
           {
@@ -187,10 +187,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/JS & TS - 17 - RegEx.md",
+    "Estudos/Cursos/JS & TS/JS & TS.md",
+    "Estudos/Estudos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.01 - Iniciando com RegEx.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.02 - Funções para String.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/JS & TS - 17 - RegEx.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/16 - React - React Router Dom v6/JS & TS - 16 - React Router Dom v6.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/ES46E - Estratégias de Inovação.md",
@@ -215,8 +217,6 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Avaliações/ES43A - Média dos Exercicíos.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período-.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Avaliações/ES43A - Avaliação 01.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Avaliações/ES43A - Avaliação 02.md",
     "Imagens/Banner 03 - 01.png",
     "Imagens/Banner 02 - 01.png",
     "Imagens/Banner 01 - 01.png",
