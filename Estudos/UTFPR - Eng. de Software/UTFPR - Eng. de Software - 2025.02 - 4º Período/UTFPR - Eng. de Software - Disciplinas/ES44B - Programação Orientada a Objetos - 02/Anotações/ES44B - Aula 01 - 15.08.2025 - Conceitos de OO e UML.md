@@ -9,7 +9,7 @@ cssclasses:
 Tipo: Anotação
 ---
 
-![[POO - 02.png|banner]]
+![[Programação Orientada a Objetos - 02.png|banner]]
 > [!banner-icon] :LiBookMarked: Aula 15.08.25
 # :LiAlbum: Paradigma da Programação
 

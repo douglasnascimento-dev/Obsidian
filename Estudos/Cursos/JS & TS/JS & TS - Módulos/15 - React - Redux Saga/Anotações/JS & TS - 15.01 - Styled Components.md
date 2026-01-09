@@ -9,7 +9,7 @@ cssclasses:
   - yellowCab
 ---
 
-![[Frame 14 (4).png|banner]]
+![[JS & TS.png|banner]]
 > [!banner-icon] :LiNotebook: Styled Components
 # 🌳O Que é?
 

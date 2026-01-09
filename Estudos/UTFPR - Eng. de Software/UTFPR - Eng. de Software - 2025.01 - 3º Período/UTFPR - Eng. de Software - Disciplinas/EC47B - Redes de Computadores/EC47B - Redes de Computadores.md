@@ -41,8 +41,6 @@ Anotações:
 
 
 ![[Redes de Computadores.png|banner]]
-
-
 ![[Redes de Computadores.png|banner]]
 ## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]`
 
