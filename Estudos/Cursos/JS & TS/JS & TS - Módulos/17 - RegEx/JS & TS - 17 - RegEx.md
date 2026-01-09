@@ -14,6 +14,8 @@ Anotações:
   - "[[JS & TS - 17.01 - Iniciando com RegEx]]"
   - "[[JS & TS - 17.02 - Funções para String]]"
   - "[[JS & TS - 17.03 - Quantificadores]]"
+Atividades:
+  - "[[JS & TS - AC. 17.03.01 - Expressões com RegEx 01]]"
 ---
 
 ![[JS & TS.png|banner]]

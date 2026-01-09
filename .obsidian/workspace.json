@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.01 - Expressões com RegEx 01.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS & TS - AC. 17.03.01 - Expressões com RegEx 01"
+              "title": "JS & TS - 17.03 - Quantificadores"
             }
           },
           {
@@ -148,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.01 - Expressões com RegEx 01.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JS & TS - AC. 17.03.01 - Expressões com RegEx 01"
+              "title": "Sumário de JS & TS - 17.03 - Quantificadores"
             }
           },
           {
@@ -200,6 +200,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/JS & TS - 17 - RegEx.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.01 - Expressões com RegEx 01.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/07 - JavaScript POO/Atividades/JS & TS - AC. 07.01.01 - ATV. Classes em JS.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/ES46E - Estratégias de Inovação.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Atividades/ES43A - Lista de Exs. 01.md",
@@ -223,10 +227,6 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas/ES41E - Comunicação Oral e Escrita/ES41E - Comunicação Oral e Escrita.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/EC47E - Empreendedorismo/EC47E - Empreendedorismo.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - Disciplinas/ES41F - Inglês Instrumental/ES41F - Inglês Instrumental.md",
-    "System/FileClasses/Disciplina.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.01 - Expressões com RegEx 01.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/10 - JavaScript - Node, NPM, Express e MongoDB/Atividades/JS & TS - AC. 10.01.01 - NPM Modules.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx",
