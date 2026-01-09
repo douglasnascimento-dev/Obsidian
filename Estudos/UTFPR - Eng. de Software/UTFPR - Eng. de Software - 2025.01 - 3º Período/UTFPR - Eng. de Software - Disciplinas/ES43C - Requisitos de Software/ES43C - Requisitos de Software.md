@@ -11,44 +11,43 @@ Avaliações:
   - "[[ES43C - Avaliação]]"
   - "[[ES43C - Projeto Final]]"
 Nota Final: "9.3"
+Anotações:
+  - "[[ES43C - Aula 01 - 28.03.25 - Introdução a Requisitos]]"
+  - "[[ES43C - Aula 02 - 31.03.25 - Engenharia de Requisitos]]"
+  - "[[ES43C - Aula 03 - 07.04.25 - Estudos de Viabilidade e Requisitos de Usuário e Sistema]]"
+  - "[[ES43C - Aula 04 - 14.04.25 - Gerenciamento de Requisitos]]"
+  - "[[ES43C - Aula 05 - 25.04.25 - Gerência de Git e GitHub]]"
+  - "[[ES43C - Aula 06 - 05.05.25 - Descrição do Usuário e Elicitação de Requisitos pt. 01]]"
+  - "[[ES43C - Aula 07 - 09.05.25 - Elicitação de Requisitos pt. 02]]"
+  - "[[ES43C - Aula 08 - 12.05.25 - Elicitação de Requisitos pt. 03]]"
+  - "[[ES43C - Aula 09 - 16.05.25 - Elicitação de Requisitos pt. 04]]"
+  - "[[ES43C - Aula 10 - 19.05.25 - Validação de Requisitos]]"
+  - "[[ES43C - Aula 11 - 26.05.25 - Histórias de Usuário]]"
+  - "[[ES43C - Aula 12 - 30.05.25 - Modelo Conceitual, introdução a UML e Diagrama de Caso de Uso]]"
+  - "[[ES43C - Aula 13 - 02.06.25 - Diagrama de Classes]]"
+  - "[[ES43C - Aula 14 - 06.06.25 - Diagrama de Atividades]]"
+  - "[[ES43C - Aula 15 - 09.06.25 - Matriz de Rastreabilidade]]"
+Atividades:
+  - "[[ES43C - Informações sobre o Grupo]]"
 ---
 
+![[Estrutura de Dados - 01.png|banner]]
+
 ![[Requisitos de Software.png|banner]]
-> [!banner-icon] :LiBookMarked: ES43C
-# :LiClipboard: **Atividades** | Requisitos de Software 
+## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
-// Obtenha o nome do arquivo atual
-let nomeArquivoAtual = dv.current().file.name;
-
-// Obtenha o caminho do arquivo atual
-let caminhoArquivoAtual = dv.current().file.path;
-
-// Extraia o diretório base do curso (assumindo que os arquivos estão organizados em subpastas dentro da disciplina)
-let diretorioBase = caminhoArquivoAtual.split("/").slice(0, -1).join("/");
-
-// Caminho dinâmico para atividades dentro da disciplina atual
-let caminhoAtividades = `${diretorioBase}/Atividades`;
-
-// Obtenha todas as notas dentro do diretório especificado dinamicamente
-let pages = dv.pages()
-    .where(p => p.file.path.includes(caminhoAtividades));
-
-// Ordene as notas pelo nome do arquivo
+let pathAtividades = `"${dv.current().file.folder}/Atividades"`;
+let pages = dv.pages(pathAtividades);
 let sortedPages = pages.sort(p => p.file.name);
 let sortedPagesArray = Array.from(sortedPages);
 
-// Se não houver atividades, exibir a mensagem e encerrar o código
 if (sortedPagesArray.length === 0) {
-    dv.paragraph("🔹Durante a realização dessa disciplina não houve 'Atividades'.");
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
 } else {
-    // Data atual
     let dataAtual = new Date();
-
-    // Array com os nomes dos meses em português
     let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
-    // Função para formatar a data para "DD de Mês de YYYY"
     function formatarData(data) {
         if (!data) return "";
         let dia = data.getDate();
@@ -57,48 +56,56 @@ if (sortedPagesArray.length === 0) {
         return `${dia} de ${mes} de ${ano}`;
     }
 
-    // Função para verificar se a data final está a menos de dois dias do prazo
     function verificarDataFinal(dataFinal) {
         let diffMilissegundos = new Date(dataFinal) - dataAtual;
         let diffDias = diffMilissegundos / (1000 * 60 * 60 * 24);
         return diffDias < 2;
     }
 
-    // Cores baseadas na paleta fornecida
-    const corPendente = "rgb(54, 102, 129)";  // Azul principal
-    const corConcluido = "rgb(91, 145, 177)"; // Azul mais claro
+    const corPendente = "rgb(54, 102, 129)";  
+    const corConcluido = "rgb(91, 145, 177)"; 
 
-    // Criar a tabela de dados com os ajustes visuais
     let tabelaDados = sortedPagesArray.map(p => {
         let dataInicio = p.Início ? new Date(p.Início) : null;
         let dataFinal = p.Final ? new Date(p.Final) : null;
 
-        // Definir status e cor
         let statusTexto = p.Status === true ? "Concluído" : "Pendente";
         let corStatus = p.Status === true ? corConcluido : corPendente;
 
         if (dataFinal && verificarDataFinal(dataFinal) && statusTexto === "Pendente") {
-            corStatus = "rgb(178, 50, 50)"; // Vermelho escuro para urgência
+            corStatus = "rgb(178, 50, 50)"; 
         }
 
         return [
-            dv.fileLink(p.file.path), // Link dinâmico para o arquivo
+            `**${p.file.link}** | ${p.Conteúdo ? p.Conteúdo : ""}`,
             formatarData(dataInicio),
             formatarData(dataFinal),
-            `<span style="color:${corStatus}; font-weight: bold;">${statusTexto}</span>`, // Aplicar cor e negrito
+            `<span style="color:${corStatus}; font-weight: bold;">${statusTexto}</span>`,
         ];
     });
 
-    // Exibir a tabela
     dv.table(
         ["Atividade", "Data de Início", "Data Final", "Status"], 
         tabelaDados
     );
 }
 
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAtividades = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        if (JSON.stringify(fm["Atividades"]) !== JSON.stringify(linksAtividades)) {
+            fm["Atividades"] = linksAtividades;
+        }
+    });
+}
 ```
 
-# :LiCalendarCheck2: **Registro de Aulas** | Requisitos de Software 
+--- 
+
+![[Banner 01 - 03.png]]
+ 
+## **Registros de Aulas** | `$= (dv.current().file.name).split(' - ')[1]`
 
 | Aula                                                                                                                                                                                                         |                             Atividade                             | Falta | Data de Realização |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------: | :---: | :----------------: |
@@ -125,9 +132,10 @@ if (sortedPagesArray.length === 0) {
 | :LiSquareX: *Sem necessidade de Presença*                                                                                                                                                                    |                                 X                                 |   X   |     16/06/2025     |
 | Apresentação do [[ES43C - Projeto Final\|Projeto Final ]]                                                                                                                                                    |                                 X                                 |   X   |     23/06/2025     |
 | Apresentação do [[ES43C - Projeto Final\|Projeto Final - pt. 02]]                                                                                                                                            |                                 X                                 |  Sim  |     27/06/2025     |
-## :LiCalendarRange: Rastreamento de Presença | Requisitos de Software
 
-```dataviewjs
+### **Rastreamento de Presença** | `$= (dv.current().file.name).split(' - ')[1]`
+
+ ```dataviewjs
 let editor = app.workspace.getLeaf().view.editor;
 let conteudoArquivo = editor.getRange({ line: 0, ch: 0 }, { line: editor.lineCount() - 1, ch: 0 });
 let linhas = conteudoArquivo.split('\n');
@@ -178,96 +186,92 @@ dv.table(
 
 let presenciaPercentual = totalAulas > 0 ? ((totalAulas - faltas) / totalAulas) * 100 : 0;
 dv.paragraph(`Porcentagem de Presença: **${presenciaPercentual.toFixed(2)}%**`);
-
 ```
-## :LiBook: **Anotações** | Requisitos de Software
+  
+--- 
 
-``` dataviewjs
-// Obtenha o nome do arquivo atual
-let nomeArquivoAtual = dv.current().file.name;
-let caminhoArquivoAtual = dv.current().file.path;
-let diretorioBase = caminhoArquivoAtual.split("/").slice(0, -1).join("/");
+![[Banner 02 - 03.png]]
 
-// Caminho dinâmico para atividades dentro da disciplina atual
-let caminhoAtividades = `${diretorioBase}/Anotações`;
-// Obtenha todas as notas dentro do diretório especificado
-let pages = dv.pages()
-    .where(p => p.file.path.includes(caminhoAtividades));
+## **Anotações** | `$= (dv.current().file.name).split(' - ')[1]`
 
-// Ordene as notas pelo nome do arquivo
+```dataviewjs
+let pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
+let pages = dv.pages(pathAnotacoes);
 let sortedPages = pages.sort(p => p.file.name);
 let sortedPagesArray = Array.from(sortedPages);
 
-// Se não houver atividades, exibir a mensagem e encerrar o código
+// --- Lógica Visual (Tabela) ---
 if (sortedPagesArray.length === 0) {
-    dv.paragraph("   :LiCheckCheck: Durante a realização dessa disciplina não houve 'Anotações'.");
+     dv.span(":LiBadgeX: **Não há anotações registradas nesta disciplina.**");
 } else {
-
-    let dataAtual = new Date();
+    let cont = 1;
     let tabelaDados = sortedPagesArray.map(p => {
-        return [
-            `**${p.file.link}**`,
-        ];
+        let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
+        cont++; 
+        return [ aulaLabel, p.file.link ];
     });
-    // Exibir a tabela
-    dv.table(
-        ["Anotações"], 
-        tabelaDados
-    );
+
+    dv.table(["Aula", "Anotações"], tabelaDados);
 }
 
+// --- Lógica de Persistência (YAML) ---
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAnotacoes = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    
+    await app.fileManager.processFrontMatter(file, fm => {
+        // Verifica mudança para evitar escrita desnecessária
+        if (JSON.stringify(fm["Anotações"]) !== JSON.stringify(linksAnotacoes)) {
+            fm["Anotações"] = linksAnotacoes;
+        }
+    });
+}
 ```
 
-# :LiChartPie: **Avaliações** | Requisitos de Software
+--- 
+
+![[Banner 01 - 03.png]]
+
+## **Avaliações** | `$= (dv.current().file.name).split(' - ')[1]`
+
 ```dataviewjs
-// Obtenha o nome do arquivo atual
-let nomeArquivoAtual = dv.current().file.name;
+let pathAvaliacoes = `"${dv.current().file.folder}/Avaliações"`;
 let notaManual;
 
-let caminhoArquivoAtual = dv.current().file.path;
-let diretorioBase = caminhoArquivoAtual.split("/").slice(0, -1).join("/");
-let caminhoAvaliações = `${diretorioBase}/Avaliações`;
-
-let pages = dv.pages()
-    .where(p => p.file.path.includes(caminhoAvaliações));
-
-// Ordene as notas por 'Referência' (ou use 'file.name' se for o caso)
+let pages = dv.pages(pathAvaliacoes);
 let sortedPages = pages.sort(p => p.file.name);
-
-// Converta `sortedPages` para um array regular
 let sortedPagesArray = Array.from(sortedPages);
 
-// Inicialize variáveis para o cálculo da média final
 let totalPeso = 0;
 let totalNotaComPeso = 0;
 
-// Crie uma tabela de dados, ignorando notas indefinidas no cálculo da média
 let tabelaDados = sortedPagesArray.map(p => {
-    let notaValida = p.Nota !== undefined && p.Nota !== null;
-    if (notaValida) {
-        totalPeso += p.Peso;
-        totalNotaComPeso += p.Nota * p.Peso;
-    }
-    return [`[[${p.file.name}]] | ${p.Referência === null ? " " : p.Referência }`, p.Nota, p.Peso];
+    let notaValida = p.Nota !== undefined && p.Nota !== null;
+    if (notaValida) {
+        totalPeso += p.Peso;
+        totalNotaComPeso += p.Nota * p.Peso;
+    }
+    return [`[[${p.file.name}]] | ${p.Referência === null ? " " : p.Referência }`, p.Nota, p.Peso];
 });
 
-// Calcule a média final, considerando apenas as notas definidas
 let mediaFinal = totalPeso ? totalNotaComPeso / totalPeso : 0;
+let notaExibicao = notaManual ? notaManual : mediaFinal.toFixed(1);
 
-// Adicione a média final como a última linha da tabela
-tabelaDados.push(["**Média Final**", `**${notaManual ? notaManual : mediaFinal.toFixed(1)}**`, ""]);
+tabelaDados.push(["**Média Final**", `**${notaExibicao}**`, ""]);
 
-// Exiba a tabela com as notas e a média final
 dv.table(
-    ["Avaliação", "Nota", "Peso"], 
-    tabelaDados
+    ["Avaliação", "Nota", "Peso"], 
+    tabelaDados
 );
 
 const file = app.vault.getAbstractFileByPath(dv.current().file.path);
 if (file) {
-    app.fileManager.processFrontMatter(file, fm => {
-        fm["Nota Final"] = notaManual ? notaManual : mediaFinal.toFixed(1);
-    });
+    app.fileManager.processFrontMatter(file, fm => {
+        fm["Nota Final"] = notaExibicao;
+    });
 }
 ```
+
+
+
 

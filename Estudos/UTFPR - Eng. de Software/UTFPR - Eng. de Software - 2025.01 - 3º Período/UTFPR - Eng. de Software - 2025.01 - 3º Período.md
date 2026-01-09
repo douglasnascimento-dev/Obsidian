@@ -14,6 +14,7 @@ Coeficiente de Rendimento: "0.9412"
 Tipo: Período
 Carga Horária: 480h
 ---
+
 ![[03 Período.png|banner]]
 > [!banner-icon] `$= dv.current().file.name.split(" - ")[2]`
 ## **Atividades Pendentes** | `$= dv.current().file.name.split(" - ")[2]`
