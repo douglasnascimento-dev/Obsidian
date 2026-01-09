@@ -22,35 +22,49 @@
             }
           },
           {
-            "id": "650249c86a5d2571",
+            "id": "8a0033b190c91745",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/EC47C - Programação Web Front-end/EC47C - Programação Web Front-end.md",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/EC47E - Empreendedorismo/EC47E - Empreendedorismo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EC47C - Programação Web Front-end"
+              "title": "EC47E - Empreendedorismo"
             }
           },
           {
-            "id": "fcaeb03dc6b2feb2",
+            "id": "05db769ef7dc3cc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/ES46E - Estratégias de Inovação.md",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/ES42B - Algoritimos - 02/ES42B - Algoritimos - 02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ES46E - Estratégias de Inovação"
+              "title": "ES42B - Algoritimos - 02"
+            }
+          },
+          {
+            "id": "d5d236c325cbfa91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/EC47B - Redes de Computadores/EC47B - Redes de Computadores.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EC47B - Redes de Computadores"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/EC47C - Programação Web Front-end/EC47C - Programação Web Front-end.md",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/ES42B - Algoritimos - 02/ES42B - Algoritimos - 02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de EC47C - Programação Web Front-end"
+              "title": "Sumário de ES42B - Algoritimos - 02"
             }
           },
           {
@@ -213,34 +227,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "650249c86a5d2571",
+  "active": "05db769ef7dc3cc8",
   "lastOpenFiles": [
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/EC47C - Programação Web Front-end/Atividades/EC47C - Atv. Prática 04.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/EC47B - Redes de Computadores/EC47B - Redes de Computadores.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/ES42B - Algoritimos - 02/ES42B - Algoritimos - 02.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/EC47E - Empreendedorismo/EC47E - Empreendedorismo.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - 2024.02 - 2º Período.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/ES46E - Estratégias de Inovação.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/EC47C - Programação Web Front-end/EC47C - Programação Web Front-end.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/EC47C - Programação Web Front-end/Atividades/EC47C - Atv. Prática 04.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/ES43A - Estrutura de Dados - 01.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43B - Programação Orientada a Objetos - 01/ES43B - Programação Orientada a Objetos - 01.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43C - Requisitos de Software/ES43C - Requisitos de Software.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES45C - Qualidade de Software/ES45C - Qualidade de Software.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/PBE - Probabilidade e Estatística/PBE - Probabilidade e Estatística.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/ES46E - Estratégias de Inovação.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - 2025.01 - 3º Período.md",
     "Estudos/Estudos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/JS & TS - 17 - RegEx.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.01 - Expressões com RegEx 01.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/07 - JavaScript POO/Atividades/JS & TS - AC. 07.01.01 - ATV. Classes em JS.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43A - Estrutura de Dados - 01/Atividades/ES43A - Lista de Exs. 01.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/EC47B - Redes de Computadores/EC47B - Redes de Computadores.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/EC47D - Gerenciamento de Projeto de Software.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/15 - React - Redux Saga/Anotações/JS & TS - 15.01 - Styled Components.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44B - Programação Orientada a Objetos - 02/Anotações/ES44B - Aula 01 - 15.08.2025 - Conceitos de OO e UML.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44F - Segurança da Informação/ES44F - Segurança da Informação.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44D - Interação Homem Computador/ES44D - Interação Homem Computador.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44B - Programação Orientada a Objetos - 02/ES44B - Programação Orientada a Objetos - 02.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44A - Estrutura de Dados - 02/ES44A - Estrutura de Dados - 02.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC48B - Programação Web Back-end/EC48B - Programação Web Back-end.md",
     "System/Sem título.base",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações",
