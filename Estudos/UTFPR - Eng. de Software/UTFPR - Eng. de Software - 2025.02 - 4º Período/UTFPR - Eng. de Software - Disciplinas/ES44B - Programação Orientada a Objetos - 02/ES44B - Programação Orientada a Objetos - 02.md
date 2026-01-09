@@ -12,6 +12,8 @@ Avaliações:
   - "[[ES44B - Projeto]]"
   - "[[ES44B - Média das Atividades]]"
 Nota Final: "9.8"
+Atividades:
+Anotações:
 ---
 
 

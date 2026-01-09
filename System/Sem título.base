@@ -6,26 +6,15 @@ views:
         - file.inFolder("Estudos/UTFPR - Eng. de Software")
         - Tipo == "Disciplina"
     groupBy:
-      property: Coeficiente de Rendimento
+      property: Atividades
       direction: ASC
     order:
       - file.name
-      - Período
-      - Carga Horária
-      - Início
-      - Fim
-      - Ministrado
-      - Nota Final
+      - Anotações
+      - Atividades
+      - Avaliações
     sort:
-      - property: Período
-        direction: DESC
-      - property: Status
-        direction: ASC
-      - property: file.backlinks
-        direction: ASC
-      - property: Nota Final
-        direction: ASC
-      - property: Coeficiente de Rendimento
+      - property: Atividades
         direction: ASC
     summaries:
       Status: Unique

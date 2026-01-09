@@ -1,11 +1,10 @@
 ---
-fileClass: Disciplina
 cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
 Ministrado: João Luiz Dallamuta Lopes
-Carga Horária: "30"
+Carga Horária: 30h
 Início: 2025-08-14
 Fim: 2025-11-28
 Avaliações:
@@ -206,7 +205,7 @@ if (sortedPagesArray.length === 0) {
 
 ```dataviewjs
 let pathAvaliacoes = `"${dv.current().file.folder}/Avaliações"`;
-let notaManual; // Ex: let notaManual = 9.5;
+let notaManual;
 
 let pages = dv.pages(pathAvaliacoes);
 let sortedPages = pages.sort(p => p.file.name);
@@ -215,50 +214,30 @@ let sortedPagesArray = Array.from(sortedPages);
 let totalPeso = 0;
 let totalNotaComPeso = 0;
 
-// Função Helper para formatar número para BR (ex: 8.5 -> "8,5")
-function formatarBR(valor) {
-    if (valor === undefined || valor === null) return "-";
-    return Number(valor).toFixed(1).replace(".", ",");
-}
-
 let tabelaDados = sortedPagesArray.map(p => {
-    let notaValida = p.Nota !== undefined && p.Nota !== null;
-    if (notaValida) {
-        totalPeso += p.Peso;
-        totalNotaComPeso += p.Nota * p.Peso;
-    }
-    return [
-        `[[${p.file.name}]] | ${p.Referência ? p.Referência : ""}`, 
-        formatarBR(p.Nota), // Formata as notas individuais
-        p.Peso
-    ];
+    let notaValida = p.Nota !== undefined && p.Nota !== null;
+    if (notaValida) {
+        totalPeso += p.Peso;
+        totalNotaComPeso += p.Nota * p.Peso;
+    }
+    return [`[[${p.file.name}]] | ${p.Referência === null ? " " : p.Referência }`, p.Nota, p.Peso];
 });
 
 let mediaFinal = totalPeso ? totalNotaComPeso / totalPeso : 0;
-
-// Formata a média final trocando ponto por vírgula
-let mediaFormatada = mediaFinal.toFixed(1).replace(".", ",");
-
-// Define a exibição (Manual ou Calculada)
-let notaExibicao = notaManual 
-    ? String(notaManual).replace(".", ",") 
-    : mediaFormatada;
+let notaExibicao = notaManual ? notaManual : mediaFinal.toFixed(1);
 
 tabelaDados.push(["**Média Final**", `**${notaExibicao}**`, ""]);
 
 dv.table(
-    ["Avaliação", "Nota", "Peso"], 
-    tabelaDados
+    ["Avaliação", "Nota", "Peso"], 
+    tabelaDados
 );
 
 const file = app.vault.getAbstractFileByPath(dv.current().file.path);
 if (file) {
-    app.fileManager.processFrontMatter(file, fm => {
-        // Só atualiza se o valor for diferente para evitar loops
-        if (fm["Nota Final"] !== notaExibicao) {
-            fm["Nota Final"] = notaExibicao;
-        }
-    });
+    app.fileManager.processFrontMatter(file, fm => {
+        fm["Nota Final"] = notaExibicao;
+    });
 }
 ```
 

@@ -10,7 +10,7 @@ fields:
     options:
       step: 0.1
       min: 0
-      max: 10
+      max: .nan
     path: ""
     id: 9aW0tx
   - name: Início
@@ -63,7 +63,7 @@ fields:
     options: {}
     path: ""
     id: GwlMr7
-version: "2.41"
+version: "2.44"
 limit: 20
 mapWithTag: false
 icon: bookmark
