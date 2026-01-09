@@ -13,6 +13,11 @@ Avaliações:
   - "[[ES44F - Média das Labóratorios]]"
   - "[[ES44F - Média dos Questionários]]"
 Nota Final: "8.6"
+Atividades:
+  - "[[ES44F - Laboratório 01]]"
+  - "[[ES44F - Laboratório 02]]"
+  - "[[ES44F - Laboratório 03]]"
+  - "[[ES44F - Laboratório 04]]"
 ---
 
 ![[Segurança da Informação.png|banner]]
@@ -71,6 +76,16 @@ if (sortedPagesArray.length === 0) {
         ["Atividade", "Data de Início", "Data Final", "Status"], 
         tabelaDados
     );
+}
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAtividades = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        if (JSON.stringify(fm["Atividades"]) !== JSON.stringify(linksAtividades)) {
+            fm["Atividades"] = linksAtividades;
+        }
+    });
 }
 ```
 

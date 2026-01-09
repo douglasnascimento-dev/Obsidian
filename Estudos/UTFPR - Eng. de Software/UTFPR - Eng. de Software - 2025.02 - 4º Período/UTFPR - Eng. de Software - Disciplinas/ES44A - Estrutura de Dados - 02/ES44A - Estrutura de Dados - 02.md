@@ -12,11 +12,23 @@ Avaliações:
   - "[[ES44A - Avaliação 02]]"
   - "[[ES44A - Projeto Final]]"
 Nota Final: "7.8"
+Atividades:
+  - "[[ES44A - Atv. Prática 01]]"
+  - "[[ES44A - Atv. Prática 02]]"
+  - "[[ES44A - Atv. Prática 03]]"
+  - "[[ES44A - Atv. Prática 04]]"
+  - "[[ES44A - Atv. Prática 05]]"
+  - "[[ES44A - Atv. Prática 06]]"
+  - "[[ES44A - Atv. Prática 07]]"
+  - "[[ES44A - Atv. Prática 08]]"
+  - "[[ES44A - Atv. Prática 09]]"
+  - "[[ES44A - Atv. Prática 10]]"
+  - "[[ES44A - Atv. Prática 11]]"
 ---
 
-![[Estrutura de Dados - 02.png|banner]]
+![[`$= (dv.current().file.name).split(' - ')[1]`.png|banner]]
 
-## **Atividades** | Estrutura de Dados - 02 
+## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]` 
 
 ```dataviewjs
 let pathAtividades = `"${dv.current().file.folder}/Atividades"`;
@@ -71,13 +83,23 @@ if (sortedPagesArray.length === 0) {
         tabelaDados
     );
 }
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAtividades = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        if (JSON.stringify(fm["Atividades"]) !== JSON.stringify(linksAtividades)) {
+            fm["Atividades"] = linksAtividades;
+        }
+    });
+}
 ```
 
 ---
 
 ![[Banner 01 - 04.png]]
 
-##  **Registros de Aulas** | Estrutura de Dados - 02 
+##  **Registros de Aulas** | `$= (dv.current().file.name).split(' - ')[1]` 
 
 | Aula                                                                                                                                           |                                          Atividade                                           | Falta | Data de Realização |
 | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------: | :---: | :----------------: |
@@ -118,7 +140,7 @@ if (sortedPagesArray.length === 0) {
 | :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina**                                                                        |                                              X                                               |   X   |     15.12.2025     |
 | :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina**                                                                        |                                              X                                               |   X   |     16.12.2025     |
 
-### **Rastreamento de Presença** | Estrutura de Dados - 02
+### **Rastreamento de Presença** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let editor = app.workspace.getLeaf().view.editor;
@@ -208,7 +230,7 @@ dv.paragraph(`Porcentagem de Presença: ${presenciaPercentual.toFixed(2)}%`);
 
 ![[Banner 02 - 04.png]]
 
-## **Anotações** | Estrutura de Dados - 02
+## **Anotações** | `$= (dv.current().file.name).split(' - ')[1]`name).split(' - ')[1]`
 
 ```dataviewjs
 // 1. Obtém o caminho da pasta onde esta nota atual está (a pasta da disciplina)
@@ -252,7 +274,7 @@ if (sortedPagesArray.length === 0) {
 
 ![[Banner 01 - 04.png]]
 
-## **Avaliações** | Estrutura de Dados - 02
+## **Avaliações** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let pathAvaliacoes = `"${dv.current().file.folder}/Avaliações"`;

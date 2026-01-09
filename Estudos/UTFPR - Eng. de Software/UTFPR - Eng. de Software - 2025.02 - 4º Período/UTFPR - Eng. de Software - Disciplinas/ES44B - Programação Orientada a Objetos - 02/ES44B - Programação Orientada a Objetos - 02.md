@@ -13,6 +13,15 @@ Avaliações:
   - "[[ES44B - Média das Atividades]]"
 Nota Final: "9.8"
 Atividades:
+  - "[[ES44B - Atv. 01 - Grupos e Temas]]"
+  - "[[ES44B - Atv. 02 - Classes e Funcionalidades]]"
+  - "[[ES44B - Atv. 03 - Documento de Requisitos]]"
+  - "[[ES44B - Atv. 04 - Diagrama de Caso de Uso]]"
+  - "[[ES44B - Atv. 05 - Diagrama de Classes]]"
+  - "[[ES44B - Atv. 06 - Diagrama de Atividade]]"
+  - "[[ES44B - Atv. 07 - Padrão MVC]]"
+  - "[[ES44B - Atv. 08 - Princípio SRP]]"
+  - "[[ES44B - Atv. 09 - Princípio DIP]]"
 Anotações:
 ---
 
@@ -73,6 +82,16 @@ if (sortedPagesArray.length === 0) {
         ["Atividade", "Data de Início", "Data Final", "Status"], 
         tabelaDados
     );
+}
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAtividades = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        if (JSON.stringify(fm["Atividades"]) !== JSON.stringify(linksAtividades)) {
+            fm["Atividades"] = linksAtividades;
+        }
+    });
 }
 ```
 

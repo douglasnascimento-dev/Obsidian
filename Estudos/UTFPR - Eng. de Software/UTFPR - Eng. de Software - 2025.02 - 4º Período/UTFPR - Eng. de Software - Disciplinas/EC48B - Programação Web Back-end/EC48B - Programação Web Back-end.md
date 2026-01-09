@@ -11,12 +11,14 @@ Avaliações:
   - "[[ES48B - Projeto Parcial]]"
   - "[[ES48B - Projeto Final]]"
 Nota Final: "10.0"
+Atividades: []
+Anotações: []
 ---
 
 
 ![[Programação Web Back-end.png|banner]]
 
-##  **Atividades** | Programação Web Back-end 
+##  **Atividades** | `$= (dv.current().file.name).split(' - ')[1]` 
 
 ```dataviewjs
 let pathAtividades = `"${dv.current().file.folder}/Atividades"`;
@@ -25,7 +27,7 @@ let sortedPages = pages.sort(p => p.file.name);
 let sortedPagesArray = Array.from(sortedPages);
 
 if (sortedPagesArray.length === 0) {
-    dv.span(":LiCircleX: **Não há atividades registradas nesta disciplina.**");
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
 } else {
     let dataAtual = new Date();
     let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
@@ -71,13 +73,23 @@ if (sortedPagesArray.length === 0) {
         tabelaDados
     );
 }
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAtividades = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        if (JSON.stringify(fm["Atividades"]) !== JSON.stringify(linksAtividades)) {
+            fm["Atividades"] = linksAtividades;
+        }
+    });
+}
 ```
 
 ---
 
 ![[Banner 01 - 04.png]]
 
-##  **Registros de Aulas** | Programação Web Back-end 
+##  **Registros de Aulas** | `$= (dv.current().file.name).split(' - ')[1]` 
 
 | Aula                             | Atividade |    Data de Realização     |
 | :------------------------------- | :-------: | :-----------------------: |
@@ -93,51 +105,47 @@ if (sortedPagesArray.length === 0) {
 | Express.JS, MongoDB e Parâmetros |     X     |      EaD - Semana 10      |
 | Dados Persistentes               |     X     |      EaD - Semana 11      |
 | Implementação da Projeto 02      |     X     | EaD - Semana 12 - 13 - 14 |
-###  **Rastreamento de Presença** | Programação Web Back-end
+###  **Rastreamento de Presença** | `$= (dv.current().file.name).split(' - ')[1]`
 
-  :LiCircleX: **Não há necessidade de Presença**
+  :LiBadgeX: **Não há necessidade de Presença**
 
 --- 
 
 ![[Banner 02 - 04.png]]
 
-## **Anotações** | Programação Web Back-end
+## **Anotações** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
-// 1. Obtém o caminho da pasta onde esta nota atual está (a pasta da disciplina)
-// 2. Adiciona o sufixo "/Anotações" para apontar para a subpasta correta
 let pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
-
-// Busca as notas diretamente dentro da pasta de Anotações
 let pages = dv.pages(pathAnotacoes);
-
-// Ordene as notas pelo nome do arquivo
 let sortedPages = pages.sort(p => p.file.name);
 let sortedPagesArray = Array.from(sortedPages);
 
-// Se não houver atividades, exibir a mensagem e encerrar o código
+// --- Lógica Visual (Tabela) ---
 if (sortedPagesArray.length === 0) {
-      dv.span(":LiCircleX: **Não há anotações registradas nesta disciplina.**");
+     dv.span(":LiBadgeX: **Não há anotações registradas nesta disciplina.**");
 } else {
     let cont = 1;
-    
-    // Criar a tabela de dados com contador automático
     let tabelaDados = sortedPagesArray.map(p => {
-        // Formata o número da aula com zero à esquerda (ex: Aula 01, Aula 02...)
         let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
         cont++; 
-        
-        return [
-            aulaLabel,
-            p.file.link,
-        ];
+        return [ aulaLabel, p.file.link ];
     });
 
-    // Exibir a tabela
-    dv.table(
-        ["Aula", "Anotações"], 
-        tabelaDados
-    );
+    dv.table(["Aula", "Anotações"], tabelaDados);
+}
+
+// --- Lógica de Persistência (YAML) ---
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAnotacoes = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    
+    await app.fileManager.processFrontMatter(file, fm => {
+        // Verifica mudança para evitar escrita desnecessária
+        if (JSON.stringify(fm["Anotações"]) !== JSON.stringify(linksAnotacoes)) {
+            fm["Anotações"] = linksAnotacoes;
+        }
+    });
 }
 ```
 
@@ -145,7 +153,7 @@ if (sortedPagesArray.length === 0) {
 
 ![[Banner 02 - 04.png]]
 
-## **Avaliações** | Programação Web Back-end
+## **Avaliações** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let pathAvaliacoes = `"${dv.current().file.folder}/Avaliações"`;

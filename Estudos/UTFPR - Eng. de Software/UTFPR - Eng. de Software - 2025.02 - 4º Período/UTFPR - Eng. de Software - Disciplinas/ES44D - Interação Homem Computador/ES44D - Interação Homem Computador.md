@@ -11,6 +11,14 @@ Avaliações:
   - "[[ES44D - Avaliação]]"
   - "[[ES44D - Atividades]]"
 Nota Final: "9.6"
+Atividades:
+  - "[[ES44D - 01 - Avaliação Diagnóstica e Postagem no Fórum]]"
+  - "[[ES44D - 02 - Qualidade em IHC]]"
+  - "[[ES44D - 03 - Processo de Design em IHC]]"
+  - "[[ES44D - 04 - Entendendo os Usuários e desenhando o seu perfil]]"
+  - "[[ES44D - 05 - Atividade CRAP]]"
+  - "[[ES44D - 06 - Prototipação]]"
+  - "[[ES44D - 07 - Teste com o usuário]]"
 ---
 
 
@@ -69,6 +77,16 @@ if (sortedPagesArray.length === 0) {
         ["Atividade", "Data de Início", "Data Final", "Status"], 
         tabelaDados
     );
+}
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAtividades = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        if (JSON.stringify(fm["Atividades"]) !== JSON.stringify(linksAtividades)) {
+            fm["Atividades"] = linksAtividades;
+        }
+    });
 }
 ```
 

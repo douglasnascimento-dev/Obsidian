@@ -10,9 +10,10 @@ Fim: 2025-11-28
 Avaliações:
   - "[[ES46E - Seminários]]"
   - "[[ES46E - Lista de Exercícios]]"
-Nota Final: "8.3"
 Atividades:
   - "[[ES46E - Entrega da Lista de Exercícios]]"
+Nota Final: "8.3"
+Anotações: []
 ---
 
 
@@ -26,7 +27,7 @@ let sortedPages = pages.sort(p => p.file.name);
 let sortedPagesArray = Array.from(sortedPages);
 
 if (sortedPagesArray.length === 0) {
-    dv.span(":LiCircleX: **Não há atividades registradas nesta disciplina.**");
+    dv.span(":LiBadgeX: **Não há atividades registradas nesta disciplina.**");
 } else {
     let dataAtual = new Date();
     let meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
@@ -172,40 +173,36 @@ dv.paragraph(`Porcentagem de Presença: **${presenciaPercentual.toFixed(2)}%**`)
 ## **Anotações** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
-// 1. Obtém o caminho da pasta onde esta nota atual está (a pasta da disciplina)
-// 2. Adiciona o sufixo "/Anotações" para apontar para a subpasta correta
 let pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
-
-// Busca as notas diretamente dentro da pasta de Anotações
 let pages = dv.pages(pathAnotacoes);
-
-// Ordene as notas pelo nome do arquivo
 let sortedPages = pages.sort(p => p.file.name);
 let sortedPagesArray = Array.from(sortedPages);
 
-// Se não houver atividades, exibir a mensagem e encerrar o código
+// --- Lógica Visual (Tabela) ---
 if (sortedPagesArray.length === 0) {
-      dv.span(":LiBadgeX: **Não há anotações registradas nesta disciplina.**");
+     dv.span(":LiBadgeX: **Não há anotações registradas nesta disciplina.**");
 } else {
     let cont = 1;
-    
-    // Criar a tabela de dados com contador automático
     let tabelaDados = sortedPagesArray.map(p => {
-        // Formata o número da aula com zero à esquerda (ex: Aula 01, Aula 02...)
         let aulaLabel = cont < 10 ? `Aula 0${cont}` : `Aula ${cont}`;
         cont++; 
-        
-        return [
-            aulaLabel,
-            p.file.link,
-        ];
+        return [ aulaLabel, p.file.link ];
     });
 
-    // Exibir a tabela
-    dv.table(
-        ["Aula", "Anotações"], 
-        tabelaDados
-    );
+    dv.table(["Aula", "Anotações"], tabelaDados);
+}
+
+// --- Lógica de Persistência (YAML) ---
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAnotacoes = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    
+    await app.fileManager.processFrontMatter(file, fm => {
+        // Verifica mudança para evitar escrita desnecessária
+        if (JSON.stringify(fm["Anotações"]) !== JSON.stringify(linksAnotacoes)) {
+            fm["Anotações"] = linksAnotacoes;
+        }
+    });
 }
 ```
 
