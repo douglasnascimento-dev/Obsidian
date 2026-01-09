@@ -1,6 +1,6 @@
 {
-  "findText": "svg",
-  "replaceText": "png",
+  "findText": "\\d\\d/",
+  "replaceText": "\\d\\d.",
   "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,
