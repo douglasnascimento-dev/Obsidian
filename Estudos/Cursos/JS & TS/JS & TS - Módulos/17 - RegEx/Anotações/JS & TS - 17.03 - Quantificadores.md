@@ -52,7 +52,7 @@ Observe também que é utilizado um caractere de '\\' logo antes do '.', isso po
 const regExp02 = /\.jpe{0,1}g/gi;
 ```
 
-- **{ ,10}** | De 0 á 10
+- **{0,10}** | De 0 á 10
 - **{10, }** | De 10 á infinito
 - **{ 10 }** | 10 vezes
 - **{0, }** | De 0 á infinito

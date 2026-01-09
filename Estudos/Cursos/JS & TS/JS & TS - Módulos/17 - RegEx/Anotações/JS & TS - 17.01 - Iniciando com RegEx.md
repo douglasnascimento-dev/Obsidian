@@ -35,10 +35,10 @@ console.log(regExp01.test(texto))
 A Função '.test()' é mais simplificada e retorna apenas o valor booleano (false ou true). Já a Função '.exec()' retorna um Array com diversas informações em um Formato de Objeto, ou se não for encontrado é retornado apenas o valor 'Null'.
 
 O Objeto retornado de '.exec()' contém nos índices respectivamente:
-- **\[0]** | A Expressão pesquisada, se caso encontrada;
-- **\[1]** | O Index, ou seja, qual a posição do caractere onde a expressão foi encontrada;
-- **\[2]** | O Input, ou seja, o texto enviado e analisado pela expressão; e
-- **\[3]** | Os Grupos.
+- **\[0]** | O Texto completo, se caso encontrado;
+- **\[1] \[2] \[3] ... \[n]**  | São os Grupos de Captura, se caso houverem;
+- **\.input** | O texto enviado e analisado pela expressão; e
+- **.index** | A posição do texto encontrado.
 
 ## 🌿Flags
 
