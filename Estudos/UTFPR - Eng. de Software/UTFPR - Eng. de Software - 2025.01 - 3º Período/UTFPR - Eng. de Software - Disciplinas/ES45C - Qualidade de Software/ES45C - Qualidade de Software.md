@@ -111,8 +111,8 @@ if (file) {
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------: | :---: | :----------------: |
 | Introdução a [[ES45C - Aula 01 - 28.03.25 - Apresentação da Disciplina\|Disciplina e a Qualidade]]                                                                           |                         X                          |   X   |     28/03/2025     |
 | [[ES45C - Aula 02 - 29.03.25 - Visão geral sobre Qualidade e Importância para a Eng. de Software\|Visão geral de Qualidade e sua Importância para a Engenharia de Software]] |                         X                          |   X   |     29/03/2025     |
-| :LiSquareX: *Sem necessidade de Presença* \| Reposta pela [[ES45C - Avaliação de Requisitos de um Software\|Avaliação de Requisitos de um Software]]                         | [[ES45C - Avaliação de Requisitos de um Software]] |   x   |     03/04/2025     |
-| :LiSquareX: *Sem necessidade de Presença* \| Reposta pela [[ES45C - Avaliação de Requisitos de um Software\|Avaliação de Requisitos de um Software]]                         | [[ES45C - Avaliação de Requisitos de um Software]] |   x   |     04/04/2025     |
+| :LiBadgeX: Sem necessidade de Presença - Reposta pela [[ES45C - Avaliação de Requisitos de um Software\|Avaliação de Requisitos de um Software]]                                | [[ES45C - Avaliação de Requisitos de um Software]] |   x   |     03/04/2025     |
+| :LiBadgeX: Sem necessidade de Presença - Reposta pela [[ES45C - Avaliação de Requisitos de um Software\|Avaliação de Requisitos de um Software]]                                | [[ES45C - Avaliação de Requisitos de um Software]] |   x   |     04/04/2025     |
 | Atividade Prática com o RPG                                                                                                                                                  |                         X                          |   X   |     10/04/2025     |
 | Atividade Prática com o RPG                                                                                                                                                  |                         X                          |   X   |     11/04/2025     |
 | Atividade Prática com o RPG                                                                                                                                                  |                         X                          |  Sim  |     17/04/2025     |
@@ -131,7 +131,7 @@ if (file) {
 | [[ES45C - Aula 10 - 12.06.25 - Qualidade do Produto de Software\|Qualidade do Produto de Software]]                                                                          |                         X                          |   X   |     12/06/2025     |
 | Teste de Software                                                                                                                                                            |                         X                          |   X   |     13/06/2025     |
 | Aplicação da [[ES45C - Avaliação 02]]                                                                                                                                        |                         X                          |   X   |     26/06/2025     |
-| Aplicação da [[ES43A - Avaliação 02]]                                                                                                                                        |                         X                          |   X   |     30/06/2025     |
+
 
 ### **Rastreamento de Presença** | `$= (dv.current().file.name).split(' - ')[1]`
 

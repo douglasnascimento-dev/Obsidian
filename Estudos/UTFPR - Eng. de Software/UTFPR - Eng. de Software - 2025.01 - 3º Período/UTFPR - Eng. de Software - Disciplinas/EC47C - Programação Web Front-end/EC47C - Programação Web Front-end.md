@@ -96,21 +96,21 @@ if (file) {
  
 ## **Registros de Aulas** | `$= (dv.current().file.name).split(' - ')[1]`
 
-| Aula                                                                                                                         |                                                          Atividade                                                           | Data de Realização |
-| :--------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: | :----------------: |
-| Introdução ao HTML                                                                                                           |                                                              X                                                               |        EaD         |
-| HTML Semântico                                                                                                               |                                         [[EC47C - Atv. Prática 01\|Arv. Prática 01]]                                         |        EaD         |
-| Imagens e Formulários                                                                                                        |                                         [[EC47C - Atv. Prática 02\|Atv. Prática 02]]                                         |        EaD         |
-| Sem conteúdo prográmatico                                                                                                    |                                                              X                                                               |        EaD         |
-| Introdução ao CSS                                                                                                            |                                         [[EC47C - Atv. Prática 03\|Atv. Prática 03]]                                         |        EaD         |
-| FlexBox em CSS                                                                                                               |                                                              X                                                               |        EaD         |
-| Layouts Responsivos                                                                                                          |                                                              X                                                               |        EaD         |
-| [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Parcial]]                                                           |                              [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Parcial]]                              |        EaD         |
-| [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Parcial]]                                                           |                              [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Parcial]]                              |        EaD         |
-| Introdução ao JavaScript                                                                                                     |                                                              X                                                               |        EaD         |
-| Manipulação do DOM com JS                                                                                                    |                                                              X                                                               |        EaD         |
-| Integração com o LocalStorage                                                                                                |                                         [[EC47C - Atv. Prática 04\|Arv. Prática 04]]                                         |        EaD         |
-| [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Final]]                                                             |                                [[EC47C - Entrega do Projeto Final\|Entrega do Projeto Final]]                                |        EaD         |
+| Aula                                                               |                             Atividade                              | Data de Realização |
+| :----------------------------------------------------------------- | :----------------------------------------------------------------: | :----------------: |
+| Introdução ao HTML                                                 |                                 X                                  |        EaD         |
+| HTML Semântico                                                     |            [[EC47C - Atv. Prática 01\|Arv. Prática 01]]            |        EaD         |
+| Imagens e Formulários                                              |            [[EC47C - Atv. Prática 02\|Atv. Prática 02]]            |        EaD         |
+| Sem conteúdo prográmatico                                          |                                 X                                  |        EaD         |
+| Introdução ao CSS                                                  |            [[EC47C - Atv. Prática 03\|Atv. Prática 03]]            |        EaD         |
+| FlexBox em CSS                                                     |                                 X                                  |        EaD         |
+| Layouts Responsivos                                                |                                 X                                  |        EaD         |
+| [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Parcial]] | [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Parcial]] |        EaD         |
+| [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Parcial]] | [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Parcial]] |        EaD         |
+| Introdução ao JavaScript                                           |                                 X                                  |        EaD         |
+| Manipulação do DOM com JS                                          |                                 X                                  |        EaD         |
+| Integração com o LocalStorage                                      |            [[EC47C - Atv. Prática 04\|Atv. Prática 04]]            |        EaD         |
+| [[EC47C - Entrega do Projeto Parcial\|Entrega do Projeto Final]]   |   [[EC47C - Entrega do Projeto Final\|Entrega do Projeto Final]]   |        EaD         |
 ### **Rastreamento de Presença** | `$= (dv.current().file.name).split(' - ')[1]`
 
   :LiBadgeX: **Não há necessidade de Presença**

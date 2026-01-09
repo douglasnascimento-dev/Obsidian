@@ -39,7 +39,6 @@ Anotações:
 ![[Estrutura de Dados - 01.png|banner]]
 
 ![[Estrutura de Dados - 01.png|banner]]
-
 ## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs

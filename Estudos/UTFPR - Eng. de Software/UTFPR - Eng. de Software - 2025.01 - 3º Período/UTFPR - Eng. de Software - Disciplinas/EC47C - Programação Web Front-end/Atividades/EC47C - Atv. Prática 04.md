@@ -7,4 +7,5 @@ Disciplina:
   - EC47C - Programação Web Front-end
 Tipo: Atividade
 Início: 2025-06-09
+Nota Final: "0.0"
 ---
