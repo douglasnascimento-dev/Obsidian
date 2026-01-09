@@ -42,4 +42,18 @@ const arquivos = [
 ];
 ```
 
-Nessa expressão regular, a RegExp está sendo usada para filtrar tipos de arquivos '.jpg' e '.jpeg', observe que o quantificador '?' está sendo utilizado para permitir que em tipos em que a letra 'e' não aparece, ou apareça apenas uma vez, sejam considerados válidos. O quaantificador '\*' tamb
+Nessa expressão regular, a RegExp está sendo usada para filtrar tipos de arquivos '.jpg' e '.jpeg', observe que o quantificador '?' está sendo utilizado para permitir que em tipos em que a letra 'e' não aparece, ou apareça apenas uma vez, sejam considerados válidos. O quantificador '\*' também poderia ser utilizado, entretanto, isso significar que tipos de arquivo como '.jpeeeeeg' fosse considerados válidos, o que não atende ao objetivo. 
+
+Observe também que é utilizado um caractere de '\\' logo antes do '.', isso porque, o ponto dentro das RegEx's tem função especifica, e para ser utilizado apenas para comparação, precisa ser declarado após um caractere de escape, cuja função é cumprida pela contra barra.
+
+## 🌿Mínimo e Máximo
+
+```js
+const regExp02 = /\.jpe{0,1}g/gi;
+```
+
+- **{ ,10}** | De 0 á 10
+- **{10, }** | De 10 á infinito
+- **{ 10 }** | 10 vezes
+- **{0, }** | De 0 á infinito
+
