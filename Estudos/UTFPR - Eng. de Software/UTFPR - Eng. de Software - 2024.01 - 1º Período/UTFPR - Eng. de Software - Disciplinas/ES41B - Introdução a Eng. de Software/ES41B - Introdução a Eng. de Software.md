@@ -3,14 +3,14 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
-Período: "2024.01"
 Ministrado: Eduardo Filgeras Damasceno
-Nota Final: 10
 Início: 2024-03-04
 Fim: 2024-07-29
-Avaliações: 
-Anotações: 
-Atividades: 
+Avaliações:
+Anotações:
+Atividades:
+Nota Final: 10
+Carga Horária: "30"
 ---
 
 ![[Introdução a Eng. de Software.png|banner]]

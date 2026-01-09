@@ -3,18 +3,18 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
-Período: "2024.01"
 Ministrado: André Luiz Przybusz
-Nota Final: 8
 Início: 2024-03-14
 Fim: 2025-08-22
-Avaliações: 
-Anotações: 
+Avaliações:
+Anotações:
 Atividades:
   - "[[ES41C - Atv 07]]"
   - "[[ES41C - Atv 08]]"
   - "[[ES41C - Atv 09]]"
   - "[[ES41C - Atv 10]]"
+Nota Final: 8
+Carga Horária: "30"
 ---
 ![[Organização de Computadores.png7|banner]]
 > [!banner-icon] 🌳

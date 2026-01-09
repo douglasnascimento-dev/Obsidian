@@ -4,8 +4,7 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Jader Maikol | Luciano Rovanni
-Carga Horária: 60h
-Nota Final: "10.0"
+Carga Horária: "60"
 Início: 2024-10-02
 Fim: 2025-02-28
 Avaliações:
@@ -13,10 +12,11 @@ Avaliações:
   - "[[ES42D - Avaliação 02]]"
   - "[[ES42D - Avaliação 03]]"
   - "[[ES42D - Atividades]]"
-Anotações: 
+Anotações:
 Atividades:
   - "[[ES42D - T1]]"
   - "[[ES42D - T2]]"
+Nota Final: "10.0"
 ---
 
 ![[Sistemas Operacionais.png|banner]]

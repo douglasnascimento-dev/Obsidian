@@ -5,12 +5,12 @@ cssclasses:
 Tipo: Disciplina
 Ministrado: Willian Massami Watanabe e Monique Emidio De Oliveira
 Carga Horária: "60"
-Nota Final: "10.0"
 Início: 2025-08-12
-Fim: ""
+Fim: 2025-12-12
 Avaliações:
   - "[[ES48B - Projeto Parcial]]"
   - "[[ES48B - Projeto Final]]"
+Nota Final: "10.0"
 ---
 
 

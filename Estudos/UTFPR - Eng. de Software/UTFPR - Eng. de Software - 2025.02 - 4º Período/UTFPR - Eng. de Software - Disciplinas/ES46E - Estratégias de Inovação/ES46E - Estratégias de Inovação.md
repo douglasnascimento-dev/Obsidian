@@ -6,12 +6,12 @@ cssclasses:
 Tipo: Disciplina
 Ministrado: João Luiz Dallamuta Lopes
 Carga Horária: "30"
-Nota Final: "8.3"
 Início: 2025-08-14
 Fim: 2025-11-28
 Avaliações:
   - "[[ES46E - Seminários]]"
   - "[[ES46E - Lista de Exercícios]]"
+Nota Final: "8.3"
 ---
 
 
@@ -206,7 +206,7 @@ if (sortedPagesArray.length === 0) {
 
 ```dataviewjs
 let pathAvaliacoes = `"${dv.current().file.folder}/Avaliações"`;
-let notaManual;
+let notaManual; // Ex: let notaManual = 9.5;
 
 let pages = dv.pages(pathAvaliacoes);
 let sortedPages = pages.sort(p => p.file.name);
@@ -215,17 +215,34 @@ let sortedPagesArray = Array.from(sortedPages);
 let totalPeso = 0;
 let totalNotaComPeso = 0;
 
+// Função Helper para formatar número para BR (ex: 8.5 -> "8,5")
+function formatarBR(valor) {
+    if (valor === undefined || valor === null) return "-";
+    return Number(valor).toFixed(1).replace(".", ",");
+}
+
 let tabelaDados = sortedPagesArray.map(p => {
     let notaValida = p.Nota !== undefined && p.Nota !== null;
     if (notaValida) {
         totalPeso += p.Peso;
         totalNotaComPeso += p.Nota * p.Peso;
     }
-    return [`[[${p.file.name}]] | ${p.Referência === null ? " " : p.Referência }`, p.Nota, p.Peso];
+    return [
+        `[[${p.file.name}]] | ${p.Referência ? p.Referência : ""}`, 
+        formatarBR(p.Nota), // Formata as notas individuais
+        p.Peso
+    ];
 });
 
 let mediaFinal = totalPeso ? totalNotaComPeso / totalPeso : 0;
-let notaExibicao = notaManual ? notaManual : mediaFinal.toFixed(1);
+
+// Formata a média final trocando ponto por vírgula
+let mediaFormatada = mediaFinal.toFixed(1).replace(".", ",");
+
+// Define a exibição (Manual ou Calculada)
+let notaExibicao = notaManual 
+    ? String(notaManual).replace(".", ",") 
+    : mediaFormatada;
 
 tabelaDados.push(["**Média Final**", `**${notaExibicao}**`, ""]);
 
@@ -237,7 +254,10 @@ dv.table(
 const file = app.vault.getAbstractFileByPath(dv.current().file.path);
 if (file) {
     app.fileManager.processFrontMatter(file, fm => {
-        fm["Nota Final"] = notaExibicao;
+        // Só atualiza se o valor for diferente para evitar loops
+        if (fm["Nota Final"] !== notaExibicao) {
+            fm["Nota Final"] = notaExibicao;
+        }
     });
 }
 ```

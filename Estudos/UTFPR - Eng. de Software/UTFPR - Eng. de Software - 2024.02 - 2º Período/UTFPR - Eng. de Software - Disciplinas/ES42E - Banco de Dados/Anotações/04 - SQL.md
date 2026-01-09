@@ -1,11 +1,11 @@
 ---
-Tipo: Anotação
 cssclasses:
   - banner
   - banner-fade
   - yellowCab
   - wideTable
   - wideFC
+Tipo: Anotação
 ---
 
 ![[Banco de Dados.png|banner]]

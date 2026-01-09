@@ -4,13 +4,13 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Natassya Barlate Floro Da Silva
-Carga Horária: 60h
-Nota Final: "9.3"
+Carga Horária: "60"
 Início: 2025-04-25
 Fim: 2025-07-11
 Avaliações:
   - "[[EC47B - Média dos Exercícios]]"
   - "[[EC47B - Média das Atvs. Práticas]]"
+Nota Final: "9.3"
 ---
 
 

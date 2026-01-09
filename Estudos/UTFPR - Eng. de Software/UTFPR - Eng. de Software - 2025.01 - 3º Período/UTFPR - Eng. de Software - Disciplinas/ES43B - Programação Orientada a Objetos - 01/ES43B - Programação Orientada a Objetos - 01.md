@@ -4,14 +4,14 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: José Antônio Gonçalves
-Carga Horária: 90h
-Nota Final: "9.9"
+Carga Horária: "90"
 Início: 2025-03-25
-Fim: ""
+Fim: 2025-06-30
 Avaliações:
   - "[[ES43B - Média das Listas]]"
   - "[[ES43B - Projeto Pessoal - Entrega Parcial]]"
   - "[[ES43B - Projeto Pessoal - Entrega Final]]"
+Nota Final: "9.9"
 ---
 
 ![[Programação Orientada a Objetos.png|banner]]

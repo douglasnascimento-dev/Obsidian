@@ -4,8 +4,7 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Josimar da Silva
-Carga Horária: 60h
-Nota Final: "7.7"
+Carga Horária: "60"
 Início: 2024-10-03
 Fim: 2025-02-28
 Avaliações:
@@ -13,11 +12,12 @@ Avaliações:
   - "[[ES42G - Avaliação 02|ES42G - Avaliação 02]]"
   - "[[ES42G - Avaliação 03|ES42G - Avaliação 03]]"
   - "[[ES42G - Média Geral]]"
-Anotações: 
+Anotações:
 Atividades:
   - "[[ES42G - Atividade de Fixação 01]]"
   - "[[ES42G - Atividade de Fixação 02]]"
   - "[[ES42G - Atividade de Fixação 03]]"
+Nota Final: "7.7"
 ---
 
 ![[Matemática Discreta.png|banner]]

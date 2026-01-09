@@ -3,9 +3,8 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
-Período: "2024.01"
 Ministrado: Adriane Carla Anastácio
-Nota Final: "9.8"
+Carga Horária: "90"
 Início: 2024-03-04
 Fim: 2025-07-01
 Avaliações:
@@ -26,7 +25,7 @@ Atividades:
   - "[[ES41A - Lista de Ex. 23]]"
   - "[[ES41A - Lista de Ex. 24]]"
   - "[[ES41A - Lista de Ex. 25]]"
-Coeficiente de Rendimento: "0.0000"
+Nota Final: "9.8"
 ---
 ![[Algoritimos - 01.png|banner]]
 > [!banner-icon] 🌳

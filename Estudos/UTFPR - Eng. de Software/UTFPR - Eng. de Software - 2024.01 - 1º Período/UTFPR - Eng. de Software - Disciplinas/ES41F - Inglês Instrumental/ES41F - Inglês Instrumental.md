@@ -3,12 +3,14 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
-Período: "2024.01"
 Ministrado: Denise da Silva de Oliveira
+Avaliações:
+Anotações:
+Atividades:
 Nota Final: 9
-Avaliações: 
-Anotações: 
-Atividades: 
+Carga Horária: "30"
+Fim: 2024-09-07
+Início: 2024-01-03
 ---
 ![[Inglês Instrumental.png|banner]]
 > [!banner-icon] 🌳

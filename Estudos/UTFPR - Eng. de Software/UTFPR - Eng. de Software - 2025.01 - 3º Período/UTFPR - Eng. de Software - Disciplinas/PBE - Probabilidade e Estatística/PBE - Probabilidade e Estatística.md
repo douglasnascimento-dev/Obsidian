@@ -4,16 +4,16 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Emilio Augusto Coelho Barros
-Carga Horária: 60h
-Nota Final: 9.1
+Carga Horária: "60"
 Início: 2025-03-26
-Fim: ""
+Fim: 2025-07-12
 Avaliações:
   - "[[PBE - Avaliação 01]]"
   - "[[PBE - Avaliação 02]]"
   - "[[PBE - Avaliação 03]]"
   - "[[PBE - Média das Tarefas]]"
   - "[[PBE - Médias dos Questionários]]"
+Nota Final: 9.1
 ---
 
 ![[Probabilidade e Estatística.png|banner]]

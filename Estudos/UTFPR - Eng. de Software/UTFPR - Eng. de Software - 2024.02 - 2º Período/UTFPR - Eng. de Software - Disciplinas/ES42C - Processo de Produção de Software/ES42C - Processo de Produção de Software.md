@@ -4,7 +4,7 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Alessandro Silveira Duarte
-Nota Final: "9.5"
+Carga Horária: "30"
 Início: 2024-10-01
 Fim: 2025-02-28
 Avaliações:
@@ -12,7 +12,7 @@ Avaliações:
   - "[[Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/ES42C - Processo de Produção de Software/Avaliações/ES42C - Avaliação 02|ES42C - Avaliação 02]]"
 Anotações:
 Atividades:
-Carga Horária: 30h
+Nota Final: "9.5"
 ---
 
 ![[Processo de Produção de Software.png|banner]]

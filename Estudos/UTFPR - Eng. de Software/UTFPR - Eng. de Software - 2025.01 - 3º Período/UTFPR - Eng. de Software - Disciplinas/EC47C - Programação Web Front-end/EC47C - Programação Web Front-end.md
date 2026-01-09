@@ -4,13 +4,13 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Rosângela De Fatima Pereira Marquesone
-Carga Horária: 60h
-Nota Final: "9.1"
+Carga Horária: "60"
 Início: 2025-03-25
 Fim: 2025-06-23
 Avaliações:
   - "[[EC47C - Projeto Parcial]]"
   - "[[EC47C - Projeto Final]]"
+Nota Final: "9.1"
 ---
 
 ![[Programação Web Front-end.png|banner]]

@@ -4,14 +4,14 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Camila Dias de Oliveira Sestito
-Carga Horária: 60h
-Nota Final: "10.0"
+Carga Horária: "60"
 Início: 2025-03-27
-Fim: ""
+Fim: 2025-12-01
 Avaliações:
   - "[[ES45C - Avaliação 01]]"
   - "[[ES45C - Avaliação 02]]"
   - "[[ES45C - Média das Atividades]]"
+Nota Final: "10.0"
 ---
 
 ![[Qualidade de Software.png|banner]]

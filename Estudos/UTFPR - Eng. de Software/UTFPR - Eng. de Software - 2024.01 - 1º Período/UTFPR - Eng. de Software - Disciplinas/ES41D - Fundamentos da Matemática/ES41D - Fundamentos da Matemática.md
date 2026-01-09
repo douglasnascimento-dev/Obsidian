@@ -3,14 +3,14 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
-Período: "2024.01"
 Ministrado: Henrique Biscaro Raposo
-Nota Final: 6.7
 Início: 2024-03-07
 Fim: 2024-06-15
-Avaliações: 
-Anotações: 
-Atividades: 
+Avaliações:
+Anotações:
+Atividades:
+Nota Final: 6.7
+Carga Horária: "60"
 ---
 ![[Fundamentos da Matemática.png|banner]]
 > [!banner-icon] 🌳

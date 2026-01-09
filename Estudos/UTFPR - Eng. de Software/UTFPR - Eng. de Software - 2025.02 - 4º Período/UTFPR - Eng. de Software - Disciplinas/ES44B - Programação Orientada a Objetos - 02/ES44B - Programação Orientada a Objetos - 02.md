@@ -4,14 +4,14 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Gisele Alves Santana
-Carga Horária: 90h
-Nota Final: "9.8"
+Carga Horária: "90"
 Início: 2025-08-12
-Fim: ""
+Fim: 2025-12-01
 Avaliações:
   - "[[ES44B - Avaliação]]"
   - "[[ES44B - Projeto]]"
   - "[[ES44B - Média das Atividades]]"
+Nota Final: "9.8"
 ---
 
 

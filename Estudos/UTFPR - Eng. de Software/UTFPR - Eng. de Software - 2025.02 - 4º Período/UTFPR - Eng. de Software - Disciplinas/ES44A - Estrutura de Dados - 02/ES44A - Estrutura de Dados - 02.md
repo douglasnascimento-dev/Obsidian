@@ -4,14 +4,14 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Rosângela De Fátima Pereira Marquesone
-Carga Horária: 90h
-Nota Final: "7.8"
+Carga Horária: "90"
 Início: 2025-08-12
-Fim: ""
+Fim: 2025-12-01
 Avaliações:
   - "[[ES44A - Avaliação 01]]"
   - "[[ES44A - Avaliação 02]]"
   - "[[ES44A - Projeto Final]]"
+Nota Final: "7.8"
 ---
 
 ![[Estrutura de Dados - 02.png|banner]]

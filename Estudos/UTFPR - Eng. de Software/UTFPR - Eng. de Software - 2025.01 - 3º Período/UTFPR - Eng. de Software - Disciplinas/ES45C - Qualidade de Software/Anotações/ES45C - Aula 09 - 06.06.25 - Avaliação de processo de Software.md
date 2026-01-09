@@ -1,5 +1,4 @@
 ---
-Tipo: Anotação
 cssclasses:
   - banner
   - banner-fade
@@ -7,6 +6,7 @@ cssclasses:
   - yellowCab
   - wideTable
   - wideFC
+Tipo: Anotação
 ---
 
 ![[Qualidade de Software.png|banner]]

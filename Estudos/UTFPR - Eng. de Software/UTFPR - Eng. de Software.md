@@ -2,15 +2,12 @@
 cssclasses:
   - banner
   - banner-fade
-Início: 2024-03-04
 Períodos:
   - "[[UTFPR - Eng. de Software - 2024.01 - 1º Período]]"
   - "[[UTFPR - Eng. de Software - 2024.02 - 2º Período]]"
   - "[[UTFPR - Eng. de Software - 2025.01 - 3º Período-]]"
   - "[[UTFPR - Eng. de Software - 2025.02 - 4º Período]]"
-Tipo: Inicial
 Coeficiente de Rendimento: "0.9183"
-Nota Final: "7.7"
 Disciplinas:
   - "[[ES41A - Algoritimos - 01]]"
   - "[[ES41B - Introdução a Eng. de Software]]"
@@ -38,6 +35,9 @@ Disciplinas:
   - "[[ES42E - Banco de Dados]]"
   - "[[ES42F - Fundamentos da Ética]]"
   - "[[ES42G - Matemática Discreta]]"
+Tipo: Inicial
+Início: 2024-03-04
+Nota Final: "7.7"
 ---
 
 ![[Eng. de Software.png|banner]]

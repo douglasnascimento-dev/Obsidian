@@ -1,0 +1,33 @@
+views:
+  - type: table
+    name: Tabela
+    filters:
+      and:
+        - file.inFolder("Estudos/UTFPR - Eng. de Software")
+        - Tipo == "Disciplina"
+    groupBy:
+      property: Coeficiente de Rendimento
+      direction: ASC
+    order:
+      - file.name
+      - Período
+      - Carga Horária
+      - Início
+      - Fim
+      - Ministrado
+      - Nota Final
+    sort:
+      - property: Período
+        direction: DESC
+      - property: Status
+        direction: ASC
+      - property: file.backlinks
+        direction: ASC
+      - property: Nota Final
+        direction: ASC
+      - property: Coeficiente de Rendimento
+        direction: ASC
+    summaries:
+      Status: Unique
+  - type: list
+    name: Visualizaçao padrão

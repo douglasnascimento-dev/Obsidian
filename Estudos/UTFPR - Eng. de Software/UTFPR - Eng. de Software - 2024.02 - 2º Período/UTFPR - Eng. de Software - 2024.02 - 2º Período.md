@@ -2,8 +2,6 @@
 cssclasses:
   - banner
   - banner-fade
-Tipo: Período
-Início: 2024-10-01
 Disciplinas:
   - "[[EC47E - Empreendedorismo]]"
   - "[[ES42B - Algoritimos - 02]]"
@@ -13,7 +11,9 @@ Disciplinas:
   - "[[ES42F - Fundamentos da Ética]]"
   - "[[ES42G - Matemática Discreta]]"
 Coeficiente de Rendimento: "0.9317"
+Tipo: Período
 Carga Horária: 360h
+Início: 2024-10-01
 ---
 
 ![[02 Período.png|banner]]

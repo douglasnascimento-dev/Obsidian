@@ -1,15 +1,15 @@
 ---
-Avaliações:
-  - "[[EC47D - Médias das Atvs.]]"
-Carga Horária: 60h
 cssclasses:
   - banner
   - banner-fade
-Fim: ""
-Início: 2025-08-12
-Ministrado: Flávia Belintani Blum Haddad
-Nota Final: "7.7"
 Tipo: Disciplina
+Ministrado: Flávia Belintani Blum Haddad
+Carga Horária: "60"
+Início: 2025-08-12
+Fim: 2025-12-12
+Avaliações:
+  - "[[EC47D - Médias das Atvs.]]"
+Nota Final: "7.7"
 ---
 
 ![[Gerenciamento de Projeto de Software.png|banner]]

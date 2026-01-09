@@ -1,5 +1,4 @@
 ---
-Tipo: Anotação
 cssclasses:
   - banner
   - banner-fade
@@ -8,6 +7,7 @@ cssclasses:
   - wideTable
   - wideFC
 Conteúdo: Anotações sobre Ponteiros e Passagem por Referência, tanto por código quanto utilizando o Terminal de Comando (CMD)
+Tipo: Anotação
 ---
 
 ![[Algoritimos 02.png|banner]]

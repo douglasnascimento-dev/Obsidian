@@ -4,15 +4,15 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Lucas Dias Hiera Sampaio
-Carga Horária: 60h
-Nota Final: "8.6"
+Carga Horária: "60"
 Início: 2025-08-14
-Fim: ""
+Fim: 2025-12-01
 Avaliações:
   - "[[ES44F - Avaliação 01]]"
   - "[[ES44F - Avaliação 02]]"
   - "[[ES44F - Média das Labóratorios]]"
   - "[[ES44F - Média dos Questionários]]"
+Nota Final: "8.6"
 ---
 
 ![[Segurança da Informação.png|banner]]

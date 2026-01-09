@@ -4,15 +4,15 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Dirceu Casa Grande Jr.
-Carga Horária: 30h
-Nota Final: "9.5"
+Carga Horária: "30"
 Início: 2024-10-04
 Fim: 2025-02-28
 Avaliações:
   - "[[ES42F - Avaliação 01]]"
   - "[[ES42F - Avaliação 02]]"
-Anotações: 
-Atividades: 
+Anotações:
+Atividades:
+Nota Final: "9.5"
 ---
 
 

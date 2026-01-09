@@ -4,9 +4,7 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Josieli Soares
-Carga Horária: 30h
-Nota Final: "9.5"
-Status: true
+Carga Horária: "30"
 Início: 2024-10-01
 Fim: 2025-02-28
 Avaliações:
@@ -17,13 +15,14 @@ Avaliações:
   - "[[EC47E - Avaliação 05]]"
   - "[[EC47E - Avaliação 06]]"
   - "[[EC47E - Avaliação 07]]"
-Anotações: 
+Anotações:
 Atividades:
   - "[[EC47E - Ex. 01]]"
   - "[[EC47E - Ex. 02]]"
   - "[[EC47E - Ex. 03]]"
   - "[[EC47E - Ex. 04]]"
   - "[[EC47E - Ex. 05]]"
+Nota Final: "9.5"
 ---
 
 ![[Empreendedorismo.png|banner]]

@@ -2,7 +2,6 @@
 cssclasses:
   - banner
   - banner-fade
-Tipo: Período
 Disciplinas:
   - "[[EC47D - Gerenciamento de Projeto de Software]]"
   - "[[EC48B - Programação Web Back-end]]"
@@ -12,6 +11,7 @@ Disciplinas:
   - "[[ES44F - Segurança da Informação]]"
   - "[[ES46E - Estratégias de Inovação]]"
 Coeficiente de Rendimento: "0.8807"
+Tipo: Período
 Carga Horária: 420h
 ---
 

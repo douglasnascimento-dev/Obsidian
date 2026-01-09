@@ -4,13 +4,13 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Camila Dias de Oliveira Sestito
-Carga Horária: 60h
-Nota Final: "9.3"
+Carga Horária: "60"
 Início: 2025-03-28
-Fim: ""
+Fim: 2025-06-30
 Avaliações:
   - "[[ES43C - Avaliação]]"
   - "[[ES43C - Projeto Final]]"
+Nota Final: "9.3"
 ---
 
 ![[Requisitos de Software.png|banner]]

@@ -2,8 +2,6 @@
 cssclasses:
   - banner
   - banner-fade
-Tipo: Período
-Início: 2024-03-04
 Disciplinas:
   - "[[ES41A - Algoritimos - 01]]"
   - "[[ES41B - Introdução a Eng. de Software]]"
@@ -11,7 +9,9 @@ Disciplinas:
   - "[[ES41C - Organização de Computadores]]"
   - "[[ES41F - Inglês Instrumental]]"
 Coeficiente de Rendimento: "0.0000"
+Tipo: Período
 Carga Horária: 300h
+Início: 2024-03-04
 ---
 
 ![[01 Período.png|banner]]

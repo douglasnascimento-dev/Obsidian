@@ -2,7 +2,6 @@
 cssclasses:
   - banner
   - banner-fade
-Tipo: Período
 Disciplinas:
   - "[[EC47C - Programação Web Front-end]]"
   - "[[EC47B - Redes de Computadores]]"
@@ -12,6 +11,7 @@ Disciplinas:
   - "[[ES43A - Estrutura de Dados - 01]]"
   - "[[ES43B - Programação Orientada a Objetos - 01]]"
 Coeficiente de Rendimento: "0.9412"
+Tipo: Período
 Carga Horária: 480h
 ---
 

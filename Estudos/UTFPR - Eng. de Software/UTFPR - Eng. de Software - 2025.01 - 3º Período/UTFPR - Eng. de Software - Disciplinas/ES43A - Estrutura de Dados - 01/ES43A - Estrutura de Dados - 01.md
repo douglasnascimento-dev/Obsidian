@@ -4,14 +4,14 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Rodrigo Henrique Cunha Palácios
-Carga Horária: 90h
-Nota Final: "9.1"
+Carga Horária: "90"
 Início: 2025-03-25
 Fim: 2025-06-30
 Avaliações:
   - "[[ES43A - Avaliação 01]]"
   - "[[ES43A - Avaliação 02]]"
   - "[[ES43A - Média dos Exercicíos]]"
+Nota Final: "9.1"
 ---
 
 ![[Estrutura de Dados - 01.png|banner]]

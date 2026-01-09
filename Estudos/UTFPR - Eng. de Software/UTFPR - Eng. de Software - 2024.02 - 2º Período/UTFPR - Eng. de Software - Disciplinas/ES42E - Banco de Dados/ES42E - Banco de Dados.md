@@ -4,8 +4,7 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Giovani Volnei
-Carga Horária: 90h
-Nota Final: "9.3"
+Carga Horária: "90"
 Início: 2024-10-01
 Fim: 2025-02-28
 Avaliações:
@@ -32,6 +31,7 @@ Atividades:
   - "[[ES42E - EF 13]]"
   - "[[ES42E - EF 14]]"
   - "[[ES42E - EF 15]]"
+Nota Final: "9.3"
 ---
 
 ![[Banco de Dados.png|banner]]

@@ -4,7 +4,7 @@ cssclasses:
   - banner-fade
 Tipo: Disciplina
 Ministrado: Gabriel Canhadas
-Nota Final: "10.0"
+Carga Horária: "60"
 Início: 2024-10-02
 Fim: 2025-02-28
 Avaliações:
@@ -14,7 +14,7 @@ Anotações:
 Atividades:
   - "[[ES42B - Projeto Final]]"
   - "[[ES42B - Atividade 01]]"
-Carga Horária: 60h
+Nota Final: "10.0"
 ---
 
 ![[Algoritimos 02.png|banner]]
