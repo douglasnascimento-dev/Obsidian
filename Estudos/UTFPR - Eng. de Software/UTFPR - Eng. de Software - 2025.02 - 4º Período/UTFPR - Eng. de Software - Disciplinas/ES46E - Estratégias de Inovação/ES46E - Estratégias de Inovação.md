@@ -11,11 +11,13 @@ Avaliações:
   - "[[ES46E - Seminários]]"
   - "[[ES46E - Lista de Exercícios]]"
 Nota Final: "8.3"
+Atividades:
+  - "[[ES46E - Entrega da Lista de Exercícios]]"
 ---
 
 
 ![[Estratégias de Inovação.png|banner]]
-## **Atividades** | Estratégias de Inovação
+## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let pathAtividades = `"${dv.current().file.folder}/Atividades"`;
@@ -70,36 +72,46 @@ if (sortedPagesArray.length === 0) {
         tabelaDados
     );
 }
+
+const file = app.vault.getAbstractFileByPath(dv.current().file.path);
+if (file) {
+    const linksAtividades = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+    await app.fileManager.processFrontMatter(file, fm => {
+        if (JSON.stringify(fm["Atividades"]) !== JSON.stringify(linksAtividades)) {
+            fm["Atividades"] = linksAtividades;
+        }
+    });
+}
 ```
 
 --- 
 
 ![[Banner 01 - 04.png]]
  
-## **Registros de Aulas** | Estratégias de Inovação
+## **Registros de Aulas** | `$= (dv.current().file.name).split(' - ')[1]`
 
-| Aula                                                                    |                                 Atividade                                  | Falta | Data de Realização |
-| :---------------------------------------------------------------------- | :------------------------------------------------------------------------: | :---: | :----------------: |
-| Apresentação da Disciplina                                              |                                     X                                      |   X   |     15.08.2025     |
-| Por que inovar?                                                         |                                     X                                      |   X   |     22.08.2025     |
-| Tipos e Graus de Inovação                                               |                                     X                                      |   X   |     29.08.2025     |
-| Princípios de Inovação Tecnológica                                      |                                     X                                      |   X   |     05.09.2025     |
-| Ambiente e Cultura de Inovação                                          |                                     X                                      |   X   |     12.09.2025     |
-| Estratégias de Inovação - Parte 1                                       |                                     X                                      |   X   |     19.09.2025     |
-| Estratégias de Inovação - Parte 2                                       |                                     X                                      |  Sim  |     26.09.2025     |
-| Propriedade Intelectual                                                 |                                     X                                      |   X   |     03.10.2025     |
-| Difusão de Tecnologia e da Inovação                                     |                                     X                                      |   X   |     10.10.2025     |
-| Tópicos em Inovação                                                     | [[ES46E - Entrega da Lista de Exercícios\|Entrega da Lista de Exercícios]] |  Sim  |     17.10.2025     |
-| Tópicos em Inovação                                                     |                                     X                                      |   X   |     24.10.2025     |
-| :LiXCircle: Sem necessidade de Presença - **SECOMP**                    |                                     X                                      |   X   |     31.10.2025     |
-| Apresentação dos [[ES46E - Seminários\|Seminários]]                     |                                     X                                      |  Sim  |     07.11.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     14.11.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     28.11.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     05.12.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     12.12.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     19.12.2025     |
+| Aula                                                                   |                                 Atividade                                  | Falta | Data de Realização |
+| :--------------------------------------------------------------------- | :------------------------------------------------------------------------: | :---: | :----------------: |
+| Apresentação da Disciplina                                             |                                     X                                      |   X   |     15.08.2025     |
+| Por que inovar?                                                        |                                     X                                      |   X   |     22.08.2025     |
+| Tipos e Graus de Inovação                                              |                                     X                                      |   X   |     29.08.2025     |
+| Princípios de Inovação Tecnológica                                     |                                     X                                      |   X   |     05.09.2025     |
+| Ambiente e Cultura de Inovação                                         |                                     X                                      |   X   |     12.09.2025     |
+| Estratégias de Inovação - Parte 1                                      |                                     X                                      |   X   |     19.09.2025     |
+| Estratégias de Inovação - Parte 2                                      |                                     X                                      |  Sim  |     26.09.2025     |
+| Propriedade Intelectual                                                |                                     X                                      |   X   |     03.10.2025     |
+| Difusão de Tecnologia e da Inovação                                    |                                     X                                      |   X   |     10.10.2025     |
+| Tópicos em Inovação                                                    | [[ES46E - Entrega da Lista de Exercícios\|Entrega da Lista de Exercícios]] |  Sim  |     17.10.2025     |
+| Tópicos em Inovação                                                    |                                     X                                      |   X   |     24.10.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **SECOMP**                    |                                     X                                      |   X   |     31.10.2025     |
+| Apresentação dos [[ES46E - Seminários\|Seminários]]                    |                                     X                                      |  Sim  |     07.11.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     14.11.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     28.11.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     05.12.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     12.12.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina** |                                     X                                      |   X   |     19.12.2025     |
 
-### Rastreamento de Presença | Estratégias de Inovação
+### **Rastreamento de Presença** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let editor = app.workspace.getLeaf().view.editor;
@@ -157,7 +169,7 @@ dv.paragraph(`Porcentagem de Presença: **${presenciaPercentual.toFixed(2)}%**`)
 
 ![[Banner 02 - 04.png]]
 
-## **Anotações** | Estratégias de Inovação
+## **Anotações** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 // 1. Obtém o caminho da pasta onde esta nota atual está (a pasta da disciplina)
@@ -173,7 +185,7 @@ let sortedPagesArray = Array.from(sortedPages);
 
 // Se não houver atividades, exibir a mensagem e encerrar o código
 if (sortedPagesArray.length === 0) {
-      dv.span(":LiCircleX: **Não há anotações registradas nesta disciplina.**");
+      dv.span(":LiBadgeX: **Não há anotações registradas nesta disciplina.**");
 } else {
     let cont = 1;
     
@@ -201,7 +213,7 @@ if (sortedPagesArray.length === 0) {
 
 ![[Banner 01 - 04.png]]
 
-## **Avaliações** | Estratégias de Inovação
+## **Avaliações** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let pathAvaliacoes = `"${dv.current().file.folder}/Avaliações"`;

@@ -114,9 +114,9 @@ if (sortedPagesArray.length === 0) {
 | Revisão para a [[ES44F - Avaliação 02\|Avaliação 02]]                                                      |                      X                       |     01.12.2025     |
 | Revisão para a [[ES44F - Avaliação 02\|Avaliação 02]]                                                      |                      X                       |     02.12.2025     |
 | Aplicação da [[ES44F - Avaliação 02\|Avaliação 02]]                                                        |                      X                       |     08.12.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                    |                      X                       |     09.12.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                    |                      X                       |     15.12.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                    |                      X                       |     16.12.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina**                                     |                      X                       |     09.12.2025     |
+| :LiBadgeXSem necessidade de Presença - **Finalização da Disciplina**                                       |                      X                       |     15.12.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina**                                     |                      X                       |     16.12.2025     |
 ###  **Rastreamento de Presença** | Segurança da Informação
 
   :LiCircleX: **Não há necessidade de Presença**

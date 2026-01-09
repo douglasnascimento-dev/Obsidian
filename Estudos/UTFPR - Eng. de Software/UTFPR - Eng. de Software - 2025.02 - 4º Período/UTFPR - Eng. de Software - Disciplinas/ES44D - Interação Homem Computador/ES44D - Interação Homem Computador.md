@@ -13,6 +13,7 @@ Avaliações:
 Nota Final: "9.6"
 ---
 
+
 ![[Interação Homem Computador.png|banner]]
 ## **Atividades** | Interação Homem Computador
 
@@ -89,13 +90,13 @@ if (sortedPagesArray.length === 0) {
 | [[ES44D - Aula 08 - 09.10.2025 - Acessibilidade Digital\|Acessibilidade Digital]] em IHC                                       |                                                          X                                                          |   X   |     09.10.2025     |
 | Atv. Prática com Tecnologias Assistivas                                                                                        |                                                          X                                                          |   X   |     16.10.2025     |
 | Processo de [[ES44D - Aula 09 - 23.10.2025 - Avaliação em IHC\| Avaliação em IHC]]                                             |                              [[ES44D - 07 - Teste com o usuário\|Teste com o usuário]]                              |  Sim  |     23.10.2025     |
-| :LiXCircle: Sem necessidade de Presença - **SECOMP**                                                                           |                                                          X                                                          |   X   |     30.10.2025     |
+| :LiBadgeX Sem necessidade de Presença - **SECOMP**                                                                           |                                                          X                                                          |   X   |     30.10.2025     |
 | Interfaces Avançadas em IHC                                                                                                    |                                                          X                                                          |   X   |     06.11.2025     |
 | Aplicação da [[ES44D - Avaliação\|Avaliação]]                                                                                  |                                                          X                                                          |   X   |     13.11.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     27.11.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     04.12.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     11.12.2025     |
-| :LiXCircle: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     18.12.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     27.11.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     04.12.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     11.12.2025     |
+| :LiBadgeX: Sem necessidade de Presença - **Finalização da Disciplina**                                                        |                                                          X                                                          |   X   |     18.12.2025     |
 ### **Rastreamento de Presença** | Interação Homem Computador
 
 ```dataviewjs

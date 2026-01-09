@@ -12,22 +12,22 @@ Fim: ""
 Status: false
 Módulos:
   - "[[JS & TS - 01 - Configurando o Ambiente]]"
+  - "[[JS & TS - 02 - JavaScript Básico]]"
   - "[[JS & TS - 03 - JavaScript - Lógica de Programação]]"
   - "[[JS & TS - 04 - JavaScript - Funções]]"
   - "[[JS & TS -  05 - JavaScript - Arrays]]"
-  - "[[JS & TS - 02 - JavaScript Básico]]"
-  - "[[JS & TS - 09 - JS Toolings e Modules]]"
-  - "[[JS & TS - 07 - JavaScript POO]]"
   - "[[JS & TS - 06 - JavaScript - Objetos e Prototypes]]"
+  - "[[JS & TS - 07 - JavaScript POO]]"
+  - "[[JS & TS - 09 - JS Toolings e Modules]]"
   - "[[JS & TS - 10 - Node, NPM, Express e MongoDB]]"
   - "[[JS & TS - 08 - JS Assíncrono]]"
-  - "[[JS & TS - 14 - React - Básico]]"
-  - "[[JS & TS - 11 - Projeto Agenda]]"
-  - "[[JS & TS - 16 - React Router Dom v6]]"
   - "[[JS & TS - 12 - Deploy da Aplicação]]"
   - "[[JS & TS - 13 - API Rest]]"
+  - "[[JS & TS - 14 - React - Básico]]"
   - "[[JS & TS - 15 - React - Redux Saga]]"
+  - "[[JS & TS - 16 - React Router Dom v6]]"
   - "[[JS & TS - 17 - RegEx]]"
+  - "[[JS & TS - 11 - Projeto Agenda]]"
 ---
 ![[JS & TS.png|banner]]
 
