@@ -13,9 +13,5 @@ cssclasses:
 ![[JS & TS.png|banner]]
 > [!banner-icon] Módulo 17
 > 
-## 🌳O que é Greedy?
+## 🌳Conjuntos
 
-
-## 🌿O Caractere '.'
-
-O Caractere '.' (Ponto) irá representar qualquer caractere, exceto uma nova linha. 
