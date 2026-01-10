@@ -77,7 +77,12 @@ Os Caracteres UniCode serão representados da maneira acima em JS.
 
 ## 🌿Atalhos
 
-- **/d** | Atalho para o Rang
-- **/D** |
-- **\/w** |
-- **\/W** |
+- **/d** | Atalho para o Range de \[0-9]
+- **/D** | Nega o \d
+
+- **\/w** | Atalho para o Range de \[a-zA-Z0-9_]
+- **\/W** | Nega o \w
+
+- **/s** | Atalho para qualquer espaço (Quebras de Linhas, Espaços, Avanços de Páginas)
+- - **\/S** | Nega o \w
+
