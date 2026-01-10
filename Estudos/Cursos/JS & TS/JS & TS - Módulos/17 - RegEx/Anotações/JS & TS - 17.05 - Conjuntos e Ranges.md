@@ -47,4 +47,37 @@ A Saída será: \[ 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', '
 
 ## 🌳Ranges
 
-Representam um conjunto de  
+Representam um conjunto de um determinado ponto X até um outro ponto Y. A Ordem sempre é do menor até o maior. 
+
+## 🌿Numérico 
+
+```js
+const regExp08+ = /[0-9]/g;
+```
+
+## 🌿Alfabeto
+
+```js
+const regExp09+ = /[a-z]/g;
+```
+
+## 🌿Combinando Ranges
+
+```js
+const regExp09+ = /[a-z0-5A-K]/g;
+```
+
+ ## 🌿**Caracteres Unicode**
+
+```js
+const regExp14 = /[\u00A0-\u00BA]+/g
+```
+
+Os Caracteres UniCode serão representados da maneira acima em JS. 
+
+## 🌿Atalhos
+
+- **/d** | Atalho para o Rang
+- **/D** |
+- **\/w** |
+- **\/W** |
