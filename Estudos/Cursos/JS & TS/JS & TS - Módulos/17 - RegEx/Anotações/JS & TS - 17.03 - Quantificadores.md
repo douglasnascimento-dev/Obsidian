@@ -18,7 +18,7 @@ cssclasses:
 - **\*** - Opcional | 0 ou n vezes
 - **?** - Opcional | 0 ou 1 vez
 - **+** - Obrigatório | 1 ou n vezes
-
+****
 ## 🌿Usando os Quantificadores
 
 ```js
