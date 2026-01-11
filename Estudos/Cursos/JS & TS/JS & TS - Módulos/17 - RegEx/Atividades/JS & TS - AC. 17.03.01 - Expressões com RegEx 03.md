@@ -70,6 +70,21 @@ console.log(params);
 
 ### 🎋Resolução
 
+```js
+ const queryString = "produto=notebook&id=500&categoria=eletronicos&promo=true";
+
+// Construa a RegEx para capturar as chaves e os valores separadamente
+const regExpQuery = /(\w*)=(\w*)[^\W]?/g;
+
+let match;
+const params = {};
+
+while ((match = regExpQuery.exec(queryString)) !== null) {
+  params[match[1]] = match[2];
+}
+
+console.log(params);
+```
 
 ## 🌿Desafio 3: Sanitização de Tags HTML
 
