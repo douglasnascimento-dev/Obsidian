@@ -84,5 +84,5 @@ Os Caracteres UniCode serão representados da maneira acima em JS.
 - **\/W** | Nega o \w
 
 - **/s** | Atalho para qualquer espaço (Quebras de Linhas, Espaços, Avanços de Páginas)
-- - **\/S** | Nega o \w
+- **\/S** | Nega o \w
 
