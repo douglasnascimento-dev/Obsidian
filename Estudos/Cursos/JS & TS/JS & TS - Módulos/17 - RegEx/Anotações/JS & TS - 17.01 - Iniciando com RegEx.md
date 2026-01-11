@@ -54,11 +54,15 @@ const regExp01 = /João/gi;
 
 ## 🌿Grupos
 
-Os Grupos nas RegEx's indica que todos as RegExp's em formato de Grupo. Não necessariamente, esses valores precisam estar juntos um ao outro. Atuando como um Comparador semelhante a 'AND'.
+Os Grupos nas RegEx, delimitados por parênteses `( )`, servem para **tratar múltiplos caracteres como uma única unidade**. Isso permite que você aplique quantificadores a uma palavra inteira ou, principalmente, crie **Grupos de Captura** para extrair informações específicas separadamente no resultado final (como visto no retorno do `.exec()`). Quando você define grupos sequenciais, o RegEx busca exatamente aquela ordem de ocorrência.
 
 ```js
 const regExp01 = /(futebol)(Brasil)/gi;
 ```
+
+Neste exemplo, a expressão busca a palavra "futebol" seguida **imediatamente** pela palavra "Brasil".
+- **Encontra:** "futebolBrasil"
+- **Não encontra:** "futebol do Brasil" (pois há caracteres entre os grupos que não foram previstos na expressão).
 
 ## 🌿Ou
 
