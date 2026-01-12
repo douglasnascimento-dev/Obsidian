@@ -104,6 +104,16 @@ console.log(comentario.replace(regExpTags, ''));
 // Olá! Eu adorei o post. alert('hack') Mas precisa ajustar a cor.
 ```
 
+### 🎋Resolução
+
+```js
+const comentario = "Olá! Eu <b>adorei</b> o post. <script>alert('hack')</script> Mas precisa ajustar a <div>cor</div>.";
+
+const regExpTags = /<.*?>/g;
+
+console.log(comentario.replace(regExpTags, ''));
+```
+
 ## 🌿Desafio 4: Formatação de Nomes Próprios
 
 Temos uma lista de nomes digitados de forma errada (maiúsculas e minúsculas misturadas). O objetivo é padronizar para "Title Case" (apenas a primeira letra maiúscula e o resto minúscula).
@@ -132,6 +142,11 @@ console.log(nomesCorrigidos);
 // [ 'João', 'Maria', 'Pedro Henrique', 'Ana Clara' ]
 ```
 
+### 🎋Resolução
+
+```js
+
+```
 ## 🌿Desafio 5: Validador de Estrutura de Arquivo
 
 Você precisa filtrar uma lista de caminhos de arquivos do Windows. O padrão válido deve ser: Letra da unidade (C, D, E...), dois pontos, contra-barra, nome da pasta (apenas letras), contra-barra, nome do arquivo e extensão.
@@ -157,4 +172,21 @@ console.log(validos);
 
 // Saída Esperada:
 // [ 'C:\\Users\\Documento.txt', 'D:\\Jogos\\Game.exe' ]
+```
+
+```js
+const caminhos = [
+    "C:\\Users\\Documento.txt",      // Válido
+    "D:\\Jogos\\Game.exe",           // Válido
+    "c:\\users\\doc.txt",            // Inválido (Letra da unidade minúscula)
+    "F:\\Dados\\Planilha",           // Inválido (Sem extensão)
+    "Z:Arquivo.bat",                 // Inválido (Falta a pasta)
+    "A:\\Pasta123\\arq.pdf"          // Inválido (Pasta tem números, só letras permitidas)
+];
+
+// Construa a RegEx para validar o padrão estrito descrito
+const regExpPath = /[A-Z]:((\\)[a-zA-Z]+){2}(\.)[a-z]+/;
+
+const validos = caminhos.filter(caminho => regExpPath.test(caminho));
+console.log(validos);
 ```
