@@ -145,7 +145,31 @@ console.log(nomesCorrigidos);
 ### 🎋Resolução
 
 ```js
+const nomesBaguncados = [
+    "joÃO",
+    "mARIA",
+    "pEdRo hENRIQUE",
+    "ANA cLARa"
+];
 
+// Construa a RegEx que identifique as palavras
+const regExpNome = /([\wãÃ]+)(\s)?([\wãÃ]+)?/g;
+
+const nomesCorrigidos = nomesBaguncados.map(nome => {
+  return nome.replace(regExpNome, function (match, gp1, gp2, gp3) {
+    gp1 = gp1.toLowerCase();
+    gp1 = gp1[0].toUpperCase() + gp1.slice(1);
+    if (gp2 === undefined) return gp1; 
+    gp3 = gp3.toLowerCase();
+    gp3 = gp3[0].toUpperCase() + gp3.slice(1);
+    return gp1 + gp2 + gp3
+    });
+});
+
+console.log(nomesCorrigidos);
+
+// Saída Esperada:
+// [ 'João', 'Maria', 'Pedro Henrique', 'Ana Clara' ] que tal?
 ```
 ## 🌿Desafio 5: Validador de Estrutura de Arquivo
 
@@ -184,7 +208,6 @@ const caminhos = [
     "A:\\Pasta123\\arq.pdf"          // Inválido (Pasta tem números, só letras permitidas)
 ];
 
-// Construa a RegEx para validar o padrão estrito descrito
 const regExpPath = /[A-Z]:((\\)[a-zA-Z]+){2}(\.)[a-z]+/;
 
 const validos = caminhos.filter(caminho => regExpPath.test(caminho));
