@@ -13,24 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Estudos.md",
-                "mode": "preview",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Conjuntos e Ranges.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estudos"
+              "title": "JS & TS - 17.05 - Conjuntos e Ranges"
             }
           },
           {
-            "id": "52171b0542c5bf90",
+            "id": "be7d54cd06170da8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.4"
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Começa com e Termina com.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.11.4"
+              "icon": "lucide-file",
+              "title": "JS & TS - 17.05 - Começa com e Termina com"
             }
           }
         ],
@@ -92,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 270.5,
+    "collapsed": true
   },
   "right": {
     "id": "814f9252e172d41a",
@@ -147,12 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Começa com e Termina com.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de JS & TS - 17.05 - Começa com e Termina com"
             }
           },
           {
@@ -196,11 +200,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52171b0542c5bf90",
+  "active": "be7d54cd06170da8",
   "lastOpenFiles": [
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Conjuntos e Ranges.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Começa com e Termina com.md",
     "Estudos/Estudos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.02 - Expressões com RegEx 03.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Conjuntos e Ranges.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.04 - Greedy e Non-Greedy.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.01 - Expressões com RegEx 02.md",
@@ -223,7 +228,6 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43C - Requisitos de Software/ES43C - Requisitos de Software.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES45C - Qualidade de Software/ES45C - Qualidade de Software.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/PBE - Probabilidade e Estatística/PBE - Probabilidade e Estatística.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
     "System/Sem título.base",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações",
