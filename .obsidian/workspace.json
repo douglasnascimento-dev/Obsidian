@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.02 - Expressões com RegEx 03.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Conjuntos e Ranges.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS & TS - AC. 17.03.02 - Expressões com RegEx 03"
+              "title": "JS & TS - 17.05 - Conjuntos e Ranges"
             }
           }
         ]
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.02 - Expressões com RegEx 03.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Conjuntos e Ranges.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JS & TS - AC. 17.03.02 - Expressões com RegEx 03"
+              "title": "Sumário de JS & TS - 17.05 - Conjuntos e Ranges"
             }
           },
           {
@@ -186,8 +186,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Estudos/Estudos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.02 - Expressões com RegEx 03.md",
+    "Estudos/Estudos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Conjuntos e Ranges.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.04 - Greedy e Non-Greedy.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.03 - Quantificadores.md",
