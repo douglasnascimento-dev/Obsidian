@@ -18,5 +18,15 @@ cssclasses:
 Enquanto no '.replace()' a quebra de linha é definida por '$1', no '.match()' isso acontecerá usando o '\1'.
 
 ```js
-console.log(html.match(<(\w+)><))
+console.log(html.match(</(\w+)>.+?<\/\1>/g))
+```
+
+A RegEx acima indica que ele deve iniciar e terminar com o mesmo padrão, devido ao grupo no inicio e a referenciação no final em '\1'
+
+## 🌿Resolvendo problemas com o '.'
+
+Embora o '.' seja um seletor universal, ele apresenta uma característica de não selecionar quebras de linhas, para resolver isso é possível utilizar o seguinte conjunto '\[\s\S]', ou seja, tudo que for uma quebra de linha e tudo que não for uma quebra de linha. 
+
+```js
+console.log(html.match(</(\w+)>[\s\S]*?<\/\1>/g))
 ```
