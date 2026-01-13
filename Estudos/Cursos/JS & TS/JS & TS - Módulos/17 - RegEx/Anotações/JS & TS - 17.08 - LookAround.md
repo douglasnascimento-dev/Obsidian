@@ -92,7 +92,7 @@ Imagine que você quer extrair apenas o valor numérico de preços, mas apenas d
 
 JavaScript
 
-```
+```js
 const texto = "Custa $50.00, mas com desconto fica R$ 45.00 ou apenas 40.00 sem taxa.";
 
 // Tradução da RegEx: 
@@ -117,9 +117,7 @@ O Negative Lookbehind (`?<!`) verifica se o padrão desejado **NÃO é precedido
 
 Você tem uma lista de nomes de arquivos e quer capturar os nomes, mas quer excluir aqueles que são arquivos de configuração (que começam com `config_`).
 
-JavaScript
-
-```
+```js
 const arquivos = "foto.png, config_dados.json, config_rede.xml, relatorio.pdf";
 
 // Tradução da RegEx:
@@ -147,11 +145,4 @@ Para não confundir a sintaxe (que é cheia de símbolos), use esta tabela de re
 |**Lookbehind**|Esquerda `<<<`|`(?<=...)`|Deve ter antes|
 |**Negative Lookbehind**|Esquerda `<<<`|`(?<!...)`|**NÃO** deve ter antes|
 
-> **Dica de Memorização:**
-> 
-> - O sinal de igual `=` sempre indica **Positivo** (tem que ter).
->     
-> - O sinal de exclamação `!` sempre indica **Negativo** (não pode ter).
->     
-> - O sinal menor `<` aponta para trás (Lookbehind). Sem ele, aponta para frente (Lookahead).
 >
