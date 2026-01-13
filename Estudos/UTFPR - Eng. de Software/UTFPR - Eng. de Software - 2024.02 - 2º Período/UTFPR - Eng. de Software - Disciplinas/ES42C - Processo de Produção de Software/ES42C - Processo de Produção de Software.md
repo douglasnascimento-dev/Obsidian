@@ -18,7 +18,7 @@ Nota Final: "9.5"
 ![[Processo de Produção de Software.png|banner]]
 > [!banner-icon] 🌳
 
-![[Empreendedorismo.png|banner]]
+![[Processo de Produção de Software.png|banner]]
 ## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
@@ -95,9 +95,9 @@ if (file) {
 | Aula                                                                                  | Atividade | Data de Realização |
 | :------------------------------------------------------------------------------------ | :-------: | :----------------: |
 | Apresentação a Matéria e a Ementa do Curso                                            |     X     |     01/10/2024     |
-| *Realização da Feira de Profrissões*                                                  |     X     |     08/10/2024     |
+| **Sem necessidade de Presença** \| Feira de Profissões                                |     X     |     08/10/2024     |
 | Evolução dos Processos de Produção de Software                                        |     X     |     15/10/2024     |
-| *Realização da SECOMP*                                                                |     X     |     22/10/2024     |
+| **Sem necessidade de Presença** \| SECOMP                                             |     X     |     22/10/2024     |
 | Processo Unificado para a Criação de Software                                         |  Em sala  |     29/10/2024     |
 | Diagrama de Caso de Uso                                                               |     X     |     05/11/2024     |
 | Diagrama Entidade-Relacionamento                                                      |     X     |     12/11/2024     |

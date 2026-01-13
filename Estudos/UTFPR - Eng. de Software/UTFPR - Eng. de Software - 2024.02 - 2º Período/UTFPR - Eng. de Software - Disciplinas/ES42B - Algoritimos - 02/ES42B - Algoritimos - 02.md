@@ -15,11 +15,12 @@ Atividades:
   - "[[ES42B - Atividade 01]]"
   - "[[ES42B - Projeto Final]]"
 Nota Final: "10.0"
+Coeficiente de Rendimento: "1.0000"
 ---
 
 
 
-![[Empreendedorismo.png|banner]]
+![[Algoritimos - 02.png|banner]]
 ## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
