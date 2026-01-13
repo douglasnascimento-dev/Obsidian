@@ -30,3 +30,11 @@ Embora o '.' seja um seletor universal, ele apresenta uma característica de nã
 ```js
 console.log(html.match(</(\w+)>[\s\S]*?<\/\1>/g))
 ```
+
+## 🌿Não salvando o Grupo
+
+Se caso algum grupo criado, for ser utilizado unicamente internamente, é possível ignorar esse grupo na contagem externa, utilizando o '?:'
+
+```js
+console.log(html.match(</(?:\w+)>[\s\S]*?<\/\1>/g))
+```
