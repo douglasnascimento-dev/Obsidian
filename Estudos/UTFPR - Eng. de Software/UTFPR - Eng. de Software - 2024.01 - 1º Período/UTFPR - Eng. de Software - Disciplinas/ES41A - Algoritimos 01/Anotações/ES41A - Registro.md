@@ -8,6 +8,10 @@ cssclasses:
   - wideFC
 Tipo: Anotação
 ---
+
+![[Algoritimos - 01.png|banner]]
+
+
 ## 🌳Definição de Registro
 
 O Registro, também conhecido como vetor heterogêneo, basicamente é um vetor que permite diversos tipos de variáveis em seu interior, inclusive novos registros.
@@ -83,8 +87,4 @@ int main(){
 
 --- end-multi-column
 
-
-
-![[Algoritimos 01.png|banner]]
-> [!banner-icon] 🌿
 

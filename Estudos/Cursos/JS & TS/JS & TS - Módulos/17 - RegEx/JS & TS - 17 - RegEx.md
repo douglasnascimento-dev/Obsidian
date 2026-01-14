@@ -14,8 +14,15 @@ Anotações:
   - "[[JS & TS - 17.01 - Iniciando com RegEx]]"
   - "[[JS & TS - 17.02 - Funções para String]]"
   - "[[JS & TS - 17.03 - Quantificadores]]"
+  - "[[JS & TS - 17.04 - Greedy e Non-Greedy]]"
+  - "[[JS & TS - 17.05 - Conjuntos e Ranges]]"
+  - "[[JS & TS - 17.06 - Começa com e Termina com]]"
+  - "[[JS & TS - 17.07 - Retrovisores]]"
+  - "[[JS & TS - 17.08 - Lookaround]]"
 Atividades:
   - "[[JS & TS - AC. 17.03.01 - Expressões com RegEx 01]]"
+  - "[[JS & TS - AC. 17.03.01 - Expressões com RegEx 02]]"
+  - "[[JS & TS - AC. 17.03.02 - Expressões com RegEx 03]]"
 ---
 
 ![[JS & TS.png|banner]]

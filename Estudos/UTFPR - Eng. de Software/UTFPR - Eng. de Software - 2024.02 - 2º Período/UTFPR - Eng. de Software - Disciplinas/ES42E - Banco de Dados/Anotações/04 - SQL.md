@@ -47,7 +47,7 @@ CREATE DATABASE bd1
 CREATE SCHEMA bd1
 ```
 
---- end-multi-column
+
 🌱**DROP DATABASE** 
 --- start-multi-column: ID_5eyd
 ```column-settings
@@ -63,7 +63,7 @@ Exclui um banco de dados
 DROP DATABASE bd1
 ```
 
---- end-multi-column
+
 #### 🌱Restrições de Integridade
 
 - São os conjuntos de regras que garantem a consistência dos dados do Banco de Dados
@@ -98,7 +98,7 @@ CREATE TABLE departamento {
 }
 ```
 
---- end-multi-column
+
 #### 🌱**DROP TABLE**
 --- start-multi-column: ID_5rx5
 ```column-settings
@@ -114,7 +114,7 @@ Exclui uma tabela em um banco de dados
 DROP TABLE departamento
 ```
 
---- end-multi-column
+
 #### 🌱**ALTER TABLE** 
 
 O **ALTER TABLE** permite executar diversos comandos com foco em alterar o banco de dados, como adicionar, modicar ou excluir dados de um banco de dados
@@ -139,7 +139,7 @@ ALTER TABLE curso
 		cur_vicecoodernador VARCHAR(50));
 ```
 
---- end-multi-column
+
 
 ##### 🌵 **MODIFY**
 --- start-multi-column: ID_s2ca
@@ -161,7 +161,7 @@ ALTER TABLE curso
 	MODIFY cur_telefone INT NOT NULL;
 ```
 
---- end-multi-column
+
 
 ##### 🌵 **DROP**
 --- start-multi-column: ID_7mrd
@@ -183,7 +183,7 @@ ALTER TABLE curso
 	DROP cur_fax;
 ```
 
---- end-multi-column
+
 ##### 🌵 **ADD CONSTRAINT**
 --- start-multi-column: ID_dwlv
 ```column-settings
@@ -202,7 +202,7 @@ ALTER TABLE curso
 	
 ```
 
---- end-multi-column
+
 ##### 🌵**DROP CONSTRAINT**
 --- start-multi-column: ID_vjzg
 ```column-settings
@@ -220,7 +220,7 @@ ALTER TABLE curso
 	DROP CONSTRAINT uq_dep_fax
 ```
 
---- end-multi-column
+
 ##### 🌵**ADD PRIMARY KEY**
 --- start-multi-column: ID_8oxw
 ```column-settings
@@ -240,7 +240,7 @@ ALTER TABLE departamento
 	ADD PRIMARY KEY (dep_codigo, dep_nome)
 ```
 
---- end-multi-column
+
 ##### 🌵**DROP PRIMARY KEY**
 --- start-multi-column: ID_iv6d
 ```column-settings
@@ -257,7 +257,7 @@ ALTER TABLE curso
 	DROP PRIMARY KEY 
 ```
 
---- end-multi-column
+
 ##### 🌵**ADD FOREGEIN KEY**
 --- start-multi-column: ID_if6n
 ```column-settings
@@ -279,7 +279,7 @@ ALTER TABLE curso
 	REFERENCES departamento (dep_codigo)
 ```
 
---- end-multi-column
+
 ##### 🌵**DROP FOREGEIN KEY**
 --- start-multi-column: ID_wy88
 ```column-settings
@@ -296,7 +296,7 @@ ALTER TABLE curso
 	DROP FOREGEIN KEY fk_aluno_cidade
 ```
 
---- end-multi-column
+
 #### 🌱**INSERT**
 
 O **INSERT** permite realizar a inserção de dados em uma tabela do Banco de Dados
@@ -324,7 +324,7 @@ INSERT INTO DEPARTAMENTO (DEP_CODIGO, DEP_NOME)
 	VALUES (1, 'Departamento Acadêmica da Computação')
 ```
 
---- end-multi-column
+
 🌵Sem Especificação
 --- start-multi-column: ID_3gn3
 ```column-settings
@@ -341,7 +341,7 @@ INSERT INTO DEPARTAMENTO
 	VALUES (1, 'Departamento Acadêmico da Computação')
 ```
 
---- end-multi-column
+
 #### 🌱**UPDATE**
 
 O Comando **UPDATE** permite modificar valores já existentes em Atributos em uma Tabela
