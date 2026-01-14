@@ -31,38 +31,22 @@ Tipo: Anotação
 ## 🌳Comandos DDL do SQL
 
 #### 🌱**CREATE DATABASE** ou **CREATE SCHEMA**
---- start-multi-column: ID_dw9s
-```column-settings
-Number of Columns: 2
-Largest Column: 
-```
- 
 
 Cria um banco de dados
 
---- column-break ---
 
- ```SQL
+ sql
 CREATE DATABASE bd1 
 CREATE SCHEMA bd1
-```
 
 
-🌱**DROP DATABASE** 
---- start-multi-column: ID_5eyd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
+#### 🌱**DROP DATABASE** 
 
 Exclui um banco de dados
-
---- column-break ---
 
 ```sql
 DROP DATABASE bd1
 ```
-
 
 #### 🌱Restrições de Integridade
 
@@ -76,15 +60,8 @@ DROP DATABASE bd1
 	- **Integridade Referencial**: Se refere a fK
 
 #### 🌱**CREATE TABLE** 
---- start-multi-column: ID_z8gm
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Cria uma tabela em um banco de dados, pode ser acompanhada da criação de Atributos
-
---- column-break ---
 
 ```sql
 CREATE TABLE departamento {
@@ -98,37 +75,21 @@ CREATE TABLE departamento {
 }
 ```
 
-
 #### 🌱**DROP TABLE**
---- start-multi-column: ID_5rx5
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Exclui uma tabela em um banco de dados
-
---- column-break ---
 
 ```sql
 DROP TABLE departamento
 ```
-
 
 #### 🌱**ALTER TABLE** 
 
 O **ALTER TABLE** permite executar diversos comandos com foco em alterar o banco de dados, como adicionar, modicar ou excluir dados de um banco de dados
 
 ##### 🌵 **ADD**
---- start-multi-column: ID_6xlj
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Adiciona um Atributo em uma Tabela. Também é possível adicionar múltipos atributos
-
---- column-break ---
 
 ```sql
 ALTER TABLE curso
@@ -139,18 +100,10 @@ ALTER TABLE curso
 		cur_vicecoodernador VARCHAR(50));
 ```
 
-
-
 ##### 🌵 **MODIFY**
---- start-multi-column: ID_s2ca
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Permite modificar um Atributo da Tabela. Também é possível modificar múltiplos atributos, assim como é possível adicionar restrição de vazio, como no terceiro exemplo 
 
---- column-break ---
 
 ```sql
 ALTER TABLE curso
@@ -162,17 +115,9 @@ ALTER TABLE curso
 ```
 
 
-
 ##### 🌵 **DROP**
---- start-multi-column: ID_7mrd
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Permite excluir um Atributo da Tabela. Também é possível excluir múltiplos atributos
-
---- column-break ---
 
 ```sql
 ALTER TABLE curso
@@ -183,17 +128,9 @@ ALTER TABLE curso
 	DROP cur_fax;
 ```
 
-
 ##### 🌵 **ADD CONSTRAINT**
---- start-multi-column: ID_dwlv
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Permite adicionar restrição UNIQUE - *Valor único* - a um Atributo. 
-
---- column-break ---
 
 ```sql
 ALTER TABLE curso
@@ -202,17 +139,9 @@ ALTER TABLE curso
 	
 ```
 
-
 ##### 🌵**DROP CONSTRAINT**
---- start-multi-column: ID_vjzg
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Permite excluir a restrição de UNIQUE - *Valor único* - a um Atributo. **Observe que deve ser utilizado o nome da restrição** e não o nome do atributo que possui a restrição
-
---- column-break ---
 
 ```sql 
 ALTER TABLE curso
@@ -220,17 +149,9 @@ ALTER TABLE curso
 	DROP CONSTRAINT uq_dep_fax
 ```
 
-
 ##### 🌵**ADD PRIMARY KEY**
---- start-multi-column: ID_8oxw
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Permite adicionar uma pK, como um ou mais Atributos em uma Tabela
-
---- column-break ---
 
 ```sql
 ALTER TABLE curso
@@ -240,34 +161,18 @@ ALTER TABLE departamento
 	ADD PRIMARY KEY (dep_codigo, dep_nome)
 ```
 
-
 ##### 🌵**DROP PRIMARY KEY**
---- start-multi-column: ID_iv6d
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Permite remover a pK da Tabela. Ela excluirá a pK como uma só, não apenas um atributo
-
---- column-break ---
 
 ```sql
 ALTER TABLE curso
 	DROP PRIMARY KEY 
 ```
 
-
 ##### 🌵**ADD FOREGEIN KEY**
---- start-multi-column: ID_if6n
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Permite adicionar uma fK a uma Tabela
-
---- column-break ---
 
 ```sql
 ALTER TABLE curso

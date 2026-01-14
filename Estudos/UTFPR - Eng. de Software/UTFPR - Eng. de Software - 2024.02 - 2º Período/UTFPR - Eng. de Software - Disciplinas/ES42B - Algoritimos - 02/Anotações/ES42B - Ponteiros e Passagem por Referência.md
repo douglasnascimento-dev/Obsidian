@@ -48,7 +48,7 @@ int main(void) {
   return 0; }
 ```
 
---- end-multi-column
+
 # Passagem de parâmetros por Linha de Comando
 --- start-multi-column: ID_pvet
 ```column-settings
@@ -66,7 +66,7 @@ int main(int argc, char *argv[]){
 }
 ```
 
---- end-multi-column
+
 
 
 

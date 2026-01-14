@@ -55,7 +55,7 @@ java public class Pessoa {
 }
 ```
 
---- end-multi-column
+
 ### 🌿 Exemplo de Construtor com Parâmetros
 
 
@@ -77,7 +77,7 @@ java public Pessoa(int cpf, String nome, Endereco ender) {
 }
 ```
 
---- end-multi-column
+
 ### 🌿 Uso de _this_
 
 - A palavra-chave _this_ é usada para diferenciar o atributo da classe do parâmetro do construtor.

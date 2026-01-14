@@ -9,7 +9,7 @@ cssclasses:
 Tipo: Anotação
 ---
 
-![[Programação Orientada a Objetos.png|banner]]
+![[Programação Orientada a Objetos - 01.png|banner]]
 > [!banner-icon] 🌿Aula 03.04.25
 
 ## 🌳O Que são classes e objetos?

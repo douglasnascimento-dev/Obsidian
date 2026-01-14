@@ -9,7 +9,7 @@ cssclasses:
 Tipo: Anotação
 ---
 
-![[Programação Orientada a Objetos.png|banner]]
+![[Programação Orientada a Objetos - 01.png|banner]]
 > [!banner-icon] 🌿Aula 08.04.25
 
 ## 🌳Organização de Objetos

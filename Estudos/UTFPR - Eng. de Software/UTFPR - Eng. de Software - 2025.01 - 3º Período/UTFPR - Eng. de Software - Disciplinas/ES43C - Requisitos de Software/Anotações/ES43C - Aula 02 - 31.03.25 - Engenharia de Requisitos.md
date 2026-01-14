@@ -36,7 +36,7 @@ Largest Column: standard
 - Gerência de Configuração - *não será abordada*
 - Gerência de Qualidade - *não será abordada*
 
---- end-multi-column
+
 
 ### 🌿O Processo da Engenharia de Requisitos
 

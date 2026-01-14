@@ -10,7 +10,7 @@ Tipo: Anotação
 Nota Final: "0.0"
 ---
 
-![[Programação Orientada a Objetos.png|banner]]
+![[Programação Orientada a Objetos - 01.png|banner]]
 > [!banner-icon] 🌿Aula 02.04.25
 
 ## 🌳 Mudanças de Tipo em Java: Wrappers e Casting
