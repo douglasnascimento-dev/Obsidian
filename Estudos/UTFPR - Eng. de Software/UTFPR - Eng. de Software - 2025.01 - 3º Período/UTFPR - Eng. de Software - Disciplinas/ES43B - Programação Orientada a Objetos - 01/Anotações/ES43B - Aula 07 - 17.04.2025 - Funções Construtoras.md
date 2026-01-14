@@ -10,7 +10,7 @@ Tipo: Anotação
 Nota Final: "0.0"
 ---
 
-![[Programação Orientada a Objetos.png|banner]]
+![[Programação Orientada a Objetos - 01.png|banner]]
 > [!banner-icon] 🌿Aula 17.04.25
 
 ## 🌳 Métodos Construtores em Java
@@ -30,15 +30,8 @@ Em Java, métodos construtores são especiais responsáveis por inicializar obje
 
 ### 🌿 Exemplo de Construtor Padrão
 
---- start-multi-column: ID_2xqr
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Inicializa os atributos com valores padrão e imprime uma mensagem
-
---- column-break ---
 
 ```java
 java public class Pessoa { 
@@ -55,19 +48,9 @@ java public class Pessoa {
 }
 ```
 
-
 ### 🌿 Exemplo de Construtor com Parâmetros
 
-
---- start-multi-column: ID_bnqn
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
-
 Permite criar o objeto já atribuindo valores aos atributos.
-
---- column-break ---
 
 ```java
 java public Pessoa(int cpf, String nome, Endereco ender) {
@@ -76,7 +59,6 @@ java public Pessoa(int cpf, String nome, Endereco ender) {
 	this.ender = ender;
 }
 ```
-
 
 ### 🌿 Uso de _this_
 

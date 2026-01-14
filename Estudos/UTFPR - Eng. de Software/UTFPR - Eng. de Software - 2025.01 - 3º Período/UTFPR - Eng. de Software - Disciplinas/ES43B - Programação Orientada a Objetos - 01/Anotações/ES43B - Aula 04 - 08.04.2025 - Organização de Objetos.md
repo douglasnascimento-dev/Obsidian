@@ -13,16 +13,8 @@ Tipo: Anotação
 > [!banner-icon] 🌿Aula 08.04.25
 
 ## 🌳Organização de Objetos
---- start-multi-column: ID_euq6
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Por convenção, objetos que provém de de abstrações, isso é representam objetos do mundo real, devem possuir apenas getters e setters, já objetos gerais podem ter outros métodos e atributos
-
-
---- column-break ---
 
 ```java
 public class Pessoa {
@@ -49,17 +41,9 @@ public class Pessoa {
 }
 ```
 
---- end-multi-column
 ### 🌿Objetos não abstratos
---- start-multi-column: ID_jgex
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Diferentemente dos objetos que provém de abstrações, os demais objetos não necessitam seguir as normas de utilização de getters e setters, isso permite que esse objetos manipulem os objetos abstratos, como se fossem tipos abstratos de dados
-
---- column-break ---
 
 ```java
 public class TstPes {
@@ -84,7 +68,7 @@ public class TstPes {
 }
 ```
 
---- end-multi-column
+
 
 
 
