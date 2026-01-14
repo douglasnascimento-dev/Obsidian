@@ -117,8 +117,6 @@ A comunicação entre camadas é feita através da requisição de serviços. Ca
 
 A comunicação acontece entre camadas de mesmo nível, mas em nós diferentes, são regras que governam a interação em sistemas distribuídos. Para dois protocolos se comunicarem, ele deve estar em mesmo nível
 
-
-
 ## 🌳Arquitetura IEEE 802 
 
 É resultado da tentativa de estabelecer uma arquitetura padrão, mas não conseguiu proeza. Atualmente define somente padrões para o nível físico. Como: 
@@ -130,11 +128,6 @@ A comunicação acontece entre camadas de mesmo nível, mas em nós diferentes, 
 ## 🌳Modelo TCP/IP
 
 O TCP é o protocolo de rede o IP é o protocolo de transmissão. Se baseia na interconexão e coexistência de redes. Também se baseia no ISO/OSI
---- start-multi-column: ID_ku3c
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 **ISO/OSI**
 
@@ -146,7 +139,6 @@ Largest Column: standard
 2. Enlace de Dados
 1. Física
 
---- column-break ---
 
 **TCP/IP**
 
@@ -158,5 +150,5 @@ Largest Column: standard
 2. Acesso á Rede
 1. Acesso á Rede
 
---- end-multi-column
+
 

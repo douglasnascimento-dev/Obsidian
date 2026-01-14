@@ -34,11 +34,10 @@ Tipo: Anotação
 
 Cria um banco de dados
 
-
- sql
+```sql
 CREATE DATABASE bd1 
 CREATE SCHEMA bd1
-
+```
 
 #### 🌱**DROP DATABASE** 
 
@@ -184,23 +183,14 @@ ALTER TABLE curso
 	REFERENCES departamento (dep_codigo)
 ```
 
-
 ##### 🌵**DROP FOREGEIN KEY**
---- start-multi-column: ID_wy88
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Permite remover uma fK a uma Tablea
-
---- column-break ---
 
 ```sql
 ALTER TABLE curso
 	DROP FOREGEIN KEY fk_aluno_cidade
 ```
-
 
 #### 🌱**INSERT**
 
@@ -214,38 +204,22 @@ INSERT INTO nome_da_tabela (atributo1, atributo2, atributo3)
 A Declaração dos atributos **não é obrigatório**, mas caso ela não acontece, a declaração dos valores deve ocorrer na mesma ordem em que os atributos foram declarados na tabela. A Inserção de Valores devem seguir as regras já estabelecidas no bd
 
 🌵Com Especificação
---- start-multi-column: ID_39z9
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Nesse exemplo, os atributos e valores são especificados
-
---- column-break ---
 
 ```sql
 INSERT INTO DEPARTAMENTO (DEP_CODIGO, DEP_NOME)
 	VALUES (1, 'Departamento Acadêmica da Computação')
 ```
 
-
 🌵Sem Especificação
---- start-multi-column: ID_3gn3
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Nesse exemplo, os atributos e valores não são especificados
-
---- column-break ---
 
 ```sql
 INSERT INTO DEPARTAMENTO
 	VALUES (1, 'Departamento Acadêmico da Computação')
 ```
-
 
 #### 🌱**UPDATE**
 

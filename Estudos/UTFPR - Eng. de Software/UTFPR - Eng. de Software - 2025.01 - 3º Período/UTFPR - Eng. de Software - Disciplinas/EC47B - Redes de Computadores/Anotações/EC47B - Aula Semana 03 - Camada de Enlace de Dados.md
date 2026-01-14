@@ -12,23 +12,14 @@ Tipo: Anotação
 ![[Redes de Computadores.png|banner]]
 > [!banner-icon] 🌿Semana 03
 ## 🌳Divisão da Camada
---- start-multi-column: ID_5vfn
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 ### 🌿LLC | *Logical Link Control*  
 
 Fornece mecanismos de multiplexação de diferentes protocolos, controle de fluxo e erros
-
---- column-break ---
-
 ### 🌿 MAC | *Media Acess Control* 
 
 Provê acesso a um canal de comunicação e o endereçamento neste canal
 
---- end-multi-column
 Se preocupa com dois elementos físicos fisicamente conectados. Unidade de Dados: quadro ou frames.
 
 ### 🌿Serviços
@@ -120,7 +111,6 @@ Quando um emissor transmite mais rápido que o receptor pode aceitar, é necess�
 - 🌵Stop and Wait → *os pacotes são numerador com 1 bits já que o só acontece uma vez cada envio, caso não aconteça a confirmação, ele é retransmitido após os esgotamento do timer*
 - 🌵Go Back N → *São transmitidos um conjunto de quadros e confirma-se o último, também chamado de protocolo de janela deslizante, pois utiliza uma janela de transmissão. Onde o transmissor mantém um conjunto de número de sequência correspondentes a quadros que ele pode envia*
 - 🌵Select Repeat → *Utiliza duas janelas, uma para a transmissão, outra para a recepção. Assim, quadros recebidos após um quadro que foi perdido não são descartados*
-
 - 🌵Piggybacking → *também conhecido como superposição. consistem em adicionar o reconhecimento no campo ACK, do cabeçalho do quadro que é normalmente enviado do receptor para o transmissor, pegando 'carona' na volta*
 
 ### 🌿Tipos de Enlace
@@ -146,7 +136,7 @@ O Espectro do canal é divido em bandas de frequência, cada estação recebe um
 
 ##### 🌵CDMA - Acesso múltiplo por divisão de Código
 
-Um código único chamados de 'chipping sequence' é atribuido a cada usuário, isto é, o código define o particionamento. Muito usado em canais broadcast
+Um código único chamados de 'chipping sequence' é atribuído a cada usuário, isto é, o código define o particionamento. Muito usado em canais broadcast
 
 #### 🌱Acesso Aleatório
 

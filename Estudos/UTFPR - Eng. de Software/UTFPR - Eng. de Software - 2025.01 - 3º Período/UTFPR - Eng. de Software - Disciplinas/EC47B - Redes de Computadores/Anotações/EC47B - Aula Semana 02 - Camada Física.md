@@ -14,25 +14,17 @@ Tipo: Anotação
 ## 🌳Funções da Camada Física
 
 Estão entre as funções da camada física, estabelecer a conexão física entre máquinas ligas em rede, especificar interfaces mecânicas e elétricas, executar tarefas de sincronização para a rede e converter informações de bits em sinais que são passados pelos meios de transmissão.
---- start-multi-column: ID_8lu7
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 ### 🌿Dados Analógicos 
 
 - Dados como áudio e o vídeo;
 - Sinais como **valores contínuos** em um intervalo de tempo
 
---- column-break ---
-
 ### 🌿Dados Digitais
 
 - Dados como arquivos armazenados em computador
 - Sinais como **valores discretos** em um intervalo de tempo
 
---- end-multi-column
 ### 🌿Sinais Analógicas
 
 - Amplitude → magnitude;
@@ -48,31 +40,19 @@ Largest Column: standard
 - Analógico → *Codec* → Digital
 - Digital → *Digital transceiver* → Digital
 
-
 ### 🌿Largura de Banda
 
 É a diferença entre a maior e menor frequência que pode ser utilizada para a a transmissão. Pode ser uma limitação física ou imposta através de filtros.
 
 A Largura de Banda é medida em MHz e a Taxa de transmissão é medida em Mbps. A Largura de Banda de um cabo pode ser definida em canais. As duas formas de utilizar a capacidade de um meio físico,  a **banda base** e a **banda larga**. 
 
-
---- start-multi-column: ID_376b
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
-
 #### 🌱Banda Base
 
 Toda a largura é usada por um único canal. Essa tecnologia é frequentemente usada para transmissão digital
 
---- column-break ---
-
 #### 🌱 Banda Larga
 
 Esse modelo de transmissão, é caracterizado pela divisão da largura em múltiplos canais. Cada canal pode transmitir diferentes sinais analógicos. Por essa razão, redes de banda larga podem transmitir múltiplos sinais simultaneamente.
-
---- end-multi-column
 
 ### 🌿Modelos de Transmissão
 
@@ -96,18 +76,11 @@ Um dos primeiros tipos de cabos usados em redes. Tem como vantagem, sua blindage
 Usado na ethernet. O Tipo UTP possui blindagem, já o STP não possui blindagem. Ele é trançado, para proteger de ruídos dos próprios cabos, a mesma informação circula em dois cabos, mas com a polaridade inversa, o que faz com que o campo eletromagnético seja neutralizado. Tem como vantagem, a possibilidade de usar o Full-duplex, o baixo preço e alta flexibilidade. Porem é mais suscetível a ruídos e tem limite de aproximadamente 100 metros
 
 Possui dois modelos, onde existe dois fios, uma para transmissão de dados e outro para a recepção de dados. 
---- start-multi-column: ID_37ic
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 - 🌵*Straight-through*
 
 	- Usado para ligar dispositivos diferentes;
 	 - As duas pontas seguem o mesmo padrão;
-
---- column-break ---
 
 - 🌵*Crossover*
 
@@ -115,7 +88,6 @@ Largest Column: standard
 	 - As duas pontas seguem padrões diferentes;
 	 - Porém, atualmente, os dispositivos utilizam protocolos que fazem a inversão automática, o que retira a necessidade de uso do cabo
 
---- end-multi-column
 #### 🌱Fibra Óptica
 
 Utiliza sinais luminosos ao invés de sinais elétricos. Partes da Fibra:
@@ -201,19 +173,10 @@ Os arranjos topológicos possíveis dependem do tipo de rede. A topologia de uma
 - *Multiponto* → comportamento dos meio físico de transmissão
 
 #### 🌱Meio Ponto-a-Ponto
---- start-multi-column: ID_xjhn
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 - 🌵*Totalmente Interligada* → Sem roteamento, grande número de conexões, maior custo
-
---- column-break ---
-
 - 🌵*Parcialmente interligada* → Necessita de roteamento, arranjo pode ser feita de acordo com o tráfego
 
---- end-multi-column
 ### 🌿Topologia para LANs e MANs
 
 Nessas redes, meios de transmissão de alta velocidade e baixa taxas de erro são empregadas para interligar estações. Topologias físicas mais empregadas: ==Estrela, Anel e Barramento==
