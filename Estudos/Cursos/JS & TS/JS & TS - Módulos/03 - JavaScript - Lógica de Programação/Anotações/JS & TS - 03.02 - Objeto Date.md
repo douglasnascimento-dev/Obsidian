@@ -12,38 +12,22 @@ cssclasses:
 ![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Date( )
 ## 🌳Declaração do objeto Date()
---- start-multi-column: ID_tvvb
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 O Objeto Date() permite obter a data atual, em suas diversas tipagens. Sua declaração deve ocorrer em uma constante ou variável, acompanhada da palavra 'new'
-
---- column-break ---
 
 ```javascript
 const data = new Date()
 ```
 
---- end-multi-column
 ### 🌿Declaração de informação específica
---- start-multi-column: ID_prhp
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 Quando se quer obter uma informação específica da data, se deve declarar normalmente a função em uma 'const' ou 'let' e após isso requer a informação. Como no exemplo ao lado:
-
---- column-break ---
 
 ```javascript
 const data = new Date() // 01/09/2024 10:30:300
 console.log(data.getDate) // EX: 01
 ```
 
---- end-multi-column
 #### 🌱Tabela de informações principais 
 
 | Informação    | Requerimento       |

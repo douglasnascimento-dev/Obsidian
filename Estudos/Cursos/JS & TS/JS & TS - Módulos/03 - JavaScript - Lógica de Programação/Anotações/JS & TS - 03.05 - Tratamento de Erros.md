@@ -12,15 +12,8 @@ cssclasses:
 ![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Tratamento de Erros
 ## 🌳Try, Catch, Throw
---- start-multi-column: ID_tvvb
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 O Bloco '**try**' deve ser utilizado em caso de manipulações/atitudes que pode gerar erros, o bloco '**catch**' é executado quando for detectado algum erro no bloco anterior, a var 'error' vai ter o valor do erro, isso é toda a documentação do erro que aconteceu.  
-
---- column-break ---
 
 ```javascript
 try {

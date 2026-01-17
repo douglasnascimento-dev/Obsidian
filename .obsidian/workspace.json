@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Estudos.md",
-                "mode": "preview",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/03 - JavaScript - Lógica de Programação/Anotações/JS & TS - 03.05 - Tratamento de Erros.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estudos"
+              "title": "JS & TS - 03.05 - Tratamento de Erros"
             }
           }
         ]
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Estudos.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/03 - JavaScript - Lógica de Programação/Anotações/JS & TS - 03.05 - Tratamento de Erros.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Estudos"
+              "title": "Sumário de JS & TS - 03.05 - Tratamento de Erros"
             }
           },
           {
@@ -186,6 +186,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/03 - JavaScript - Lógica de Programação/Anotações/JS & TS - 03.04 - For.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/03 - JavaScript - Lógica de Programação/Anotações/JS & TS - 03.03 - Atribuição por Desestruturação.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/03 - JavaScript - Lógica de Programação/Anotações/JS & TS - 03.02 - Objeto Date.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/03 - JavaScript - Lógica de Programação/Anotações/JS & TS - 03.01 - Avaliação em Curto-circuito.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico/Anotações/JS & TS - 02.05 - Objetos em JS.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico/Anotações/JS & TS - 02.04 - Funções em JS.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico/Anotações/JS & TS - 02.03 - Arrays em JS.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico/Anotações/JS & TS - 02.02 - 'numbers' em JS.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/02 - JavaScript Básico/Anotações/JS & TS - 02.01 - Tipos de Dados Primitivos em JS.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43C - Requisitos de Software/Anotações/ES43C - Aula 02 - 31.03.25 - Engenharia de Requisitos.md",
     "Estudos/Estudos.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43B - Programação Orientada a Objetos - 01/Anotações/ES43B - Aula 08 - 22.04.2025 - Poliformismo por Sobrecarga.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43B - Programação Orientada a Objetos - 01/Anotações/ES43B - Aula 07 - 17.04.2025 - Funções Construtoras.md",
@@ -202,16 +212,6 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43B - Programação Orientada a Objetos - 01/Anotações/ES43B - Aula 02 - 02.04.25 - Mudanças de Tipo.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43B - Programação Orientada a Objetos - 01/Anotações/ES43B - Aula 01 - 27.03.25 - Portabilidade da Linguagem Java e Entrada de Dados pelo Terminal.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43B - Programação Orientada a Objetos - 01/Anotações/ES43B - Aula 05 - 10.04.2025 - Objetos dentro de Objetos.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.01 - 3º Período/UTFPR - Eng. de Software - Disciplinas/ES43C - Requisitos de Software/Anotações/ES43C - Aula 02 - 31.03.25 - Engenharia de Requisitos.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/JS & TS - 17 - RegEx.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.01 - Expressões com RegEx 01.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.08 - Lookaround.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.07 - Retrovisores.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.06 - Começa com e Termina com.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações/JS & TS - 17.05 - Conjuntos e Ranges.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - 2024.02 - 2º Período.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/ES42D - Sistemas Operacionais/ES42D - Sistemas Operacionais.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/ES42C - Processo de Produção de Software/ES42C - Processo de Produção de Software.md",
     "System/Sem título.base",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações",

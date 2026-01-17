@@ -14,11 +14,6 @@ Tipo: Anotação
 ## 🌳Engenharia de Requisitos
 
 É o processo de descobrir, analisar, documentar e verificar as funções e/ou restrições. Pode ser definida como o processo sistemático de desenvolvimento de requisitos através de um processo interativo. Envolve criatividade, interação de diferentes pessoas, conhecimento e experiência. Possibilita estimar cursos e tempo de maneira mais precisa e melhor e gerencia mudanças em requisitos
---- start-multi-column: ID_3hlh
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
 
 ### 🌿Produção de Requisitos
 
@@ -27,16 +22,12 @@ Largest Column: standard
 - Especificações
 - Validação e Verificação
 
---- column-break ---
-
 ### 🌿Gerência de Requisitos
 
 - Controle de Mudanças
 - Rastreabilidade
 - Gerência de Configuração - *não será abordada*
 - Gerência de Qualidade - *não será abordada*
-
-
 
 ### 🌿O Processo da Engenharia de Requisitos
 
