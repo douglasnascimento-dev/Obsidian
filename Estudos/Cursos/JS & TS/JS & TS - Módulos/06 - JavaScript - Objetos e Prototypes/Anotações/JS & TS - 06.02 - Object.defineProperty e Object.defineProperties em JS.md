@@ -53,7 +53,7 @@ camisetaF1.preco = 'Esse preço aq'; // Lança um erro, pois o valor não é num
 ```
 
 ### 🌿 Entendendo Object.defineProperty
---- start-multi-column: ID_o2ze
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -67,7 +67,7 @@ O método `Object.defineProperty` define uma única propriedade de um objeto, co
 - _configurable_: Indica se a propriedade pode ser deletada ou se suas características (como `writable` e `enumerable`) podem ser modificadas.
 
 
---- column-break ---
+
 
 ```javascript
 Object.defineProperty(objeto, 'propriedade', {
@@ -79,9 +79,9 @@ Object.defineProperty(objeto, 'propriedade', {
 
 ```
 
---- end-multi-column
+
 ### 🌿 Getters e Setters
---- start-multi-column: ID_6p4d
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -94,7 +94,7 @@ No exemplo da propriedade `preco`, observamos o uso de um _getter_ e um _setter_
 
 Os _getters_ e _setters_ são úteis para validar ou processar dados antes que sejam acessados ou atribuídos.  
 
---- column-break ---
+
 
 ```javascript
 Object.defineProperty(objeto, 'propriedade', {
@@ -111,7 +111,7 @@ Object.defineProperty(objeto, 'propriedade', {
 
 ```
 
---- end-multi-column
+
 
 ### 🌿Observações Sobre configurable e writable
 

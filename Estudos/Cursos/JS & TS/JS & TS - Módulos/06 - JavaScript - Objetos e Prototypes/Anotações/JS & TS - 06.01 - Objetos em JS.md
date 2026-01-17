@@ -12,7 +12,7 @@ cssclasses:
 ![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Objetos
 ## 🌳**Objetos e Métodos**
---- start-multi-column: ID_i78k
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -28,7 +28,7 @@ Objetos são uma forma de agrupar dados e funcionalidades em uma única estrutur
     - **`getDataNascimento`**: Calcula o ano de nascimento da pessoa com base no ano atual (`new Date().getFullYear()`) subtraindo a idade.
 - **`this`**: Uma palavra-chave que referencia o objeto atual. No contexto dos métodos, ela é usada para acessar outras propriedades ou métodos dentro do mesmo objeto.
 
---- column-break ---
+
 
 
 ```javascript
@@ -41,9 +41,9 @@ getDataNascimento() { return (new Date()).getFullYear() - this.idade} };  /* con
 ```
 
 
---- end-multi-column
+
 ## 🌳**Factory Functions**
---- start-multi-column: ID_9eze
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -55,7 +55,7 @@ Largest Column: standard
     - O uso de `get` transforma a função em um _getter_, permitindo que ela seja acessada como uma propriedade (`p1.nomeCompleto`) em vez de uma chamada de método (`p1.nomeCompleto()`).
 3. **Flexibilidade**: Essa abordagem facilita a criação de vários objetos sem a necessidade de repetir a estrutura do objeto manualmente.
 
---- column-break ---
+
 
 ```javascript
 function criaPessoa(nome, sobrenome) {   
@@ -71,9 +71,9 @@ console.log(p1.nomeCompleto); // Douglas Nascimento``
 
 ```
 
---- end-multi-column
+
 ## 🌳**Constructor Functions**
---- start-multi-column: ID_p6n4
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -90,7 +90,7 @@ Largest Column: standard
 4.  Por que usar Constructor Functions?
 	- É uma forma mais tradicional e explícita de criar objetos, especialmente em projetos que usam orientações à Programação Orientada a Objetos (POO).
 	
---- column-break ---
+
 
 ```javascript
 function Pessoa(nome, sobrenome) {   
@@ -103,7 +103,7 @@ const p2 = new Pessoa("Douglas", "Nascimento");
 console.log(p2); // { nome: "Douglas", sobrenome: "Nascimento" }`
 ```
 
---- end-multi-column
+
 ### 🌿 Diferenças entre Factory e Constructor Functions
 
 | Característica       | Factory Functions                 | Constructor Functions            |

@@ -26,7 +26,7 @@ Largest Column: standard
 
 Podemos listar arquivos de um diretório e seus subdiretórios recursivamente utilizando 'fs.readdir()', que lê pastas, e 'fs.stat()', que retorna estatística sobre determinado diretório/arquivo. O Método 'isDirectory()' retorna true/false para o teste se determinado caminho resulta ou não em uma pasta. No exemplo abaixo, listamos apenas arquivos '.json' ignorando o diretório '.git'. Podemos utilizar o 'path' como suporte para organizar os caminhos dos arquivos
 
---- column-break ---
+
 
 ```javascript
 const fs = require("fs").promises;
@@ -56,5 +56,5 @@ async function walk(files, rootDir) {
 readdir("../");
 ```
 
---- end-multi-column
+
 

@@ -14,7 +14,7 @@ cssclasses:
 
 ### 🌿Módulos com o MongoDB
 
---- start-multi-column: ID_nkw2
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -26,7 +26,7 @@ Para melhorar a utilização com o MongoDB, se utiliza outros módulos, como:
 - 'connect-mongo' - para estabelecer contanto com o banco de dados
 - 'connect-flash' - para utilizar mensagens que são apagadas após a sua utilização
 
---- column-break ---
+
 
 ```javascript
 require("dotenv").config();
@@ -38,9 +38,9 @@ const flash = require("connect-flash");
 
 ```
 
---- end-multi-column
+
 ## 🌳Conectando com o Banco de Dados
---- start-multi-column: ID_e4xk
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -48,7 +48,7 @@ Largest Column: standard
 
 Para se conectar com o banco de dados, se utiliza o mongoose.connect(process.env.URL), que recebe como parâmetro a url do banco de dados. Isso irá retornar um promessa, que irá ser resolvida ou rejeitada
 
---- column-break ---
+
 
 ```javascript
 mongoose
@@ -59,9 +59,9 @@ mongoose
   .catch((e) => console.log(e));
 ```
 
---- end-multi-column
+
 ### 🌿Configurações de Sessão
---- start-multi-column: ID_bbcg
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -77,7 +77,7 @@ Isso definirá as configurações para sessão, ou seja, quando o usuário loga 
 	- 'httpOnly' - define que os cookies só ficarão salvo em http
 
 
---- column-break ---
+
 
 ```javascript
 const sessionOptions = {
@@ -92,9 +92,9 @@ const sessionOptions = {
 };
 ```
 
---- end-multi-column
+
 ### 🌿Models
---- start-multi-column: ID_dn0g
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -102,7 +102,7 @@ Largest Column: standard
 
 Nos models, será criada os Schema, que são as Bases de Dados, que vai receber como parâmetro os atributos, o 'titulo', por exemplo, será do tipo String e tem a obrigatoriedade de ser declarado, já a 'descricao' recebe só o tipo String. Após isso, se declara o Model que é igual ao mongoose.model(), que recebe o nome do Model e o Schema e ao fim pode ser exportado para uso externo
 
---- column-break ---
+
 
 ```javascript
 const mongoose = require("mongoose");
@@ -118,10 +118,10 @@ const HomeModel = mongoose.model("Nome", HomeSchema);
  module.exports = HomeModel; 
 ```
 
---- end-multi-column
+
 
 ### 🌿Utilizando 'flash' e mongoDB nos Controllers
---- start-multi-column: ID_q4vl
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -129,7 +129,7 @@ Largest Column: standard
 
 No primeiro passo, o Model é importado pelo NPM, e então os dados podem ser passados utilizando o '.create({})' que vai receber um objeto como a mesma estrutura do Schema, e então será passado o id e o valor. Isso irá retornar uma promessa. O 'req.flash()' irá criar uma informação na sessão do usuário, que só fica disponível para ser usada uma vez, isso é util para avisar informações ao usuário. Sua estrutura é a seguinte, primeiro é passado o nome da mensagem e em seguida o valor da mensagem. A declaração para exibição acontece chamando o nome da mensagem
 
---- column-break ---
+
 
 ```javascript
  const HomeModel = require("../models/homeModel");
@@ -146,5 +146,5 @@ exports.paginaInicial = (req, res) => {
 };
 ```
 
---- end-multi-column
+
 

@@ -14,7 +14,7 @@ cssclasses:
 ## 🌳Funções Assíncronas em JS
 
 As Funções Assíncronas são funções especiais que suportam esperar um determinado tempo para execução do código que necessite de execução assíncrona
---- start-multi-column: ID_n2ww
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -22,7 +22,7 @@ Largest Column: standard
 
 A Declaração de uma Função assíncrona acontece acompanhada da palavra **async**, isso dá poderes a esse função de paralisar a sua função em determinados pontos. A Declaração da Promisse acontece de forma quase similar a de uma função síncrona, com a única exceção que vem acompanha da palavra **await**. Para receber os erros é possível tanto criar métodos '.catch()' para cada promessa ou utilizar um único bloco de de 'try catch'
 
---- column-break ---
+
 
 ```javascript
 async function executar() {
@@ -43,4 +43,4 @@ async function executar() {
 executar()
 ```
 
---- end-multi-column
+

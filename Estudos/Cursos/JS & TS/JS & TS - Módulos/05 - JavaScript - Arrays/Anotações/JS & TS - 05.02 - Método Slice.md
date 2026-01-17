@@ -12,7 +12,7 @@ cssclasses:
 ![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Slice( )
 ## 🌳Método Slice
---- start-multi-column: ID_tvvb
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -20,14 +20,14 @@ Largest Column: standard
 
 O Método .slice pode receber infinitos parâmetros, o **primeiro será o índice do inicio da alteração**, o **segundo índice representa o número de elementos a serem deletados**, podendo variar de 0 ao número máximo de elementos do array, e a **partir de então, os parâmetros representam os elementos á serem adicionados** no array, a inclusão de elementos no array não é obrigatório e dessa forma pode ser suprimida.
 
---- column-break ---
+
 
 ```javascript
 const palavras ['Drink', 'Sleep', 'Code', 'Repeat']
 palavras.slice(1, 1, "Coffe") // ['Drink', 'Coffe', 'Code', 'Repeat']
 ```
 
---- end-multi-column
+
 ### 🌿Substituição de .pop, .push, .shift, .unshift
 
 #### 🌱.pop: 

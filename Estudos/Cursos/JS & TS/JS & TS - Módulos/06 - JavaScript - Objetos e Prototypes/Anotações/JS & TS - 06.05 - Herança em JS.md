@@ -35,7 +35,7 @@ Produto.prototype.desconto = function(quantia) {
 ```
 
 ### 🌿 Especializações com Funções Construtoras
---- start-multi-column: ID_e32w
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -44,7 +44,7 @@ Largest Column: standard
 
 A função Camiseta herda de Produto e adiciona propriedades específicas, como cor, material e estampa. O método call é usado para chamar o construtor da classe base.
 
---- column-break ---
+
 
 ```javascript
 function Camiseta(nome, preco, cor, material, estampa) {
@@ -58,9 +58,9 @@ Camiseta.prototype = Object.create(Produto.prototype); // Herança
 Camiseta.prototype.constructor = Camiseta; // Corrigindo o construtor
 ```
 
---- end-multi-column
+
 #### 🌱Utilizando Getters e Setters
---- start-multi-column: ID_w3ek
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -68,7 +68,7 @@ Largest Column: standard
 
 A função Caneca também herda de Produto, mas adiciona um controle refinado de estoque usando _getters_ e _setters_ via Object.defineProperty.
 
---- column-break ---
+
 
 ```javascript
 function Caneca(nome, preco, material, cor, estoque) {
@@ -93,10 +93,10 @@ Caneca.prototype = Object.create(Produto.prototype); // Herança
 Caneca.prototype.constructor = Caneca; // Corrigindo o construtor
 ```
 
---- end-multi-column
+
 
 #### 🌱Comparação entre Especializações
---- start-multi-column: ID_6hz8
+
 
 ```column-settings
 Number of Columns: 2
@@ -115,7 +115,7 @@ Largest Column: standard
 - Adiciona controle refinado de estoque com _getters_ e _setters_.
 - Permite validação e encapsulamento do valor do estoque.
 
---- column-break ---
+
 
 ```javascript
 const camiseta = new Camiseta(
@@ -141,4 +141,4 @@ console.log(camiseta);
 console.log(caneca);
 ```
 
---- end-multi-column
+

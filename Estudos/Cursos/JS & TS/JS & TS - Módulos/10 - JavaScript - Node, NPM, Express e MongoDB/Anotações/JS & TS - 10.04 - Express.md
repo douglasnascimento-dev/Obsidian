@@ -19,7 +19,7 @@ O Express é um framework para Node.js que facilita a criação de servidores we
 ### 🌿Criando um Servidor com Express
 
 Para iniciar um servidor básico com Express, primeiro é necessário importar o módulo e criar uma instância da aplicação. Em seguida, podemos definir rotas e configurar o servidor para ouvir requisições em uma porta específica.
---- start-multi-column: ID_express01
+ess01
 
 ```column-settings
 Number of Columns: 2  
@@ -28,7 +28,7 @@ Largest Column: standard
 
 O código ao lado cria um servidor que responde a diferentes requisições GET, retornando mensagens específicas para cada rota. A função 'app.get()' recebe dois parâmetros: o caminho da rota e uma função callback que manipula a requisição ('req') e a resposta ('res'). O 'app.listen()' tem a função de manter o servidor no ar, é preferível utlizar portas pouco utilizadas, a fim de evitar conflitos com outros processos, como a porta 3000
 
---- column-break ---
+
 
 ```javascript
 const express = require('express');
@@ -47,7 +47,7 @@ app.listen(3000, () =>
 );
 ```
 
---- end-multi-column
+
 
 ### 🌿Rotas no Express
 

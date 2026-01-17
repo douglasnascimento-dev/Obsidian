@@ -23,9 +23,9 @@ try {
 }
 ```
 
---- end-multi-column
+
 ### 🌿**Throw** - Lançando erros próprios
---- start-multi-column: ID_4g3n
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -33,7 +33,7 @@ Largest Column: standard
 
 É possível lançar erros próprios. Por exemplo, em uma função só números podem ser aceitos, ao enviar um não número, é definido um erro próprio usando a expressão 'throw new ReferenceError('Nome do Erro')' isso devolvera um erro semelhante ao do JS nativo
 
---- column-break ---
+
 
 ```javascript
 function soma(x, y){
@@ -48,9 +48,9 @@ try {
 }
 ```
 
---- end-multi-column
+
 ## 🌳Try, Catch e Finally
---- start-multi-column: ID_nxd8
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -58,7 +58,7 @@ Largest Column: standard
 
 Além dos blocos 'try' e 'catch', também existe o bloco '**finally**' esse bloco final sempre será executado mesmo se não ocorrer algum erro. No exemplo ao lado, o 'finally' sempre permitira ao usuario fechar a aba.
 
---- column-break ---
+
 
 ```javascript
 try {
@@ -70,4 +70,4 @@ try {
 }
 ```
 
---- end-multi-column
+

@@ -12,7 +12,7 @@ cssclasses:
 ![[JS & TS.png|banner]]
 > [!banner-icon] 🌿Factory + Prototypes
 ## 🌳Prototypes em Factory Functions
---- start-multi-column: ID_sn4s
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -20,7 +20,7 @@ Largest Column: standard
 
 Além de usar os prototypes em funções construtora, também é possível os utilizar em Factory Functions. Para isso se deve retornar um objeto criado através do método 'Object.creat()'. Esse método deve receber como primeiro parâmetro um outro objeto que será utilizado com o prototype, além de um outro objeto que contenham as chaves e mais um objeto para cada chave, que será responsável pela definição das propriedades do atributo. Para manter um código mais flexível, é preferível utilizar o método 'Object.assign()', que no primeiro parâmetro deve receber o alvo, no caso um objeto vazio, e nos demais pode receber métodos definidos através de 'const' ou 'let'. 
 
---- column-break ---
+
 
 ```javascript
 // Objeto com método falar
@@ -52,9 +52,9 @@ const p1 = criaPessoa('Luiz', 'Otávio');
 console.log(p1); // 
 ```
 
---- end-multi-column
+
 ## 🌳'new Map'
---- start-multi-column: ID_zb3w
+
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -62,7 +62,7 @@ Largest Column: standard
 
 O _Map_ é uma estrutura de dados que armazena pares e chave-valor, semelhante a um objeto. Mas, diferente de um objeto, um _Map_ permite chaves de qualquer tipo, incluindo objetos e funções, além de preservar a ordem de inserção dos elementos. Para criar um _Map_, usa-se o construtor 'new Map()', e os elementos podem ser adicionados com '.set(chave, valor)'
 
---- column-break ---
+
 
 ```javascript
 const pessoas = [
@@ -85,6 +85,6 @@ for (const pessoa of pessoas) {
 console.log(novasPessoas.get(2));
 ```
 
---- end-multi-column
+
 
 
