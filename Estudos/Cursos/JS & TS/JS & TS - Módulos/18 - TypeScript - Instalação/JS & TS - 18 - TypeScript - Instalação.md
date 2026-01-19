@@ -1,7 +1,7 @@
 ---
 Tipo: Módulo
 Status: true
-Início: 2025-05-24
+Início: 2026-01-15
 cssclasses:
   - banner
   - banner-fade
@@ -9,20 +9,9 @@ cssclasses:
   - wideFC
   - wideTable
   - yellowCab
-Fim: 2026-01-15
+Fim: 2026-01-19
 Anotações:
-  - "[[JS & TS - 17.01 - Iniciando com RegEx]]"
-  - "[[JS & TS - 17.02 - Funções para String]]"
-  - "[[JS & TS - 17.03 - Quantificadores]]"
-  - "[[JS & TS - 17.04 - Greedy e Non-Greedy]]"
-  - "[[JS & TS - 17.05 - Conjuntos e Ranges]]"
-  - "[[JS & TS - 17.06 - Começa com e Termina com]]"
-  - "[[JS & TS - 17.07 - Retrovisores]]"
-  - "[[JS & TS - 17.08 - Lookaround]]"
 Atividades:
-  - "[[JS & TS - AC. 17.03.01 - Expressões com RegEx 01]]"
-  - "[[JS & TS - AC. 17.03.01 - Expressões com RegEx 02]]"
-  - "[[JS & TS - AC. 17.03.02 - Expressões com RegEx 03]]"
 ---
 
 ![[JS & TS.png|banner]]
