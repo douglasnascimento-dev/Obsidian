@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/04 - JavaScript - Funções/Anotações/JS & TS - 04.01 - Parâmetros da Função.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/JS & TS - 17 - RegEx.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS & TS - 04.01 - Parâmetros da Função"
+              "title": "JS & TS - 17 - RegEx"
             }
           }
         ]
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "start-mul",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/04 - JavaScript - Funções/Anotações/JS & TS - 04.01 - Parâmetros da Função.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/JS & TS - 17 - RegEx.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JS & TS - 04.01 - Parâmetros da Função"
+              "title": "Sumário de JS & TS - 17 - RegEx"
             }
           },
           {
@@ -186,6 +186,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Estudos/Estudos.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/04 - JavaScript - Funções/Anotações/JS & TS - 04.01 - Parâmetros da Função.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/04 - JavaScript - Funções/Anotações/JS & TS - 04.02 - Tipos de Funções.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/05 - JavaScript - Arrays/Anotações/JS & TS - 05.03 - Concatenação de Arrays.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/05 - JavaScript - Arrays/Anotações/JS & TS - 05.04 - Métodos 'Filter', 'Map' e 'Reduce'.md",
@@ -210,8 +212,6 @@
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/03 - JavaScript - Lógica de Programação/Anotações/JS & TS - 03.05 - Tratamento de Erros.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/08 - JavaScript Assíncrono/Anotações/JS & TS - 08.01 - Promisses.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/08 - JavaScript Assíncrono/Anotações/JS & TS - 08.03 - XMLHTTPRequest.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/08 - JavaScript Assíncrono/Anotações/JS & TS - 08.02 - Async e Await.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/08 - JavaScript Assíncrono/Anotações/JS & TS - 08.04 - FetchAPI.md",
     "System/Sem título.base",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações",
