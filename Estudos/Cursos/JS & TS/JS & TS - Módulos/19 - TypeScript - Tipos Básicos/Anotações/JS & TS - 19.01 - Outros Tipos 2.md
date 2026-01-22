@@ -39,10 +39,10 @@ Esse tipo representa um tipo 'Desconhecido'. Ele é uma possibilidade de uso em 
 
 ## 🌿Union Types
 
-Representa a União de Tipos, ou seja, em determinados casos pode ser lido como 'Ou'. É representado pelo caractere `|`.
+Representa a União de Tipos, ou seja, em determinados casos pode ser lido como 'Ou'. É representado pelo caractere `|`. Eles podem representar inclusive uma Substituição a Enum's
 
 ```ts
-string | number | boolean
+ 'VERMELHO' | 'AMARELO' | 'AZUL'
 ```
 
 ## 🌿Tipos Literais
@@ -64,7 +64,7 @@ const pessoa = {
 };
 ```
 
-Para evitar que um atributo de um Objeto seja manipulado, é possível utilizar o `as const`, que definirá que a partir daquele momento o tipo deixa de ser o definido e se torna um Tipo Literal. 
+Para evitar que um atributo de um Objeto seja manipulado, é possível utilizar o `as const`, que definirá que a partir daquele momento o tipo deixa de ser o definido e se torna um Tipo Literal e consequentemente `readonly`. 
 
 ## 🌿 Opcional
 
@@ -75,3 +75,4 @@ Quando um atributo, ou em demais utilizações cabíveis, for opcional, é poss�
   Idade: Idade;
   cor?: cores;
 ```
+
