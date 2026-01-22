@@ -39,3 +39,30 @@ let sym2 = Symbol("key");
 let sym3 = Symbol("key");
 sym2 === sym3; 
 ```
+
+## 🌿Tipos de Referência
+
+### 🌱Arrays
+
+Existem duas formas de criar Arrays em TS. Usando o Tipo Array com o Genérico e passar o Tipo, como na Primeira Opção. E criar a partir de um Tipo e definir que será um Array.
+
+```ts
+let arrayNumbers: Array<number> = [0x275a, 45, 24];
+let arrayNumbers2: number[] = [0x275a, 45, 24];
+```
+
+### 🌱Objetos
+
+```ts
+let person: { 
+	nome: string; 
+	idade: number; 
+	adulto?: boolean
+	 } = { 
+	 nome: 'Luiz', 
+	 idade: 30, 
+	 adulto: true 
+	 };
+```
+
+Observe que nesse caso a Tipagem ocorre junto a declaração do objeto. Então, primeiramente é declarado a Tipagem das Variaveis e em seguida é declarado os valores Inicia
