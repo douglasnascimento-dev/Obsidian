@@ -30,7 +30,7 @@ type Pessoa = {
 
 ## 🌿Intersection Types. 
 
-Enquanto o Union Types, representa um Conjunto de União. O Intersection Types representam um Conjunto de Intersecção, ou seja apenas o que for comum entre todos os conjuntos é válido. 
+Enquanto o Union Types, representa um Conjunto de União. Ao contrário da teoria dos conjuntos básica onde a interseção reduz os itens, em Objetos TypeScript a Intersection (`&`) **soma** as propriedades. O objeto final deve possuir **todas** as características de todos os tipos combinados."
 
 ```ts
 type TemNome = { nome: string };
@@ -67,9 +67,9 @@ const abc = ['a', 'b', 'c'];
 const abcMapped = mapStrings(abc, (item) => item.toUpperCase());
 ```
 
-## 🌿Funcionamento de Tipos em TS
+## 🌿### Funcionamento de Tipos em TS (Structural Typing)
 
-Diferentemente de outras Linguagens mais rígidas como Java, o TS não analisa a assinatura do Tipo para verificar uma validação, mas se esse tipo cumpre as restrições impostas. 
+Também chamado de **Duck Typing** ("Se anda como pato e grasna como pato, é um pato"). Diferentemente de outras Linguagens mais rígidas como Java, o TS não analisa a Assinatura do Tipo para Validar algo, mas verifica se esse Tipo cumpre as Restrições Impostas. 
 
 ```ts
 type VerifyUser = (user: User, sentValue: User) => boolean;
@@ -83,4 +83,14 @@ const dbUser: User = { username: 'joao', password: '123456' };
 const sendUser = { username: 'joao', password: '123456', permisions: '78' };
 ```
 
-No caso acima, mesmo a Constante `sendUser` não possuir o Tipo `User` e possuir um atributo não declarado no
+No Caso Acima, mesmo a Constante `sendUser` não possuindo o Tipo `User` e possuindo um Atributo não Declarado no Tipo `User`, a Variável é considerada Válida, pois cumpre as Restrições impostas pelo TS. Entretanto, se ela fosse declarada na chamada da Função, ela seria considerada Inválida, pois o TS faz uma checagem extra chamada **Excess Property Check** (Checagem de Propriedade Excessiva) quando passamos o objeto literalmente dentro da função.
+
+## 🌿Non-Null Assertion
+
+Indica que um Valor que poderia ter como Tipo `null` não será `null`. Esse mecanismo é representado pelo caractere `!`. **Atenção: esse Mecanismo retira a Necessidade de Verificação imposta pelo TS.**
+
+```TS
+const body = document.querySelector('body')!;
+body.style.background = 'red';
+```
+
