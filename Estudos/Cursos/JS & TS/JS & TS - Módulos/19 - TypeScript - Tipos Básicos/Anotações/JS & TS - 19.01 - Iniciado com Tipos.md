@@ -82,3 +82,4 @@ const result = soma(1, 7);
 ```
 
 Acima, estão apresentados os Dois Métodos de Criação de Funções no TS. O 01º é o Tradicional usando 'Function'. E o 02º utiliza o Método de Declaração de Arrow Functions. Os Parâmetros recebidos pela Função sempre devem ser citados. Já o Retorno da Função, muitas vezes a própria Engine do TS pode descobrir sozinho. 
+
