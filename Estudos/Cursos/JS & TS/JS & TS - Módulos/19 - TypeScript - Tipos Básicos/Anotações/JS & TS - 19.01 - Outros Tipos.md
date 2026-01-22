@@ -48,7 +48,7 @@ const data2: {
 };
 ```
 
-É o Tipo que define um Objeto. Observe que há uma Declaração Especial aqui. É Declarado uma Chave Extra que irá permitir a Criação de novas Chaves.
+É o Tipo que define um Objeto. Observe que há uma Index Signature (Assinatura de Índice) aqui. Essa é uma Declaração de uma Chave Extra que irá permitir a Criação de novas Chaves.
 
 ## 🌿Function 
 
@@ -71,7 +71,7 @@ Observe que a cada Retorno, é necessário indicar a Tipagem deste. No caso acim
 
 ## 🌿Tuple
 
-Similar a Tupla de uma Tabela. Sua estruturação é similar a de Campos de uma Tabela. Podendo conter dados de diferentes tipos em uma mesmo "linha".
+Similar a Tupla de uma Tabela. Sua estruturação é similar a de Campos de uma Tabela. Podendo conter dados de diferentes tipos em uma mesmo "linha". Diferentemente de Arrays, as Tupla tem tamanho fixo e a ordem dos tipos importa rigorosamente.
 
 ```ts
 const dadosCliente: [number, string] = [1, 'Luiz'];
@@ -80,7 +80,7 @@ const dadosCliente: [number, string] = [1, 'Luiz'];
 
 ## 🌿Undefined vs Null
 
-Seguindo as Boas Práticas é comum se evitar utilizar o Tipo Undefined. Para isso, é utilizado o Tipo Null, que por convenção é assimilado a uma utilização consciente do Desenvolvedor, diferentemente do Undefined que também pode ser uma produção da Própria Linguagem. 
+Embora existente, seu uso não é muito comum, devido que isso causa uma dupla checagem, para `null` e `undefined`, e muitos desenvolvedores preferem utilizar apenas `undefined` para padronizar os tipos de vazio. 
 
 ```ts
 export function squareOf(x: any) {
@@ -91,4 +91,12 @@ export function squareOf(x: any) {
 
 ## 🌿Never 
 
-Indica que não há retorno nunca. Esse tipo é comumente utilizado em casos onde há a geração de erros, 
+O tipo 'never' indica que a função jamais retornará um valor para quem a chamou. Isso acontece em dois casos principais:
+1. A função lança um erro (o script é interrompido ou o erro sobe a pilha).
+2. A função entra em um loop infinito ('while(true)').
+
+```ts
+function criaErro(): never {
+  throw new Error('Erro');
+}
+```
