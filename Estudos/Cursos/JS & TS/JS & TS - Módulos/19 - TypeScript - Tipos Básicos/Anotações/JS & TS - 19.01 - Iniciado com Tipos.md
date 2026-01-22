@@ -15,3 +15,4 @@ cssclasses:
 
 # 🌳O Que é?
 
+O TypeScript diferentemente do JavaScript Puro é muito mais aderente a Tipagem, que aqui necessita de ocorrer de acontecer de modo man

@@ -11,6 +11,7 @@ cssclasses:
   - yellowCab
 Fim: 2026-01-19
 Anotações:
+  - "[[JS & TS - 19.01 - Iniciado com Tipos]]"
 Atividades:
 ---
 
