@@ -46,4 +46,5 @@ const db2 = Database.getDatabase('localhost);
 db2.connect();
 ```
 
-No caso acima, será criado uma nova Database apenas uma vez. Em todas as demais ocasiões
+No caso acima, será criado uma nova `Database` apenas uma vez. Em todas as demais ocasiões, será retornada a `Database` já existente.
+
