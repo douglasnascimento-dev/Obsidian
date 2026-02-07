@@ -12,9 +12,9 @@ cssclasses:
 Fim: 2026-01-19
 Anotações:
   - "[[JS & TS - 19.01 - Iniciado com Tipos]]"
-  - "[[JS & TS - 19.04 - Outros Tipos]]"
+  - "[[JS & TS - 19.01 - Outros Tipos]]"
   - "[[JS & TS - 19.01 - Outros Tipos 2]]"
-  - "[[JS & TS - 19.03 - Type Alias e Demais Tipos]]"
+  - "[[JS & TS - 19.01 - Type Alias e Demais Tipos]]"
 Atividades:
 ---
 

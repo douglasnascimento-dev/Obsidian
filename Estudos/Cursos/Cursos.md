@@ -4,9 +4,9 @@ cssclasses:
   - banner-fade
 Início: 2024-03-04
 Cursos:
-  - "[[HTML & CSS]]"
-  - "[[JS & TS]]"
   - "[[Java]]"
+  - "[[JS & TS]]"
+  - "[[HTML & CSS]]"
 Tipo: Inicial
 ---
 ![[Cursos.png|banner]]

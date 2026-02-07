@@ -14,7 +14,7 @@
   "cssTheme": "Minimal",
   "monospaceFontFamily": "Paris2024-Variable",
   "nativeMenus": false,
-  "baseFontSize": 14,
+  "baseFontSize": 15,
   "baseFontSizeAction": true,
   "showRibbon": false,
   "showViewHeader": true
