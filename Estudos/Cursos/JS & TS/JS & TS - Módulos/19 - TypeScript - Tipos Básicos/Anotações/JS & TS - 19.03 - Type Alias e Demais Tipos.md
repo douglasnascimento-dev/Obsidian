@@ -67,7 +67,7 @@ const abc = ['a', 'b', 'c'];
 const abcMapped = mapStrings(abc, (item) => item.toUpperCase());
 ```
 
-## 🌿### Funcionamento de Tipos em TS (Structural Typing)
+##  Funcionamento de Tipos em TS (Structural Typing)
 
 Também chamado de **Duck Typing** ("Se anda como pato e grasna como pato, é um pato"). Diferentemente de outras Linguagens mais rígidas como Java, o TS não analisa a Assinatura do Tipo para Validar algo, mas verifica se esse Tipo cumpre as Restrições Impostas. 
 
