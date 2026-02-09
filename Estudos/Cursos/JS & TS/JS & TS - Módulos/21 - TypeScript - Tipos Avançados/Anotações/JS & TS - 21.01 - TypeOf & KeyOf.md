@@ -38,3 +38,27 @@ function traduzir(cor: CoresChaves, cores: CoresObj): void {
 	console.log(cores[cor])
 }
 ```
+
+## 🌿Chaves como Tipo
+
+Chaves também pode ser utilizados em Tipagem de outros Valores. Isso permite sincronizar automaticamente os tipos em cada uma das declarações, como no exemplo abaixo:
+
+```ts
+type Veiculo = {
+	marca: string;
+	ano: number;
+}
+
+type Car = {
+	brand: Veiculo['marca'];
+	year: Veiculo['ano'];
+	name: string;
+}
+
+const carro: Car = {
+	brand: 'Ford',
+	year: 2020,
+	name: 'Taurus'
+}
+```
+
