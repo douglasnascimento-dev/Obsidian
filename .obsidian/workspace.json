@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.01 - Getters e Setter em TS.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/JS & TS - 20 - TypeScript - POO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS & TS - 20.01 - Getters e Setter em TS"
+              "title": "JS & TS - 20 - TypeScript - POO"
             }
           },
           {
-            "id": "56286dc6180898a9",
+            "id": "b1b1599b8f35adf8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.02. Singleton.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/JS & TS - 20 - TypeScript - POO 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS & TS - 20.02. Singleton"
+              "title": "JS & TS - 20 - TypeScript - POO 1"
             }
           }
         ],
@@ -149,13 +149,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.02. Singleton.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/JS & TS - 20 - TypeScript - POO 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JS & TS - 20.02. Singleton"
+              "title": "Sumário de JS & TS - 20 - TypeScript - POO 1"
             }
           },
           {
@@ -199,15 +199,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "56286dc6180898a9",
+  "active": "b1b1599b8f35adf8",
   "lastOpenFiles": [
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.01 - Getters e Setter em TS.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/JS & TS - 20 - TypeScript - POO.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/JS & TS - 20 - TypeScript - POO 1.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.02. Singleton.md",
     "Estudos/Estudos.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.01 - Getters e Setter em TS.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações/JS & TS - 19.04 - Outros Tipos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações/JS & TS - 19.03 - Type Alias e Demais Tipos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20 - G.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/JS & TS - 20 - TypeScript - POO.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/JS & TS - 19 - TypeScript - Tipos Básicos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO",
@@ -231,7 +232,6 @@
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Anotações/JS & TS - 06.02 - Object.defineProperty e Object.defineProperties em JS.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Anotações/JS & TS - 06.05 - Herança em JS.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Anotações/JS & TS - 06.04 - Prototypes.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Anotações/JS & TS - 06.06 - Polimorfismo em JS.md",
     "System/Sem título.base",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações",
