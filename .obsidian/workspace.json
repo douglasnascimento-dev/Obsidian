@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "JS & TS - 21.01 - TypeOf & KeyOf"
             }
+          },
+          {
+            "id": "2c3efa61af0aa71c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/Anotações/JS & TS - 21.01 - This como Tipo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JS & TS - 21.01 - This como Tipo"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -163,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/Anotações/JS & TS - 21.01 - TypeOf & KeyOf.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/Anotações/JS & TS - 21.01 - This como Tipo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JS & TS - 21.01 - TypeOf & KeyOf"
+              "title": "Sumário de JS & TS - 21.01 - This como Tipo"
             }
           },
           {
@@ -213,10 +227,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e2823cdb7bdb70e3",
+  "active": "2c3efa61af0aa71c",
   "lastOpenFiles": [
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.01 - Getters e Setters.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/Anotações/JS & TS - 21.01 - TypeOf & KeyOf.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/Anotações/JS & TS - 21.01 - This como Tipo.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.01 - Getters e Setters.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.01 - Getters e Setter em TS.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações/JS & TS - 19.01 - Outros Tipos 2.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações/JS & TS - 19.03 - Type Alias e Demais Tipos.md",
@@ -247,7 +262,6 @@
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/05 - JavaScript - Arrays/Anotações/JS & TS - 05.02 - Método Slice.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Anotações/JS & TS - 06.01 - Objetos em JS.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Anotações/JS & TS - 06.03 - Métodos Úteis em JS.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/06 - JavaScript - Objetos e Prototypes/Anotações/JS & TS - 06.02 - Object.defineProperty e Object.defineProperties em JS.md",
     "System/Sem título.base",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Anotações",
