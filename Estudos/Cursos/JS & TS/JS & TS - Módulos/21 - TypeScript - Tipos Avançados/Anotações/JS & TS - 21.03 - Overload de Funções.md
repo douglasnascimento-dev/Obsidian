@@ -61,3 +61,20 @@ const resultado2 = minhaFuncaoDinamica(5, "Olá");
 const resultado3 = minhaFuncaoDinamica(5, "Teste", true, "extra1", "extra2"); 
 // ➝ Retorna boolean: true
 ```
+
+### 🌿Diagrama:
+
+```mermaid
+%%{init: { 'theme': 'forest' } }%%
+flowchart TD
+    A[Início da Função] --> B{Parâmetro 'z' existe<br>e é boolean?}
+    B -- Sim --> C[Assinatura 3]
+    C --> D[Processa 'args']
+    D --> E([Retorna: boolean])
+    B -- Não --> F{Parâmetro 'y' existe<br>e é string?}
+    F -- Sim --> G[Assinatura 2]
+    G --> H([Retorna: string])
+    F -- Não --> I[Assinatura 1]
+    I --> J([Retorna: number])
+```
+
