@@ -18,9 +18,7 @@ cssclasses:
 
 ### 🌿 Implementação
 
-TypeScript
-
-```
+```ts
 const objeto1: Record<string, string | number> = {
   nome: 'Luiz',
   sobrenome: 'Miranda',
@@ -30,9 +28,7 @@ const objeto1: Record<string, string | number> = {
 
 > Utilizando a Tipagem:
 
-TypeScript
-
-```
+```ts
 // TIPO INFERIDO DE 'objeto1': ➝ { [x: string]: string | number; } //
 // O TS garante que qualquer nova chave inserida seja string, e seu valor seja string ou number.
 
@@ -47,19 +43,14 @@ console.log(objeto1.nome);
 **Conceito:** O TypeScript oferece utilitários que permitem criar novos tipos a partir de tipos de objetos (ou interfaces) já existentes, transformando suas propriedades sem precisar reescrever código:
 
 - **`Required<T>`:** Pega todas as propriedades de `T` e as torna **obrigatórias** (remove a opcionalidade `?`).
-    
 - **`Partial<T>`:** Pega todas as propriedades de `T` e as torna **opcionais** (adiciona o `?`).
-    
 - **`Readonly<T>`:** Torna todas as propriedades de `T` **apenas leitura**, impedindo reatribuições.
-    
 - **`Pick<T, K>`:** Cria um novo tipo **extraindo** apenas um conjunto específico de chaves (`K`) do tipo original (`T`).
-    
+
 
 ### 🌿 Implementação
 
-TypeScript
-
-```
+```ts
 type PessoaProtocol = {
   nome?: string;
   sobrenome?: string;
@@ -74,9 +65,7 @@ type PessoaPick = Pick<PessoaRequired, 'nome' | 'sobrenome'>;
 
 > Utilizando as Tipagens:
 
-TypeScript
-
-```
+```ts
 // Exemplo 1: Required
 const objeto2: PessoaRequired = {
   nome: 'Luiz',
@@ -100,12 +89,9 @@ const objeto3: PessoaPick = {
 **Conceito:** Estes utilitários operam em cima de **Union Types** (tipos de união):
 
 - **`Exclude<UnionType, ExcludedMembers>`:** **Exclui** do primeiro tipo de união todas as opções que também estejam presentes no segundo.
-    
 - **`Extract<Type, Union>`:** **Extrai** (mantém) apenas as opções que se repetem em ambos os tipos (a interseção entre eles).
-    
 
 ### 🌿 Implementação
-
 
 ```ts
 type ABC = 'A' | 'B' | 'C';
