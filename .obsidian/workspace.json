@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "JS & TS - 22.04 - Predicados"
             }
+          },
+          {
+            "id": "4372d17905cb4b97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.04 - Predicados 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JS & TS - 22.04 - Predicados 1"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -163,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.04 - Predicados.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.04 - Predicados 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JS & TS - 22.04 - Predicados"
+              "title": "Sumário de JS & TS - 22.04 - Predicados 1"
             }
           },
           {
@@ -213,10 +227,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3594388a066f7a28",
+  "active": "4372d17905cb4b97",
   "lastOpenFiles": [
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.03 - Intersecção com Generics.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.04 - Predicados.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.04 - Predicados 1.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.03 - Intersecção com Generics.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.02 - Generics.md",
     "Estudos/Estudos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.01 - Constrains.md",
@@ -248,7 +263,6 @@
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/18 - TypeScript - Instalação/JS & TS - 18 - TypeScript - Instalação.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/JS & TS - 17 - RegEx.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/18 - TypeScript - Instalação",
     "System/Sem título.base",
     "Imagens/Banner 03 - 01.png",
