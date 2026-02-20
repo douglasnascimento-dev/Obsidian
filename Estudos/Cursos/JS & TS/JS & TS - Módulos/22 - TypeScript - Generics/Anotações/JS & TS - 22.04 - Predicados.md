@@ -27,14 +27,22 @@ export function isNumber(value: unkown): value is number {
 > Utilizando a Função:
 
 ```ts
-isNumber(12)
+const valores: (number | string)[] = [12, "texto", 45, "olá"];
 
-// Exemplo 1: Unindo Objetos (<O1, O2> torna-se <{ chave1: string; }, { chave2: string; }>) 
-isNumber(12)
-// TIPO DE RETORNO: ➝  { chave1: string; } & { chave2: string; } //
+// Exemplo 1: Utilizando o predicado para filtrar Arrays
+const apenasNumeros = valores.filter(isNumber);
+// TIPO INFERIDO DE 'apenasNumeros': ➝ number[] //
+// VALOR: ➝ [12, 45] //
 
-// Exemplo 1: Unindo Objetos (<O1, O2> torna-se <{ chave1: string; }, { chave2: number; }>) 
-isNumber(12)
-// TIPO DE RETORNO: ➝  { chave1: string; } & { chave2: number; } //
+// Exemplo 2: Utilizando em condicionais para refinamento de tipo (Type Narrowing)
+function processar(valor: number | string) {
+    if (isNumber(valor)) {
+        return valor.toFixed(2);
+        // TIPO INFERIDO DE 'valor' AQUI DENTRO: ➝ number //
+    }
+    
+    return valor.toUpperCase();
+    // TIPO INFERIDO DE 'valor' AQUI FORA: ➝ string //
+}
 ```
 
