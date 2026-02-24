@@ -47,6 +47,7 @@ console.log(objeto1.nome);
 - **`Partial<T>`:** Pega todas as propriedades de `T` e as torna **opcionais** (adiciona o `?`).
 - **`Readonly<T>`:** Torna todas as propriedades de `T` **apenas leitura**, impedindo reatribuições.
 - **`Pick<T, K>`:** Cria um novo tipo **extraindo** apenas um conjunto específico de chaves (`K`) do tipo original (`T`).
+- **`Omit<T, K>`:** Cria um novo tipo **omitindo*** apenas um conjunto de chaves (`K`) do tipo original (`T`)
 
 
 ### 🌿 Implementação
@@ -62,6 +63,7 @@ type PessoaRequired = Required<PessoaProtocol>;
 type PessoaPartial = Partial<PessoaRequired>;
 type PessoaReadonly = Readonly<PessoaRequired>;
 type PessoaPick = Pick<PessoaRequired, 'nome' | 'sobrenome'>;
+type PessoaOmit = Omit<PessoaRequired, 'idade'>;
 ```
 
 > Utilizando as Tipagens:
