@@ -24,6 +24,7 @@ const objeto1: Record<string, string | number> = {
   sobrenome: 'Miranda',
   idade: 30,
 };
+
 ```
 
 > Utilizando a Tipagem:
