@@ -4,6 +4,7 @@ cssclasses:
   - banner-fade
 Disciplinas:
   - "[[EC46G - Metodologias de Pesquisa]]"
+  - "[[ES48H - Programação de Banco de Dados]]"
 Coeficiente de Rendimento: "0.0000"
 Tipo: Período
 Carga Horária: 420h

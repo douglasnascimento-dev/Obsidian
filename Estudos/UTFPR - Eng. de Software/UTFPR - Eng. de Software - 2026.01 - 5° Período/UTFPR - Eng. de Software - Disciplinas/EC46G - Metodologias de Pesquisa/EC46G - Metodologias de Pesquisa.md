@@ -5,9 +5,11 @@ cssclasses:
 Tipo: Disciplina
 Ministrado: Katia Romero Felizardo Scannavino
 Carga Horária: "60"
-Início: 2025-08-12
-Fim: 2025-12-12
+Início: 2026-03-23
+Fim:
 Avaliações:
+  - "[[EC46G - Avaliação]]"
+  - "[[EC46G - Médias das Atvs.]]"
 Anotações:
   - "[[ES46G - Aula 01 - Semana 01 - Processo de Publicação]]"
   - "[[ES46G - Aula 02 - Semana 02 - Erros Clássicos]]"
@@ -153,6 +155,9 @@ let sortedPagesArray = Array.from(sortedPages);
 let totalPeso = 0;
 let totalNotaComPeso = 0;
 
+// Cria uma array contendo os links no formato [[Nome da Avaliação]]
+let linksAvaliacoes = sortedPagesArray.map(p => `[[${p.file.name}]]`);
+
 let tabelaDados = sortedPagesArray.map(p => {
     let notaValida = p.Nota !== undefined && p.Nota !== null;
     if (notaValida) {
@@ -176,6 +181,7 @@ const file = app.vault.getAbstractFileByPath(dv.current().file.path);
 if (file) {
     app.fileManager.processFrontMatter(file, fm => {
         fm["Nota Final"] = notaExibicao;
+        fm["Avaliações"] = linksAvaliacoes; // Inserindo a lista de links no frontmatter
     });
 }
 ```
