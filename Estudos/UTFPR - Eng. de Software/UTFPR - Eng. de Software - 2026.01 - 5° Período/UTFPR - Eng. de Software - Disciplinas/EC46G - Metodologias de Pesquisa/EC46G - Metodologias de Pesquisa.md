@@ -87,9 +87,9 @@ if (file) {
 
 ## **Registros de Aulas** |  `$= (dv.current().file.name).split(' - ')[1]`
 
-| Aula                                  | Atividade | Data de Realização |
-| :------------------------------------ | :-------: | :----------------: |
-| Apresentação                          |     X     |  EaD - Semana 01   |
+| Aula                   | Atividade | Data de Realização |
+| :--------------------- | :-------: | :----------------: |
+| Processo de Publicação |     X     |  EaD - Semana 01   |
 
 ###  Rastreamento de Presença |  `$= (dv.current().file.name).split(' - ')[1]`
 
