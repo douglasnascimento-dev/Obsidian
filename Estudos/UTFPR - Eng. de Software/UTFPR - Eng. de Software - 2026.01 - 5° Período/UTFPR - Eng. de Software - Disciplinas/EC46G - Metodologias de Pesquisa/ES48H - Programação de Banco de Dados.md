@@ -3,11 +3,12 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
-Ministrado: Katia Romero Felizardo Scannavino
+Ministrado: Flávia Belintani Blum Haddad
 Carga Horária: "60"
 Início: 2025-08-12
 Fim: 2025-12-12
 Avaliações:
+  - "[[EC47D - Médias das Atvs.]]"
 Anotações:
   - "[[ES46G - Aula 01 - Semana 01 - Processo de Publicação]]"
   - "[[ES46G - Aula 02 - Semana 02 - Erros Clássicos]]"

@@ -10,20 +10,12 @@ Tipo: Anotação
 Nota Final: "0.0"
 ---
 
-# 🌿Processo de Publicação
+# 🌿Revisão de Literatura
 
-Uma Publicação Cientifica pode ocorrer em dois veículos específicos. A Versão Final de um Trabalho é denominado Camera Ready, já com as melhorias propostas:
+Também chamado de Estado da Arte e Trabalhos Relacionados, é ação de Pesquisar Trabalhos Acadêmicos sobre o Tema Relacionado do Trabalho. 
 
-* **Conferências:** 
-	* Possuem uma Área de Pesquisa definida;
-	* Possuem um Formato definido pela Conferência;
-	* Possuem Datas de Publicações Específicos; e
-	* Possuem Avaliação seguindo as Normas da Plataforma;
-	* Pode ser **Aceito** ou **Rejeitado**.
+## 🌳 Ações Importantes
 
-* **Revistas**:
-	* Possuem uma Área de Pesquisa definida;
-	* Os Templates possuem maior espaço para a Publicação; 
-	* O Fluxo de Submissão é continua, e não possuem prazos
-	* Pode ser **Aceito mediante Melhorias** ou **Aceito** ou **Rejeitado**.
-	* Se for Aceito mediante Melhorias, o Trabalho passa por Ciclos de Avaliação
+1. Para o Estado da Arte é importante a seleção adequada e relacionada dos materiais a serem utilizados, a fim de Analisar e Comparar a Solução Proposta, com as demais já Utilizadas
+2. As Escolhas para a Condução da Pesquisa precisam ser Justificadas, como Eliminar as Soluções já Existentes, e Explicar a Motivação dessa Eliminação. 
+3. É necessário comparar o Resultados Obtidos pelo Trabalho com os Demais (Estado da Arte), e não apenas com os Próprio Resultados já obtidos
