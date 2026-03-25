@@ -74,40 +74,6 @@ CREATE TABLE departamento {
 }
 ```
 
-CREATE TABLE departamento (
-	num_id INT NOT NULL,
-	nome VARCHAR(45) NOT NULL,
-	gerente_rg INT NOT NULL,
-	PRIMARY KEY (num_id)
-)
-
-CREATE TABLE empregado (
-	 rg INT NOT NULL,
-	 endereco VARCHAR(45) NOT NULL,
-	 nome VARCHAR (45) NOT NULL,
-	 salario FLOAT NOT NULL,
-	 dep_id INT NOT NULL,
-	 PRIMARY KEY (rg)
-	 CONSTRAINT fk_departamento_empregado
-		 FOREIGN KEY(dep_id)
-		 REFERENCES bd.departamento (num_id)
-)
-
-CREATE TABLE depedente (
-	nome VARCHAR(45) NOT NULL,
-	data_nasc VARCHAR(45) NOT NULL,
-	parentesco VARCHAR(45) NOT NULL,
-	resp_rg INT NOT NULL,
-	 CONSTRAINT fk_depenedente_empregado,
-		 FOREIGN KEY(resp_rg)
-		 REFERENCES bd.empregado (rg)
-	PRIMARY KEY (nome, resp_rg)
-)
-
-ALTER TABLE departamento
-	 ADD CONSTRAINT fk_empregado_departamento
-	 FOREIGN KEY (gerente_rg)
-	 REFERENCES bd.empregado (rg)
 
 #### 🌱**DROP TABLE**
 
@@ -339,6 +305,9 @@ SELECT pro_pnome, pro_snome, dep_sigla
 FROM professor, departamento
 WHERE professor.dep_codigo = departamento.dep_codigo
 ```
+
+SELECT nome 
+FROM pro
 
 Observe que a cada tabela adicionada depois da primeira, deve ser obrigatoriamente adicionada uma condição para se evitar que seja criado um plano cartesiano. A comparação sempre deve ocorrer entre as fK's que possuem relação
 
