@@ -3,13 +3,15 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
-Ministrado: Eduardo Cotrin Teixeira
+Ministrado: Giovani Volnei
 Carga Horária: "60"
 Início: 2026-03-23
 Fim:
-Avaliações: []
-Anotações:
-  - "[[ES48H - Aula 01 - Semana 01 - Modelos de Dados e Transformação ER - Relacional]]"
+Avaliações:
+  - "[[EC48E - Avaliação Assíncrona 01]]"
+  - "[[EC48E - Avaliação Assíncrona 02]]"
+  - "[[EC48E - Avaliação Síncrona]]"
+Anotações: []
 Atividades: []
 Nota Final: "0.0"
 ---
@@ -85,13 +87,13 @@ if (file) {
 
 ![[Banner 01 - 04.png]]
 
-## **Registros de Aulas** |  `$= (dv.current().file.name).split(' - ')[1]`
+## **Registros de Aulas** | `$= (dv.current().file.name).split(' - ')[1]`
 
-| Aula                   | Atividade | Data de Realização |
-| :--------------------- | :-------: | :----------------: |
-| Processo de Publicação |     X     |  EaD - Semana 01   |
+| Aula                               | Atividade | Data de Realização |
+| :--------------------------------- | :-------: | :----------------: |
+| Ferramenta de Manipulação de Dados |     X     |  EaD - Semana 01   |
 
-###  Rastreamento de Presença |  `$= (dv.current().file.name).split(' - ')[1]`
+###  Rastreamento de Presença | `$= (dv.current().file.name).split(' - ')[1]`
 
   :LiBadgeX: **Não há necessidade de Presença**
 
@@ -99,7 +101,7 @@ if (file) {
 
 ![[Banner 02 - 04.png]]
 
-## **Anotações** |  `$= (dv.current().file.name).split(' - ')[1]`
+## **Anotações** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let pathAnotacoes = `"${dv.current().file.folder}/Anotações"`;
@@ -139,7 +141,7 @@ if (file) {
 
 ![[Banner 01 - 04.png]]
 
-## **Avaliações** |  `$= (dv.current().file.name).split(' - ')[1]`
+## **Avaliações** | `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let pathAvaliacoes = `"${dv.current().file.folder}/Avaliações"`;
