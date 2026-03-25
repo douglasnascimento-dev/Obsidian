@@ -77,6 +77,7 @@ CREATE TABLE departamento {
 CREATE TABLE departamento (
 	num_id INT NOT NULL,
 	nome VARCHAR(45) NOT NULL,
+	gerente_rg INT NOT NULL,
 	PRIMARY KEY (num_id)
 )
 
@@ -85,7 +86,8 @@ CREATE TABLE empregado (
 	 endereco VARCHAR(45) NOT NULL,
 	 nome VARCHAR (45) NOT NULL,
 	 salario FLOAT NOT NULL,
-	 PRIMARY KEY (rg),
+	 dep_id INT NOT NULL,
+	 PRIMARY KEY (rg)
 	 CONSTRAINT fk_departamento_empregado
 		 FOREIGN KEY(dep_id)
 		 REFERENCES bd.departamento (num_id)
@@ -95,6 +97,7 @@ CREATE TABLE depedente (
 	nome VARCHAR(45) NOT NULL,
 	data_nasc VARCHAR(45) NOT NULL,
 	parentesco VARCHAR(45) NOT NULL,
+	resp_rg INT NOT NULL,
 	 CONSTRAINT fk_depenedente_empregado,
 		 FOREIGN KEY(resp_rg)
 		 REFERENCES bd.empregado (rg)
