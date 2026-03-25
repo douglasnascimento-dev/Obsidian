@@ -114,10 +114,10 @@ flexGrow=2
 ===
 |     | **Segunda** | **Terça** | **Quarta** | **Quinta** | **Sexta** |
 | --- | :-----: | :---: | :----: | :----: | :---: |
-| **N2**  |  ES44F  | ES44A |        | ES44D  | ES44B |
-| **N3**  |  ES44F  | ES44A |        | ES44D  | ES44B |
-| **N4**  |  ES44A  | ES44F |        | ES44B  | ES46E |
-| **N5**  |  ES44A  | ES44F |        | ES44B  | ES46E |
+| **N2**  |        |ES45A|ES45A|        |        |
+| **N3**  |        |ES45A|ES45A|        |        |
+| **N4**  |        |        |ES46B|        |ES46B|
+| **N5**  |        |        |ES46B|        |ES46B|
 ```
 
 ```col-md
