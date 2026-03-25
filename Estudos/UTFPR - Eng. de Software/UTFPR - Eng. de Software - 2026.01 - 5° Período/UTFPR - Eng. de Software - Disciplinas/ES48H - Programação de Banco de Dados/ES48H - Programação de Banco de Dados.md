@@ -7,12 +7,8 @@ Ministrado: Eduardo Cotrin Teixeira
 Carga Horária: "60"
 Início: 2026-03-23
 Fim:
-Avaliações:
-  - "[[EC46G - Avaliação]]"
-  - "[[EC46G - Médias das Atvs.]]"
-Anotações:
-  - "[[ES46G - Aula 01 - Semana 01 - Processo de Publicação]]"
-  - "[[ES46G - Aula 02 - Semana 02 - Erros Clássicos]]"
+Avaliações: []
+Anotações: []
 Atividades: []
 Nota Final: "0.0"
 ---
