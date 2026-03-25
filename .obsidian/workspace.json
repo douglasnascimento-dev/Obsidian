@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "db5d5596f8ff11c5",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "591d6a1b3ceb1658",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Estudos.md",
-                "mode": "preview",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/ES48H - Programação de Banco de Dados.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estudos"
+              "title": "ES48H - Programação de Banco de Dados"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5
+    "width": 480.5
   },
   "right": {
     "id": "814f9252e172d41a",
@@ -95,8 +95,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Estudos.md",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/ES48H - Programação de Banco de Dados.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Estudos"
+              "title": "Sumário de ES48H - Programação de Banco de Dados"
             }
           },
           {
@@ -184,8 +184,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "591d6a1b3ceb1658",
   "lastOpenFiles": [
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/EC46G - Metodologias de Pesquisa.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/ES48H - Programação de Banco de Dados.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - 2026.01 - 5º Período.md",
+    "Estudos/Estudos.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações/ES46G - Aula 02 - Semana 02 - Erros Clássicos.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações/ES46G - Aula 01 - Semana 01 - Processo de Publicação.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Avaliações/EC46G - Avaliação.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Avaliações/EC46G - Médias das Atvs..md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/Avaliações/EC47D - Médias das Atvs..md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Avaliações",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/Sem título",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - 2024.01 - 1º Período 1.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Atividades/JS & TS - AC. 22.05.02 - TS - Generics 02.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Atividades/JS & TS - AC. 22.05.01 - TS - Generics.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.05 - Record e Modificadores de Objetos.md",
@@ -197,31 +215,13 @@
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/17 - RegEx/Atividades/JS & TS - AC. 17.03.01 - Expressões com RegEx 01.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/JS & TS - 21 - TypeScript - Tipos Avançados.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Atividades",
-    "Estudos/Estudos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/Anotações/JS & TS - 21.03 - Overload de Funções.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/JS & TS - 22 - Generics.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/JS & TS - 21 - TypeScript - Tipos Avançados 1.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.02. Singleton.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/Anotações/JS & TS - 21.02 - This como Tipo.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/Anotações/JS & TS - 21.01 - TypeOf & KeyOf.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.01 - Getters e Setters.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20.01 - Getters e Setter em TS.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações/JS & TS - 19.01 - Outros Tipos 2.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações/JS & TS - 19.03 - Type Alias e Demais Tipos.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações/JS & TS - 19.04 - Outros Tipos.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados/Anotações",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/21 - TypeScript - Tipos Avançados",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/JS & TS - 20 - TypeScript - POO.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações/JS & TS - 20 - G.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO/Anotações",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/JS & TS - 19 - TypeScript - Tipos Básicos.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/20 - TypreScript - POO",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações/JS & TS - 19.01 - Iniciado com Tipos.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos/Anotações",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/19 - TypeScript - Tipos Básicos",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/18 - TypeScript - Instalação",
     "Imagens/Banner 03 - 01.png",
     "Imagens/Banner 02 - 01.png",
     "Imagens/Banner 01 - 01.png",

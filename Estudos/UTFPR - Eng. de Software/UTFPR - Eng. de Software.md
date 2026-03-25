@@ -40,7 +40,7 @@ Início: 2024-03-04
 Nota Final: "7.7"
 ---
 
-![[Eng. de Software.png|banner]]
+
 ##  **Atividades Pendentes** | Eng. de Software
 
 ```dataviewjs
