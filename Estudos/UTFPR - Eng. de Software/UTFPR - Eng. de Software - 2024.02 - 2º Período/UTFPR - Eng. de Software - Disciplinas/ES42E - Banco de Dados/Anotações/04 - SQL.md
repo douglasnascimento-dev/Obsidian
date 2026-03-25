@@ -74,6 +74,38 @@ CREATE TABLE departamento {
 }
 ```
 
+CREATE TABLE departamento (
+	num_id INT NOT NULL,
+	nome VARCHAR(45) NOT NULL,
+	PRIMARY KEY (num_id)
+)
+
+CREATE TABLE empregado (
+	 rg INT NOT NULL,
+	 endereco VARCHAR(45) NOT NULL,
+	 nome VARCHAR (45) NOT NULL,
+	 salario FLOAT NOT NULL,
+	 PRIMARY KEY (rg),
+	 CONSTRAINT fk_departamento_empregado
+		 FOREIGN KEY(dep_id)
+		 REFERENCES bd.departamento (num_id)
+)
+
+CREATE TABLE depedente (
+	nome VARCHAR(45) NOT NULL,
+	data_nasc VARCHAR(45) NOT NULL,
+	parentesco VARCHAR(45) NOT NULL,
+	 CONSTRAINT fk_depenedente_empregado,
+		 FOREIGN KEY(resp_rg)
+		 REFERENCES bd.empregado (rg)
+	PRIMARY KEY (nome, resp_rg)
+)
+
+ALTER TABLE departamento
+	 ADD CONSTRAINT fk_empregado_departamento
+	 FOREIGN KEY (gerente_rg)
+	 REFERENCES bd.empregado (rg)
+
 #### 🌱**DROP TABLE**
 
 Exclui uma tabela em um banco de dados
