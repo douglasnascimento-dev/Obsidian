@@ -306,9 +306,6 @@ FROM professor, departamento
 WHERE professor.dep_codigo = departamento.dep_codigo
 ```
 
-SELECT nome 
-FROM pro
-
 Observe que a cada tabela adicionada depois da primeira, deve ser obrigatoriamente adicionada uma condição para se evitar que seja criado um plano cartesiano. A comparação sempre deve ocorrer entre as fK's que possuem relação
 
 ##### 🌵 **SELECT** com renomeação
@@ -560,6 +557,7 @@ FROM (SELECT *
 	WHERE pro_fone_nro IS NULL) AS professor_fones
 ```
 
+SELECT 
 ##### 🌵Operadores **ALL** e **ANY** 
 
 Esses operadores permitem consultar a comparação de um conjunto de valores
