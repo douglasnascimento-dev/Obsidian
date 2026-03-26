@@ -74,6 +74,7 @@ CREATE TABLE departamento {
 }
 ```
 
+
 #### 🌱**DROP TABLE**
 
 Exclui uma tabela em um banco de dados
@@ -556,6 +557,7 @@ FROM (SELECT *
 	WHERE pro_fone_nro IS NULL) AS professor_fones
 ```
 
+SELECT 
 ##### 🌵Operadores **ALL** e **ANY** 
 
 Esses operadores permitem consultar a comparação de um conjunto de valores
