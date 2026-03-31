@@ -47,4 +47,4 @@ Forma isolamento de processos, usuários e recursos, compartilham o mesmo núcle
 
 ### 🎋 Middleware VS API
 
-**Middleware** é uma camada intermediária que implementa várias tarefas de coordenação e comunicação entre componentes em Sistemas Operacionais ou Distríbuidos
+**Middleware** é uma camada intermediária que implementa várias tarefas de coordenação e comunicação entre componentes em Sistemas Operacionais ou Distribuídos. 
