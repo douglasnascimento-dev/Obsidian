@@ -10,7 +10,8 @@ Fim:
 Avaliações:
   - "[[EC48E - Avaliação]]"
   - "[[EC48E - Trabalho]]"
-Anotações: []
+Anotações:
+  - "[[ES45A - Aula 01 - Revisão de Sistemas Operacionais]]"
 Atividades: []
 Nota Final: "0.0"
 ---
