@@ -28,7 +28,7 @@ Ficam gravados em um Chip dentro da Placa Mãe. A Função Principal deles é se
 
 ### 🎋 UEFI
 
-É o Sucessor Moderno da BIOS. Unanimidade em PC's recentes (<10 anos). Possui Interface amigável e consegue ler Discos Gigantes. Possui Secure Boot, que impede vírus de serem carregados e o PC liga muito mais rápido. 
+É o Sucessor Moderno da BIOS. Unanimidade em PC's recentes (<10 anos). Possui Interface amigável e consegue ler Discos Gigantes. Possui **SECURE BOOT**, que impede vírus de serem carregados e o PC liga muito mais rápido. 
 
 ## 🌿Virtualização
 
@@ -47,4 +47,6 @@ Forma isolamento de processos, usuários e recursos, compartilham o mesmo núcle
 
 ### 🎋 Middleware VS API
 
-**Middleware** é uma camada intermediária que implementa várias tarefas de coordenação e comunicação entre componentes em Sistemas Operacionais ou Distribuídos. 
+**Middleware** é uma camada intermediária que implementa várias tarefas de coordenação e comunicação entre componentes em Sistemas Operacionais ou Distribuídos. Já as **APIs** implementam uma interface padronizada para que Aplicações interajam com recursos ou serviços específicos, independentemente da localização desses recursos. 
+
+
