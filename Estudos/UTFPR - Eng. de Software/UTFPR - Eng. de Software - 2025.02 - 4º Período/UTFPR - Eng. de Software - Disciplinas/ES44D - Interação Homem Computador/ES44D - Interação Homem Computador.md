@@ -21,10 +21,8 @@ Anotações:
   - "[[ES44D - Aula 08 - 09.10.2025 - Acessibilidade Digital]]"
   - "[[ES44D - Aula 09 - 23.10.2025 - Avaliação em IHC]]"
 Atividades:
-  - "[[ES44D - 01 - Avaliação Diagnóstica e Postagem no Fórum]]"
   - "[[ES44D - 02 - Qualidade em IHC]]"
   - "[[ES44D - 03 - Processo de Design em IHC]]"
-  - "[[ES44D - 04 - Entendendo os Usuários e desenhando o seu perfil]]"
   - "[[ES44D - 05 - Atividade CRAP]]"
   - "[[ES44D - 06 - Prototipação]]"
   - "[[ES44D - 07 - Teste com o usuário]]"

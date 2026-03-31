@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Estudos.md",
-                "mode": "preview",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Anotações/ES44D - Aula 01 - 14.08.2025 - Apresentação a IHC 1.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estudos"
+              "title": "ES44D - Aula 01 - 14.08.2025 - Apresentação a IHC 1"
             }
           }
         ]
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Estudos.md",
+                "file": "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Anotações/ES44D - Aula 01 - 14.08.2025 - Apresentação a IHC 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Estudos"
+              "title": "Sumário de ES44D - Aula 01 - 14.08.2025 - Apresentação a IHC 1"
             }
           },
           {
@@ -184,15 +184,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "ef8c1b1935a20e67",
   "lastOpenFiles": [
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/ES45A - Sistemas Distribuidos.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Anotações/ES44D - Aula 01 - 14.08.2025 - Apresentação a IHC 1.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES44D - Interação Homem Computador/ES44D - Interação Homem Computador.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Avaliações/EC48E - Trabalho.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/ES46E - Estratégias de Inovação/ES46E - Estratégias de Inovação.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Avaliações/EC48E - Avaliação.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações/EC48E - Avaliação Assíncrona 01.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Atividades",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Avaliações",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Anotações",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Anotações/ES46G - Aula 01 - Ferramentas de Manipulação de Dados.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Anotações/ES48P - Introdução a IoT.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Prova Final.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/ES48H - Internet das Coisas.md",
+    "Estudos/Estudos.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - 2026.01 - 5º Período.md",
-    "Estudos/Estudos.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Anotações/ES48P - Introdução a IoT.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Anotações/ES46P - Introdução a IoT.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/ES48H - Internet das Coisas.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Prova Final.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Médias dos Questionários.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Avaliação Presencial.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Atividades",
@@ -204,24 +216,12 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48H - Programação de Banco de Dados",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações/EC48E - Avaliação Síncrona.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações/EC48E - Avaliação Assíncrona 02.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações/EC48E - Avaliação Assíncrona 01.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Anotações/ES46G - Aula 01 - Ferramentas de Manipulação de Dados.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/ES48E - Mineração de Dados.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Anotações",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/ES48H - Programação de Banco de Dados.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/EC46G - Metodologias de Pesquisa.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações/ES46G - Aula 02 - Semana 02 - Erros Clássicos.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações/ES46G - Aula 01 - Semana 01 - Processo de Publicação.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Avaliações/EC46G - Avaliação.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Avaliações/EC46G - Médias das Atvs..md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/Avaliações/EC47D - Médias das Atvs..md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - 2024.01 - 1º Período 1.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Atividades/JS & TS - AC. 22.05.02 - TS - Generics 02.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Atividades/JS & TS - AC. 22.05.01 - TS - Generics.md",
     "Imagens/Banner 03 - 01.png",
     "Imagens/Banner 02 - 01.png",
     "Imagens/Banner 01 - 01.png",
