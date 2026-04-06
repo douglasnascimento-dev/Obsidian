@@ -34,9 +34,7 @@ Módulos:
   - "[[JS & TS - 21 - TypeScript - Tipos Avançados]]"
   - "[[JS & TS - 22 - Generics]]"
 ---
-
 ![[JS & TS.png|banner]]
-
 
 ## **Atividades Pendentes** | `$= dv.current().file.name`
 

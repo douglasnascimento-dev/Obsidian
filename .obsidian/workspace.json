@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/Estudos.md",
-                "mode": "preview",
+                "file": "Estudos/Cursos/JS & TS/JS & TS.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estudos"
+              "title": "JS & TS"
             }
           }
         ]
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/Estudos.md",
+                "file": "Estudos/Cursos/JS & TS/JS & TS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Estudos"
+              "title": "Sumário de JS & TS"
             }
           },
           {
@@ -186,9 +186,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Estudos/Estudos.md",
+    "Estudos/UNECT/Análise de Dados/JS & TS 1.md",
     "Curso de Análise de Dados.md",
+    "Estudos/UNECT/Análise de Dados",
+    "Imagens/01 Período.png",
+    "Estudos/Estudos.md",
+    "conflict-files-obsidian-git.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Prova Final.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Médias dos Questionários.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Avaliação Presencial.md",
@@ -213,7 +216,6 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/EC46G - Metodologias de Pesquisa.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48H - Programação de Banco de Dados/Avaliações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48H - Programação de Banco de Dados/Anotações",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48H - Programação de Banco de Dados",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações/ES46G - Aula 02 - Semana 02 - Erros Clássicos.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações/ES46G - Aula 01 - Semana 01 - Processo de Publicação.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Avaliações/EC46G - Avaliação.md",
@@ -221,7 +223,6 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/Avaliações/EC47D - Médias das Atvs..md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - 2024.01 - 1º Período 1.md",
     "Imagens/Banner 03 - 01.png",
     "Imagens/Banner 02 - 01.png",
     "Imagens/Banner 01 - 01.png",
@@ -231,7 +232,6 @@
     "Imagens/Banner 03 - 03.png",
     "Imagens/Banner 02 - 03.png",
     "Imagens/Banner 01 - 03.png",
-    "Imagens/Banner 02 - HTML & CSS.png",
     "Sem título.canvas",
     "UTFPR - Eng. de Software/Sem título.canvas"
   ]
