@@ -1,5 +1,5 @@
 {
-  "accentColor": "#737373",
+  "accentColor": "#b4d0fe",
   "interfaceFontFamily": "lexend",
   "textFontFamily": "Lexend",
   "enabledCssSnippets": [
@@ -17,5 +17,6 @@
   "baseFontSize": 13,
   "baseFontSizeAction": true,
   "showRibbon": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "theme": "obsidian"
 }

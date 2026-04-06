@@ -3,16 +3,15 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
-Ministrado: Lucas Dias Hiera Sampaio
+Ministrado: Rogério Santos Pozza
 Carga Horária: "60"
 Início: 2026-03-23
 Fim:
 Avaliações:
-  - "[[EC48P - Avaliação Presencial]]"
-  - "[[EC48P - Médias dos Questionários]]"
-  - "[[EC48P - Prova Final]]"
+  - "[[EC48E - Avaliação]]"
+  - "[[EC48E - Trabalho]]"
 Anotações:
-  - "[[ES48P - Introdução a IoT]]"
+  - "[[ES45A - Aula 01 - Revisão de Sistemas Operacionais]]"
 Atividades: []
 Nota Final: "0.0"
 ---
@@ -90,13 +89,70 @@ if (file) {
 
 ## **Registros de Aulas** |  `$= (dv.current().file.name).split(' - ')[1]`
 
-| Aula             | Atividade | Data de Realização |
-| :--------------- | :-------: | :----------------: |
-| Introdução a IoT |     X     |  EaD - Semana 01   |
 
-###  Rastreamento de Presença |  `$= (dv.current().file.name).split(' - ')[1]`
+| Aula                            |               Atividade               | Falta | Data de Realização |
+| :------------------------------ | :-----------------------------------: | :---: | :----------------: |
+| Introdução a Disciplinas        |                   X                   |   X   |     10.03.2026     |
+| Revisão a Sistemas Operacionais |                   X                   |   X   |     11.03.2026     |
+| Revisão a Sistemas Operacionais |                   X                   |  Sim  |     17.03.2026     |
+| Revisão a Redes de Computadores |                   X                   |   X   |     18.03.2026     |
+| Revisão a Redes de Computadores |                   X                   |   X   |     23.03.2026     |
+| Revisão a Redes de Computadores | **EM SALA** - Estudo de Casa (MEJDAY) |   X   |     24.03.2026     |
 
-  :LiBadgeX: **Não há necessidade de Presença**
+### **Rastreamento de Presença** | `$= (dv.current().file.name).split(' - ')[1]`
+
+```dataviewjs
+let editor = app.workspace.getLeaf().view.editor;
+let conteudoArquivo = editor.getRange({ line: 0, ch: 0 }, { line: editor.lineCount() - 1, ch: 0 });
+let linhas = conteudoArquivo.split('\n');
+
+let faltas = 0;
+let totalAulas = 0;
+
+let dentroDaTabela = false;
+let nomeMateria = app.workspace.getActiveFile().name.replace(".md", "");
+
+for (let linha of linhas) {
+    linha = linha.trim();
+
+    // Detecta início da tabela
+    if (linha.startsWith("| Aula ")) {
+        dentroDaTabela = true;
+        continue;
+    }
+
+    if (dentroDaTabela && linha.startsWith("|")) {
+        // Ignora linhas de separadores como "| :--- | ---: |"
+        if (/^(\|\s*:?-+:?\s*)+\|$/.test(linha)) continue;
+
+        // Quebra a linha com regex que ignora os pipes dentro dos links
+        let colunas = linha.split(/(?<!\\)\|/).map(c => c.trim()).filter(c => c.length > 0);
+
+        if (colunas.length >= 4) {
+            let falta = colunas[2].toLowerCase(); // Terceira coluna: Falta
+
+            // Aceita 'sim' e 'x' (qualquer capitalização)
+            let temFalta = ['sim'].includes(falta);
+
+            totalAulas += 2;
+            if (temFalta) {
+                faltas += 2;
+            }
+        }
+    }
+}
+
+dv.table(
+    ["Relação Aulas / Faltas", "Quantidade"],
+    [
+        [`**Aulas** de ${nomeMateria}`, `**${totalAulas}**`],
+        [`**Faltas** de ${nomeMateria}`, `**${faltas}**`]
+    ]
+);
+
+let presenciaPercentual = totalAulas > 0 ? ((totalAulas - faltas) / totalAulas) * 100 : 0;
+dv.paragraph(`Porcentagem de Presença: **${presenciaPercentual.toFixed(2)}%**`);
+```
 
 --- 
 
