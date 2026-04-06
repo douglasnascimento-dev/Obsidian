@@ -18,7 +18,7 @@ Um SO executa rotinas em função do tempo de forma não linear. Garante que Eve
 
 ## 🌿Firmware
 
-Ficam gravados em um Chip dentro da Placa Mãe. A Função Principal deles é serem a ponte o Hardware e os Software.
+Ficam gravados em um Chip dentro da Placa Mãe. A Funçãdo Principal deles é serem a ponte o Hardware e os Software.
 
 ### 🎋 BIOS
 

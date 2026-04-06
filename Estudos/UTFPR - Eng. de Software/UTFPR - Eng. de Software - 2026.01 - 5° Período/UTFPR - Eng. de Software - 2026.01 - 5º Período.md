@@ -4,6 +4,7 @@ cssclasses:
   - banner-fade
 Disciplinas:
   - "[[EC46G - Metodologias de Pesquisa]]"
+  - "[[ES45A - Sistemas Distribuidos]]"
   - "[[ES48E - Mineração de Dados]]"
   - "[[ES48H - Programação de Banco de Dados]]"
   - "[[ES48H - Internet das Coisas]]"
