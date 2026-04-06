@@ -20,35 +20,8 @@
               "icon": "lucide-file",
               "title": "Estudos"
             }
-          },
-          {
-            "id": "89bd11d1f597c85c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.12.7"
-            }
-          },
-          {
-            "id": "b12af4afffe92683",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curso de Análise de Dados.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Curso de Análise de Dados"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,13 +63,23 @@
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
             }
+          },
+          {
+            "id": "23ea5a34d36c63a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 429.5
   },
   "right": {
     "id": "814f9252e172d41a",
@@ -151,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Curso de Análise de Dados.md",
+                "file": "Estudos/Estudos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Curso de Análise de Dados"
+              "title": "Sumário de Estudos"
             }
           },
           {
@@ -201,10 +184,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b12af4afffe92683",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Curso de Análise de Dados.md",
+    "conflict-files-obsidian-git.md",
     "Estudos/Estudos.md",
+    "Curso de Análise de Dados.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Prova Final.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Médias dos Questionários.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Avaliação Presencial.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Anotações/ES48P - Introdução a IoT.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/ES48H - Internet das Coisas.md",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Anotações",
+    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/ES48E - Mineração de Dados.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Anotações/ES46G - Aula 01 - Ferramentas de Manipulação de Dados.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações/EC48E - Avaliação Assíncrona 01.md",
@@ -224,21 +216,12 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48H - Programação de Banco de Dados",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações/ES46G - Aula 02 - Semana 02 - Erros Clássicos.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações/ES46G - Aula 01 - Semana 01 - Processo de Publicação.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Avaliações/EC46G - Avaliação.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Avaliações/EC46G - Médias das Atvs..md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - Disciplinas/EC47D - Gerenciamento de Projeto de Software/Avaliações/EC47D - Médias das Atvs..md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Avaliações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2025.02 - 4º Período/UTFPR - Eng. de Software - 2025.02 - 4º Período.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.01 - 1º Período/UTFPR - Eng. de Software - 2024.01 - 1º Período 1.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Atividades/JS & TS - AC. 22.05.02 - TS - Generics 02.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Atividades/JS & TS - AC. 22.05.01 - TS - Generics.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.05 - Record e Modificadores de Objetos.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.02 - Generics.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.01 - Constrains.md",
-    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/Anotações/JS & TS - 22.04 - Predicados.md",
     "Imagens/Banner 03 - 01.png",
     "Imagens/Banner 02 - 01.png",
     "Imagens/Banner 01 - 01.png",
