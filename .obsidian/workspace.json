@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/UNECT/Análise de Dados/Análise de Dados.md",
+                "file": "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/01 - Módulo Introdutório/JS & TS - 22 - Generics 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Análise de Dados"
+              "title": "JS & TS - 22 - Generics 1"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 429.5
+    "width": 270.5
   },
   "right": {
     "id": "814f9252e172d41a",
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/UNECT/Análise de Dados/Análise de Dados.md",
+                "file": "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/01 - Módulo Introdutório/JS & TS - 22 - Generics 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Análise de Dados"
+              "title": "Sumário de JS & TS - 22 - Generics 1"
             }
           },
           {
@@ -186,8 +186,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Estudos/Estudos.md",
+    "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/01 - Módulo Introdutório/JS & TS - 22 - Generics 1.md",
+    "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/JS & TS - 22 - Generics.md",
+    "Estudos/Cursos/JS & TS/JS & TS.md",
     "Estudos/UNECT/Análise de Dados/Análise de Dados.md",
+    "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/03 - Módulo Básico II",
+    "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/02 - Módulo Básico I",
+    "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/01 - Módulo Introdutório",
+    "Estudos/UNECT/Análise de Dados/JS & TS 1.md",
+    "conflict-files-obsidian-git.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Avaliações/EC48E - Trabalho.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Avaliações/EC48E - Avaliação.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Anotações/ES45A - Aula 01 - Revisão de Sistemas Operacionais.md",
@@ -195,13 +203,10 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Avaliações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos/Anotações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES45A - Sistemas Distríbuidos",
-    "Estudos/UNECT/Análise de Dados/JS & TS 1.md",
     "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos",
-    "Estudos/Cursos/JS & TS/JS & TS.md",
     "Curso de Análise de Dados.md",
     "Estudos/UNECT/Análise de Dados",
     "Imagens/01 Período.png",
-    "Estudos/Estudos.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Prova Final.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Médias dos Questionários.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações/EC48P - Avaliação Presencial.md",
@@ -209,20 +214,15 @@
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/ES48H - Internet das Coisas.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Avaliações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas/Anotações",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48P - Internet das Coisas",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/ES48E - Mineração de Dados.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Anotações/ES46G - Aula 01 - Ferramentas de Manipulação de Dados.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações/EC48E - Avaliação Assíncrona 01.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações/EC48E - Avaliação Síncrona.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48H - Programação de Banco de Dados/ES48H - Programação de Banco de Dados.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Avaliações/EC48E - Avaliação Assíncrona 02.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2024.02 - 2º Período/UTFPR - Eng. de Software - Disciplinas/ES42E - Banco de Dados/Anotações/04 - SQL.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48E - Mineração de Dados/Atividades",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/ES48H - Programação de Banco de Dados/Anotações/ES48H - Aula 01 - Semana 01 - Modelos de Dados e Transformação ER - Relacional.md",
     "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - 2026.01 - 5º Período.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/EC46G - Metodologias de Pesquisa.md",
-    "Estudos/UTFPR - Eng. de Software/UTFPR - Eng. de Software - 2026.01 - 5° Período/UTFPR - Eng. de Software - Disciplinas/EC46G - Metodologias de Pesquisa/Anotações/ES46G - Aula 02 - Semana 02 - Erros Clássicos.md",
     "Imagens/Banner 03 - 01.png",
     "Imagens/Banner 02 - 01.png",
     "Imagens/Banner 01 - 01.png",

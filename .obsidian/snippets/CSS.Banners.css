@@ -13,14 +13,16 @@ body:has(*.banner) {
     --banner-title-border-radius: 10px;
 
     --banner-icon-size: 40px;
-    --banner-icon-top: 100;
+    --banner-icon-top: -100 !important;
     --banner-icon-left: 5;
     --banner-icon-border-radius: 25%;
 
     --banner-gradient-mask-webkit: -webkit-linear-gradient(bottom, transparent, rgba(0, 0, 0, 0.3) 10%, black 90%);
     --banner-gradient-mask: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.3) 10%, black 40%);
 }
-
+div.image-embed .image-wrapper {
+    top: -550px
+}
 /* Margin above inline title and frontmatter. */
 .banner.is-live-preview .cm-sizer,
 .banner.markdown-preview-view .markdown-preview-pusher {
@@ -73,10 +75,10 @@ body:has(*.banner) {
     }
 
     .theme-dark .markdown-preview-view img, .theme-dark .markdown-source-view img {
-        opacity: 1 !important; 
+        opacity: 1 !important;
         cursor: default !important;
     }
-    
+
     .banner.banner-inline-title.markdown-preview-view .inline-title:hover,
     .banner.banner-inline-title.is-live-preview .inline-title:hover,
     .banner.banner-inline-title.markdown-preview-view .inline-title:focus,
@@ -122,7 +124,7 @@ body:has(*.banner) {
     font-variant: var(--inline-title-variant);
     letter-spacing: -0.015em;
     max-width: var(--banner-title-max-width);
-} 
+}
 
 /* --- Banner Icon --- */
 
@@ -185,7 +187,7 @@ name: Banner Settings
 id: css-banner-settings
 description: Change the banner settings.
 settings:
-    - 
+    -
         id: banner-height
         title: Banner Height
         type: variable-number

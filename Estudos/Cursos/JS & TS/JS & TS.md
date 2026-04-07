@@ -20,6 +20,7 @@ Módulos:
   - "[[JS & TS - 07 - JavaScript POO]]"
   - "[[JS & TS - 08 - JS Assíncrono]]"
   - "[[JS & TS - 09 - JS Toolings e Modules]]"
+  - "[[JS & TS - 10 - Node, NPM, Express e MongoDB]]"
   - "[[JS & TS - 11 - Projeto Agenda]]"
   - "[[JS & TS - 12 - Deploy da Aplicação]]"
   - "[[JS & TS - 13 - API Rest]]"
@@ -28,14 +29,10 @@ Módulos:
   - "[[JS & TS - 16 - React Router Dom v6]]"
   - "[[JS & TS - 17 - RegEx]]"
   - "[[JS & TS - 18 - TypeScript - Instalação]]"
-  - "[[JS & TS - 10 - Node, NPM, Express e MongoDB]]"
   - "[[JS & TS - 19 - TypeScript - Tipos Básicos]]"
   - "[[JS & TS - 20 - TypeScript - POO]]"
   - "[[JS & TS - 21 - TypeScript - Tipos Avançados]]"
-  - "[[JS & TS - 22 - Generics]]"
 ---
-
-![[JS & TS.png|banner]]
 
 
 ## **Atividades Pendentes** | `$= dv.current().file.name`
