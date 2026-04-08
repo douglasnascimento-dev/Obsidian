@@ -12,6 +12,7 @@ Avaliações:
   - "[[EC48E - Trabalho]]"
 Anotações:
   - "[[ES45A - Aula 01 - Revisão de Sistemas Operacionais]]"
+  - "[[ES45A - Aula 02 - Revisão de Redes de Computadores]]"
 Atividades: []
 Nota Final: "0.0"
 ---
@@ -90,14 +91,14 @@ if (file) {
 ## **Registros de Aulas** |  `$= (dv.current().file.name).split(' - ')[1]`
 
 
-| Aula                            |               Atividade               | Falta | Data de Realização |
-| :------------------------------ | :-----------------------------------: | :---: | :----------------: |
-| Introdução a Disciplinas        |                   X                   |   X   |     10.03.2026     |
-| Revisão a Sistemas Operacionais |                   X                   |   X   |     11.03.2026     |
-| Revisão a Sistemas Operacionais |                   X                   |  Sim  |     17.03.2026     |
-| Revisão a Redes de Computadores |                   X                   |   X   |     18.03.2026     |
-| Revisão a Redes de Computadores |                   X                   |   X   |     23.03.2026     |
-| Revisão a Redes de Computadores | **EM SALA** - Estudo de Casa (MEJDAY) |   X   |     24.03.2026     |
+| Aula                                                   |          Atividade           |     Falta      | Data de Realização |
+| :----------------------------------------------------- | :--------------------------: | :------------: | :----------------: |
+| Introdução a Disciplinas                               |              X               |       X        |     10.03.2026     |
+| [[ES45A - Aula 01 - Revisão de Sistemas Operacionais]] |              X               |       X        |     11.03.2026     |
+| [[ES45A - Aula 01 - Revisão de Sistemas Operacionais]] |              X               | Sim - (MEJDAY) |     17.03.2026     |
+| Revisão a Redes de Computadores                        |              X               |       X        |     18.03.2026     |
+| Revisão a Redes de Computadores                        |              X               |       X        |     23.03.2026     |
+| Revisão a Redes de Computadores                        | **EM SALA** - Estudo de Casa |       X        |     24.03.2026     |
 
 ### **Rastreamento de Presença** | `$= (dv.current().file.name).split(' - ')[1]`
 
