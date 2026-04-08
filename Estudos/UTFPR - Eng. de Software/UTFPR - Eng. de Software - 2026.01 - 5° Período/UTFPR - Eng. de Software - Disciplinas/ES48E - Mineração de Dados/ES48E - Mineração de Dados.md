@@ -12,7 +12,7 @@ Avaliações:
   - "[[EC48E - Avaliação Assíncrona 02]]"
   - "[[EC48E - Avaliação Síncrona]]"
 Anotações:
-  - "[[ES46G - Aula 01 - Ferramentas de Manipulação de Dados]]"
+  - "[[ES46G - Aula 02 - Processo KDD]]"
 Atividades: []
 Nota Final: "0.0"
 ---
@@ -93,6 +93,7 @@ if (file) {
 | Aula                                                                         | Atividade | Data de Realização |
 | :--------------------------------------------------------------------------- | :-------: | :----------------: |
 | Ferramenta de Manipulação de Dados - Introdução sobre a Manipulação de Dados |     X     |  EaD - Semana 01   |
+|                                                                              |           |                    |
 
 ###  Rastreamento de Presença | `$= (dv.current().file.name).split(' - ')[1]`
 
