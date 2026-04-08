@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/01 - Módulo Introdutório/JS & TS - 22 - Generics 1.md",
-                "mode": "source",
+                "file": "Estudos/Estudos.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JS & TS - 22 - Generics 1"
+              "title": "Estudos"
             }
           }
         ]
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/01 - Módulo Introdutório/JS & TS - 22 - Generics 1.md",
+                "file": "Estudos/Estudos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JS & TS - 22 - Generics 1"
+              "title": "Sumário de Estudos"
             }
           },
           {
@@ -181,16 +181,17 @@
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/01 - Módulo Introdutório/01 - Módulo Introdutório.md",
     "Estudos/Estudos.md",
-    "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/01 - Módulo Introdutório/JS & TS - 22 - Generics 1.md",
+    "Estudos/UNECT/Análise de Dados/Análise de Dados.md",
     "Estudos/Cursos/JS & TS/JS & TS - Módulos/22 - TypeScript - Generics/JS & TS - 22 - Generics.md",
     "Estudos/Cursos/JS & TS/JS & TS.md",
-    "Estudos/UNECT/Análise de Dados/Análise de Dados.md",
     "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/03 - Módulo Básico II",
     "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/02 - Módulo Básico I",
     "Estudos/UNECT/Análise de Dados/Análise de Dados - Módulos/01 - Módulo Introdutório",

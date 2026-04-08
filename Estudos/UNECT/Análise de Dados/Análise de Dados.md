@@ -11,8 +11,7 @@ Início: 2024-07-13
 Fim: ""
 Status: false
 Módulos:
-  - "[[JS & TS - 22 - Generics 1]]"
-  - "[[JS & TS - 22 - Generics]]"
+  - "[[01 - Módulo Introdutório]]"
 ---
 
 ## **Atividades Pendentes** | `$= dv.current().file.name`
@@ -81,11 +80,12 @@ let html = `<div class="subject-grid">`;
 for (let page of pagesArray) {
     const title = page.file.name; 
     const link = page.file.path;
-    const imagePath = `Imagens/${currentPage}.png`;
+    const img = page.file.frontmatter.banner
+    const imagePath = `${currentPage}`;
 
     html += `
     <a href="${link}" class="internal-link subject-card">
-        <img src="${app.vault.adapter.getResourcePath(imagePath)}">
+        <img src="${img}">
         <div class="subject-title">${title}</div>
     </a>`;
 }

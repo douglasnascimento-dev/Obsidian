@@ -448,6 +448,23 @@ input.prompt-input {
   display: none;
 }
 
+[data-property-key="banner"] {
+  display: none;
+}
+
+[data-property-key="pixel-banner-flag-color"] {
+  display: none;
+}
+
+[data-property-key="banner-fade"] {
+  display: none;
+}
+
+[data-property-key="banner-radius"] {
+  display: none;
+}
+
+
 .metadata-properties-heading {
   margin-bottom: 1.5vh;
 }
@@ -984,6 +1001,6 @@ a.tag:hover {
 }
 
 .mermaid svg {
-    max-height: 600px; 
+    max-height: 600px;
     width: auto;
 }

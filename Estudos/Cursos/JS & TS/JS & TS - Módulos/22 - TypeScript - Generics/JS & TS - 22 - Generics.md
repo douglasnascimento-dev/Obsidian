@@ -11,10 +11,15 @@ cssclasses:
   - yellowCab
 Fim: 2026-01-19
 Anotações:
-  - "[[JS & TS - 21.01 - TypeOf & KeyOf]]"
-  - "[[JS & TS - 21.02 - This como Tipo]]"
-  - "[[JS & TS - 21.03 - Overload de Funções]]"
+  - "[[JS & TS - 22.01 - Constrains]]"
+  - "[[JS & TS - 22.02 - Generics]]"
+  - "[[JS & TS - 22.03 - Intersecção com Generics]]"
+  - "[[JS & TS - 22.04 - Predicados]]"
+  - "[[JS & TS - 22.05 - Record e Modificadores de Objetos]]"
 Atividades:
+  - "[[JS & TS - AC. 22.05.01 - TS - Generics]]"
+  - "[[JS & TS - AC. 22.05.02 - TS - Generics 02]]"
+  - "[[Sem título]]"
 ---
 
 ![[JS & TS.png|banner]]

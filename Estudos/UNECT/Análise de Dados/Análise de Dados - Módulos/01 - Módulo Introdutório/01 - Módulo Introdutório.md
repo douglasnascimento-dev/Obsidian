@@ -15,10 +15,11 @@ Anotações:
   - "[[JS & TS - 21.02 - This como Tipo]]"
   - "[[JS & TS - 21.03 - Overload de Funções]]"
 Atividades:
+banner: Imagens/JS & TS.png
+pixel-banner-flag-color: green
+banner-fade: -90
+banner-radius: 20
 ---
-
-![[JS & TS.png|banner]]
-
 ## **Atividades** |  `$= dv.current().file.name`
 
 ```dataviewjs
