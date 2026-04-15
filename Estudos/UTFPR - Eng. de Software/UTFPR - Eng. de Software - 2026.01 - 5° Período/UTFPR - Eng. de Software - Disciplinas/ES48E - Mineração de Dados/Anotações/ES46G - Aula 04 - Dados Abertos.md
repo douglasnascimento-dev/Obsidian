@@ -40,4 +40,8 @@ Tipo: Anotação
 	- Plataforma interativa para acesso, consulta, análise e disseminação de dados da Vegetação Nativa do Brasil. 
 	
 - **World Bank Open Data**
-	- Um dos maiores repositórios de dados globais, com informações de diferentes países do mundo sobre Economia, Desenvolvimento e I
+	- Um dos maiores repositórios de dados globais, com informações de diferentes países do mundo sobre Economia, Desenvolvimento e Indicadores Sociais.
+	
+- **World Health Organization**
+	- Dados sobre mortalidade, nutrição infantil, saúde materna e reprodutiva, imunização, entre outros. 
+
