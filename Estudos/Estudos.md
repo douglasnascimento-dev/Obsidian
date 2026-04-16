@@ -1,4 +1,5 @@
 ---
+banner: "![[Estudos.png]]"
 cssclasses:
   - banner
   - banner-fade
@@ -6,8 +7,6 @@ cssclasses:
   - "[[UTFPR - Eng. de Software]]"
   - "[[Cursos]]"
 ---
-
-![[Estudos.png|banner]]
 
 # **Atividades Pendentes** | Estudos
 

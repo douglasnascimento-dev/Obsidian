@@ -7,7 +7,6 @@ Disciplinas:
   - "[[ES45A - Sistemas Distribuidos]]"
   - "[[ES48E - Mineração de Dados]]"
   - "[[ES48H - Programação de Banco de Dados]]"
-  - "[[ES48P - Internet das Coisas]]"
 Coeficiente de Rendimento: "0.0000"
 Tipo: Período
 Carga Horária: 420h
