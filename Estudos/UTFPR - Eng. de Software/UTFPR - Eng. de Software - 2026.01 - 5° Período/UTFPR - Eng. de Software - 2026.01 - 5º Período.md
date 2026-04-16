@@ -5,11 +5,15 @@ cssclasses:
 Disciplinas:
   - "[[EC46G - Metodologias de Pesquisa]]"
   - "[[ES45A - Sistemas Distribuidos]]"
+  - "[[ES46B - Gerência de Configuração e Manutenção de Software]]"
   - "[[ES48E - Mineração de Dados]]"
   - "[[ES48H - Programação de Banco de Dados]]"
 Coeficiente de Rendimento: "0.0000"
 Tipo: Período
 Carga Horária: 420h
+Anotações: []
+Nota Final: "0.0"
+Avaliações: []
 ---
 
 > [!banner-icon] `$= dv.current().file.name.split(" - ")[2]`

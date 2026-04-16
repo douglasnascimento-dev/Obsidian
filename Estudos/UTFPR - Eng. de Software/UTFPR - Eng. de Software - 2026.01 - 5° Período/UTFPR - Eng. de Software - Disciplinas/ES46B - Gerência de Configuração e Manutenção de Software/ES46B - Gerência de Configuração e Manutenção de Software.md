@@ -3,16 +3,20 @@ cssclasses:
   - banner
   - banner-fade
 Tipo: Disciplina
-Ministrado: Rogério Santos Pozza
+Ministrado: Eduarda de Maganha de Almeida
 Carga Horária: "60"
 Início: 2026-03-23
 Fim:
 Avaliações:
-  - "[[EC48E - Avaliação]]"
-  - "[[EC48E - Trabalho]]"
+  - "[[ES46B - Avaliação Contínua]]"
+  - "[[ES46B - Estudo de Caso]]"
+  - "[[ES46B - Prova 01]]"
+  - "[[ES46B - Prova 02]]"
 Anotações:
-  - "[[ES45A - Aula 01 - Revisão de Sistemas Operacionais]]"
-  - "[[ES45A - Aula 02 - Revisão de Redes de Computadores]]"
+  - "[[ES46B - 01 - Introdução]]"
+  - "[[ES46B - 02 - Introdução a Conceitos]]"
+  - "[[ES46B - 03 - Conceitos, Terminologias e Itens de Configuração]]"
+  - "[[ES46B - 04 - Sistemas de Controle de Versão]]"
 Atividades: []
 Nota Final: "0.0"
 ---
@@ -90,20 +94,18 @@ if (file) {
 
 ## **Registros de Aulas** |  `$= (dv.current().file.name).split(' - ')[1]`
 
+| Aula                                                                         |   Atividade    |  Falta  | Data de Realização |
+| :--------------------------------------------------------------------------- | :------------: | :-----: | :----------------: |
+| Apresentação á Disciplina                                                    |       X        |    X    |     11.03.2026     |
+| [[ES46B - 01 - Introdução]] e [[ES46B - 02 - Introdução a Conceitos]]        |    Atv. 01     |    X    |     13.03.2026     |
+| [[ES46B - 03 - Conceitos, Terminologias e Itens de Configuração]]            |    Atv. 02     |    X    |     18.03.2026     |
+| Sistemas de Controle de Versão - I                                           |    Atv. 03     |   Sim   |     20.03.2026     |
+| Sistemas de Controle de Versão - II  & Processos de Gestão  de Configurações | Estudo de Caso |    X    |     25.03.2026     |
+| Controle de Mudança e Linha de Base                                          |       X        | Abonada |     27.03.2026     |
+| Armazenamento e Histórico de Alterações - I                                  |    Atv. 04     |    X    |     01.04.2026     |
+|                                                                              |                |         |                    |
 
-| Aula                                                   |          Atividade           |     Falta      | Data de Realização |
-| :----------------------------------------------------- | :--------------------------: | :------------: | :----------------: |
-| Introdução a Disciplinas                               |              X               |       X        |     10.03.2026     |
-| [[ES45A - Aula 01 - Revisão de Sistemas Operacionais]] |              X               |       X        |     11.03.2026     |
-| [[ES45A - Aula 01 - Revisão de Sistemas Operacionais]] |              X               | Sim - (MEJDAY) |     17.03.2026     |
-| [[ES45A - Aula 02 - Revisão de Redes de Computadores]] |              X               |       X        |     18.03.2026     |
-| [[ES45A - Aula 02 - Revisão de Redes de Computadores]] |              X               |       X        |     23.03.2026     |
-| [[ES45A - Aula 02 - Revisão de Redes de Computadores]] | **EM SALA** - Estudo de Casa |       X        |     24.03.2026     |
-|                                                        |                              |                |     26.03.2026     |
-|                                                        |                              |                |     26.03.2026     |
-|                                                        |                              |                |     01.02.2026     |
-
-### **Rastreamento de Presença** | `$= (dv.current().file.name).split(' - ')[1]`
+###  Rastreamento de Presença |  `$= (dv.current().file.name).split(' - ')[1]`
 
 ```dataviewjs
 let editor = app.workspace.getLeaf().view.editor;
