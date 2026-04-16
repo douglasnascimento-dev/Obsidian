@@ -18,7 +18,7 @@ Anotações:
   - "[[ES46B - 03 - Conceitos, Terminologias e Itens de Configuração]]"
   - "[[ES46B - 04 - Sistemas de Controle de Versão]]"
 Atividades: []
-Nota Final: "0.0"
+Nota Final: "1.5"
 ---
 
 ## **Atividades** | `$= (dv.current().file.name).split(' - ')[1]`
@@ -94,16 +94,16 @@ if (file) {
 
 ## **Registros de Aulas** |  `$= (dv.current().file.name).split(' - ')[1]`
 
-| Aula                                                                         |   Atividade    |  Falta  | Data de Realização |
-| :--------------------------------------------------------------------------- | :------------: | :-----: | :----------------: |
-| Apresentação á Disciplina                                                    |       X        |    X    |     11.03.2026     |
-| [[ES46B - 01 - Introdução]] e [[ES46B - 02 - Introdução a Conceitos]]        |    Atv. 01     |    X    |     13.03.2026     |
-| [[ES46B - 03 - Conceitos, Terminologias e Itens de Configuração]]            |    Atv. 02     |    X    |     18.03.2026     |
-| Sistemas de Controle de Versão - I                                           |    Atv. 03     |   Sim   |     20.03.2026     |
-| Sistemas de Controle de Versão - II  & Processos de Gestão  de Configurações | Estudo de Caso |    X    |     25.03.2026     |
-| Controle de Mudança e Linha de Base                                          |       X        | Abonada |     27.03.2026     |
-| Armazenamento e Histórico de Alterações - I                                  |    Atv. 04     |    X    |     01.04.2026     |
-|                                                                              |                |         |                    |
+| Aula                                                                         |   Atividade    | Falta | Data de Realização |
+| :--------------------------------------------------------------------------- | :------------: | :---: | :----------------: |
+| Apresentação á Disciplina                                                    |       X        |   X   |     11.03.2026     |
+| [[ES46B - 01 - Introdução]] e [[ES46B - 02 - Introdução a Conceitos]]        |    Atv. 01     |   X   |     13.03.2026     |
+| [[ES46B - 03 - Conceitos, Terminologias e Itens de Configuração]]            |    Atv. 02     |   X   |     18.03.2026     |
+| Sistemas de Controle de Versão - I                                           |    Atv. 03     |  Sim  |     20.03.2026     |
+| Sistemas de Controle de Versão - II  & Processos de Gestão  de Configurações | Estudo de Caso |   X   |     25.03.2026     |
+| Controle de Mudança e Linha de Base                                          |       X        |  Sim  |     27.03.2026     |
+| Armazenamento e Histórico de Alterações - I                                  |    Atv. 04     |   X   |     01.04.2026     |
+|                                                                              |                |       |                    |
 
 ###  Rastreamento de Presença |  `$= (dv.current().file.name).split(' - ')[1]`
 
@@ -248,3 +248,4 @@ if (file) {
 }
 ```
 
+  

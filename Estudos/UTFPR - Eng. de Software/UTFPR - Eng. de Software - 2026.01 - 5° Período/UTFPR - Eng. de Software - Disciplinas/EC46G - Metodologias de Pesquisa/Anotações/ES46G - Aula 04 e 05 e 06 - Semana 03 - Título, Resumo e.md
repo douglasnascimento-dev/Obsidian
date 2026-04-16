@@ -32,3 +32,4 @@ Se tiver as tags de modo claro e explicito, o resumo é declarado um **Resumo Es
 # 🌿Introdução
 
 No Primeiro Paragrafo é apresentado a Área de Pesquisa e o Tema do Artigo. Na sequência, é apresentado a motivação para a condução da pesquisa, com aspectos do tema. Como Lacuna de Pesquisa, deve ser apresentado um problema não foi suficientemente explorado pela literatura, usando r
+	

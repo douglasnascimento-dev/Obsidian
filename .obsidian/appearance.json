@@ -1,0 +1,16 @@
+{
+  "theme": "obsidian",
+  "textFontFamily": "Lexend",
+  "interfaceFontFamily": "Lexend",
+  "enabledCssSnippets": [
+    "tableStyles",
+    "Easy multi-column notes (1)",
+    "Easy multi-column notes (2)",
+    "Indent headings",
+    "Theme",
+    "grid"
+  ],
+  "cssTheme": "Minimal",
+  "accentColor": "#4a91d3",
+  "baseFontSize": 14
+}
