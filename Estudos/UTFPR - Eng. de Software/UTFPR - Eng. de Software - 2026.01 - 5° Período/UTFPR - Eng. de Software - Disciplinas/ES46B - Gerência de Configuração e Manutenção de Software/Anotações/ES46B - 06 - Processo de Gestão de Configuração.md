@@ -88,4 +88,9 @@ A Baseline precisa ser estável. Mas:
 - Novos requisitos arquitetônicos são frequentes, atualmente; e
 - Se todo requisito arquitetônico ingressa na baseline, criamos um 'Frankenstein'.
 
-A Baseline é um padrão básico para trabalhos subsequentes. Para um produto que foi revisado e aceito
+A Baseline é um padrão básico para trabalhos subsequentes. Para um produto que foi revisado e aceito. Como um Conjunto Completo que serve como Base para a Continuação do Projeto, assim como para a Criação de Novos Projetos. O Controle das Versões da Baseline deve ser formal.
+
+## 🌿Semântica de Versionamento
+
+Definir como serão os Incrementos das Versões de Software. Delineadas de acordo com as Entregas Internas/Externas. Podem ser definidas pela Organização e pode ser associada a Rótulos com Informações Adicionais. 
+
