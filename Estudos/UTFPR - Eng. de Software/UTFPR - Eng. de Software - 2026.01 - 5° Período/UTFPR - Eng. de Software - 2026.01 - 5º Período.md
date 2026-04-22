@@ -8,7 +8,8 @@ Disciplinas:
   - "[[ES46B - Gerência de Configuração e Manutenção de Software]]"
   - "[[ES48E - Mineração de Dados]]"
   - "[[ES48H - Programação de Banco de Dados]]"
-Coeficiente de Rendimento: "0.0000"
+  - "[[ES48P - Internet das Coisas]]"
+Coeficiente de Rendimento: "0.0250"
 Tipo: Período
 Carga Horária: 420h
 Anotações: []
