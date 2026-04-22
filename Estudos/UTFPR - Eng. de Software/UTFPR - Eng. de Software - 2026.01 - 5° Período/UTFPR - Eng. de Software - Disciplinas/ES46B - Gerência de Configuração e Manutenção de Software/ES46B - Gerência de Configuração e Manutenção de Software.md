@@ -15,8 +15,8 @@ Avaliações:
 Anotações:
   - "[[ES46B - 01 - Introdução]]"
   - "[[ES46B - 02 - Introdução a Conceitos]]"
-  - "[[ES46B - 03 - Conceitos, Terminologias e Itens de Configuração]]"
-  - "[[ES46B - 04 - Sistemas de Controle de Versão]]"
+  - "[[ES46B - 03 e 04 - Conceitos, Terminologias e Itens de Configuração]]"
+  - "[[ES46B - 05 - Sistemas de Controle de Versão]]"
 Atividades: []
 Nota Final: "1.5"
 ---
@@ -98,7 +98,7 @@ if (file) {
 | :--------------------------------------------------------------------------- | :------------: | :---: | :----------------: |
 | Apresentação á Disciplina                                                    |       X        |   X   |     11.03.2026     |
 | [[ES46B - 01 - Introdução]] e [[ES46B - 02 - Introdução a Conceitos]]        |    Atv. 01     |   X   |     13.03.2026     |
-| [[ES46B - 03 - Conceitos, Terminologias e Itens de Configuração]]            |    Atv. 02     |   X   |     18.03.2026     |
+| [[ES46B - 03 e 04 - Conceitos, Terminologias e Itens de Configuração]]            |    Atv. 02     |   X   |     18.03.2026     |
 | Sistemas de Controle de Versão - I                                           |    Atv. 03     |  Sim  |     20.03.2026     |
 | Sistemas de Controle de Versão - II  & Processos de Gestão  de Configurações | Estudo de Caso |   X   |     25.03.2026     |
 | Controle de Mudança e Linha de Base                                          |       X        |  Sim  |     27.03.2026     |
