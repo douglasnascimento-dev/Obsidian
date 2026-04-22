@@ -83,3 +83,9 @@ São todos os elementos que precisam ser controlados, como Códigos, Documentaç
 
 É o alicerce do Software, já que toda evolução do software é implantado sobre ele. E pode incorporar: Bibliotecas de Software, Frameworks e Middlewares. 
 
+A Baseline precisa ser estável. Mas:
+- Nem sempre é possível estabilizar totalmente a baseline para um mesmo produto de software; 
+- Novos requisitos arquitetônicos são frequentes, atualmente; e
+- Se todo requisito arquitetônico ingressa na baseline, criamos um 'Frankenstein'.
+
+A Baseline é um padrão básico para trabalhos subsequentes. Para um produto que foi revisado e aceito
