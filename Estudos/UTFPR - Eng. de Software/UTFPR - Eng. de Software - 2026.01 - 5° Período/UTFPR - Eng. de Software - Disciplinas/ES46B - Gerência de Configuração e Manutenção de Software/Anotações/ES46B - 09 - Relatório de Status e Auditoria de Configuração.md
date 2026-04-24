@@ -58,4 +58,4 @@ A PCA foca na **Estrutura**. Ela não se importa mais se o software funciona, ma
 
 ## 🌿Ciclo
 
-O Cliente pede uma mudança > O Desenvolvedor escreve o código e o liga á solicitação
+O Cliente pede uma mudança > O Desenvolvedor escreve o código e o liga á solicitação (através da Matriz de Rastreabilidade) > O Status de "Em desenvolvimento" muda para "Concluído" no Jira, e o commit aparece no Git (através do Relatório de Status/CSA). > Antes de liberar
