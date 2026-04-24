@@ -68,4 +68,22 @@ Permite que reverter um documento em caso de erro, auditar quem e o que foi modi
 
 Esses elementos foram os mecanismos de segurança que garantem que os dados permanecem consistentes, íntegros e disponíveis, mesmo diante de erros humanos, falhas de software ou desastres de hardware
 
-- ****
+- **Rollback** é a operação que reverte todas as modificações feitas por uma transação que ainda não foi confirmada
+	- **Explícito** - Acontece quando o próprio programador ou o usuário percebe um erro na lógica ou decide não prosseguir e emite o comando de Rollback.
+	- **Implícito** - Acontece quando o próprio SGBD cancela a transação devido a uma transação devido a um erro fatal. 
+
+- **Recuperação** é o processo de restaurar um BD para um estado consistente e íntegro após uma falha no sistema. Quando o sistema cai, ele perde tudo o que estava na memória RAM. Então, dados confirmados que estavam apenas na memória RAM podem ser perdidos. 
+
+Ou seja, o **Rollback é uma técnica** e a **Recuperação é o objetivo**. 
+
+## 🌿Rastreabilidade
+
+É a capacidade de seguir o rastro de um item, serviço ou dado ao longo de toda a sua vida útil. É a capacidade de criar e acompanhar elos de ligação entre diferentes artefatos gerados ao longo de todo o Ciclo de Vida do Desenvolvimento de Software. 
+
+### 🎋Rastreabilidade para a Frente - Forward
+
+É a capacidade de seguir um requisito do início (a necessidade) até o fim (o código e o teste que o valida). Garante que tudo que foi solicitado foi implementado e busca prevenir o esquecimento de funcionalidades. 
+
+### 🎋Rastreabilidade para Trás - Backward
+
+É a capacidade de olhar para um artefato final e rastrear sua origem até o requisito que o justificou. Busca entender o propósito e a justificativa de cada ação e combater códigos sem propósitos claros, além de facilitar a manutenção. 
