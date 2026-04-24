@@ -3,12 +3,12 @@ cssclasses:
   - banner
   - banner-fade
 Disciplinas:
-  - "[[EC46G - Metodologias de Pesquisa]]"
   - "[[ES45A - Sistemas Distribuidos]]"
   - "[[ES46B - Gerência de Configuração e Manutenção de Software]]"
   - "[[ES48E - Mineração de Dados]]"
   - "[[ES48H - Programação de Banco de Dados]]"
   - "[[ES48P - Internet das Coisas]]"
+  - "[[EC46G - Metodologias de Pesquisa]]"
 Coeficiente de Rendimento: "0.0250"
 Tipo: Período
 Carga Horária: 420h
