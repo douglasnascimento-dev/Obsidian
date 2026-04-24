@@ -33,11 +33,39 @@ Armazena os metadados sobre a infraestrutura e como os softwares se conectam a e
 
 ## 🌿Critérios para Segurança de Requisitos
 
-- **Imutabilidade do Histórico** 
+- **Imutabilidade do Hiestórico** 
 	- Uma vez que uma versão foi consolidada, ela não pode ser secretamente alterada ou apagada. 
 
 - **Rastreabilidade e Auditoria**
 	- O Sistema registra automaticamente os metadados da configuração, contendo informações de quem alterou, o que foi alterado, quando ocorreu e o porque ocorreu.
 
 - **Controle de Acesso e Segurança**
-- 
+	- Nem todos os desenvolvedores devem ter permissão para alterar tudo. Deve permitir que lideres consigam proteger a branch principal do código, exigindo revisões antes de serem aceitas. 
+
+- **Recuperação de Desastres** 
+	- O Armazenamento deve ser descentralizado ou possuir rotinas de backup robustas. 
+
+- **Gestão de Concorrência**
+	- O Armazenamento deve fornecer mecanismos para lidar com a situação onde dois desenvolvedores tentam eviar configurações para o mesmo arquivo ao mesmo tempo. 
+
+## 🌿Workspace Vs. Repositório
+
+O **Repositório** é local oficial, imutável e centralizado onde as configurações homologadas residem. Já o **Workspace** é um espelho do repositório na máquina do desenvolvedor. 
+
+## 🌿Histórico de Alterações
+
+É uma funcionalidade fundamental em sistemas digitais que registra cronologicamente todas as manifestações feitas em um arquivo, documento, código ou banco de dados. Deve possuir:
+
+- Identificador de Versão;
+- Data e Hora;
+- Autor;
+- Descrição; e 
+- Alteração em si.
+
+Permite que reverter um documento em caso de erro, auditar quem e o que foi modificado, os membros vejam a evolução um do outro, ajuda a manter os dados íntegros e ajuda a analisar a evolução de um projeto ao longo do tempo. 
+
+## 🌿 RollBack e Recuperação
+
+Esses elementos foram os mecanismos de segurança que garantem que os dados permanecem consistentes, íntegros e disponíveis, mesmo diante de erros humanos, falhas de software ou desastres de hardware
+
+- ****
