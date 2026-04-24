@@ -50,3 +50,30 @@ Ela é um pacote fechado que inclui o código executável, os manuais do usuári
 A baseline define um estado estável do sistema. Já o controle de mudanças define como sair desse estado para um novo estado, sem perder o controle. 
 
 Sempre haverá um baseline (versão confiável), surge a necessidade de mudança, a mudança é analisada e aprovada, o sistema é modificado e uma nova baseline é criada. Ou seja, o sistema evolui de forma controlada, sempre mantendo pontos seguros. 
+
+O Problema pode ser analisado e resolvido com ferramentas clássicas da qualidade: 
+- O Diagrama de Causa e Efeito > entender o problema;
+- PDCA > organizar a solução; e
+- 5W2H > operacionalizar a ação.
+
+## 🌿Diagrama de Causa e Efeito
+
+Também conhecido como Diagrama de Ishikawa, Diagrama dos 4 M's e Diagrama Espinha de Peixe permite relacionar as possíveis causas, agrupadas em 4 famílias:
+
+- Máquina;
+- Método; 
+- Material; e
+- Mão de Obra. 
+
+## 🌿PDCA
+
+É um método gerencial de gestão de tomada de decisões para garantir o alcance das metas necessárias à sobrevivência da organização. Pode ser utilizada na realização de qualquer atividade da empresa. 
+
+- Plan | Planejar;
+- Do | Executar;
+- Check | Verificar; e
+- Action | Agir Corretamente.
+
+## 🌿Matriz 5W2H
+
+Serve para organizar um plano de ação de forma clara e objetiva. É uma lista de verificação e assegurar o cumprimento de um conjunto de ações para solucionar a causa do problema. 
