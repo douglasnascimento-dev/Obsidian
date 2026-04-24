@@ -35,7 +35,13 @@ São as instruções automatizadas que transformam o código-fonte em um pacote 
 
 É a tradução. O Script pega o código legível para humanos e o transforma em código executável que o computador ou o servidor consegue entender
 
-### 🎋
+### 🎋 Execução de Testes
+
+Antes de finalizar, o script roda pequenos programas de verificação, para garantir que as novas alterações não quebraram nada que já funcionava. 
+
+## 🎋 Empacotamento
+
+Se tudo compilar e passar nos testes, o script junta o resultado em um único pacote pequeno para ser distribuído
 
 ## 🌿Gerenciamento de Dependências
 
